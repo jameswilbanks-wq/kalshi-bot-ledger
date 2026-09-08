@@ -1,0 +1,11 @@
+{
+  "bankroll_history": [
+    {
+      "t": "2026-09-08T12:20:14.588300Z",
+      "dollars": 50.0
+    }
+  ],
+  "decisions": [],
+  "updated_at": "2026-09-08T12:20:14.588330Z",
+  "env": "demo"
+}
