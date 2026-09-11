@@ -1767,10 +1767,14 @@
     {
       "t": "2026-09-11T13:50:15.067683Z",
       "dollars": 50.0
+    },
+    {
+      "t": "2026-09-11T14:00:17.738062Z",
+      "dollars": 50.0
     }
   ],
   "decisions": [],
-  "updated_at": "2026-09-11T13:50:15.068104Z",
+  "updated_at": "2026-09-11T14:00:17.738148Z",
   "env": "demo",
   "prod_edge_observations": [
     {
@@ -4137,6 +4141,17 @@
       "market_bid": 0.0,
       "edge": 0.318,
       "volume_fp": "706.55"
+    },
+    {
+      "t": "2026-09-11T14:00:17.001762Z",
+      "ticker": "KXHIGHCHI-26SEP12-T91",
+      "title": "Will the maximum temperature be >91\u00b0 on Sep 12, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP12",
+      "fair_prob": 0.091,
+      "market_price": 0.65,
+      "market_bid": 0.01,
+      "edge": -0.559,
+      "volume_fp": "0.00"
     }
   ]
 }
