@@ -1927,10 +1927,14 @@
     {
       "t": "2026-09-11T20:30:13.216645Z",
       "dollars": 50.0
+    },
+    {
+      "t": "2026-09-11T20:40:12.831395Z",
+      "dollars": 50.0
     }
   ],
   "decisions": [],
-  "updated_at": "2026-09-11T20:30:13.217059Z",
+  "updated_at": "2026-09-11T20:40:12.831474Z",
   "env": "demo",
   "prod_edge_observations": [
     {
@@ -8580,6 +8584,18 @@
       "market_bid": 0.39,
       "edge": -0.006,
       "volume_fp": "66361.33"
+    },
+    {
+      "t": "2026-09-11T20:40:10.779735Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP12-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 12, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP12",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "1120.97"
     }
   ]
 }
