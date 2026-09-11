@@ -1867,10 +1867,14 @@
     {
       "t": "2026-09-11T18:00:20.683675Z",
       "dollars": 50.0
+    },
+    {
+      "t": "2026-09-11T18:10:18.288175Z",
+      "dollars": 50.0
     }
   ],
   "decisions": [],
-  "updated_at": "2026-09-11T18:00:20.683979Z",
+  "updated_at": "2026-09-11T18:10:18.288477Z",
   "env": "demo",
   "prod_edge_observations": [
     {
@@ -5032,6 +5036,39 @@
     },
     {
       "t": "2026-09-11T18:00:19.963847Z",
+      "ticker": "KXHIGHAUS-26SEP12-T106",
+      "title": "Will the maximum temperature be >106\u00b0 on Sep 12, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP12",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "498.04"
+    },
+    {
+      "t": "2026-09-11T18:10:16.623748Z",
+      "ticker": "KXHIGHNY-26SEP12-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 12, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP12",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "1120.97"
+    },
+    {
+      "t": "2026-09-11T18:10:17.277676Z",
+      "ticker": "KXHIGHCHI-26SEP12-T91",
+      "title": "Will the maximum temperature be >91\u00b0 on Sep 12, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP12",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "908.27"
+    },
+    {
+      "t": "2026-09-11T18:10:17.632237Z",
       "ticker": "KXHIGHAUS-26SEP12-T106",
       "title": "Will the maximum temperature be >106\u00b0 on Sep 12, 2026?",
       "event_ticker": "KXHIGHAUS-26SEP12",
