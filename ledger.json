@@ -2451,6 +2451,10 @@
     {
       "t": "2026-09-12T18:20:18.191117Z",
       "dollars": 11.52
+    },
+    {
+      "t": "2026-09-12T18:30:19.110442Z",
+      "dollars": 9.43
     }
   ],
   "decisions": [
@@ -4676,47 +4680,50 @@
       "contracts": 1,
       "status": "executed",
       "note": "order_id=01a096d9-3360-71c8-bcbc-2ed5d204f915 fill_count=1.0"
+    },
+    {
+      "t": "2026-09-12T18:30:11.744265Z",
+      "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
+      "title": "Philadelphia wins",
+      "side": "no",
+      "fair_prob": 0.678,
+      "market_price": 0.71,
+      "edge": -0.032,
+      "dollars": 0.42,
+      "contracts": 1,
+      "status": "executed",
+      "note": "order_id=01a096e2-5f08-7825-9911-943d42c9a925 fill_count=1.0"
+    },
+    {
+      "t": "2026-09-12T18:30:11.744265Z",
+      "ticker": "KXNFLGAME-26SEP20LVLAC-LAC",
+      "title": "Los Angeles C wins",
+      "side": "no",
+      "fair_prob": 0.782,
+      "market_price": 0.81,
+      "edge": -0.028,
+      "dollars": 0.32,
+      "contracts": 1,
+      "status": "executed",
+      "note": "order_id=01a096e2-5f08-7c19-87b5-cac45e9d5ba4 fill_count=1.0"
+    },
+    {
+      "t": "2026-09-12T18:30:11.744265Z",
+      "ticker": "KXNFLGAME-26SEP20WASDAL-DAL",
+      "title": "Dallas wins",
+      "side": "no",
+      "fair_prob": 0.653,
+      "market_price": 0.68,
+      "edge": -0.027,
+      "dollars": 0.36,
+      "contracts": 1,
+      "status": "executed",
+      "note": "order_id=01a096e2-5f08-7cc3-8c67-87ee6a3d173a fill_count=1.0"
     }
   ],
-  "updated_at": "2026-09-12T18:20:18.191329Z",
+  "updated_at": "2026-09-12T18:30:19.110740Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-12T11:40:15.542800Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP17DETBUF-DET",
-      "title": "Detroit wins",
-      "event_ticker": "KXNFLGAME-26SEP17DETBUF",
-      "fair_prob": 0.389,
-      "market_price": 0.39,
-      "market_bid": 0.38,
-      "edge": -0.001,
-      "volume_fp": "15818.40"
-    },
-    {
-      "t": "2026-09-12T11:40:15.542855Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP17DETBUF-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26SEP17DETBUF",
-      "fair_prob": 0.611,
-      "market_price": 0.62,
-      "market_bid": 0.61,
-      "edge": -0.009,
-      "volume_fp": "15716.22"
-    },
-    {
-      "t": "2026-09-12T11:40:15.542943Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP14DENKC-KC",
-      "title": "Denver vs Kansas City Pro Football game: Kansas City wins?",
-      "event_ticker": "KXNFLGAME-26SEP14DENKC",
-      "fair_prob": 0.561,
-      "market_price": 0.56,
-      "market_bid": 0.55,
-      "edge": 0.001,
-      "volume_fp": "80026.15"
-    },
     {
       "t": "2026-09-12T11:40:15.542993Z",
       "category": "sports",
@@ -28671,6 +28678,42 @@
     },
     {
       "t": "2026-09-12T18:20:15.403874Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP13-T104",
+      "title": "Will the maximum temperature be >104\u00b0 on Sep 13, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP13",
+      "fair_prob": 0.328,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.318,
+      "volume_fp": "976.00"
+    },
+    {
+      "t": "2026-09-12T18:30:13.767430Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP13-T85",
+      "title": "Will the maximum temperature be >85\u00b0 on Sep 13, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP13",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "690.56"
+    },
+    {
+      "t": "2026-09-12T18:30:15.276571Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP13-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 13, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP13",
+      "fair_prob": 0.06,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.03,
+      "volume_fp": "1129.56"
+    },
+    {
+      "t": "2026-09-12T18:30:16.277458Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP13-T104",
       "title": "Will the maximum temperature be >104\u00b0 on Sep 13, 2026?",
