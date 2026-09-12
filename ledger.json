@@ -2423,6 +2423,10 @@
     {
       "t": "2026-09-12T17:10:22.000032Z",
       "dollars": 50.0
+    },
+    {
+      "t": "2026-09-12T17:20:18.463478Z",
+      "dollars": 39.46
     }
   ],
   "decisions": [
@@ -4193,9 +4197,74 @@
       "contracts": 6,
       "status": "executed",
       "note": "order_id=01a09699-2cc0-7d7b-86d6-c118d83ea737 fill_count=6.0"
+    },
+    {
+      "t": "2026-09-12T17:20:11.672938Z",
+      "ticker": "KXNFLGAME-26SEP20GBNYJ-GB",
+      "title": "Green Bay wins",
+      "side": "no",
+      "fair_prob": 0.679,
+      "market_price": 0.7,
+      "edge": -0.021,
+      "dollars": 1.19,
+      "contracts": 3,
+      "status": "executed",
+      "note": "order_id=01a096a2-44e0-7486-b5f9-8f9b240869d4 fill_count=3.0"
+    },
+    {
+      "t": "2026-09-12T17:20:11.672938Z",
+      "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
+      "title": "Philadelphia wins",
+      "side": "no",
+      "fair_prob": 0.678,
+      "market_price": 0.71,
+      "edge": -0.032,
+      "dollars": 1.76,
+      "contracts": 6,
+      "status": "executed",
+      "note": "order_id=01a096a2-44e0-75f4-9325-9d0462d05614 fill_count=6.0"
+    },
+    {
+      "t": "2026-09-12T17:20:11.672938Z",
+      "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
+      "title": "Pittsburgh wins",
+      "side": "no",
+      "fair_prob": 0.355,
+      "market_price": 0.38,
+      "edge": -0.025,
+      "dollars": 2.36,
+      "contracts": 3,
+      "status": "executed",
+      "note": "order_id=01a096a2-44e0-76fb-b567-23fbff5c9ce5 fill_count=3.0"
+    },
+    {
+      "t": "2026-09-12T17:20:11.672938Z",
+      "ticker": "KXNFLGAME-26SEP20LVLAC-LAC",
+      "title": "Los Angeles C wins",
+      "side": "no",
+      "fair_prob": 0.782,
+      "market_price": 0.81,
+      "edge": -0.028,
+      "dollars": 1.35,
+      "contracts": 7,
+      "status": "executed",
+      "note": "order_id=01a096a2-44e0-74ab-a7c0-abb6e0e036c4 fill_count=7.0"
+    },
+    {
+      "t": "2026-09-12T17:20:11.672938Z",
+      "ticker": "KXNFLGAME-26SEP20WASDAL-DAL",
+      "title": "Dallas wins",
+      "side": "no",
+      "fair_prob": 0.653,
+      "market_price": 0.68,
+      "edge": -0.027,
+      "dollars": 1.54,
+      "contracts": 4,
+      "status": "executed",
+      "note": "order_id=01a096a2-44e0-7f5c-b884-ced19db4e388 fill_count=4.0"
     }
   ],
-  "updated_at": "2026-09-12T17:10:22.000349Z",
+  "updated_at": "2026-09-12T17:20:18.463683Z",
   "env": "demo",
   "prod_edge_observations": [
     {
