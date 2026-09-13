@@ -3075,6 +3075,10 @@
     {
       "t": "2026-09-13T20:50:16.983992Z",
       "dollars": 13.02
+    },
+    {
+      "t": "2026-09-13T21:00:14.452659Z",
+      "dollars": 11.41
     }
   ],
   "decisions": [
@@ -6509,23 +6513,50 @@
       "contracts": 65,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-13T21:00:08.098954Z",
+      "ticker": "KXNFLGAME-26SEP13GBMIN-MIN",
+      "title": "Will Minnesota win the Green Bay vs Minnesota Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.297,
+      "market_price": 0.55,
+      "edge": -0.253,
+      "dollars": 0.57,
+      "contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-13T21:00:08.098954Z",
+      "ticker": "KXNFLGAME-26SEP13GBMIN-GB",
+      "title": "Will Green Bay win the Green Bay vs Minnesota Pro Football game?",
+      "side": "yes",
+      "fair_prob": 0.703,
+      "market_price": 0.46,
+      "edge": 0.243,
+      "dollars": 0.57,
+      "contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-13T21:00:08.098954Z",
+      "ticker": "KXNFLGAME-26SEP13MIALV-LV",
+      "title": "Will Las Vegas win the Miami vs Las Vegas Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.82,
+      "market_price": 0.99,
+      "edge": -0.17,
+      "dollars": 0.57,
+      "contracts": 57,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-13T20:50:16.984075Z",
+  "updated_at": "2026-09-13T21:00:14.452873Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-13T12:20:14.423450Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CINHOU-HOU",
-      "title": "Houston wins",
-      "event_ticker": "KXNFLGAME-26SEP20CINHOU",
-      "fair_prob": 0.562,
-      "market_price": 0.56,
-      "market_bid": 0.55,
-      "edge": 0.002,
-      "volume_fp": "2750.40"
-    },
     {
       "t": "2026-09-13T12:20:14.423494Z",
       "category": "sports",
@@ -30513,6 +30544,18 @@
       "market_bid": 0.21,
       "edge": -0.009,
       "volume_fp": "1147872.75"
+    },
+    {
+      "t": "2026-09-13T21:00:10.722976Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP14-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP14",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "578.14"
     }
   ]
 }
