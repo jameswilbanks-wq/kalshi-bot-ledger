@@ -3007,6 +3007,10 @@
     {
       "t": "2026-09-13T18:00:20.700551Z",
       "dollars": 9.3
+    },
+    {
+      "t": "2026-09-13T18:10:15.380357Z",
+      "dollars": 9.3
     }
   ],
   "decisions": [
@@ -6025,23 +6029,37 @@
       "contracts": 46,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-13T18:10:08.769304Z",
+      "ticker": "KXNFLGAME-26SEP13NYJTEN-NYJ",
+      "title": "Will New York J win the New York J vs Tennessee Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.669,
+      "market_price": 0.79,
+      "edge": -0.121,
+      "dollars": 0.46,
+      "contracts": 2,
+      "status": "executed",
+      "note": "order_id=01a09bf6-5be8-7b53-a06b-35561d764d33 fill_count=2.0"
+    },
+    {
+      "t": "2026-09-13T18:10:08.769304Z",
+      "ticker": "KXNFLGAME-26SEP13MIALV-LV",
+      "title": "Will Las Vegas win the Miami vs Las Vegas Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.598,
+      "market_price": 0.99,
+      "edge": -0.392,
+      "dollars": 0.46,
+      "contracts": 46,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-13T18:00:20.700774Z",
+  "updated_at": "2026-09-13T18:10:15.380717Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-13T11:00:24.140167Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP14DENKC-KC",
-      "title": "Denver vs Kansas City Pro Football game: Kansas City wins?",
-      "event_ticker": "KXNFLGAME-26SEP14DENKC",
-      "fair_prob": 0.557,
-      "market_price": 0.56,
-      "market_bid": 0.55,
-      "edge": -0.003,
-      "volume_fp": "96496.71"
-    },
     {
       "t": "2026-09-13T11:00:24.140223Z",
       "category": "sports",
@@ -30029,6 +30047,18 @@
       "market_bid": 0.21,
       "edge": -0.012,
       "volume_fp": "1032407.20"
+    },
+    {
+      "t": "2026-09-13T18:10:11.679855Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP14-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP14",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "552.14"
     }
   ]
 }
