@@ -2979,6 +2979,10 @@
     {
       "t": "2026-09-13T16:50:15.656529Z",
       "dollars": 14.83
+    },
+    {
+      "t": "2026-09-13T17:00:20.936879Z",
+      "dollars": 14.83
     }
   ],
   "decisions": [
@@ -5685,23 +5689,24 @@
       "contracts": 74,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-13T17:00:13.894871Z",
+      "ticker": "KXNFLGAME-26SEP13MIALV-LV",
+      "title": "Will Las Vegas win the Miami vs Las Vegas Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.597,
+      "market_price": 0.99,
+      "edge": -0.393,
+      "dollars": 0.74,
+      "contracts": 74,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-13T16:50:15.656745Z",
+  "updated_at": "2026-09-13T17:00:20.937142Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-13T10:20:14.099038Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20INDKC-IND",
-      "title": "Indianapolis wins",
-      "event_ticker": "KXNFLGAME-26SEP20INDKC",
-      "fair_prob": 0.304,
-      "market_price": 0.3,
-      "market_bid": 0.28,
-      "edge": 0.004,
-      "volume_fp": "8792.12"
-    },
     {
       "t": "2026-09-13T10:20:14.099105Z",
       "category": "sports",
@@ -29689,6 +29694,18 @@
       "market_bid": 0.39,
       "edge": 0.007,
       "volume_fp": "406219.69"
+    },
+    {
+      "t": "2026-09-13T17:00:15.453079Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP14-T81",
+      "title": "Will the maximum temperature be >81\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP14",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "975.50"
     }
   ]
 }
