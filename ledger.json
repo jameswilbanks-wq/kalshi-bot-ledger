@@ -3047,6 +3047,10 @@
     {
       "t": "2026-09-13T19:40:18.793515Z",
       "dollars": 8.57
+    },
+    {
+      "t": "2026-09-13T19:50:15.598043Z",
+      "dollars": 8.57
     }
   ],
   "decisions": [
@@ -6221,47 +6225,24 @@
       "contracts": 42,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-13T19:50:08.978821Z",
+      "ticker": "KXNFLGAME-26SEP13MIALV-LV",
+      "title": "Will Las Vegas win the Miami vs Las Vegas Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.596,
+      "market_price": 0.99,
+      "edge": -0.394,
+      "dollars": 0.42,
+      "contracts": 42,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-13T19:40:18.793840Z",
+  "updated_at": "2026-09-13T19:50:15.598269Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-13T11:50:15.489294Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP13ARILAC-LAC",
-      "title": "Arizona vs Los Angeles C Pro Football game: Los Angeles C wins?",
-      "event_ticker": "KXNFLGAME-26SEP13ARILAC",
-      "fair_prob": 0.798,
-      "market_price": 0.81,
-      "market_bid": 0.8,
-      "edge": -0.012,
-      "volume_fp": "248809.97"
-    },
-    {
-      "t": "2026-09-13T11:50:15.489336Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP13ARILAC-ARI",
-      "title": "Arizona vs Los Angeles C Pro Football game: Arizona wins?",
-      "event_ticker": "KXNFLGAME-26SEP13ARILAC",
-      "fair_prob": 0.202,
-      "market_price": 0.19,
-      "market_bid": 0.18,
-      "edge": 0.012,
-      "volume_fp": "223255.86"
-    },
-    {
-      "t": "2026-09-13T11:50:15.489377Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP13BUFHOU-HOU",
-      "title": "Buffalo vs Houston Pro Football game: Houston wins?",
-      "event_ticker": "KXNFLGAME-26SEP13BUFHOU",
-      "fair_prob": 0.486,
-      "market_price": 0.48,
-      "market_bid": 0.47,
-      "edge": 0.006,
-      "volume_fp": "891335.38"
-    },
     {
       "t": "2026-09-13T11:50:15.489411Z",
       "category": "sports",
@@ -30225,6 +30206,42 @@
       "market_bid": 0.29,
       "edge": -0.042,
       "volume_fp": "2508378.02"
+    },
+    {
+      "t": "2026-09-13T19:50:10.377481Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP14-T81",
+      "title": "Will the maximum temperature be >81\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP14",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "975.50"
+    },
+    {
+      "t": "2026-09-13T19:50:11.816345Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP14-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP14",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "578.14"
+    },
+    {
+      "t": "2026-09-13T19:50:12.761484Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP14-T104",
+      "title": "Will the maximum temperature be >104\u00b0 on Sep 14, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP14",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "370.00"
     }
   ]
 }
