@@ -3651,6 +3651,10 @@
     {
       "t": "2026-09-14T20:50:14.492901Z",
       "dollars": 17.29
+    },
+    {
+      "t": "2026-09-14T21:00:15.128775Z",
+      "dollars": 17.29
     }
   ],
   "decisions": [
@@ -9817,33 +9821,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-14T20:50:14.493142Z",
+  "updated_at": "2026-09-14T21:00:15.128988Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T10:40:14.279470Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CARATL-ATL",
-      "title": "Atlanta wins",
-      "event_ticker": "KXNFLGAME-26SEP20CARATL",
-      "fair_prob": 0.489,
-      "market_price": 0.49,
-      "market_bid": 0.48,
-      "edge": -0.001,
-      "volume_fp": "4608.73"
-    },
-    {
-      "t": "2026-09-14T10:40:14.279507Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20MINCHI-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26SEP20MINCHI",
-      "fair_prob": 0.318,
-      "market_price": 0.32,
-      "market_bid": 0.31,
-      "edge": -0.002,
-      "volume_fp": "67328.11"
-    },
     {
       "t": "2026-09-14T10:40:14.279542Z",
       "category": "sports",
@@ -33819,6 +33799,30 @@
       "market_bid": 0.45,
       "edge": -0.003,
       "volume_fp": "4542988.69"
+    },
+    {
+      "t": "2026-09-14T21:00:10.109323Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP15-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Sep 15, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP15",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "1021.00"
+    },
+    {
+      "t": "2026-09-14T21:00:11.538784Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP15-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 15, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP15",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "2302.98"
     }
   ]
 }
