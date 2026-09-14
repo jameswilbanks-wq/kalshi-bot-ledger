@@ -3203,6 +3203,10 @@
     {
       "t": "2026-09-14T02:10:14.496207Z",
       "dollars": 13.29
+    },
+    {
+      "t": "2026-09-14T02:20:13.935830Z",
+      "dollars": 13.29
     }
   ],
   "decisions": [
@@ -8145,9 +8149,74 @@
       "contracts": 1,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-14T02:20:08.442123Z",
+      "ticker": "KXNFLGAME-26SEP20MINCHI-CHI",
+      "title": "Chicago wins",
+      "side": "yes",
+      "fair_prob": 0.682,
+      "market_price": 0.58,
+      "edge": 0.102,
+      "dollars": 0.66,
+      "contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-14T02:20:08.442123Z",
+      "ticker": "KXNFLGAME-26SEP20SEAARI-SEA",
+      "title": "Seattle wins",
+      "side": "no",
+      "fair_prob": 0.672,
+      "market_price": 0.77,
+      "edge": -0.098,
+      "dollars": 0.66,
+      "contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-14T02:20:08.442123Z",
+      "ticker": "KXNFLGAME-26SEP20SEAARI-ARI",
+      "title": "Arizona wins",
+      "side": "yes",
+      "fair_prob": 0.328,
+      "market_price": 0.23,
+      "edge": 0.098,
+      "dollars": 0.66,
+      "contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-14T02:20:08.442123Z",
+      "ticker": "KXNFLGAME-26SEP13DALNYG-NYG",
+      "title": "Will New York G win the Dallas vs New York G Pro Football game?",
+      "side": "yes",
+      "fair_prob": 0.827,
+      "market_price": 0.4,
+      "edge": 0.427,
+      "dollars": 0.66,
+      "contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-14T02:20:08.442123Z",
+      "ticker": "KXNFLGAME-26SEP13DALNYG-DAL",
+      "title": "Will Dallas win the Dallas vs New York G Pro Football game?",
+      "side": "no",
+      "fair_prob": 0.173,
+      "market_price": 0.61,
+      "edge": -0.437,
+      "dollars": 0.66,
+      "contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-14T02:10:14.496570Z",
+  "updated_at": "2026-09-14T02:20:13.936029Z",
   "env": "demo",
   "prod_edge_observations": [
     {
