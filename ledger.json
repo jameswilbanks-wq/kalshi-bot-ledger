@@ -3495,6 +3495,10 @@
     {
       "t": "2026-09-14T14:20:14.023828Z",
       "dollars": 17.29
+    },
+    {
+      "t": "2026-09-14T14:30:15.846241Z",
+      "dollars": 17.29
     }
   ],
   "decisions": [
@@ -9542,23 +9546,24 @@
       "contracts": 43,
       "status": "skipped_no_ask",
       "note": ""
+    },
+    {
+      "t": "2026-09-14T14:30:09.044582Z",
+      "ticker": "KXNASDAQDUD-26SEP14H1600-T29368.44",
+      "title": "Will the NASDAQ-100 be above 29368.44 on Sep 14, 2026 at 4pm EDT?",
+      "side": "no",
+      "fair_prob": 0.02,
+      "market_price": 0.98,
+      "edge": -0.96,
+      "dollars": 0.86,
+      "contracts": 43,
+      "status": "skipped_no_ask",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-14T14:20:14.024399Z",
+  "updated_at": "2026-09-14T14:30:15.846486Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T03:20:12.120534Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20LVLAC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26SEP20LVLAC",
-      "fair_prob": 0.734,
-      "market_price": 0.75,
-      "market_bid": 0.73,
-      "edge": -0.016,
-      "volume_fp": "28600.43"
-    },
     {
       "t": "2026-09-14T03:20:12.120602Z",
       "category": "sports",
@@ -33546,6 +33551,18 @@
       "market_bid": 0.44,
       "edge": 0.001,
       "volume_fp": "2283189.75"
+    },
+    {
+      "t": "2026-09-14T14:30:10.210362Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP15-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Sep 15, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP15",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "874.00"
     }
   ]
 }
