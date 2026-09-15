@@ -4175,22 +4175,13 @@
     {
       "t": "2026-09-15T18:40:38.475938Z",
       "dollars": 17.34
+    },
+    {
+      "t": "2026-09-15T18:50:32.218789Z",
+      "dollars": 17.34
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T12:40:14.511042Z",
-      "ticker": "KXNFLGAME-26SEP20WASDAL-DAL",
-      "title": "Dallas wins",
-      "side": "no",
-      "fair_prob": 0.653,
-      "market_price": 0.68,
-      "edge": -0.027,
-      "dollars": 1.96,
-      "contracts": 6,
-      "status": "failed",
-      "note": "410 Client Error: Gone for url: https://external-api.demo.kalshi.co/trade-api/v2/portfolio/orders"
-    },
     {
       "t": "2026-09-12T12:50:08.269798Z",
       "ticker": "KXNFLGAME-26SEP20CLETB-TB",
@@ -10677,47 +10668,24 @@
       "contracts": 7,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-15T18:50:07.272348Z",
+      "ticker": "KXHIGHNY-26SEP16-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
+      "side": "yes",
+      "fair_prob": 0.252,
+      "market_price": 0.12,
+      "edge": 0.132,
+      "dollars": 0.86,
+      "contracts": 7,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-15T18:40:38.476150Z",
+  "updated_at": "2026-09-15T18:50:32.219046Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:00:13.023428Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20MINCHI-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26SEP20MINCHI",
-      "fair_prob": 0.321,
-      "market_price": 0.32,
-      "market_bid": 0.31,
-      "edge": 0.001,
-      "volume_fp": "79987.43"
-    },
-    {
-      "t": "2026-09-14T20:00:13.023485Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20MINCHI-CHI",
-      "title": "Chicago wins",
-      "event_ticker": "KXNFLGAME-26SEP20MINCHI",
-      "fair_prob": 0.679,
-      "market_price": 0.7,
-      "market_bid": 0.69,
-      "edge": -0.021,
-      "volume_fp": "30965.45"
-    },
-    {
-      "t": "2026-09-14T20:00:13.023551Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26SEP20PITNE",
-      "fair_prob": 0.324,
-      "market_price": 0.33,
-      "market_bid": 0.31,
-      "edge": -0.006,
-      "volume_fp": "78110.51"
-    },
     {
       "t": "2026-09-14T20:00:13.023612Z",
       "category": "sports",
@@ -34672,6 +34640,42 @@
     },
     {
       "t": "2026-09-15T18:40:26.028044Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP16-T103",
+      "title": "Will the maximum temperature be >103\u00b0 on Sep 16, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP16",
+      "fair_prob": 0.328,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.308,
+      "volume_fp": "247.07"
+    },
+    {
+      "t": "2026-09-15T18:50:17.777129Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP16-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP16",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "984.18"
+    },
+    {
+      "t": "2026-09-15T18:50:19.234356Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP16-T78",
+      "title": "Will the maximum temperature be >78\u00b0 on Sep 16, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP16",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "832.84"
+    },
+    {
+      "t": "2026-09-15T18:50:20.194779Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP16-T103",
       "title": "Will the maximum temperature be >103\u00b0 on Sep 16, 2026?",
