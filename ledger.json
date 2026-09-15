@@ -4267,22 +4267,13 @@
     {
       "t": "2026-09-15T22:30:34.893910Z",
       "dollars": 17.34
+    },
+    {
+      "t": "2026-09-15T22:40:31.905191Z",
+      "dollars": 17.34
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T13:30:17.590702Z",
-      "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
-      "title": "Philadelphia wins",
-      "side": "no",
-      "fair_prob": 0.68,
-      "market_price": 0.71,
-      "edge": -0.03,
-      "dollars": 2.12,
-      "contracts": 7,
-      "status": "failed",
-      "note": "410 Client Error: Gone for url: https://external-api.demo.kalshi.co/trade-api/v2/portfolio/orders"
-    },
     {
       "t": "2026-09-12T13:30:17.590702Z",
       "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
@@ -10769,23 +10760,24 @@
       "contracts": 5,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-15T22:40:06.465776Z",
+      "ticker": "KXHIGHNY-26SEP16-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
+      "side": "yes",
+      "fair_prob": 0.328,
+      "market_price": 0.17,
+      "edge": 0.158,
+      "dollars": 0.86,
+      "contracts": 5,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-15T22:30:34.894131Z",
+  "updated_at": "2026-09-15T22:40:31.905275Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:20:14.450363Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CINHOU-CIN",
-      "title": "Cincinnati wins",
-      "event_ticker": "KXNFLGAME-26SEP20CINHOU",
-      "fair_prob": 0.413,
-      "market_price": 0.41,
-      "market_bid": 0.4,
-      "edge": 0.003,
-      "volume_fp": "32916.59"
-    },
     {
       "t": "2026-09-14T20:20:14.450448Z",
       "category": "sports",
@@ -34773,6 +34765,18 @@
       "market_bid": 0.0,
       "edge": 0.318,
       "volume_fp": "857.00"
+    },
+    {
+      "t": "2026-09-15T22:40:17.513795Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP16-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP16",
+      "fair_prob": 0.328,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.308,
+      "volume_fp": "989.18"
     }
   ]
 }
