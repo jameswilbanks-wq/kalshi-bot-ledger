@@ -96,6 +96,34 @@ ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
 ALPHA_VANTAGE_URL = "https://www.alphavantage.co/query"
 ODDS_API_BASE_URL = "https://api.the-odds-api.com/v4"
 
+# ADDED 2026-09-16: second, independent sports-odds source. The Odds API
+# (above) is the PRIMARY source; ESPN's public site API is a FALLBACK only
+# reached when the primary path doesn't confidently resolve a game (see
+# sports_fair_value()) -- added directly in response to the Odds API's
+# free tier (500 credits/month) getting fully exhausted in under 5 days,
+# which took the whole sports category dark with no fallback until the
+# monthly reset. No API key, no published request quota -- confirmed live
+# 2026-09-16 that both the scoreboard and per-event "summary" endpoints
+# return real games with real DraftKings moneylines embedded, with zero
+# signup. Two real caveats, disclosed rather than hidden:
+#   1. This is an UNDOCUMENTED endpoint ESPN runs for its own site, not a
+#      published/supported API. It could change shape or start blocking
+#      non-browser traffic at any time without notice -- same risk class
+#      as any other hidden API, just currently free where The Odds API
+#      currently costs real credits.
+#   2. It's typically ONE sportsbook (DraftKings), not a multi-book
+#      consensus -- the ESPN fallback path removes that one book's own
+#      vig rather than averaging several books' no-vig probabilities the
+#      way the primary Odds-API path does. Real evidence, just thinner
+#      evidence than the primary path -- not presented as equivalent.
+# NFL only for now (ESPN's path segment and Kalshi's SPORTS_SERIES have
+# just the one sport today); extend ESPN_SPORT_PATHS below before relying
+# on this for any other sport.
+ESPN_SPORT_PATHS = {
+    "americanfootball_nfl": "football/nfl",
+}
+ESPN_SITE_API_BASE = "https://site.api.espn.com/apis/site/v2/sports"
+
 # Alpha Vantage's free tier is 25 requests PER DAY, not per minute. This
 # bot ticks every 10 minutes (144x/day) -- calling Alpha Vantage on every
 # tick would blow the daily quota before lunch. So financial quotes are
@@ -394,8 +422,12 @@ class KalshiClient:
 #     volatility, same math as option pricing. Real, if simplified.
 #
 #   - Sports: no-vig consensus probability from real sportsbook moneylines
-#     (The Odds API) vs. Kalshi's price -- the classic "compare a soft
-#     line to sharp ones" edge professional bettors use.
+#     (The Odds API, primary) vs. Kalshi's price -- the classic "compare a
+#     soft line to sharp ones" edge professional bettors use. ADDED
+#     2026-09-16: falls back to ESPN's public (unofficial, single-book)
+#     odds endpoint when the Odds API doesn't confidently resolve a given
+#     game -- see the ESPN_SPORT_PATHS comment above and
+#     fetch_espn_nfl_fair_prob() below for why and how.
 #
 #   - Economics: CPI trend extrapolation vs. Kalshi's threshold. Weakest of
 #     the four -- Alpha Vantage gives past releases, not analyst consensus
@@ -861,6 +893,155 @@ def fetch_sportsbook_odds(sport_key: str) -> Optional[list]:
     return events
 
 
+_espn_scoreboard_cache: dict = {}        # "sport_key|YYYYMMDD" -> list of events, this run only
+_espn_scoreboard_failed_this_tick: set = set()
+_espn_odds_cache: dict = {}              # espn event id -> pickcenter list, this run only
+_espn_odds_failed_this_tick: set = set()
+
+
+def _fetch_espn_scoreboard(sport_key: str, date_str: str) -> Optional[list]:
+    """ESPN's public scoreboard for one specific date (YYYYMMDD, UTC calendar
+    date as ESPN interprets it) -- see the ESPN_SPORT_PATHS comment above
+    for what this is and its caveats. Gated to the same SPORTS_CHECK_HOURS_UTC
+    window as the primary Odds API path, to be a reasonable citizen of an
+    unofficial endpoint rather than hammering it every 10-minute tick for no
+    real benefit (moneylines don't move that fast outside the last few
+    minutes before kickoff, same reasoning as the primary path). Cached per
+    (sport, date) this run, with failures cached too so one bad call doesn't
+    get retried on every market that happens to need the same date."""
+    path = ESPN_SPORT_PATHS.get(sport_key)
+    if not path:
+        return None  # no ESPN mapping built for this sport yet -- skip, don't guess
+    if dt.datetime.utcnow().hour not in SPORTS_CHECK_HOURS_UTC:
+        return None
+    cache_key = f"{sport_key}|{date_str}"
+    if cache_key in _espn_scoreboard_cache:
+        return _espn_scoreboard_cache[cache_key]
+    if cache_key in _espn_scoreboard_failed_this_tick:
+        return None
+    try:
+        resp = requests.get(
+            f"{ESPN_SITE_API_BASE}/{path}/scoreboard", params={"dates": date_str}, timeout=10
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        events = data.get("events", [])
+    except Exception as e:
+        log.warning(f"ESPN scoreboard request failed for {sport_key} {date_str}: {e}")
+        _espn_scoreboard_failed_this_tick.add(cache_key)
+        return None
+    if not isinstance(events, list):
+        log.warning(f"ESPN scoreboard returned unexpected shape for {sport_key} {date_str}: {events}")
+        _espn_scoreboard_failed_this_tick.add(cache_key)
+        return None
+    _espn_scoreboard_cache[cache_key] = events
+    return events
+
+
+def _fetch_espn_event_odds(sport_key: str, event_id: str) -> Optional[list]:
+    """Per-game odds ("pickcenter") for one ESPN event id -- confirmed live
+    2026-09-16 (event 401872922, CLE @ JAX) to carry real moneylines:
+    pickcenter[i]["homeTeamOdds"]["moneyLine"] / ["awayTeamOdds"]["moneyLine"],
+    American-odds ints, alongside a "provider" name (usually DraftKings).
+    Empty list (not None) is a valid, cacheable result -- it means ESPN has
+    the game but no odds posted for it yet, which is different from the
+    request itself failing."""
+    path = ESPN_SPORT_PATHS.get(sport_key)
+    if not path:
+        return None
+    if event_id in _espn_odds_cache:
+        return _espn_odds_cache[event_id]
+    if event_id in _espn_odds_failed_this_tick:
+        return None
+    try:
+        resp = requests.get(
+            f"{ESPN_SITE_API_BASE}/{path}/summary", params={"event": event_id}, timeout=10
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        pickcenter = data.get("pickcenter", [])
+    except Exception as e:
+        log.warning(f"ESPN summary/odds request failed for {sport_key} event {event_id}: {e}")
+        _espn_odds_failed_this_tick.add(event_id)
+        return None
+    if not isinstance(pickcenter, list):
+        log.warning(f"ESPN summary returned unexpected pickcenter shape for event {event_id}: {pickcenter}")
+        _espn_odds_failed_this_tick.add(event_id)
+        return None
+    _espn_odds_cache[event_id] = pickcenter
+    return pickcenter
+
+
+def _espn_no_vig_prob_for_side(is_home: bool, pickcenter: list) -> Optional[float]:
+    """Same no-vig math as _no_vig_prob() below, fed from ESPN's schema
+    instead of the Odds API's: average each pickcenter entry's (usually
+    just one book's) de-margined probability for the given side. Most
+    games only have one entry (DraftKings) -- this still averages correctly
+    if ESPN ever lists more than one."""
+    probs = []
+    for entry in pickcenter or []:
+        side = entry.get("homeTeamOdds" if is_home else "awayTeamOdds")
+        other = entry.get("awayTeamOdds" if is_home else "homeTeamOdds")
+        if not side or not other:
+            continue
+        try:
+            ml = float(side.get("moneyLine"))
+            other_ml = float(other.get("moneyLine"))
+        except (TypeError, ValueError):
+            continue
+        implied = american_odds_to_implied_prob(ml)
+        other_implied = american_odds_to_implied_prob(other_ml)
+        total = implied + other_implied
+        if total <= 0:
+            continue
+        probs.append(implied / total)
+    if not probs:
+        return None
+    return sum(probs) / len(probs)
+
+
+def fetch_espn_nfl_fair_prob(sport_key: str, game_date: dt.date, away_code: str,
+                              home_code: str, yes_is_home: bool) -> Optional[float]:
+    """Find the ESPN event matching this Kalshi game (by date + both team
+    codes, matched via NFL_TEAM_CODES full-name lookup -- ESPN's own
+    "displayName" field returns the same official franchise names, e.g.
+    "Washington Commanders", confirmed live 2026-09-16) and return the
+    no-vig probability for whichever side Kalshi's YES leg represents.
+    Tries game_date first, then game_date+1 (same UTC-vs-local-date slack
+    reasoning as the Odds-API matching in sports_fair_value()) -- checked
+    one at a time, stopping as soon as a match is found, rather than
+    always fetching both, to keep this a light touch on an unofficial
+    endpoint (most games match on the first date and never need the
+    second call at all)."""
+    for offset in (0, 1):
+        events = _fetch_espn_scoreboard(sport_key, (game_date + dt.timedelta(days=offset)).strftime("%Y%m%d"))
+        if not events:
+            continue
+
+        for event in events:
+            try:
+                competitors = event["competitions"][0]["competitors"]
+            except (KeyError, IndexError, TypeError):
+                continue
+            home = next((c for c in competitors if c.get("homeAway") == "home"), None)
+            away = next((c for c in competitors if c.get("homeAway") == "away"), None)
+            if not home or not away:
+                continue
+            home_name = (home.get("team") or {}).get("displayName")
+            away_name = (away.get("team") or {}).get("displayName")
+            if NFL_TEAM_CODES.get(home_name) != home_code or NFL_TEAM_CODES.get(away_name) != away_code:
+                continue
+            event_id = event.get("id")
+            if not event_id:
+                continue
+            pickcenter = _fetch_espn_event_odds(sport_key, event_id)
+            if not pickcenter:
+                return None  # ESPN has the game but no odds posted yet -- no opinion, don't guess
+            return _espn_no_vig_prob_for_side(yes_is_home, pickcenter)
+
+    return None  # no matching ESPN event found on either candidate date
+
+
 def _no_vig_prob(team_name: str, event: dict) -> Optional[float]:
     """Average each bookmaker's no-vig (de-margined) probability for
     team_name, then average across bookmakers. Moneyline odds always
@@ -941,31 +1122,47 @@ def sports_fair_value(market: dict) -> Optional[float]:
         return None
 
     events = fetch_sportsbook_odds(sport_key)
-    if not events:
-        return None
+    if events:
+        candidate = None
+        for event in events:
+            try:
+                commence = dt.datetime.fromisoformat(event["commence_time"].replace("Z", "+00:00"))
+            except (KeyError, ValueError):
+                continue
+            if commence.date() not in (game_date, game_date + dt.timedelta(days=1)):
+                continue  # allow +1 day slack for UTC vs. local-date game-day mismatches
+            home, away = event.get("home_team"), event.get("away_team")
+            if NFL_TEAM_CODES.get(home) == home_code and NFL_TEAM_CODES.get(away) == away_code:
+                candidate = event
+                break
+        if candidate is not None:
+            home, away = candidate.get("home_team"), candidate.get("away_team")
+            yes_team = home if yes_code == home_code else away
+            prob = _no_vig_prob(yes_team, candidate)
+            if prob is not None:
+                return max(0.02, min(0.98, prob))
 
-    candidate = None
-    for event in events:
-        try:
-            commence = dt.datetime.fromisoformat(event["commence_time"].replace("Z", "+00:00"))
-        except (KeyError, ValueError):
-            continue
-        if commence.date() not in (game_date, game_date + dt.timedelta(days=1)):
-            continue  # allow +1 day slack for UTC vs. local-date game-day mismatches
-        home, away = event.get("home_team"), event.get("away_team")
-        if NFL_TEAM_CODES.get(home) == home_code and NFL_TEAM_CODES.get(away) == away_code:
-            candidate = event
-            break
-    if candidate is None:
-        return None
+    # ADDED 2026-09-16: FALLBACK to ESPN's public odds endpoint -- only
+    # reached when the primary Odds-API path above didn't return usable
+    # events at all (e.g. free-tier credits exhausted -- confirmed live
+    # this happened 2026-09-11 through -16, see SPORTS_CHECK_HOURS_UTC
+    # above) OR didn't have this specific game. On a normal day with a
+    # healthy Odds API key this line is never reached -- the primary path
+    # already returned above. See ESPN_SPORT_PATHS and
+    # fetch_espn_nfl_fair_prob() for what this is and its caveats
+    # (unofficial endpoint, single-book no-vig instead of multi-book
+    # consensus).
+    if sport_key in ESPN_SPORT_PATHS:
+        espn_prob = fetch_espn_nfl_fair_prob(sport_key, game_date, away_code, home_code,
+                                              yes_is_home=(yes_code == home_code))
+        if espn_prob is not None:
+            log.info(
+                f"sports model: ESPN fallback supplied fair_prob={espn_prob:.3f} for "
+                f"{ticker} (Odds API unavailable or didn't cover this game this tick)"
+            )
+            return max(0.02, min(0.98, espn_prob))
 
-    home, away = candidate.get("home_team"), candidate.get("away_team")
-    yes_team = home if yes_code == home_code else away
-
-    prob = _no_vig_prob(yes_team, candidate)
-    if prob is None:
-        return None
-    return max(0.02, min(0.98, prob))
+    return None
 
 
 def estimate_fair_value(market: dict) -> Optional[float]:
