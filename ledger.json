@@ -4667,6 +4667,10 @@
     {
       "t": "2026-09-16T15:10:28.195957Z",
       "dollars": 10.73
+    },
+    {
+      "t": "2026-09-16T15:20:22.832253Z",
+      "dollars": 10.73
     }
   ],
   "decisions": [
@@ -11171,21 +11175,9 @@
       "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T15:10:28.196190Z",
+  "updated_at": "2026-09-16T15:20:22.832610Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:30:14.306212Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26SEP20PITNE",
-      "fair_prob": 0.324,
-      "market_price": 0.33,
-      "market_bid": 0.31,
-      "edge": -0.006,
-      "volume_fp": "78992.35"
-    },
     {
       "t": "2026-09-14T20:30:14.306255Z",
       "category": "sports",
@@ -35173,6 +35165,18 @@
       "market_bid": 0.01,
       "edge": 0.308,
       "volume_fp": "309.83"
+    },
+    {
+      "t": "2026-09-16T15:20:18.073275Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP17-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP17",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "875.00"
     }
   ]
 }
