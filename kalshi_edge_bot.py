@@ -183,11 +183,65 @@ class KalshiClient:
         resp = requests.post(
             self.base_url + path, json=body, headers=self._headers("POST", "/trade-api/v2" + path)
         )
-        resp.raise_for_status()
+        try:
+            resp.raise_for_status()
+        except requests.exceptions.HTTPError as e:
+            # ADDED 2026-09-13: raise_for_status()'s own message is just
+            # "400 Client Error: Bad Request for url: ..." -- it throws away
+            # the response BODY, which is where Kalshi actually explains the
+            # rejection (e.g. {"code": "...", "message": "..."}). That's why
+            # the string "order failed for {ticker}: {e}" in main()'s except
+            # block, and the ledger's "note" field it feeds, have never once
+            # said anything more specific than the HTTP status -- caught live
+            # on the KXNFLGAME-26SEP14DENKC-KC market (7 straight 400s, same
+            # order retried every tick, real reason never logged). Surface
+            # the body -- parsed as JSON where possible, else raw text -- and
+            # the request body that triggered it, so the next occurrence
+            # explains itself instead of needing another round of guessing.
+            try:
+                detail = resp.json()
+            except ValueError:
+                detail = resp.text.strip()
+            raise requests.exceptions.HTTPError(
+                f"{e} -- response body: {detail} -- request body: {body}", response=resp
+            ) from e
         return resp.json()
 
     def get_balance_cents(self) -> int:
         return self.get("/portfolio/balance")["balance"]
+
+    def get_held_tickers(self) -> set:
+        """ADDED 2026-09-13: the bot re-evaluates every open market fresh
+        each 10-minute tick with no memory of what it already bought. The
+        410-Gone/pricing fixes on 2026-09-12 made orders actually fill --
+        which immediately exposed a second, more fundamental bug: with a
+        persistent edge (e.g. the same real NFL game priced the same way
+        for hours before kickoff), the bot just re-bought MORE of the same
+        position every single tick, forever, until the bankroll ran out.
+        $50 -> $5.46 in under 3 hours wasn't 9 separate bad trades -- it
+        was ~9 ticks of buying into the SAME handful of already-held
+        positions, since nothing ever checked "do I already own this."
+        This queries Kalshi's real position state (GET /portfolio/positions,
+        MarketPosition.position_fp: positive=YES contracts held, negative=
+        NO contracts held, per Kalshi's docs) so main() can skip a market
+        it already holds instead of piling on indefinitely."""
+        held = set()
+        cursor = None
+        while True:
+            params = {"count_filter": "position", "limit": 1000}
+            if cursor:
+                params["cursor"] = cursor
+            page = self.get("/portfolio/positions", params=params)
+            for pos in page.get("market_positions", []):
+                try:
+                    if float(pos.get("position_fp", 0)) != 0:
+                        held.add(pos["ticker"])
+                except (TypeError, ValueError):
+                    continue
+            cursor = page.get("cursor")
+            if not cursor:
+                break
+        return held
 
     def get_open_markets(self, limit: int = 200) -> list:
         markets, cursor = [], None
@@ -240,16 +294,71 @@ class KalshiClient:
         return markets
 
     def place_order(self, ticker: str, side: str, count: int, price_cents: int, action: str = "buy") -> dict:
+        """side: "yes" or "no" -- which contract this order is for, with
+        price_cents denominated in THAT contract's price (matches the
+        original semantics: it plays the role of "yes_price" when
+        side=="yes", "no_price" when side=="no"). action is unused now
+        (this bot only ever opens new positions, never closes) but kept
+        in the signature so nothing else has to change.
+
+        FIXED 2026-09-12: Kalshi retired the legacy `POST /portfolio/orders`
+        endpoint this bot used to call -- confirmed live via Render logs,
+        every single order attempt failing with "410 Client Error: Gone"
+        (not an auth/balance/ticker problem -- 410 specifically means the
+        resource was intentionally, permanently removed). Kalshi's own docs
+        had flagged this: "The legacy /portfolio/orders endpoint will be
+        deprecated no earlier than May 6, 2026." It's now actually gone.
+
+        The replacement is POST /portfolio/events/orders, which quotes
+        every order in terms of the YES leg only (per Kalshi's docs: "Side
+        of the book for an order or trade. For event markets, this refers
+        to the YES leg only"):
+          - side: "bid" (buying/going long YES) or "ask" (selling/going
+            short YES -- since yes_price + no_price == 1, this is exactly
+            how you express "buy NO" now: sell YES at the complementary
+            price, 1 - no_price)
+          - count / price are now DECIMAL STRINGS, not ints/cents --
+            count like "10.00", price in dollars with 4 places like
+            "0.5600"
+          - time_in_force and self_trade_prevention_type are newly
+            required; there's no old equivalent to carry over, so these
+            are new judgment calls, not a straight translation:
+              * time_in_force="immediate_or_cancel" -- this bot re-decides
+                everything fresh every 10-minute tick and has no logic to
+                track/reconcile a resting order from a prior tick, so fill
+                what you can against the book RIGHT NOW and cancel the
+                rest, rather than good_till_canceled leaving stale limit
+                orders sitting around untracked.
+              * self_trade_prevention_type="taker_at_cross" -- this bot
+                takes liquidity, it doesn't make markets, so this is the
+                standard default for an order meant to execute against the
+                existing book rather than rest on it.
+        See https://docs.kalshi.com/api-reference/orders/create-order-v2.
+
+        NOTE: exactly like the pre-fix version of this function, the
+        yes/no <-> bid/ask price mapping below hasn't been confirmed
+        against a real fill yet -- check the next few Render logs after
+        deploying this (does a "yes"-side decision actually fill at
+        roughly the price you'd expect, not something inverted or
+        rejected?) before trusting it with anything beyond paper money.
+        """
+        if side == "yes":
+            v2_side = "bid"
+            yes_equivalent_price_cents = price_cents
+        else:  # "no"
+            v2_side = "ask"
+            yes_equivalent_price_cents = 100 - price_cents
+
         body = {
             "ticker": ticker,
             "client_order_id": f"edgebot-{ticker}-{int(time.time())}",
-            "side": side,          # "yes" or "no"
-            "action": action,      # "buy" or "sell"
-            "count": count,
-            "type": "limit",
-            "yes_price" if side == "yes" else "no_price": price_cents,
+            "side": v2_side,
+            "count": f"{count:.2f}",
+            "price": f"{yes_equivalent_price_cents / 100.0:.4f}",
+            "time_in_force": "immediate_or_cancel",
+            "self_trade_prevention_type": "taker_at_cross",
         }
-        return self.post("/portfolio/orders", body)
+        return self.post("/portfolio/events/orders", body)
 
 
 # --------------------------------------------------------------------------
@@ -685,6 +794,7 @@ def american_odds_to_implied_prob(odds: float) -> float:
 
 
 _odds_api_cache: dict = {}  # sport_key -> list of events, this run only
+_odds_api_failed_this_tick: set = set()  # sport_key -> True once a call has failed this run
 
 
 def fetch_sportsbook_odds(sport_key: str) -> Optional[list]:
@@ -692,6 +802,21 @@ def fetch_sportsbook_odds(sport_key: str) -> Optional[list]:
         return None
     if sport_key in _odds_api_cache:
         return _odds_api_cache[sport_key]
+    # ADDED 2026-09-16: found via a Render log audit that a single dead/
+    # revoked/rate-limited key produced 80+ identical "401 Unauthorized"
+    # log lines in ONE tick -- fetch_sportsbook_odds() is called once per
+    # NFL market scanned (dozens per tick), and only a SUCCESS was ever
+    # cached; a failure just fell through and retried the network call
+    # on the very next market. That's needless load on an API that was
+    # already failing (and burns real quota/rate-limit budget for no
+    # benefit even when the key IS healthy but transiently erroring).
+    # Caching the failure for the rest of this tick means one bad call
+    # explains itself once in the logs instead of drowning everything
+    # else out, and the very next tick tries again fresh (this set is
+    # module-level but effectively "per run" since each tick is a fresh
+    # process invocation).
+    if sport_key in _odds_api_failed_this_tick:
+        return None
     try:
         resp = requests.get(
             f"{ODDS_API_BASE_URL}/sports/{sport_key}/odds",
@@ -702,9 +827,11 @@ def fetch_sportsbook_odds(sport_key: str) -> Optional[list]:
         events = resp.json()
     except Exception as e:
         log.warning(f"Odds API request failed for {sport_key}: {e}")
+        _odds_api_failed_this_tick.add(sport_key)
         return None
     if not isinstance(events, list):
         log.warning(f"Odds API returned unexpected shape for {sport_key}: {events}")
+        _odds_api_failed_this_tick.add(sport_key)
         return None
     _odds_api_cache[sport_key] = events
     return events
@@ -732,33 +859,34 @@ def _no_vig_prob(team_name: str, event: dict) -> Optional[float]:
 
 
 def sports_fair_value(market: dict) -> Optional[float]:
-    """P(YES) for a Kalshi NFL game-winner market ('yes' = the team named
-    in yes_sub_title/title wins), from the no-vig consensus across real
-    sportsbooks. Returns None for anything not confidently matched --
-    unknown series, a team-name/date pairing we can't map to an Odds API
-    event, or no sportsbook data available for that game."""
+    """P(YES) for a Kalshi NFL game-winner market, from the no-vig
+    consensus across real sportsbooks. Returns None for anything not
+    confidently matched -- unknown series, an unexpected ticker shape, a
+    team/date pairing we can't map to an Odds API event, or no
+    sportsbook data available for that game."""
     event_ticker = market.get("event_ticker", "")
     sport_key = next((sk for prefix, sk in SPORTS_SERIES.items() if event_ticker.startswith(prefix)), None)
     if not sport_key:
         return None
 
-    # Kalshi's own city/team abbreviation for the side this specific
-    # market resolves YES on is more reliable to parse from the ticker's
-    # team-code suffix than from the free-text title. Ticker shape:
+    # Kalshi's market ticker (not just event_ticker) carries which team
+    # this specific contract resolves YES for, as a trailing suffix --
+    # confirmed against Kalshi's real ticker shape via a third-party
+    # integration doc: "KXNFLGAME-25AUG16ARIDEN-ARI" resolves YES if ARI
+    # wins. event_ticker is the same string minus that "-{TEAM}" suffix:
     # KXNFLGAME-{YY}{MON}{DD}{AWAY_CODE}{HOME_CODE}, e.g. ...-26SEP10SFLAR
-    # (SF at LAR). Codes are 2-3 letters each with NO separator, so a
-    # single regex can't tell where one ends and the other begins purely
-    # from length -- greedy matching on a fixed split silently produces
-    # the WRONG pair for some team combinations (confirmed while testing
-    # this: "SFLAR" as [A-Z]{2,3}[A-Z]{2,3} greedily yields "SFL"+"AR",
-    # neither a real team). Instead, extract the whole trailing code
-    # block, then try every 2/3-length split and accept only the one
-    # where BOTH halves are real codes from NFL_TEAM_CODES.
+    # (SF at LAR). The away+home block has no separator between the two
+    # codes, so a fixed-length regex split can silently produce the WRONG
+    # pair for some team combinations (confirmed while testing: "SFLAR"
+    # split naively yields "SFL"+"AR", neither a real team) -- instead,
+    # extract the whole trailing block and try every 2/3-length split,
+    # accepting only the one where BOTH halves are real codes.
     import re
-    m = re.search(r"-(\d{2})([A-Z]{3})(\d{2})([A-Z]{4,6})$", event_ticker)
-    if not m:
+    ticker = market.get("ticker", "")
+    m_event = re.search(r"-(\d{2})([A-Z]{3})(\d{2})([A-Z]{4,6})$", event_ticker)
+    if not m_event:
         return None
-    yy, mon_abbr, dd, team_block = m.groups()
+    yy, mon_abbr, dd, team_block = m_event.groups()
     try:
         month = dt.datetime.strptime(mon_abbr, "%b").month
         game_date = dt.date(2000 + int(yy), month, int(dd))
@@ -775,11 +903,23 @@ def sports_fair_value(market: dict) -> Optional[float]:
     if away_code is None:
         return None  # couldn't confidently split this ticker's team codes -- skip rather than guess
 
+    # Pull the YES team directly from the market ticker's own suffix
+    # (ticker == event_ticker + "-" + yes_team_code) rather than guessing
+    # from a free-text field that may not even be populated the way we'd
+    # expect -- this is the actual bug that made every real sports market
+    # return None on the first live tick (2026-09-11): the old code
+    # looked for a team name inside yes_sub_title/title, which either
+    # isn't present or isn't formatted the way that code assumed.
+    if not ticker.startswith(event_ticker + "-"):
+        return None  # unexpected ticker shape -- skip rather than guess
+    yes_code = ticker[len(event_ticker) + 1:]
+    if yes_code not in (away_code, home_code):
+        return None
+
     events = fetch_sportsbook_odds(sport_key)
     if not events:
         return None
 
-    yes_side_text = (market.get("yes_sub_title") or market.get("title") or "")
     candidate = None
     for event in events:
         try:
@@ -796,9 +936,7 @@ def sports_fair_value(market: dict) -> Optional[float]:
         return None
 
     home, away = candidate.get("home_team"), candidate.get("away_team")
-    yes_team = next((t for t in (home, away) if t and t in yes_side_text), None)
-    if yes_team is None:
-        return None  # couldn't confidently tell which side this contract resolves YES on
+    yes_team = home if yes_code == home_code else away
 
     prob = _no_vig_prob(yes_team, candidate)
     if prob is None:
@@ -875,15 +1013,35 @@ def observe_prod_edges() -> list:
     for, across all categories. Returns a list of observation dicts
     (empty list on total failure -- never raises, so a Kalshi/Alpha
     Vantage/Odds API hiccup here can't take down the actual trading
-    tick)."""
+    tick).
+
+    Scanning all four categories means ~10 unauthenticated series
+    lookups per tick instead of weather-only's 6 -- confirmed via real
+    logs on 2026-09-11 that this trips Kalshi's public rate limit on
+    some series most ticks (429s), silently losing exactly the
+    calibration data this function exists to build. A small delay
+    between series plus one retry on 429 fixes that without adding real
+    complexity."""
     observations = []
     for category, series_registry in ALL_SERIES_REGISTRIES.items():
         for series_ticker in series_registry:
-            try:
-                markets = fetch_prod_markets_public(series_ticker)
-            except Exception as e:
-                log.warning(f"prod observation skipped for {series_ticker}: {e}")
+            markets = None
+            for attempt in range(2):  # one retry on rate limit, no more
+                try:
+                    markets = fetch_prod_markets_public(series_ticker)
+                    break
+                except requests.exceptions.HTTPError as e:
+                    if e.response is not None and e.response.status_code == 429 and attempt == 0:
+                        time.sleep(2)
+                        continue
+                    log.warning(f"prod observation skipped for {series_ticker}: {e}")
+                    break
+                except Exception as e:
+                    log.warning(f"prod observation skipped for {series_ticker}: {e}")
+                    break
+            if markets is None:
                 continue
+            time.sleep(0.3)  # space out requests -- this is what was tripping the rate limit
             for market in markets:
                 try:
                     fair_prob = estimate_fair_value(market)
@@ -1134,11 +1292,36 @@ def main():
         log.warning("Daily loss cap hit -- skipping this tick.")
         return
 
-    markets = []
+    held_tickers = set()
+    if LIVE_TRADING:
+        try:
+            held_tickers = client.get_held_tickers()
+            log.info(f"currently holding positions in {len(held_tickers)} market(s): {sorted(held_tickers)}")
+        except requests.exceptions.HTTPError as e:
+            log.warning(f"could not fetch current positions (non-fatal, but repeat-buy guard is OFF this tick): {e}")
+
+    markets = []  # list of (category, market) so we can sample each category below
     for category, series_registry in ALL_SERIES_REGISTRIES.items():
         category_markets = client.get_known_markets(series_registry)
         log.info(f"pulled {len(category_markets)} markets from known {category} series")
-        markets.extend(category_markets)
+        markets.extend((category, m) for m in category_markets)
+
+    # ADDED 2026-09-16: a Render log audit found the bot repeatedly buying
+    # BOTH sides of the same NFL game (e.g. MIN + CHI, SEA + ARI, TEN + NYJ)
+    # across separate ticks -- get_held_tickers()'s guard above is per exact
+    # ticker, so nothing stopped it from also taking the complementary
+    # market's side once the model flagged edge on THAT side too (plausible
+    # whenever the no-vig sportsbook consensus disagrees with Kalshi's
+    # combined book pricing on both legs at once, since yes_ask(A) +
+    # yes_ask(B) is usually close to but not exactly $1). That's not the
+    # directional bet this strategy is meant to make -- it's an accidental,
+    # unsized, fee-blind near-hedge. Building a ticker -> event_ticker map
+    # from THIS tick's own market scan (no extra API call) lets us find
+    # which real-world EVENTS are already held, not just which exact
+    # tickers, so a second market on an event we're already in gets skipped
+    # -- one position per event.
+    ticker_to_event = {m.get("ticker"): m.get("event_ticker") for _, m in markets}
+    held_event_tickers = {ticker_to_event[t] for t in held_tickers if ticker_to_event.get(t)}
 
     trades_this_tick = 0
     tick_decisions = []  # for the public GitHub ledger, if configured
@@ -1147,22 +1330,29 @@ def main():
     edge_computed_count = 0
     best_near_miss = None  # (abs_edge, ticker, title, edge) -- for the "how close did we get" summary
     stage_counts: dict = {}  # tally of diag["stage"] across the tick -- pinpoints WHERE markets get filtered out
+    sampled_categories: set = set()  # log one raw sample PER CATEGORY, not just the first 3 markets overall
 
-    for i, market in enumerate(markets):
+    for category, market in markets:
         decision, diag = evaluate_market(market, bankroll_cents)
         stage_counts[diag["stage"]] = stage_counts.get(diag["stage"], 0) + 1
 
-        if i < 3:
-            # Raw sample of what Kalshi is actually returning, once per tick,
-            # so a "why is everything filtered out" question can be answered
-            # by looking at real field values instead of guessing.
+        if category not in sampled_categories:
+            # Raw sample of what Kalshi is actually returning for THIS
+            # category, once per tick, so "why is sports/economics/
+            # financials returning nothing" can be answered from real
+            # field values instead of guessing. Sampling only the first 3
+            # markets overall (the old approach) is a blind spot: every
+            # category but the first one in ALL_SERIES_REGISTRIES would
+            # never actually get logged.
+            sampled_categories.add(category)
             log.info(
-                f"sample market: ticker={market.get('ticker')} "
+                f"sample {category} market: ticker={market.get('ticker')} "
                 f"event_ticker={market.get('event_ticker')} "
                 f"volume_fp={market.get('volume_fp')} "
                 f"floor_strike={market.get('floor_strike')} "
                 f"strike_type={market.get('strike_type')} "
                 f"yes_ask_dollars={market.get('yes_ask_dollars')} "
+                f"close_time={market.get('close_time')} "
                 f"-> stage={diag['stage']}"
             )
 
@@ -1184,18 +1374,151 @@ def main():
 
         status, note = "paper", "paper mode"
         if LIVE_TRADING:
-            # NOTE: order-placement field names (yes_price/no_price as cents
-            # ints in place_order()) come from Kalshi's documented order
-            # lifecycle guide, but haven't been confirmed live the way the
-            # market-reading fields just were -- verify against a real order
-            # preview/response before trusting this on real money.
-            yes_ask_cents = int(round(_dollars(market, "yes_ask_dollars") * 100))
-            price_cents = yes_ask_cents if decision.side == "yes" else (100 - yes_ask_cents)
+            # ADDED 2026-09-13: don't re-buy a market every tick just because
+            # its edge is still there. Without this, a persistent real edge
+            # (a game whose Kalshi price barely moves for hours) gets bought
+            # again and again, 10 minutes apart, until the bankroll is gone --
+            # which is what actually happened between 17:00-19:40 UTC on
+            # 2026-09-12 (see get_held_tickers() docstring for the full story).
+            if decision.ticker in held_tickers:
+                log.info(
+                    f"skipping {decision.ticker}: already holding a position "
+                    f"in this market -- not re-buying the same edge again this tick"
+                )
+                log_decision(decision, executed=False, note="already_held")
+                status, note = "skipped_already_held", ""
+                tick_decisions.append({
+                    "t": tick_started_at, "ticker": decision.ticker, "title": decision.title,
+                    "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
+                    "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
+                    "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "status": status, "note": note,
+                })
+                continue
+
+            # ADDED 2026-09-16: see the held_event_tickers comment above --
+            # this is the actual fix for the both-sides-of-the-same-game
+            # pattern. A market whose exact ticker isn't held yet, but whose
+            # event_ticker already has SOME position open (the other team's
+            # market), is the complementary side of a game/day we're already
+            # in -- skip it so the strategy stays one directional bet per
+            # real-world event instead of an accidental, unsized near-hedge.
+            event_ticker = market.get("event_ticker", "")
+            if event_ticker and event_ticker in held_event_tickers:
+                log.info(
+                    f"skipping {decision.ticker}: already holding a position in "
+                    f"event {event_ticker} via a different market (the other "
+                    f"side/threshold of the same real-world event) -- one "
+                    f"position per event, not an accidental both-sides hedge"
+                )
+                log_decision(decision, executed=False, note="already_holding_this_event")
+                status, note = "skipped_same_event", ""
+                tick_decisions.append({
+                    "t": tick_started_at, "ticker": decision.ticker, "title": decision.title,
+                    "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
+                    "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
+                    "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "status": status, "note": note,
+                })
+                continue
+            # FIXED 2026-09-12, root cause of every "no"-side zero-fill:
+            # this used to compute the NO price as (100 - yes_ask_cents).
+            # Pulled the real orderbook for a market that kept zero-filling
+            # (KXNFLGAME-26SEP20PHITEN-PHI) via Kalshi's public, unauthenticated
+            # GET /markets/{ticker}/orderbook and found real, deep liquidity on
+            # both sides -- so "no counterparty in demo" (the original theory)
+            # was WRONG. The actual problem: yes_ask=0.71 and yes_bid=0.70 were
+            # both live in the book, and (100 - yes_ask_cents) = 29 is the
+            # current NO BID (what someone else is already offering to pay for
+            # NO), not the NO ASK (what you'd need to offer to buy NO
+            # immediately, which was $0.30 = 100 - yes_bid). Submitting a "buy
+            # NO" order priced at the existing bid, instead of at the ask, can
+            # never cross the spread -- explains fill_count=0.00 on literally
+            # every attempt, and would have done the same with real money in
+            # prod, independent of demo/time_in_force. Kalshi's market data
+            # already provides the real ask directly (no_ask_dollars), so use
+            # that instead of re-deriving it from the wrong side of the book.
+            if decision.side == "yes":
+                price_cents = int(round(_dollars(market, "yes_ask_dollars") * 100))
+            else:
+                price_cents = int(round(_dollars(market, "no_ask_dollars") * 100))
+            if price_cents <= 0 or price_cents >= 100:
+                log.warning(
+                    f"skipping order for {decision.ticker}: no marketable "
+                    f"{decision.side}_ask_dollars price available (got "
+                    f"{price_cents} cents) -- would not be a real order"
+                )
+                log_decision(decision, executed=False, note="no_marketable_ask_price")
+                status, note = "skipped_no_ask", ""
+                tick_decisions.append({
+                    "t": tick_started_at, "ticker": decision.ticker, "title": decision.title,
+                    "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
+                    "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
+                    "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "status": status, "note": note,
+                })
+                continue
             try:
-                client.place_order(decision.ticker, decision.side, decision.contracts, price_cents)
-                log_decision(decision, executed=True)
-                trades_this_tick += 1
-                status, note = "executed", ""
+                response = client.place_order(decision.ticker, decision.side, decision.contracts, price_cents)
+                # DIAGNOSTIC 2026-09-12: the 410-Gone fix stopped every order
+                # from erroring out, but the bankroll logged at the top of
+                # main() sat at exactly $50.00 across three straight ticks of
+                # "N live orders placed" -- i.e. Kalshi accepted the requests
+                # (no exception) but nothing about the account actually
+                # changed, consistent with an immediate_or_cancel order
+                # matching zero contracts and canceling silently (this bot's
+                # own notes already established Kalshi's demo book has no
+                # real counterparties resting on it to match against).
+                # "Accepted" and "filled" are NOT the same thing -- log the
+                # raw response so the next few ticks show, in plain sight,
+                # which one actually happened, instead of inferring it from
+                # a flat bankroll number after the fact. Field names here
+                # (fill_count/remaining_count/order_id) are Kalshi's
+                # documented V2 response shape but -- like everything else
+                # about this endpoint before today -- unconfirmed live, so
+                # this reads them defensively and always logs the raw body
+                # too, rather than trusting a guessed key name.
+                order = response.get("order", response) if isinstance(response, dict) else {}
+                raw_fill_count = order.get("fill_count", order.get("filled_count"))
+                remaining_count = order.get("remaining_count")
+                order_id = order.get("order_id", order.get("id"))
+                # BUG, caught live 2026-09-12: Kalshi returns fill_count as a
+                # decimal STRING ("0.00"), like every other FixedPointCount
+                # field in this API -- confirmed via the actual first response
+                # this logged: raw={'fill_count': '0.00', ...}. The original
+                # version of this check was `if fill_count == 0:`, comparing
+                # a string to an int, which is ALWAYS False in Python -- so
+                # every zero-fill order was silently misread as "executed"
+                # (including in the ledger's executed=True column) and the
+                # tick-summary count. Parse it before comparing.
+                try:
+                    fill_count = float(raw_fill_count) if raw_fill_count is not None else None
+                except (TypeError, ValueError):
+                    fill_count = None
+                log.info(
+                    f"order response for {decision.ticker}: order_id={order_id} "
+                    f"fill_count={fill_count} remaining_count={remaining_count} "
+                    f"raw={response}"
+                )
+                if fill_count == 0:
+                    log.warning(
+                        f"order for {decision.ticker} was ACCEPTED but filled 0 "
+                        f"contracts (remaining={remaining_count}) -- likely no "
+                        f"counterparty on the book for an immediate_or_cancel "
+                        f"order to match against. This is NOT a successful trade."
+                    )
+                    log_decision(decision, executed=False, note="accepted_zero_fill")
+                    status, note = "accepted_zero_fill", f"order_id={order_id}"
+                else:
+                    log_decision(decision, executed=True)
+                    trades_this_tick += 1
+                    status, note = "executed", f"order_id={order_id} fill_count={fill_count}"
+                    # keep this tick's own bookkeeping in sync so a second
+                    # market on the SAME event later in this same loop is
+                    # also caught by the guard above, not just next tick.
+                    held_tickers.add(decision.ticker)
+                    if event_ticker:
+                        held_event_tickers.add(event_ticker)
             except Exception as e:
                 log.error(f"order failed for {decision.ticker}: {e}")
                 log_decision(decision, executed=False, note=str(e))
