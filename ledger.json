@@ -4567,22 +4567,13 @@
     {
       "t": "2026-09-16T11:00:32.705501Z",
       "dollars": 17.34
+    },
+    {
+      "t": "2026-09-16T11:10:34.309731Z",
+      "dollars": 17.34
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T13:50:15.270257Z",
-      "ticker": "KXNFLGAME-26SEP20NOBAL-BAL",
-      "title": "Baltimore wins",
-      "side": "no",
-      "fair_prob": 0.767,
-      "market_price": 0.79,
-      "edge": -0.023,
-      "dollars": 1.46,
-      "contracts": 6,
-      "status": "failed",
-      "note": "410 Client Error: Gone for url: https://external-api.demo.kalshi.co/trade-api/v2/portfolio/orders"
-    },
     {
       "t": "2026-09-12T13:50:15.270257Z",
       "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
@@ -11069,9 +11060,22 @@
       "contracts": 3,
       "status": "accepted_zero_fill",
       "note": "order_id=01a0a9cd-7328-74f0-88fc-5549247ffbff"
+    },
+    {
+      "t": "2026-09-16T11:10:09.129536Z",
+      "ticker": "KXHIGHNY-26SEP17-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 17, 2026?",
+      "side": "no",
+      "fair_prob": 0.133,
+      "market_price": 0.95,
+      "edge": -0.817,
+      "dollars": 0.86,
+      "contracts": 17,
+      "status": "executed",
+      "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T11:00:32.705569Z",
+  "updated_at": "2026-09-16T11:10:34.309822Z",
   "env": "demo",
   "prod_edge_observations": [
     {
