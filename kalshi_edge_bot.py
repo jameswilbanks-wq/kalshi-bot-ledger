@@ -110,6 +110,21 @@ ODDS_API_BASE_URL = "https://api.the-odds-api.com/v4"
 FINANCIAL_CHECK_HOURS_UTC = {14, 17, 20}   # ~9:30am/12:30pm/3:30pm ET, roughly open/mid/close
 ECONOMIC_CHECK_HOUR_UTC = 6                # once a day is plenty; these change monthly at most
 
+# ADDED 2026-09-16: The Odds API's free tier is 500 credits/month, and
+# unlike Alpha Vantage's daily-quota model this bot had NO gating on it at
+# all -- it called fetch_sportsbook_odds() once per NFL market per tick
+# (deduped to once per tick via _odds_api_cache when working normally),
+# which at the original 10-minute cadence is 144 calls/day. Confirmed via
+# James's own account dashboard: plan started 2026-09-11, 500/500 credits
+# used by 2026-09-16 -- exhausted in under 5 days, nowhere close to
+# lasting a full billing month. NFL moneylines don't need re-checking
+# every 10 minutes (they move over hours, not minutes, outside the last
+# few minutes before kickoff) -- gating to every other even UTC hour cuts
+# this to 12 calls/day (~360/month), comfortably under the free cap with
+# room to spare, the same tradeoff already accepted for the financial and
+# economic models above.
+SPORTS_CHECK_HOURS_UTC = {0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22}  # every 2 hours
+
 # NOTE: Kalshi has changed its base API host more than once. Verify the
 # current value at https://docs.kalshi.com before relying on this.
 BASE_URLS = {
@@ -799,6 +814,15 @@ _odds_api_failed_this_tick: set = set()  # sport_key -> True once a call has fai
 
 def fetch_sportsbook_odds(sport_key: str) -> Optional[list]:
     if not ODDS_API_KEY:
+        return None
+    # ADDED 2026-09-16: see the SPORTS_CHECK_HOURS_UTC comment above --
+    # this is the actual throttle. Checked before the cache/failure-cache
+    # lookups below so an off-hour tick makes zero Odds API calls, full
+    # stop, exactly like get_equity_quote()'s FINANCIAL_CHECK_HOURS_UTC
+    # gate above it. This does mean sports_fair_value() returns "no
+    # opinion" (None) for 12 of every 24 hours -- same accepted tradeoff
+    # as the financial/economic models, not a bug.
+    if dt.datetime.utcnow().hour not in SPORTS_CHECK_HOURS_UTC:
         return None
     if sport_key in _odds_api_cache:
         return _odds_api_cache[sport_key]
