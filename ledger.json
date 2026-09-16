@@ -4623,6 +4623,10 @@
     {
       "t": "2026-09-16T13:20:38.457449Z",
       "dollars": 10.73
+    },
+    {
+      "t": "2026-09-16T13:30:32.549081Z",
+      "dollars": 10.73
     }
   ],
   "decisions": [
@@ -11127,7 +11131,7 @@
       "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T13:20:38.457733Z",
+  "updated_at": "2026-09-16T13:30:32.549450Z",
   "env": "demo",
   "prod_edge_observations": [
     {
