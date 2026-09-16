@@ -4711,6 +4711,10 @@
     {
       "t": "2026-09-16T17:00:51.574164Z",
       "dollars": 10.73
+    },
+    {
+      "t": "2026-09-16T17:10:45.645127Z",
+      "dollars": 10.73
     }
   ],
   "decisions": [
@@ -11215,57 +11219,9 @@
       "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T17:00:51.574257Z",
+  "updated_at": "2026-09-16T17:10:45.645371Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:40:21.039341Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20GBNYJ-GB",
-      "title": "Green Bay wins",
-      "event_ticker": "KXNFLGAME-26SEP20GBNYJ",
-      "fair_prob": 0.644,
-      "market_price": 0.65,
-      "market_bid": 0.64,
-      "edge": -0.006,
-      "volume_fp": "30304.66"
-    },
-    {
-      "t": "2026-09-14T20:40:21.039441Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CARATL-CAR",
-      "title": "Carolina wins",
-      "event_ticker": "KXNFLGAME-26SEP20CARATL",
-      "fair_prob": 0.523,
-      "market_price": 0.53,
-      "market_bid": 0.52,
-      "edge": -0.007,
-      "volume_fp": "41240.11"
-    },
-    {
-      "t": "2026-09-14T20:40:21.039512Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CARATL-ATL",
-      "title": "Atlanta wins",
-      "event_ticker": "KXNFLGAME-26SEP20CARATL",
-      "fair_prob": 0.477,
-      "market_price": 0.47,
-      "market_bid": 0.46,
-      "edge": 0.007,
-      "volume_fp": "6065.30"
-    },
-    {
-      "t": "2026-09-14T20:40:21.039594Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20MINCHI-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26SEP20MINCHI",
-      "fair_prob": 0.321,
-      "market_price": 0.32,
-      "market_bid": 0.31,
-      "edge": 0.001,
-      "volume_fp": "81005.42"
-    },
     {
       "t": "2026-09-14T20:40:21.039666Z",
       "category": "sports",
@@ -35217,6 +35173,54 @@
       "market_bid": 0.78,
       "edge": -0.82,
       "volume_fp": "1195.49"
+    },
+    {
+      "t": "2026-09-16T17:10:30.392164Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP17-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP17",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "981.01"
+    },
+    {
+      "t": "2026-09-16T17:10:31.852056Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP17-T81",
+      "title": "Will the maximum temperature be >81\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP17",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "913.91"
+    },
+    {
+      "t": "2026-09-16T17:10:32.841389Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP17-T102",
+      "title": "Will the maximum temperature be >102\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP17",
+      "fair_prob": 0.328,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.308,
+      "volume_fp": "310.83"
+    },
+    {
+      "t": "2026-09-16T17:10:33.315216Z",
+      "category": "financial",
+      "ticker": "KXNASDAQDUD-26SEP16H1600-T28937.84",
+      "title": "Will the NASDAQ-100 be above 28937.84 on Sep 16, 2026 at 4pm EDT?",
+      "event_ticker": "KXNASDAQDUD-26SEP16H1600",
+      "fair_prob": 0.02,
+      "market_price": 0.82,
+      "market_bid": 0.73,
+      "edge": -0.8,
+      "volume_fp": "1214.15"
     }
   ]
 }
