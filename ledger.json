@@ -4635,6 +4635,10 @@
     {
       "t": "2026-09-16T13:50:35.642469Z",
       "dollars": 10.73
+    },
+    {
+      "t": "2026-09-16T14:01:05.588432Z",
+      "dollars": 10.73
     }
   ],
   "decisions": [
@@ -11139,21 +11143,9 @@
       "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T13:50:35.642534Z",
+  "updated_at": "2026-09-16T14:01:05.588689Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:30:14.304897Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20INDKC-KC",
-      "title": "Kansas City wins",
-      "event_ticker": "KXNFLGAME-26SEP20INDKC",
-      "fair_prob": 0.715,
-      "market_price": 0.73,
-      "market_bid": 0.71,
-      "edge": -0.015,
-      "volume_fp": "4311.52"
-    },
     {
       "t": "2026-09-14T20:30:14.304977Z",
       "category": "sports",
@@ -35141,6 +35133,18 @@
       "market_bid": 0.0,
       "edge": 0.318,
       "volume_fp": "857.00"
+    },
+    {
+      "t": "2026-09-16T14:00:52.748940Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP17-T102",
+      "title": "Will the maximum temperature be >102\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP17",
+      "fair_prob": 0.328,
+      "market_price": 0.1,
+      "market_bid": 0.02,
+      "edge": 0.228,
+      "volume_fp": "0.00"
     }
   ]
 }
