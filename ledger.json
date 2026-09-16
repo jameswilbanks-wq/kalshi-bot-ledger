@@ -4859,6 +4859,10 @@
     {
       "t": "2026-09-16T23:10:24.591666Z",
       "dollars": 9.79
+    },
+    {
+      "t": "2026-09-16T23:20:20.314605Z",
+      "dollars": 9.79
     }
   ],
   "decisions": [
@@ -11363,33 +11367,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-16T23:10:24.592004Z",
+  "updated_at": "2026-09-16T23:20:20.314867Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-15T01:20:16.989860Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20MIASF-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26SEP20MIASF",
-      "fair_prob": 0.13,
-      "market_price": 0.12,
-      "market_bid": 0.11,
-      "edge": 0.01,
-      "volume_fp": "83171.86"
-    },
-    {
-      "t": "2026-09-15T01:20:16.989908Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20SEAARI-SEA",
-      "title": "Seattle wins",
-      "event_ticker": "KXNFLGAME-26SEP20SEAARI",
-      "fair_prob": 0.661,
-      "market_price": 0.67,
-      "market_bid": 0.66,
-      "edge": -0.009,
-      "volume_fp": "33967.10"
-    },
     {
       "t": "2026-09-15T01:20:16.989953Z",
       "category": "sports",
@@ -35365,6 +35345,30 @@
       "market_bid": 0.01,
       "edge": 0.308,
       "volume_fp": "872.52"
+    },
+    {
+      "t": "2026-09-16T23:20:15.047059Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP17-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP17",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "982.01"
+    },
+    {
+      "t": "2026-09-16T23:20:16.482307Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP17-T81",
+      "title": "Will the maximum temperature be >81\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP17",
+      "fair_prob": 0.038,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.008,
+      "volume_fp": "3424.82"
     }
   ]
 }
