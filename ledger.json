@@ -4671,6 +4671,10 @@
     {
       "t": "2026-09-16T15:20:22.832253Z",
       "dollars": 10.73
+    },
+    {
+      "t": "2026-09-16T15:30:22.015185Z",
+      "dollars": 10.73
     }
   ],
   "decisions": [
@@ -11175,33 +11179,9 @@
       "note": "order_id=01a0a9e8-ea68-77be-82a6-f0868cc2deaa fill_count=7.0"
     }
   ],
-  "updated_at": "2026-09-16T15:20:22.832610Z",
+  "updated_at": "2026-09-16T15:30:22.015522Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-14T20:30:14.306255Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PITNE-NE",
-      "title": "New England wins",
-      "event_ticker": "KXNFLGAME-26SEP20PITNE",
-      "fair_prob": 0.676,
-      "market_price": 0.69,
-      "market_bid": 0.68,
-      "edge": -0.014,
-      "volume_fp": "22228.36"
-    },
-    {
-      "t": "2026-09-14T20:30:14.306302Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PHITEN-TEN",
-      "title": "Tennessee wins",
-      "event_ticker": "KXNFLGAME-26SEP20PHITEN",
-      "fair_prob": 0.258,
-      "market_price": 0.24,
-      "market_bid": 0.23,
-      "edge": 0.018,
-      "volume_fp": "17589.15"
-    },
     {
       "t": "2026-09-14T20:30:14.306345Z",
       "category": "sports",
@@ -35177,6 +35157,30 @@
       "market_bid": 0.01,
       "edge": 0.113,
       "volume_fp": "875.00"
+    },
+    {
+      "t": "2026-09-16T15:30:17.285677Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP17-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP17",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "875.00"
+    },
+    {
+      "t": "2026-09-16T15:30:18.714886Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP17-T81",
+      "title": "Will the maximum temperature be >81\u00b0 on Sep 17, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP17",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "803.91"
     }
   ]
 }
