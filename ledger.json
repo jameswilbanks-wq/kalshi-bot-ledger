@@ -5447,6 +5447,10 @@
     {
       "t": "2026-09-17T23:40:15.616366Z",
       "dollars": 6.03
+    },
+    {
+      "t": "2026-09-17T23:50:17.824017Z",
+      "dollars": 6.03
     }
   ],
   "decisions": [
@@ -11951,21 +11955,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-17T23:40:15.616599Z",
+  "updated_at": "2026-09-17T23:50:17.824299Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-17T12:50:15.471908Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20CINHOU-HOU",
-      "title": "Houston wins",
-      "event_ticker": "KXNFLGAME-26SEP20CINHOU",
-      "fair_prob": 0.563,
-      "market_price": 0.59,
-      "market_bid": 0.58,
-      "edge": -0.027,
-      "volume_fp": "47953.95"
-    },
     {
       "t": "2026-09-17T12:50:15.471985Z",
       "category": "sports",
@@ -35953,6 +35945,18 @@
       "market_bid": 0.0,
       "edge": 0.242,
       "volume_fp": "357.00"
+    },
+    {
+      "t": "2026-09-17T23:50:14.597294Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP18-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Sep 18, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP18",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "692.57"
     }
   ]
 }
