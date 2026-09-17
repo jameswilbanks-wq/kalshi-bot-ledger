@@ -5395,6 +5395,10 @@
     {
       "t": "2026-09-17T21:30:23.746828Z",
       "dollars": 6.03
+    },
+    {
+      "t": "2026-09-17T21:40:25.685820Z",
+      "dollars": 6.03
     }
   ],
   "decisions": [
@@ -11899,45 +11903,9 @@
       "note": "400 Client Error: Bad Request for url: https://external-api.demo.kalshi.co/trade-api/v2/portfolio/events/orders -- response body: {'error': {'code': 'invalid_parameters', 'message': 'invalid parameters'}} -- request body: {'ticker': 'KXNASDAQDUD-26SEP18H1600-T29446.98', 'client_order_id': 'edgebot-KXNASDAQDUD-26SEP18H1600-T29446.98-1789678218', 'side': 'ask', 'count': '15.00', 'price': '0.0200', 'time_in_force': 'immediate_or_cancel', 'self_trade_prevention_type': 'taker_at_cross'}"
     }
   ],
-  "updated_at": "2026-09-17T21:30:23.746938Z",
+  "updated_at": "2026-09-17T21:40:25.686135Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-17T10:50:20.106310Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27BALDAL-BAL",
-      "title": "Baltimore wins",
-      "event_ticker": "KXNFLGAME-26SEP27BALDAL",
-      "fair_prob": 0.583,
-      "market_price": 0.61,
-      "market_bid": 0.59,
-      "edge": -0.027,
-      "volume_fp": "2025.86"
-    },
-    {
-      "t": "2026-09-17T10:50:20.106427Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27LVNO-NO",
-      "title": "New Orleans wins",
-      "event_ticker": "KXNFLGAME-26SEP27LVNO",
-      "fair_prob": 0.6,
-      "market_price": 0.63,
-      "market_bid": 0.59,
-      "edge": -0.03,
-      "volume_fp": "304.66"
-    },
-    {
-      "t": "2026-09-17T10:50:20.106538Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27LVNO-LV",
-      "title": "Las Vegas wins",
-      "event_ticker": "KXNFLGAME-26SEP27LVNO",
-      "fair_prob": 0.4,
-      "market_price": 0.4,
-      "market_bid": 0.37,
-      "edge": 0.0,
-      "volume_fp": "566.76"
-    },
     {
       "t": "2026-09-17T10:50:20.106647Z",
       "category": "sports",
@@ -35892,6 +35860,42 @@
     },
     {
       "t": "2026-09-17T21:30:20.415931Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP18-T103",
+      "title": "Will the maximum temperature be >103\u00b0 on Sep 18, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP18",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "357.00"
+    },
+    {
+      "t": "2026-09-17T21:40:20.083756Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP18-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Sep 18, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP18",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "973.00"
+    },
+    {
+      "t": "2026-09-17T21:40:21.497444Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP18-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Sep 18, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP18",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "587.95"
+    },
+    {
+      "t": "2026-09-17T21:40:22.457621Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP18-T103",
       "title": "Will the maximum temperature be >103\u00b0 on Sep 18, 2026?",
