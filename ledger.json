@@ -5467,22 +5467,13 @@
     {
       "t": "2026-09-18T00:30:43.953714Z",
       "dollars": 6.03
+    },
+    {
+      "t": "2026-09-18T00:40:21.346547Z",
+      "dollars": 6.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T15:10:19.181318Z",
-      "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
-      "title": "Pittsburgh wins",
-      "side": "no",
-      "fair_prob": 0.354,
-      "market_price": 0.38,
-      "edge": -0.026,
-      "dollars": 3.0,
-      "contracts": 4,
-      "status": "executed",
-      "note": ""
-    },
     {
       "t": "2026-09-12T15:10:19.181318Z",
       "ticker": "KXNFLGAME-26SEP20LVLAC-LAC",
@@ -11969,9 +11960,22 @@
       "contracts": 10,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-18T00:40:08.170423Z",
+      "ticker": "KXNFLGAME-26SEP20MIASF-SF",
+      "title": "San Francisco wins",
+      "side": "no",
+      "fair_prob": 0.863,
+      "market_price": 0.97,
+      "edge": -0.107,
+      "dollars": 0.3,
+      "contracts": 10,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-18T00:30:43.954302Z",
+  "updated_at": "2026-09-18T00:40:21.346803Z",
   "env": "demo",
   "prod_edge_observations": [
     {
