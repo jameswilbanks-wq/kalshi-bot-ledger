@@ -6487,6 +6487,10 @@
     {
       "t": "2026-09-19T19:20:18.766994Z",
       "dollars": 18.03
+    },
+    {
+      "t": "2026-09-19T19:30:23.848332Z",
+      "dollars": 18.03
     }
   ],
   "decisions": [
@@ -12999,33 +13003,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-19T19:20:18.767324Z",
+  "updated_at": "2026-09-19T19:30:23.848570Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-19T08:20:20.933548Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27ARISF-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26SEP27ARISF",
-      "fair_prob": 0.209,
-      "market_price": 0.2,
-      "market_bid": 0.18,
-      "edge": 0.009,
-      "volume_fp": "4315.57"
-    },
-    {
-      "t": "2026-09-19T08:20:20.933631Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27CINPIT-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26SEP27CINPIT",
-      "fair_prob": 0.449,
-      "market_price": 0.47,
-      "market_bid": 0.45,
-      "edge": -0.021,
-      "volume_fp": "1718.01"
-    },
     {
       "t": "2026-09-19T08:20:20.933716Z",
       "category": "sports",
@@ -37001,6 +36981,30 @@
       "market_bid": 0.0,
       "edge": 0.242,
       "volume_fp": "381.00"
+    },
+    {
+      "t": "2026-09-19T19:30:18.477656Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP20-T78",
+      "title": "Will the maximum temperature be >78\u00b0 on Sep 20, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP20",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "1048.00"
+    },
+    {
+      "t": "2026-09-19T19:30:19.914078Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP20-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Sep 20, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP20",
+      "fair_prob": 0.023,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.003,
+      "volume_fp": "644.14"
     }
   ]
 }
