@@ -6519,22 +6519,13 @@
     {
       "t": "2026-09-19T20:40:22.710364Z",
       "dollars": 18.03
+    },
+    {
+      "t": "2026-09-19T20:50:24.693211Z",
+      "dollars": 18.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T15:40:15.681729Z",
-      "ticker": "KXNFLGAME-26SEP20WASDAL-DAL",
-      "title": "Dallas wins",
-      "side": "no",
-      "fair_prob": 0.653,
-      "market_price": 0.68,
-      "edge": -0.027,
-      "dollars": 1.96,
-      "contracts": 6,
-      "status": "accepted_zero_fill",
-      "note": "order_id=01a09646-c700-789d-9860-fec41642c2e3"
-    },
     {
       "t": "2026-09-12T15:50:15.560557Z",
       "ticker": "KXNFLGAME-26SEP20NOBAL-BAL",
@@ -13039,47 +13030,26 @@
       "intended_contracts": 2,
       "status": "skipped_already_held",
       "note": ""
-    }
-  ],
-  "updated_at": "2026-09-19T20:40:22.710474Z",
-  "env": "demo",
-  "prod_edge_observations": [
-    {
-      "t": "2026-09-19T10:10:21.056021Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20WASDAL-WAS",
-      "title": "Washington wins",
-      "event_ticker": "KXNFLGAME-26SEP20WASDAL",
-      "fair_prob": 0.343,
-      "market_price": 0.35,
-      "market_bid": 0.34,
-      "edge": -0.007,
-      "volume_fp": "202635.05"
     },
     {
-      "t": "2026-09-19T10:10:21.056101Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20WASDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26SEP20WASDAL",
-      "fair_prob": 0.657,
-      "market_price": 0.66,
-      "market_bid": 0.65,
-      "edge": -0.003,
-      "volume_fp": "150680.69"
-    },
-    {
-      "t": "2026-09-19T10:10:21.056183Z",
-      "category": "sports",
+      "t": "2026-09-19T20:50:14.025603Z",
       "ticker": "KXNFLGAME-26SEP20MIASF-SF",
       "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26SEP20MIASF",
+      "side": "no",
       "fair_prob": 0.863,
-      "market_price": 0.9,
-      "market_bid": 0.89,
-      "edge": -0.037,
-      "volume_fp": "422468.15"
-    },
+      "market_price": 0.97,
+      "edge": -0.107,
+      "dollars": 0.27,
+      "contracts": 2,
+      "intended_dollars": 0.27,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    }
+  ],
+  "updated_at": "2026-09-19T20:50:24.693443Z",
+  "env": "demo",
+  "prod_edge_observations": [
     {
       "t": "2026-09-19T10:10:21.056263Z",
       "category": "sports",
@@ -37043,6 +37013,42 @@
       "market_bid": 0.75,
       "edge": -0.026,
       "volume_fp": "1157010.99"
+    },
+    {
+      "t": "2026-09-19T20:50:19.960083Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP20-T78",
+      "title": "Will the maximum temperature be >78\u00b0 on Sep 20, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP20",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "1048.00"
+    },
+    {
+      "t": "2026-09-19T20:50:21.411751Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP20-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Sep 20, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP20",
+      "fair_prob": 0.023,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.003,
+      "volume_fp": "667.14"
+    },
+    {
+      "t": "2026-09-19T20:50:22.363496Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP20-T104",
+      "title": "Will the maximum temperature be >104\u00b0 on Sep 20, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP20",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "381.00"
     }
   ]
 }
