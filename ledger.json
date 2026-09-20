@@ -6615,22 +6615,13 @@
     {
       "t": "2026-09-20T00:40:22.680928Z",
       "dollars": 18.03
+    },
+    {
+      "t": "2026-09-20T00:50:19.217721Z",
+      "dollars": 18.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-12T16:10:12.796528Z",
-      "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
-      "title": "Philadelphia wins",
-      "side": "no",
-      "fair_prob": 0.68,
-      "market_price": 0.71,
-      "edge": -0.03,
-      "dollars": 2.12,
-      "contracts": 7,
-      "status": "accepted_zero_fill",
-      "note": "order_id=01a09662-3288-77cb-b1f8-c0c8e836d6a7"
-    },
     {
       "t": "2026-09-12T16:10:12.796528Z",
       "ticker": "KXNFLGAME-26SEP20PITNE-PIT",
@@ -13159,9 +13150,24 @@
       "intended_contracts": 2,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-20T00:50:08.954252Z",
+      "ticker": "KXNFLGAME-26SEP20MIASF-SF",
+      "title": "San Francisco wins",
+      "side": "no",
+      "fair_prob": 0.868,
+      "market_price": 0.97,
+      "edge": -0.102,
+      "dollars": 0.22,
+      "contracts": 2,
+      "intended_dollars": 0.22,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-20T00:40:22.681187Z",
+  "updated_at": "2026-09-20T00:50:19.218127Z",
   "env": "demo",
   "prod_edge_observations": [
     {
