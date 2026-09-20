@@ -6967,6 +6967,10 @@
     {
       "t": "2026-09-20T15:20:13.666137Z",
       "dollars": 18.03
+    },
+    {
+      "t": "2026-09-20T15:30:34.159001Z",
+      "dollars": 18.03
     }
   ],
   "decisions": [
@@ -13539,45 +13543,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-20T15:20:13.666302Z",
+  "updated_at": "2026-09-20T15:30:34.159096Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-20T04:10:22.731117Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PHITEN-TEN",
-      "title": "Tennessee wins",
-      "event_ticker": "KXNFLGAME-26SEP20PHITEN",
-      "fair_prob": 0.266,
-      "market_price": 0.25,
-      "market_bid": 0.24,
-      "edge": 0.016,
-      "volume_fp": "231766.61"
-    },
-    {
-      "t": "2026-09-20T04:10:22.731216Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20PHITEN-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26SEP20PHITEN",
-      "fair_prob": 0.734,
-      "market_price": 0.76,
-      "market_bid": 0.75,
-      "edge": -0.026,
-      "volume_fp": "1323073.79"
-    },
-    {
-      "t": "2026-09-20T04:20:22.029360Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP28PHICHI-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26SEP28PHICHI",
-      "fair_prob": 0.483,
-      "market_price": 0.48,
-      "market_bid": 0.47,
-      "edge": 0.003,
-      "volume_fp": "5425.94"
-    },
     {
       "t": "2026-09-20T04:20:22.029566Z",
       "category": "sports",
@@ -37532,6 +37500,42 @@
     },
     {
       "t": "2026-09-20T15:20:11.321054Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP21-T102",
+      "title": "Will the maximum temperature be >102\u00b0 on Sep 21, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP21",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.0,
+      "edge": 0.232,
+      "volume_fp": "1005.00"
+    },
+    {
+      "t": "2026-09-20T15:30:28.837314Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP21-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Sep 21, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP21",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "662.60"
+    },
+    {
+      "t": "2026-09-20T15:30:30.281339Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP21-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Sep 21, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP21",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "418.60"
+    },
+    {
+      "t": "2026-09-20T15:30:31.253284Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP21-T102",
       "title": "Will the maximum temperature be >102\u00b0 on Sep 21, 2026?",
