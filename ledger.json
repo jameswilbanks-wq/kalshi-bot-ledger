@@ -7595,6 +7595,10 @@
     {
       "t": "2026-09-21T17:30:20.308212Z",
       "dollars": 79.31
+    },
+    {
+      "t": "2026-09-21T17:40:17.204004Z",
+      "dollars": 79.31
     }
   ],
   "decisions": [
@@ -14189,33 +14193,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-21T17:30:20.308306Z",
+  "updated_at": "2026-09-21T17:40:17.204127Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-20T22:10:20.387126Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27SEAWAS-SEA",
-      "title": "Seattle wins",
-      "event_ticker": "KXNFLGAME-26SEP27SEAWAS",
-      "fair_prob": 0.551,
-      "market_price": 0.73,
-      "market_bid": 0.72,
-      "edge": -0.179,
-      "volume_fp": "31284.91"
-    },
-    {
-      "t": "2026-09-20T22:10:20.387245Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27HOUIND-IND",
-      "title": "Indianapolis wins",
-      "event_ticker": "KXNFLGAME-26SEP27HOUIND",
-      "fair_prob": 0.449,
-      "market_price": 0.45,
-      "market_bid": 0.41,
-      "edge": -0.001,
-      "volume_fp": "1434.55"
-    },
     {
       "t": "2026-09-20T22:10:20.387361Z",
       "category": "sports",
@@ -38182,6 +38162,30 @@
     },
     {
       "t": "2026-09-21T17:30:17.209476Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP22-T102",
+      "title": "Will the maximum temperature be >102\u00b0 on Sep 22, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP22",
+      "fair_prob": 0.252,
+      "market_price": 0.04,
+      "market_bid": 0.01,
+      "edge": 0.212,
+      "volume_fp": "621.54"
+    },
+    {
+      "t": "2026-09-21T17:40:11.644099Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP22-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Sep 22, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP22",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "990.00"
+    },
+    {
+      "t": "2026-09-21T17:40:14.034382Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP22-T102",
       "title": "Will the maximum temperature be >102\u00b0 on Sep 22, 2026?",
