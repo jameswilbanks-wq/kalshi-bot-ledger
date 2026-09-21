@@ -7531,6 +7531,10 @@
     {
       "t": "2026-09-21T14:50:27.964684Z",
       "dollars": 79.31
+    },
+    {
+      "t": "2026-09-21T15:00:48.980156Z",
+      "dollars": 79.31
     }
   ],
   "decisions": [
@@ -14125,33 +14129,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-21T14:50:27.965066Z",
+  "updated_at": "2026-09-21T15:00:48.980434Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-20T20:20:24.264586Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20INDKC-KC",
-      "title": "Kansas City wins",
-      "event_ticker": "KXNFLGAME-26SEP20INDKC",
-      "fair_prob": 0.696,
-      "market_price": 0.72,
-      "market_bid": 0.71,
-      "edge": -0.024,
-      "volume_fp": "466518.64"
-    },
-    {
-      "t": "2026-09-20T20:20:24.264714Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP20INDKC-IND",
-      "title": "Indianapolis wins",
-      "event_ticker": "KXNFLGAME-26SEP20INDKC",
-      "fair_prob": 0.304,
-      "market_price": 0.29,
-      "market_bid": 0.28,
-      "edge": 0.014,
-      "volume_fp": "111833.95"
-    },
     {
       "t": "2026-09-20T20:20:24.264825Z",
       "category": "sports",
@@ -38127,6 +38107,30 @@
       "market_bid": 0.73,
       "edge": -0.026,
       "volume_fp": "790366.29"
+    },
+    {
+      "t": "2026-09-21T15:00:43.481300Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP22-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Sep 22, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP22",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "915.00"
+    },
+    {
+      "t": "2026-09-21T15:00:44.932292Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP22-T69",
+      "title": "Will the maximum temperature be >69\u00b0 on Sep 22, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP22",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "400.08"
     }
   ]
 }
