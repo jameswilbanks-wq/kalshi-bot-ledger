@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-08T22:30:20.390957Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-08T22:40:14.149447Z",
       "dollars": 50.0
     },
@@ -7999,113 +7995,13 @@
     {
       "t": "2026-09-22T20:30:20.636137Z",
       "dollars": 44.43
+    },
+    {
+      "t": "2026-09-22T20:40:32.432272Z",
+      "dollars": 44.43
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-15T18:30:09.333931Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.252,
-      "market_price": 0.12,
-      "edge": 0.132,
-      "dollars": 0.86,
-      "contracts": 7,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T18:40:13.375480Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.252,
-      "market_price": 0.12,
-      "edge": 0.132,
-      "dollars": 0.86,
-      "contracts": 7,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T18:50:07.272348Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.252,
-      "market_price": 0.12,
-      "edge": 0.132,
-      "dollars": 0.86,
-      "contracts": 7,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T19:00:22.178385Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.252,
-      "market_price": 0.12,
-      "edge": 0.132,
-      "dollars": 0.86,
-      "contracts": 7,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T19:10:08.067834Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.252,
-      "market_price": 0.13,
-      "edge": 0.122,
-      "dollars": 0.86,
-      "contracts": 6,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T19:20:08.105391Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.328,
-      "market_price": 0.13,
-      "edge": 0.198,
-      "dollars": 0.86,
-      "contracts": 6,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T19:30:09.299217Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.328,
-      "market_price": 0.13,
-      "edge": 0.198,
-      "dollars": 0.86,
-      "contracts": 6,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-15T19:40:16.038815Z",
-      "ticker": "KXHIGHNY-26SEP16-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Sep 16, 2026?",
-      "side": "yes",
-      "fair_prob": 0.328,
-      "market_price": 0.13,
-      "edge": 0.198,
-      "dollars": 0.86,
-      "contracts": 6,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-15T19:50:14.131653Z",
       "ticker": "KXHIGHNY-26SEP16-T82",
@@ -15335,35 +15231,131 @@
       "intended_contracts": 3,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04DALHOU-HOU",
+      "title": "Houston wins",
+      "side": "yes",
+      "fair_prob": 0.593,
+      "market_price": 0.49,
+      "edge": 0.103,
+      "dollars": 2.22,
+      "contracts": 4,
+      "intended_dollars": 2.22,
+      "intended_contracts": 4,
+      "status": "skipped_same_event",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04DALHOU-DAL",
+      "title": "Dallas wins",
+      "side": "no",
+      "fair_prob": 0.407,
+      "market_price": 0.53,
+      "edge": -0.123,
+      "dollars": 2.22,
+      "contracts": 4,
+      "intended_dollars": 2.22,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04GBTB-GB",
+      "title": "Green Bay wins",
+      "side": "no",
+      "fair_prob": 0.517,
+      "market_price": 0.63,
+      "edge": -0.113,
+      "dollars": 1.69,
+      "contracts": 3,
+      "intended_dollars": 1.69,
+      "intended_contracts": 3,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04LARPHI-PHI",
+      "title": "Philadelphia wins",
+      "side": "no",
+      "fair_prob": 0.468,
+      "market_price": 0.57,
+      "edge": -0.102,
+      "dollars": 1.84,
+      "contracts": 3,
+      "intended_dollars": 1.84,
+      "intended_contracts": 3,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04TENBAL-TEN",
+      "title": "Tennessee wins",
+      "side": "no",
+      "fair_prob": 0.178,
+      "market_price": 0.28,
+      "edge": -0.102,
+      "dollars": 2.22,
+      "contracts": 2,
+      "intended_dollars": 2.22,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04MIAMIN-MIN",
+      "title": "Minnesota wins",
+      "side": "yes",
+      "fair_prob": 0.847,
+      "market_price": 0.71,
+      "edge": 0.137,
+      "dollars": 2.22,
+      "contracts": 3,
+      "intended_dollars": 2.22,
+      "intended_contracts": 3,
+      "status": "skipped_same_event",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04MIAMIN-MIA",
+      "title": "Miami wins",
+      "side": "no",
+      "fair_prob": 0.153,
+      "market_price": 0.34,
+      "edge": -0.187,
+      "dollars": 2.22,
+      "contracts": 3,
+      "intended_dollars": 2.22,
+      "intended_contracts": 3,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-09-22T20:40:19.675498Z",
+      "ticker": "KXNFLGAME-26OCT04KCLV-LV",
+      "title": "Las Vegas wins",
+      "side": "no",
+      "fair_prob": 0.309,
+      "market_price": 0.43,
+      "edge": -0.121,
+      "dollars": 2.22,
+      "contracts": 3,
+      "intended_dollars": 2.22,
+      "intended_contracts": 3,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-22T20:30:20.636503Z",
+  "updated_at": "2026-09-22T20:40:32.432520Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-22T10:00:51.888767Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27LVNO-LV",
-      "title": "Las Vegas wins",
-      "event_ticker": "KXNFLGAME-26SEP27LVNO",
-      "fair_prob": 0.391,
-      "market_price": 0.39,
-      "market_bid": 0.38,
-      "edge": 0.001,
-      "volume_fp": "157040.68"
-    },
-    {
-      "t": "2026-09-22T10:00:51.888883Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27MINTB-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26SEP27MINTB",
-      "fair_prob": 0.474,
-      "market_price": 0.47,
-      "market_bid": 0.46,
-      "edge": 0.004,
-      "volume_fp": "25581.33"
-    },
     {
       "t": "2026-09-22T10:00:51.889017Z",
       "category": "sports",
@@ -39339,6 +39331,30 @@
       "market_bid": 0.28,
       "edge": -0.004,
       "volume_fp": "214373.11"
+    },
+    {
+      "t": "2026-09-22T20:40:27.057547Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP23-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Sep 23, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP23",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "897.33"
+    },
+    {
+      "t": "2026-09-22T20:40:29.508225Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP23-T103",
+      "title": "Will the maximum temperature be >103\u00b0 on Sep 23, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP23",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "392.33"
     }
   ]
 }
