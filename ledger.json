@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-08T17:10:09.101144Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-08T17:20:14.849700Z",
       "dollars": 50.0
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-09-22T15:10:23.591560Z",
       "dollars": 45.98
+    },
+    {
+      "t": "2026-09-22T15:20:14.080486Z",
+      "dollars": 45.98
     }
   ],
   "decisions": [
@@ -15013,33 +15013,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-22T15:10:23.591813Z",
+  "updated_at": "2026-09-22T15:20:14.080593Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-22T04:20:19.673075Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04DENSF-DEN",
-      "title": "Denver wins",
-      "event_ticker": "KXNFLGAME-26OCT04DENSF",
-      "fair_prob": 0.437,
-      "market_price": 0.75,
-      "market_bid": 0.23,
-      "edge": -0.313,
-      "volume_fp": "0.00"
-    },
-    {
-      "t": "2026-09-22T04:20:19.830169Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04LACSEA-SEA",
-      "title": "Seattle wins",
-      "event_ticker": "KXNFLGAME-26OCT04LACSEA",
-      "fair_prob": 0.609,
-      "market_price": 0.75,
-      "market_bid": 0.24,
-      "edge": -0.141,
-      "volume_fp": "0.00"
-    },
     {
       "t": "2026-09-22T04:20:19.830410Z",
       "category": "sports",
@@ -39006,6 +38982,30 @@
     },
     {
       "t": "2026-09-22T15:10:21.024641Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP23-T103",
+      "title": "Will the maximum temperature be >103\u00b0 on Sep 23, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP23",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "392.33"
+    },
+    {
+      "t": "2026-09-22T15:20:08.548512Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP23-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Sep 23, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP23",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "817.23"
+    },
+    {
+      "t": "2026-09-22T15:20:11.004896Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP23-T103",
       "title": "Will the maximum temperature be >103\u00b0 on Sep 23, 2026?",
