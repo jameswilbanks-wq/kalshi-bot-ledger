@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-09T19:00:34.752482Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-09T19:10:13.412968Z",
       "dollars": 50.0
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-09-23T17:00:24.837816Z",
       "dollars": 40.07
+    },
+    {
+      "t": "2026-09-23T17:10:27.545060Z",
+      "dollars": 40.07
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-23T17:00:24.838200Z",
+  "updated_at": "2026-09-23T17:10:27.545382Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-23T06:10:33.801669Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27MINTB-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26SEP27MINTB",
-      "fair_prob": 0.522,
-      "market_price": 0.53,
-      "market_bid": 0.52,
-      "edge": -0.008,
-      "volume_fp": "72647.80"
-    },
-    {
-      "t": "2026-09-23T06:10:33.801753Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27ARISF-SF",
-      "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26SEP27ARISF",
-      "fair_prob": 0.796,
-      "market_price": 0.79,
-      "market_bid": 0.78,
-      "edge": 0.006,
-      "volume_fp": "89841.90"
-    },
     {
       "t": "2026-09-23T06:10:33.801833Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.0,
       "edge": -0.02,
       "volume_fp": "6221.05"
+    },
+    {
+      "t": "2026-09-23T17:10:21.933462Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP24-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Sep 24, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP24",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "930.00"
+    },
+    {
+      "t": "2026-09-23T17:10:23.359118Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP24-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Sep 24, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP24",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "427.33"
     }
   ]
 }
