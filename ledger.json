@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-10T21:40:10.261005Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-10T21:50:10.273691Z",
       "dollars": 50.0
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-09-24T19:40:27.330953Z",
       "dollars": 40.07
+    },
+    {
+      "t": "2026-09-24T19:50:22.159826Z",
+      "dollars": 40.07
     }
   ],
   "decisions": [
@@ -15503,21 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-24T19:40:27.331055Z",
+  "updated_at": "2026-09-24T19:50:22.160051Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-24T08:40:18.633434Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP28PHICHI-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26SEP28PHICHI",
-      "fair_prob": 0.664,
-      "market_price": 0.7,
-      "market_bid": 0.68,
-      "edge": -0.036,
-      "volume_fp": "451719.98"
-    },
     {
       "t": "2026-09-24T08:40:18.633508Z",
       "category": "sports",
@@ -39505,6 +39493,18 @@
       "market_bid": 0.0,
       "edge": 0.242,
       "volume_fp": "376.20"
+    },
+    {
+      "t": "2026-09-24T19:50:18.236789Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP25-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Sep 25, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP25",
+      "fair_prob": 0.038,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.008,
+      "volume_fp": "1035.07"
     }
   ]
 }
