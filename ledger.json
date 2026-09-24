@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-10T19:00:39.274666Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-10T19:10:12.058070Z",
       "dollars": 50.0
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-09-24T17:00:15.126759Z",
       "dollars": 40.07
+    },
+    {
+      "t": "2026-09-24T17:10:24.761341Z",
+      "dollars": 40.07
     }
   ],
   "decisions": [
@@ -15503,57 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-09-24T17:00:15.126870Z",
+  "updated_at": "2026-09-24T17:10:24.761599Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-24T06:30:30.510571Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27MINTB-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26SEP27MINTB",
-      "fair_prob": 0.526,
-      "market_price": 0.53,
-      "market_bid": 0.52,
-      "edge": -0.004,
-      "volume_fp": "103783.21"
-    },
-    {
-      "t": "2026-09-24T06:30:30.510653Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27ARISF-SF",
-      "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26SEP27ARISF",
-      "fair_prob": 0.787,
-      "market_price": 0.79,
-      "market_bid": 0.78,
-      "edge": -0.003,
-      "volume_fp": "117592.96"
-    },
-    {
-      "t": "2026-09-24T06:30:30.510733Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27ARISF-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26SEP27ARISF",
-      "fair_prob": 0.213,
-      "market_price": 0.22,
-      "market_bid": 0.21,
-      "edge": -0.007,
-      "volume_fp": "66120.54"
-    },
-    {
-      "t": "2026-09-24T06:30:30.510812Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26SEP27CINPIT-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26SEP27CINPIT",
-      "fair_prob": 0.369,
-      "market_price": 0.38,
-      "market_bid": 0.37,
-      "edge": -0.011,
-      "volume_fp": "39491.39"
-    },
     {
       "t": "2026-09-24T06:30:30.510888Z",
       "category": "sports",
@@ -39505,6 +39457,54 @@
       "market_bid": 0.46,
       "edge": -0.58,
       "volume_fp": "2844.12"
+    },
+    {
+      "t": "2026-09-24T17:10:20.003969Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP25-T74",
+      "title": "Will the maximum temperature be >74\u00b0 on Sep 25, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP25",
+      "fair_prob": 0.133,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.103,
+      "volume_fp": "726.33"
+    },
+    {
+      "t": "2026-09-24T17:10:21.442550Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP25-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Sep 25, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP25",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "432.95"
+    },
+    {
+      "t": "2026-09-24T17:10:22.413148Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP25-T102",
+      "title": "Will the maximum temperature be >102\u00b0 on Sep 25, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP25",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "368.10"
+    },
+    {
+      "t": "2026-09-24T17:10:22.887291Z",
+      "category": "financial",
+      "ticker": "KXNASDAQDUD-26SEP24H1600-T30470.29",
+      "title": "Will the NASDAQ-100 be above 30470.29 on Sep 24, 2026 at 4pm EDT?",
+      "event_ticker": "KXNASDAQDUD-26SEP24H1600",
+      "fair_prob": 0.02,
+      "market_price": 0.9,
+      "market_bid": 0.51,
+      "edge": -0.88,
+      "volume_fp": "2888.68"
     }
   ]
 }
