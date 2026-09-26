@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-12T13:50:21.966234Z",
-      "dollars": 50.0
-    },
-    {
       "t": "2026-09-12T14:00:19.887900Z",
       "dollars": 50.0
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-09-26T12:20:27.461392Z",
       "dollars": 40.06
+    },
+    {
+      "t": "2026-09-26T12:30:51.402007Z",
+      "dollars": 40.06
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-22T18:50:12.438761Z",
-      "ticker": "KXNFLGAME-26OCT04INDWAS-WAS",
-      "title": "Washington wins",
-      "side": "yes",
-      "fair_prob": 0.517,
-      "market_price": 0.4,
-      "edge": 0.117,
-      "dollars": 2.29,
-      "contracts": 5,
-      "intended_dollars": 2.29,
-      "intended_contracts": 5,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-22T18:50:12.438761Z",
       "ticker": "KXNFLGAME-26OCT04INDWAS-IND",
@@ -15501,9 +15486,24 @@
       "intended_contracts": 1,
       "status": "skipped_same_event",
       "note": ""
+    },
+    {
+      "t": "2026-09-26T12:30:26.546240Z",
+      "ticker": "KXNFLGAME-26OCT04TENBAL-BAL",
+      "title": "Baltimore wins",
+      "side": "no",
+      "fair_prob": 0.817,
+      "market_price": 0.91,
+      "edge": -0.093,
+      "dollars": 0.3,
+      "contracts": 1,
+      "intended_dollars": 0.3,
+      "intended_contracts": 1,
+      "status": "skipped_same_event",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-26T12:20:27.461516Z",
+  "updated_at": "2026-09-26T12:30:51.402290Z",
   "env": "demo",
   "prod_edge_observations": [
     {
