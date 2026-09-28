@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-14T22:50:20.356859Z",
-      "dollars": 17.29
-    },
-    {
       "t": "2026-09-14T23:00:15.065300Z",
       "dollars": 17.29
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-09-28T22:50:27.961552Z",
       "dollars": 41.52
+    },
+    {
+      "t": "2026-09-28T23:00:27.014175Z",
+      "dollars": 41.52
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": "order_id=01a0e86c-6508-7fec-b9bf-7375624b9e50"
     }
   ],
-  "updated_at": "2026-09-28T22:50:27.961817Z",
+  "updated_at": "2026-09-28T23:00:27.014406Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-28T02:40:18.803997Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04ARINYG-NYG",
-      "title": "New York G wins",
-      "event_ticker": "KXNFLGAME-26OCT04ARINYG",
-      "fair_prob": 0.526,
-      "market_price": 0.53,
-      "market_bid": 0.52,
-      "edge": -0.004,
-      "volume_fp": "5390.99"
-    },
-    {
-      "t": "2026-09-28T02:40:18.804074Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04ARINYG-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26OCT04ARINYG",
-      "fair_prob": 0.474,
-      "market_price": 0.48,
-      "market_bid": 0.47,
-      "edge": -0.006,
-      "volume_fp": "15362.16"
-    },
     {
       "t": "2026-09-28T02:40:18.804146Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.36,
       "edge": -0.007,
       "volume_fp": "1939808.27"
+    },
+    {
+      "t": "2026-09-28T23:00:22.296980Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP29-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Sep 29, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP29",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "1727.00"
+    },
+    {
+      "t": "2026-09-28T23:00:24.661337Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP29-T100",
+      "title": "Will the maximum temperature be >100\u00b0 on Sep 29, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP29",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "367.17"
     }
   ]
 }
