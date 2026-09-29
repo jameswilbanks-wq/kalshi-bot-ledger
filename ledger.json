@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-15T18:30:33.863014Z",
-      "dollars": 17.34
-    },
-    {
       "t": "2026-09-15T18:40:38.475938Z",
       "dollars": 17.34
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-09-29T18:50:28.357746Z",
       "dollars": 24.02
+    },
+    {
+      "t": "2026-09-29T19:00:47.039867Z",
+      "dollars": 24.02
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-25T02:20:13.784861Z",
-      "ticker": "KXNFLGAME-26OCT04TENBAL-BAL",
-      "title": "Baltimore wins",
-      "side": "no",
-      "fair_prob": 0.822,
-      "market_price": 0.91,
-      "edge": -0.088,
-      "dollars": 0.18,
-      "contracts": 1,
-      "intended_dollars": 0.18,
-      "intended_contracts": 1,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-09-25T02:20:13.784861Z",
       "ticker": "KXNFLGAME-26OCT04LACSEA-SEA",
@@ -15501,47 +15486,26 @@
       "intended_contracts": 3,
       "status": "skipped_same_event",
       "note": ""
+    },
+    {
+      "t": "2026-09-29T19:00:40.516240Z",
+      "ticker": "KXHIGHNY-26SEP30-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 30, 2026?",
+      "side": "yes",
+      "fair_prob": 0.187,
+      "market_price": 0.09,
+      "edge": 0.097,
+      "dollars": 1.17,
+      "contracts": 13.0,
+      "intended_dollars": 1.2,
+      "intended_contracts": 13,
+      "status": "executed",
+      "note": "order_id=01a0ee8a-5bc0-713a-9cac-2f3b128adfc4 fill_count=13.0"
     }
   ],
-  "updated_at": "2026-09-29T18:50:28.357879Z",
+  "updated_at": "2026-09-29T19:00:47.040470Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-29T08:20:26.402958Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11SFSEA-SEA",
-      "title": "Seattle wins",
-      "event_ticker": "KXNFLGAME-26OCT11SFSEA",
-      "fair_prob": 0.645,
-      "market_price": 0.61,
-      "market_bid": 0.42,
-      "edge": 0.035,
-      "volume_fp": "0.00"
-    },
-    {
-      "t": "2026-09-29T08:20:26.403067Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "event_ticker": "KXNFLGAME-26OCT11DETARI",
-      "fair_prob": 0.766,
-      "market_price": 0.72,
-      "market_bid": 0.64,
-      "edge": 0.046,
-      "volume_fp": "1.00"
-    },
-    {
-      "t": "2026-09-29T08:20:26.403170Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DETARI-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26OCT11DETARI",
-      "fair_prob": 0.234,
-      "market_price": 0.38,
-      "market_bid": 0.24,
-      "edge": -0.146,
-      "volume_fp": "0.00"
-    },
     {
       "t": "2026-09-29T08:20:26.403294Z",
       "category": "sports",
@@ -39505,6 +39469,42 @@
       "market_bid": 0.42,
       "edge": -0.002,
       "volume_fp": "125443.22"
+    },
+    {
+      "t": "2026-09-29T19:00:41.619981Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP30-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP30",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "1571.00"
+    },
+    {
+      "t": "2026-09-29T19:00:43.048597Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP30-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP30",
+      "fair_prob": 0.023,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.003,
+      "volume_fp": "351.52"
+    },
+    {
+      "t": "2026-09-29T19:00:44.021872Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP30-T100",
+      "title": "Will the maximum temperature be >100\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP30",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "352.52"
     }
   ]
 }
