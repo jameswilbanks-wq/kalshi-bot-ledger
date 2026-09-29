@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-15T18:40:38.475938Z",
-      "dollars": 17.34
-    },
-    {
       "t": "2026-09-15T18:50:32.218789Z",
       "dollars": 17.34
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-09-29T19:00:47.039867Z",
       "dollars": 24.02
+    },
+    {
+      "t": "2026-09-29T19:10:15.941600Z",
+      "dollars": 22.88
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-25T02:20:13.784861Z",
-      "ticker": "KXNFLGAME-26OCT04LACSEA-SEA",
-      "title": "Seattle wins",
-      "side": "no",
-      "fair_prob": 0.71,
-      "market_price": 0.8,
-      "edge": -0.09,
-      "dollars": 0.29,
-      "contracts": 1,
-      "intended_dollars": 0.29,
-      "intended_contracts": 1,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-25T02:30:28.974665Z",
       "ticker": "KXNFLGAME-26OCT04TENBAL-BAL",
@@ -15501,47 +15486,26 @@
       "intended_contracts": 13,
       "status": "executed",
       "note": "order_id=01a0ee8a-5bc0-713a-9cac-2f3b128adfc4 fill_count=13.0"
+    },
+    {
+      "t": "2026-09-29T19:10:09.249058Z",
+      "ticker": "KXHIGHNY-26SEP30-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 30, 2026?",
+      "side": "yes",
+      "fair_prob": 0.187,
+      "market_price": 0.08,
+      "edge": 0.107,
+      "dollars": 1.14,
+      "contracts": 14,
+      "intended_dollars": 1.14,
+      "intended_contracts": 14,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-29T19:00:47.040470Z",
+  "updated_at": "2026-09-29T19:10:15.941832Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-29T08:20:26.403294Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DENLAC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26OCT11DENLAC",
-      "fair_prob": 0.563,
-      "market_price": 0.52,
-      "market_bid": 0.36,
-      "edge": 0.043,
-      "volume_fp": "0.00"
-    },
-    {
-      "t": "2026-09-29T08:20:26.403407Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DENLAC-DEN",
-      "title": "Denver wins",
-      "event_ticker": "KXNFLGAME-26OCT11DENLAC",
-      "fair_prob": 0.437,
-      "market_price": 0.61,
-      "market_bid": 0.5,
-      "edge": -0.173,
-      "volume_fp": "64.21"
-    },
-    {
-      "t": "2026-09-29T08:20:26.403531Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11NYGWAS-WAS",
-      "title": "Washington wins",
-      "event_ticker": "KXNFLGAME-26OCT11NYGWAS",
-      "fair_prob": 0.543,
-      "market_price": 0.68,
-      "market_bid": 0.35,
-      "edge": -0.137,
-      "volume_fp": "0.00"
-    },
     {
       "t": "2026-09-29T08:20:26.403651Z",
       "category": "sports",
@@ -39496,6 +39460,42 @@
     },
     {
       "t": "2026-09-29T19:00:44.021872Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26SEP30-T100",
+      "title": "Will the maximum temperature be >100\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHAUS-26SEP30",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "352.52"
+    },
+    {
+      "t": "2026-09-29T19:10:10.522471Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26SEP30-T79",
+      "title": "Will the maximum temperature be >79\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHNY-26SEP30",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "1571.00"
+    },
+    {
+      "t": "2026-09-29T19:10:11.979782Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26SEP30-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Sep 30, 2026?",
+      "event_ticker": "KXHIGHCHI-26SEP30",
+      "fair_prob": 0.023,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.003,
+      "volume_fp": "351.52"
+    },
+    {
+      "t": "2026-09-29T19:10:12.942089Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26SEP30-T100",
       "title": "Will the maximum temperature be >100\u00b0 on Sep 30, 2026?",
