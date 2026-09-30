@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-16T18:50:41.423684Z",
-      "dollars": 10.73
-    },
-    {
       "t": "2026-09-16T19:00:39.632902Z",
       "dollars": 10.73
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-09-30T19:10:20.860146Z",
       "dollars": 20.03
+    },
+    {
+      "t": "2026-09-30T19:20:15.674874Z",
+      "dollars": 20.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T16:30:16.671482Z",
-      "ticker": "KXNFLGAME-26OCT11DENLAC-DEN",
-      "title": "Denver wins",
-      "side": "no",
-      "fair_prob": 0.437,
-      "market_price": 0.55,
-      "edge": -0.113,
-      "dollars": 1.2,
-      "contracts": 2,
-      "intended_dollars": 1.2,
-      "intended_contracts": 2,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-29T16:30:16.671482Z",
       "ticker": "KXNFLGAME-26OCT11HOUTEN-TEN",
@@ -15501,35 +15486,26 @@
       "intended_contracts": 6,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-09-30T19:20:08.627151Z",
+      "ticker": "KXHIGHCHI-26OCT01-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Oct 1, 2026?",
+      "side": "no",
+      "fair_prob": 0.187,
+      "market_price": 0.36,
+      "edge": -0.173,
+      "dollars": 0.79,
+      "contracts": 1.0,
+      "intended_dollars": 1.0,
+      "intended_contracts": 1,
+      "status": "executed",
+      "note": "order_id=01a0f3c2-8e28-743f-9b99-88d5d2047675 fill_count=1.0"
     }
   ],
-  "updated_at": "2026-09-30T19:10:20.860389Z",
+  "updated_at": "2026-09-30T19:20:15.675217Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-30T08:00:53.018171Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "event_ticker": "KXNFLGAME-26OCT11DETARI",
-      "fair_prob": 0.681,
-      "market_price": 0.69,
-      "market_bid": 0.66,
-      "edge": -0.009,
-      "volume_fp": "4288.43"
-    },
-    {
-      "t": "2026-09-30T08:00:53.018292Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DETARI-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26OCT11DETARI",
-      "fair_prob": 0.319,
-      "market_price": 0.33,
-      "market_bid": 0.3,
-      "edge": -0.011,
-      "volume_fp": "2670.92"
-    },
     {
       "t": "2026-09-30T08:00:53.018414Z",
       "category": "sports",
@@ -39496,6 +39472,30 @@
     },
     {
       "t": "2026-09-30T19:10:17.336612Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT01-T94",
+      "title": "Will the maximum temperature be >94\u00b0 on Oct 1, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT01",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "92.34"
+    },
+    {
+      "t": "2026-09-30T19:20:11.431792Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT01-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Oct 1, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT01",
+      "fair_prob": 0.187,
+      "market_price": 0.44,
+      "market_bid": 0.43,
+      "edge": -0.253,
+      "volume_fp": "3954.13"
+    },
+    {
+      "t": "2026-09-30T19:20:12.388806Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT01-T94",
       "title": "Will the maximum temperature be >94\u00b0 on Oct 1, 2026?",
