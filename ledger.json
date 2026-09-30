@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-16T15:20:22.832253Z",
-      "dollars": 10.73
-    },
-    {
       "t": "2026-09-16T15:30:22.015185Z",
       "dollars": 10.73
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-09-30T15:40:19.803928Z",
       "dollars": 20.03
+    },
+    {
+      "t": "2026-09-30T15:50:19.421536Z",
+      "dollars": 20.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T16:20:17.559231Z",
-      "ticker": "KXNFLGAME-26OCT11CHIGB-CHI",
-      "title": "Chicago wins",
-      "side": "no",
-      "fair_prob": 0.4,
-      "market_price": 0.52,
-      "edge": -0.12,
-      "dollars": 1.2,
-      "contracts": 2,
-      "intended_dollars": 1.2,
-      "intended_contracts": 2,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-29T16:20:17.559231Z",
       "ticker": "KXNFLGAME-26OCT11SFSEA-SF",
@@ -15501,47 +15486,26 @@
       "intended_contracts": 6,
       "status": "executed",
       "note": "order_id=01a0f2c2-5468-7b70-8552-40be21507b62 fill_count=2.0"
+    },
+    {
+      "t": "2026-09-30T15:50:12.925105Z",
+      "ticker": "KXHIGHAUS-26OCT01-T94",
+      "title": "Will the maximum temperature be >94\u00b0 on Oct 1, 2026?",
+      "side": "yes",
+      "fair_prob": 0.252,
+      "market_price": 0.16,
+      "edge": 0.092,
+      "dollars": 1.0,
+      "contracts": 6,
+      "intended_dollars": 1.0,
+      "intended_contracts": 6,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-09-30T15:40:19.804264Z",
+  "updated_at": "2026-09-30T15:50:19.421652Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-09-30T04:10:26.785190Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT12BUFLAR-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26OCT12BUFLAR",
-      "fair_prob": 0.457,
-      "market_price": 0.48,
-      "market_bid": 0.44,
-      "edge": -0.023,
-      "volume_fp": "1001.68"
-    },
-    {
-      "t": "2026-09-30T04:10:26.785326Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11BALATL-BAL",
-      "title": "Baltimore wins",
-      "event_ticker": "KXNFLGAME-26OCT11BALATL",
-      "fair_prob": 0.705,
-      "market_price": 0.75,
-      "market_bid": 0.74,
-      "edge": -0.045,
-      "volume_fp": "10478.25"
-    },
-    {
-      "t": "2026-09-30T04:10:26.785420Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
-      "title": "Atlanta wins",
-      "event_ticker": "KXNFLGAME-26OCT11BALATL",
-      "fair_prob": 0.295,
-      "market_price": 0.27,
-      "market_bid": 0.26,
-      "edge": 0.025,
-      "volume_fp": "13984.95"
-    },
     {
       "t": "2026-09-30T04:10:26.785515Z",
       "category": "sports",
@@ -39496,6 +39460,42 @@
     },
     {
       "t": "2026-09-30T15:40:16.857169Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT01-T94",
+      "title": "Will the maximum temperature be >94\u00b0 on Oct 1, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT01",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "61.23"
+    },
+    {
+      "t": "2026-09-30T15:50:13.935157Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT01-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Oct 1, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT01",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "1533.00"
+    },
+    {
+      "t": "2026-09-30T15:50:15.385223Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT01-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Oct 1, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT01",
+      "fair_prob": 0.091,
+      "market_price": 0.3,
+      "market_bid": 0.26,
+      "edge": -0.209,
+      "volume_fp": "1772.12"
+    },
+    {
+      "t": "2026-09-30T15:50:16.357555Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT01-T94",
       "title": "Will the maximum temperature be >94\u00b0 on Oct 1, 2026?",
