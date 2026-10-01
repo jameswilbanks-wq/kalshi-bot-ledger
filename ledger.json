@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-17T14:40:30.856483Z",
-      "dollars": 9.79
-    },
-    {
       "t": "2026-09-17T14:50:24.563965Z",
       "dollars": 9.79
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-01T15:00:37.270864Z",
       "dollars": 19.23
+    },
+    {
+      "t": "2026-10-01T15:10:29.810412Z",
+      "dollars": 19.23
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-01T15:00:37.271088Z",
+  "updated_at": "2026-10-01T15:10:29.810645Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-01T04:00:18.878681Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT01PITCLE-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26OCT01PITCLE",
-      "fair_prob": 0.576,
-      "market_price": 0.58,
-      "market_bid": 0.57,
-      "edge": -0.004,
-      "volume_fp": "442675.63"
-    },
-    {
-      "t": "2026-10-01T04:00:18.878735Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT01PITCLE-CLE",
-      "title": "Cleveland wins",
-      "event_ticker": "KXNFLGAME-26OCT01PITCLE",
-      "fair_prob": 0.424,
-      "market_price": 0.43,
-      "market_bid": 0.42,
-      "edge": -0.006,
-      "volume_fp": "386414.28"
-    },
     {
       "t": "2026-10-01T04:10:18.556694Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.03,
       "edge": 0.212,
       "volume_fp": "342.10"
+    },
+    {
+      "t": "2026-10-01T15:10:24.188642Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT02-T88",
+      "title": "Will the maximum temperature be >88\u00b0 on Oct 2, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT02",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "619.32"
+    },
+    {
+      "t": "2026-10-01T15:10:25.771070Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT02-T68",
+      "title": "Will the maximum temperature be >68\u00b0 on Oct 2, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT02",
+      "fair_prob": 0.06,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.04,
+      "volume_fp": "243.20"
     }
   ]
 }
