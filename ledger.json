@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-18T01:50:15.174455Z",
-      "dollars": 6.03
-    },
-    {
       "t": "2026-09-18T02:00:18.075824Z",
       "dollars": 6.03
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-10-02T02:10:17.473725Z",
       "dollars": 19.23
+    },
+    {
+      "t": "2026-10-02T02:20:22.933748Z",
+      "dollars": 19.23
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T16:30:16.671482Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "yes",
-      "fair_prob": 0.766,
-      "market_price": 0.52,
-      "edge": 0.246,
-      "dollars": 1.2,
-      "contracts": 2,
-      "intended_dollars": 1.2,
-      "intended_contracts": 2,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-29T16:30:16.671482Z",
       "ticker": "KXNFLGAME-26OCT11DETARI-ARI",
@@ -15501,9 +15486,24 @@
       "intended_contracts": 2,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-10-02T02:20:16.349749Z",
+      "ticker": "KXNFLGAME-26OCT01PITCLE-CLE",
+      "title": "Cleveland wins",
+      "side": "yes",
+      "fair_prob": 0.766,
+      "market_price": 0.43,
+      "edge": 0.336,
+      "dollars": 0.96,
+      "contracts": 2,
+      "intended_dollars": 0.96,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-02T02:10:17.474095Z",
+  "updated_at": "2026-10-02T02:20:22.933961Z",
   "env": "demo",
   "prod_edge_observations": [
     {
