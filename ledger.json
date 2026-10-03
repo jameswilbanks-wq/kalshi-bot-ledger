@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-19T15:40:22.078429Z",
-      "dollars": 18.03
-    },
-    {
       "t": "2026-09-19T15:50:21.205450Z",
       "dollars": 18.03
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-03T15:40:16.589321Z",
       "dollars": 20.23
+    },
+    {
+      "t": "2026-10-03T15:50:15.367931Z",
+      "dollars": 20.23
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-03T15:40:16.589599Z",
+  "updated_at": "2026-10-03T15:50:15.368152Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-03T02:30:27.167360Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DETARI-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26OCT11DETARI",
-      "fair_prob": 0.32,
-      "market_price": 0.33,
-      "market_bid": 0.3,
-      "edge": -0.01,
-      "volume_fp": "3320.89"
-    },
-    {
-      "t": "2026-10-03T02:30:27.167412Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11DENLAC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26OCT11DENLAC",
-      "fair_prob": 0.458,
-      "market_price": 0.47,
-      "market_bid": 0.44,
-      "edge": -0.012,
-      "volume_fp": "774.71"
-    },
     {
       "t": "2026-10-03T02:30:27.167463Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.01,
       "edge": 0.167,
       "volume_fp": "80.18"
+    },
+    {
+      "t": "2026-10-03T15:50:10.176737Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT04-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Oct 4, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT04",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "780.50"
+    },
+    {
+      "t": "2026-10-03T15:50:11.993403Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT04-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Oct 4, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT04",
+      "fair_prob": 0.038,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.018,
+      "volume_fp": "136.09"
     }
   ]
 }
