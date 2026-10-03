@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-19T19:40:19.260371Z",
-      "dollars": 18.03
-    },
-    {
       "t": "2026-09-19T19:50:17.444388Z",
       "dollars": 18.03
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-03T19:40:27.005168Z",
       "dollars": 20.23
+    },
+    {
+      "t": "2026-10-03T19:50:21.226728Z",
+      "dollars": 20.23
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-03T19:40:27.005419Z",
+  "updated_at": "2026-10-03T19:50:21.227067Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-03T06:40:20.044841Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11MINNO-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26OCT11MINNO",
-      "fair_prob": 0.55,
-      "market_price": 0.54,
-      "market_bid": 0.52,
-      "edge": 0.01,
-      "volume_fp": "5935.56"
-    },
-    {
-      "t": "2026-10-03T06:40:20.044909Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT08TBDAL-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT08TBDAL",
-      "fair_prob": 0.197,
-      "market_price": 0.2,
-      "market_bid": 0.19,
-      "edge": -0.003,
-      "volume_fp": "22899.83"
-    },
     {
       "t": "2026-10-03T06:40:20.044950Z",
       "category": "sports",
@@ -39496,6 +39472,30 @@
     },
     {
       "t": "2026-10-03T19:40:24.012203Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT04-T87",
+      "title": "Will the maximum temperature be >87\u00b0 on Oct 4, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT04",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "311.63"
+    },
+    {
+      "t": "2026-10-03T19:50:15.912917Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT04-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Oct 4, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT04",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "841.50"
+    },
+    {
+      "t": "2026-10-03T19:50:18.499375Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT04-T87",
       "title": "Will the maximum temperature be >87\u00b0 on Oct 4, 2026?",
