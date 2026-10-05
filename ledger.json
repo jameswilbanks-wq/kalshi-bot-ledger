@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-21T02:10:17.520338Z",
-      "dollars": 17.31
-    },
-    {
       "t": "2026-09-21T02:20:20.441700Z",
       "dollars": 17.31
     },
@@ -7999,39 +7995,13 @@
     {
       "t": "2026-10-05T02:20:25.061486Z",
       "dollars": 50.34
+    },
+    {
+      "t": "2026-10-05T02:30:21.553840Z",
+      "dollars": 50.34
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T18:50:15.491409Z",
-      "ticker": "KXNFLGAME-26OCT11HOUTEN-TEN",
-      "title": "Tennessee wins",
-      "side": "no",
-      "fair_prob": 0.378,
-      "market_price": 0.48,
-      "edge": -0.102,
-      "dollars": 1.2,
-      "contracts": 2,
-      "intended_dollars": 1.2,
-      "intended_contracts": 2,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-29T18:50:15.491409Z",
-      "ticker": "KXNFLGAME-26OCT11HOUTEN-HOU",
-      "title": "Houston wins",
-      "side": "yes",
-      "fair_prob": 0.622,
-      "market_price": 0.54,
-      "edge": 0.082,
-      "dollars": 1.2,
-      "contracts": 2,
-      "intended_dollars": 1.2,
-      "intended_contracts": 2,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-09-29T18:50:15.491409Z",
       "ticker": "KXNFLGAME-26OCT11INDPIT-IND",
@@ -15501,9 +15471,39 @@
       "intended_contracts": 7,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-10-05T02:30:14.957029Z",
+      "ticker": "KXNFLGAME-26OCT04DETCAR-DET",
+      "title": "Detroit wins",
+      "side": "no",
+      "fair_prob": 0.433,
+      "market_price": 0.67,
+      "edge": -0.237,
+      "dollars": 2.51,
+      "contracts": 7,
+      "intended_dollars": 2.51,
+      "intended_contracts": 7,
+      "status": "skipped_same_event",
+      "note": ""
+    },
+    {
+      "t": "2026-10-05T02:30:14.957029Z",
+      "ticker": "KXNFLGAME-26OCT04DETCAR-CAR",
+      "title": "Carolina wins",
+      "side": "yes",
+      "fair_prob": 0.567,
+      "market_price": 0.35,
+      "edge": 0.217,
+      "dollars": 2.51,
+      "contracts": 7,
+      "intended_dollars": 2.51,
+      "intended_contracts": 7,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-05T02:20:25.061741Z",
+  "updated_at": "2026-10-05T02:30:21.554063Z",
   "env": "demo",
   "prod_edge_observations": [
     {
