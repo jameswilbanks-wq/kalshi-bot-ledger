@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-21T15:10:22.467371Z",
-      "dollars": 79.31
-    },
-    {
       "t": "2026-09-21T15:20:30.041363Z",
       "dollars": 79.31
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-05T15:20:31.490781Z",
       "dollars": 50.34
+    },
+    {
+      "t": "2026-10-05T15:30:39.897249Z",
+      "dollars": 50.34
     }
   ],
   "decisions": [
@@ -15503,45 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-05T15:20:31.491008Z",
+  "updated_at": "2026-10-05T15:30:39.897485Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-04T18:50:27.391793Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04GBTB-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT04GBTB",
-      "fair_prob": 0.136,
-      "market_price": 0.11,
-      "market_bid": 0.1,
-      "edge": 0.026,
-      "volume_fp": "1633667.34"
-    },
-    {
-      "t": "2026-10-04T18:50:27.391835Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04GBTB-GB",
-      "title": "Green Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT04GBTB",
-      "fair_prob": 0.864,
-      "market_price": 0.9,
-      "market_bid": 0.89,
-      "edge": -0.036,
-      "volume_fp": "1922182.33"
-    },
-    {
-      "t": "2026-10-04T18:50:27.391892Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT04LARPHI-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26OCT04LARPHI",
-      "fair_prob": 0.671,
-      "market_price": 0.69,
-      "market_bid": 0.68,
-      "edge": -0.019,
-      "volume_fp": "4151406.93"
-    },
     {
       "t": "2026-10-04T18:50:27.391933Z",
       "category": "sports",
@@ -39505,6 +39469,42 @@
       "market_bid": 0.11,
       "edge": 0.132,
       "volume_fp": "174.00"
+    },
+    {
+      "t": "2026-10-05T15:30:33.959536Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT06-T70",
+      "title": "Will the maximum temperature be >70\u00b0 on Oct 6, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT06",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "707.00"
+    },
+    {
+      "t": "2026-10-05T15:30:35.585468Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT06-T77",
+      "title": "Will the maximum temperature be >77\u00b0 on Oct 6, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT06",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "293.24"
+    },
+    {
+      "t": "2026-10-05T15:30:36.655845Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT06-T89",
+      "title": "Will the maximum temperature be >89\u00b0 on Oct 6, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT06",
+      "fair_prob": 0.252,
+      "market_price": 0.14,
+      "market_bid": 0.13,
+      "edge": 0.112,
+      "volume_fp": "530.43"
     }
   ]
 }
