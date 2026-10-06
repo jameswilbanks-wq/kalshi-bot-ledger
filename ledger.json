@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-22T17:00:47.346197Z",
-      "dollars": 45.98
-    },
-    {
       "t": "2026-09-22T17:10:17.562284Z",
       "dollars": 45.98
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-06T17:20:33.455575Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-06T17:30:17.139758Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,21 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-06T17:20:33.455834Z",
+  "updated_at": "2026-10-06T17:30:17.140023Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-05T18:50:12.452705Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11INDPIT-PIT",
-      "title": "Pittsburgh wins",
-      "event_ticker": "KXNFLGAME-26OCT11INDPIT",
-      "fair_prob": 0.557,
-      "market_price": 0.57,
-      "market_bid": 0.56,
-      "edge": -0.013,
-      "volume_fp": "20724.16"
-    },
     {
       "t": "2026-10-05T18:50:12.452753Z",
       "category": "sports",
@@ -39505,6 +39493,18 @@
       "market_bid": 0.05,
       "edge": 0.192,
       "volume_fp": "555.80"
+    },
+    {
+      "t": "2026-10-06T17:30:11.511585Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT07-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 7, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT07",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "968.98"
     }
   ]
 }
