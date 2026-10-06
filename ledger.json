@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-22T15:00:14.199759Z",
-      "dollars": 45.98
-    },
-    {
       "t": "2026-09-22T15:10:23.591560Z",
       "dollars": 45.98
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-06T15:20:34.706685Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-06T15:30:16.850888Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-06T15:20:34.706934Z",
+  "updated_at": "2026-10-06T15:30:16.851146Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-05T16:50:13.355510Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT08TBDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26OCT08TBDAL",
-      "fair_prob": 0.809,
-      "market_price": 0.84,
-      "market_bid": 0.83,
-      "edge": -0.031,
-      "volume_fp": "87041.78"
-    },
-    {
-      "t": "2026-10-05T16:50:13.355555Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT05ATLNO-NO",
-      "title": "New Orleans wins",
-      "event_ticker": "KXNFLGAME-26OCT05ATLNO",
-      "fair_prob": 0.523,
-      "market_price": 0.53,
-      "market_bid": 0.52,
-      "edge": -0.007,
-      "volume_fp": "1031548.51"
-    },
     {
       "t": "2026-10-05T16:50:13.355589Z",
       "category": "sports",
@@ -39496,6 +39472,30 @@
     },
     {
       "t": "2026-10-06T15:20:31.697769Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT07-T92",
+      "title": "Will the maximum temperature be >92\u00b0 on Oct 7, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT07",
+      "fair_prob": 0.252,
+      "market_price": 0.06,
+      "market_bid": 0.04,
+      "edge": 0.192,
+      "volume_fp": "315.00"
+    },
+    {
+      "t": "2026-10-06T15:30:11.343890Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT07-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 7, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT07",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "908.98"
+    },
+    {
+      "t": "2026-10-06T15:30:13.879522Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT07-T92",
       "title": "Will the maximum temperature be >92\u00b0 on Oct 7, 2026?",
