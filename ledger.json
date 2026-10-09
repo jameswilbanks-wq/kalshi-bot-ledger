@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-25T14:10:19.174314Z",
-      "dollars": 40.07
-    },
-    {
       "t": "2026-09-25T14:20:25.232902Z",
       "dollars": 40.07
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-09T15:00:16.969541Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-09T15:10:30.777638Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-09T15:00:16.969836Z",
+  "updated_at": "2026-10-09T15:10:30.777730Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-09T02:00:19.014345Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT18LACKC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26OCT18LACKC",
-      "fair_prob": 0.24,
-      "market_price": 0.21,
-      "market_bid": 0.2,
-      "edge": 0.03,
-      "volume_fp": "3830.86"
-    },
-    {
-      "t": "2026-10-09T02:00:19.014445Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT18LACKC-KC",
-      "title": "Kansas City wins",
-      "event_ticker": "KXNFLGAME-26OCT18LACKC",
-      "fair_prob": 0.76,
-      "market_price": 0.81,
-      "market_bid": 0.8,
-      "edge": -0.05,
-      "volume_fp": "7590.20"
-    },
     {
       "t": "2026-10-09T02:00:19.014533Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.01,
       "edge": 0.167,
       "volume_fp": "305.44"
+    },
+    {
+      "t": "2026-10-09T15:10:25.807266Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT10-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 10, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT10",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "789.00"
+    },
+    {
+      "t": "2026-10-09T15:10:28.341815Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT10-T98",
+      "title": "Will the maximum temperature be >98\u00b0 on Oct 10, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT10",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "355.44"
     }
   ]
 }
