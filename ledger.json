@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-25T22:20:24.113014Z",
-      "dollars": 40.07
-    },
-    {
       "t": "2026-09-25T22:30:23.384075Z",
       "dollars": 40.07
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-09T23:20:27.424275Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-09T23:30:28.909868Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-09T23:20:27.424582Z",
+  "updated_at": "2026-10-09T23:30:28.910173Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-09T10:00:21.476362Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11CLENYJ-NYJ",
-      "title": "New York J wins",
-      "event_ticker": "KXNFLGAME-26OCT11CLENYJ",
-      "fair_prob": 0.551,
-      "market_price": 0.56,
-      "market_bid": 0.55,
-      "edge": -0.009,
-      "volume_fp": "27893.81"
-    },
-    {
-      "t": "2026-10-09T10:00:21.476465Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11CLENYJ-CLE",
-      "title": "Cleveland wins",
-      "event_ticker": "KXNFLGAME-26OCT11CLENYJ",
-      "fair_prob": 0.449,
-      "market_price": 0.45,
-      "market_bid": 0.44,
-      "edge": -0.001,
-      "volume_fp": "278886.41"
-    },
     {
       "t": "2026-10-09T10:00:21.476566Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.0,
       "edge": 0.123,
       "volume_fp": "387.00"
+    },
+    {
+      "t": "2026-10-09T23:30:23.181902Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT10-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 10, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT10",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "870.00"
+    },
+    {
+      "t": "2026-10-09T23:30:24.924984Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT10-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Oct 10, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT10",
+      "fair_prob": 0.06,
+      "market_price": 0.2,
+      "market_bid": 0.19,
+      "edge": -0.14,
+      "volume_fp": "2194.82"
     }
   ]
 }
