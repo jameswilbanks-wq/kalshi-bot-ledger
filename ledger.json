@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-26T15:00:27.848753Z",
-      "dollars": 40.06
-    },
-    {
       "t": "2026-09-26T15:20:19.527758Z",
       "dollars": 40.06
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-10T15:30:32.393221Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-10T15:40:23.925865Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,45 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-10T15:30:32.393309Z",
+  "updated_at": "2026-10-10T15:40:23.926058Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-09T23:40:13.394054Z",
-      "category": "weather",
-      "ticker": "KXHIGHCHI-26OCT10-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Oct 10, 2026?",
-      "event_ticker": "KXHIGHCHI-26OCT10",
-      "fair_prob": 0.06,
-      "market_price": 0.19,
-      "market_bid": 0.18,
-      "edge": -0.13,
-      "volume_fp": "2259.03"
-    },
-    {
-      "t": "2026-10-09T23:40:14.760023Z",
-      "category": "weather",
-      "ticker": "KXHIGHAUS-26OCT10-T98",
-      "title": "Will the maximum temperature be >98\u00b0 on Oct 10, 2026?",
-      "event_ticker": "KXHIGHAUS-26OCT10",
-      "fair_prob": 0.133,
-      "market_price": 0.01,
-      "market_bid": 0.0,
-      "edge": 0.123,
-      "volume_fp": "387.00"
-    },
-    {
-      "t": "2026-10-09T23:50:22.814957Z",
-      "category": "weather",
-      "ticker": "KXHIGHCHI-26OCT10-T82",
-      "title": "Will the maximum temperature be >82\u00b0 on Oct 10, 2026?",
-      "event_ticker": "KXHIGHCHI-26OCT10",
-      "fair_prob": 0.06,
-      "market_price": 0.19,
-      "market_bid": 0.18,
-      "edge": -0.13,
-      "volume_fp": "2259.03"
-    },
     {
       "t": "2026-10-09T23:50:24.469651Z",
       "category": "weather",
@@ -39496,6 +39460,42 @@
     },
     {
       "t": "2026-10-10T15:30:29.430471Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT11-T97",
+      "title": "Will the maximum temperature be >97\u00b0 on Oct 11, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT11",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "366.41"
+    },
+    {
+      "t": "2026-10-10T15:40:18.347998Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT11-T69",
+      "title": "Will the maximum temperature be >69\u00b0 on Oct 11, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT11",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "741.00"
+    },
+    {
+      "t": "2026-10-10T15:40:20.182982Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT11-T80",
+      "title": "Will the maximum temperature be >80\u00b0 on Oct 11, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT11",
+      "fair_prob": 0.023,
+      "market_price": 0.04,
+      "market_bid": 0.02,
+      "edge": -0.017,
+      "volume_fp": "121.74"
+    },
+    {
+      "t": "2026-10-10T15:40:21.434323Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT11-T97",
       "title": "Will the maximum temperature be >97\u00b0 on Oct 11, 2026?",
