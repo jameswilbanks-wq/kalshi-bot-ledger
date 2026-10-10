@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-26T15:20:19.527758Z",
-      "dollars": 40.06
-    },
-    {
       "t": "2026-09-26T15:30:35.993466Z",
       "dollars": 40.07
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-10T15:40:23.925865Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-10T15:50:21.769923Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-10T15:40:23.926058Z",
+  "updated_at": "2026-10-10T15:50:21.770025Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-09T23:50:24.469651Z",
-      "category": "weather",
-      "ticker": "KXHIGHAUS-26OCT10-T98",
-      "title": "Will the maximum temperature be >98\u00b0 on Oct 10, 2026?",
-      "event_ticker": "KXHIGHAUS-26OCT10",
-      "fair_prob": 0.133,
-      "market_price": 0.01,
-      "market_bid": 0.0,
-      "edge": 0.123,
-      "volume_fp": "387.00"
-    },
-    {
-      "t": "2026-10-10T00:00:27.063123Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT19WASSF-WAS",
-      "title": "Washington wins",
-      "event_ticker": "KXNFLGAME-26OCT19WASSF",
-      "fair_prob": 0.223,
-      "market_price": 0.23,
-      "market_bid": 0.21,
-      "edge": -0.007,
-      "volume_fp": "1901.60"
-    },
     {
       "t": "2026-10-10T00:00:27.063262Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.0,
       "edge": 0.177,
       "volume_fp": "366.41"
+    },
+    {
+      "t": "2026-10-10T15:50:16.606151Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT11-T69",
+      "title": "Will the maximum temperature be >69\u00b0 on Oct 11, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT11",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "741.00"
+    },
+    {
+      "t": "2026-10-10T15:50:18.278420Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT11-T80",
+      "title": "Will the maximum temperature be >80\u00b0 on Oct 11, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT11",
+      "fair_prob": 0.023,
+      "market_price": 0.04,
+      "market_bid": 0.02,
+      "edge": -0.017,
+      "volume_fp": "121.74"
     }
   ]
 }
