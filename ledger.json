@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-27T23:00:45.720050Z",
-      "dollars": 40.07
-    },
-    {
       "t": "2026-09-27T23:10:19.250299Z",
       "dollars": 32.16
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-11T21:30:31.450198Z",
       "dollars": 64.86
+    },
+    {
+      "t": "2026-10-11T21:40:29.761899Z",
+      "dollars": 64.86
     }
   ],
   "decisions": [
@@ -15503,21 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-11T21:30:31.450440Z",
+  "updated_at": "2026-10-11T21:40:29.762203Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-11T04:30:36.628790Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT18ARILAR-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26OCT18ARILAR",
-      "fair_prob": 0.168,
-      "market_price": 0.18,
-      "market_bid": 0.16,
-      "edge": -0.012,
-      "volume_fp": "27331.59"
-    },
     {
       "t": "2026-10-11T04:30:36.628936Z",
       "category": "sports",
@@ -39505,6 +39493,18 @@
       "market_bid": 0.01,
       "edge": 0.157,
       "volume_fp": "1087.42"
+    },
+    {
+      "t": "2026-10-11T21:40:24.507429Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT12-T76",
+      "title": "Will the maximum temperature be >76\u00b0 on Oct 12, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT12",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "737.00"
     }
   ]
 }
