@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-27T17:10:21.153624Z",
-      "dollars": 40.06
-    },
-    {
       "t": "2026-09-27T17:20:13.352003Z",
       "dollars": 40.06
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-11T15:40:22.838222Z",
       "dollars": 52.86
+    },
+    {
+      "t": "2026-10-11T15:50:27.043982Z",
+      "dollars": 52.86
     }
   ],
   "decisions": [
@@ -15503,21 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-11T15:40:22.838454Z",
+  "updated_at": "2026-10-11T15:50:27.044218Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-11T00:10:30.208721Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT11INDPIT-IND",
-      "title": "Indianapolis wins",
-      "event_ticker": "KXNFLGAME-26OCT11INDPIT",
-      "fair_prob": 0.428,
-      "market_price": 0.42,
-      "market_bid": 0.41,
-      "edge": 0.008,
-      "volume_fp": "97839.75"
-    },
     {
       "t": "2026-10-11T00:10:30.208855Z",
       "category": "sports",
@@ -39496,6 +39484,18 @@
     },
     {
       "t": "2026-10-11T15:40:20.324191Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT12-T97",
+      "title": "Will the maximum temperature be >97\u00b0 on Oct 12, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT12",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "466.42"
+    },
+    {
+      "t": "2026-10-11T15:50:24.728496Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT12-T97",
       "title": "Will the maximum temperature be >97\u00b0 on Oct 12, 2026?",
