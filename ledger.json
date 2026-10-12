@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-28T01:30:43.811761Z",
-      "dollars": 32.16
-    },
-    {
       "t": "2026-09-28T01:40:19.606818Z",
       "dollars": 32.16
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-10-12T00:00:46.204745Z",
       "dollars": 64.86
+    },
+    {
+      "t": "2026-10-12T00:10:43.479348Z",
+      "dollars": 64.86
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T20:30:29.898932Z",
-      "ticker": "KXNFLGAME-26OCT11NYGWAS-NYG",
-      "title": "New York G wins",
-      "side": "no",
-      "fair_prob": 0.437,
-      "market_price": 0.52,
-      "edge": -0.083,
-      "dollars": 0.75,
-      "contracts": 1,
-      "intended_dollars": 0.75,
-      "intended_contracts": 1,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-29T20:30:29.898932Z",
       "ticker": "KXNFLGAME-26OCT11BALATL-BAL",
@@ -15501,9 +15486,24 @@
       "intended_contracts": 4,
       "status": "skipped_same_event",
       "note": ""
+    },
+    {
+      "t": "2026-10-12T00:10:24.764295Z",
+      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
+      "title": "Detroit wins",
+      "side": "no",
+      "fair_prob": 0.681,
+      "market_price": 0.95,
+      "edge": -0.269,
+      "dollars": 3.24,
+      "contracts": 54,
+      "intended_dollars": 3.24,
+      "intended_contracts": 54,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-12T00:00:46.205113Z",
+  "updated_at": "2026-10-12T00:10:43.479473Z",
   "env": "demo",
   "prod_edge_observations": [
     {
