@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-28T06:00:36.173514Z",
-      "dollars": 41.52
-    },
-    {
       "t": "2026-09-28T06:10:35.004159Z",
       "dollars": 41.52
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-10-12T04:30:36.292495Z",
       "dollars": 64.86
+    },
+    {
+      "t": "2026-10-12T04:40:34.053096Z",
+      "dollars": 64.86
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-29T20:40:09.811164Z",
-      "ticker": "KXNFLGAME-26OCT11LVNE-NE",
-      "title": "New England wins",
-      "side": "yes",
-      "fair_prob": 0.631,
-      "market_price": 0.54,
-      "edge": 0.091,
-      "dollars": 1.05,
-      "contracts": 1,
-      "intended_dollars": 1.05,
-      "intended_contracts": 1,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-29T20:40:09.811164Z",
       "ticker": "KXNFLGAME-26OCT11LVNE-LV",
@@ -15501,9 +15486,24 @@
       "intended_contracts": 54,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-10-12T04:40:24.625281Z",
+      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
+      "title": "Detroit wins",
+      "side": "no",
+      "fair_prob": 0.681,
+      "market_price": 0.95,
+      "edge": -0.269,
+      "dollars": 3.24,
+      "contracts": 54,
+      "intended_dollars": 3.24,
+      "intended_contracts": 54,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-12T04:30:36.292834Z",
+  "updated_at": "2026-10-12T04:40:34.053395Z",
   "env": "demo",
   "prod_edge_observations": [
     {
