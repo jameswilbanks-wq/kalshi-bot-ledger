@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-29T20:00:28.172064Z",
-      "dollars": 22.88
-    },
-    {
       "t": "2026-09-29T20:10:26.567634Z",
       "dollars": 21.78
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-13T18:50:20.083175Z",
       "dollars": 68.86
+    },
+    {
+      "t": "2026-10-13T19:00:22.116910Z",
+      "dollars": 68.86
     }
   ],
   "decisions": [
@@ -15503,21 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-13T18:50:20.083530Z",
+  "updated_at": "2026-10-13T19:00:22.116996Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-12T18:30:28.171242Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT18BALCLE-BAL",
-      "title": "Baltimore wins",
-      "event_ticker": "KXNFLGAME-26OCT18BALCLE",
-      "fair_prob": 0.669,
-      "market_price": 0.69,
-      "market_bid": 0.68,
-      "edge": -0.021,
-      "volume_fp": "108647.01"
-    },
     {
       "t": "2026-10-12T18:30:28.171359Z",
       "category": "sports",
@@ -39505,6 +39493,18 @@
       "market_bid": 0.42,
       "edge": -0.002,
       "volume_fp": "294016.20"
+    },
+    {
+      "t": "2026-10-13T19:00:18.165416Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT14-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Oct 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT14",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "309.93"
     }
   ]
 }
