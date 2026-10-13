@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-09-30T00:20:23.462319Z",
-      "dollars": 20.58
-    },
-    {
       "t": "2026-09-30T00:30:39.135069Z",
       "dollars": 20.58
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-13T23:20:23.176927Z",
       "dollars": 67.49
+    },
+    {
+      "t": "2026-10-13T23:30:59.264590Z",
+      "dollars": 67.49
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-13T23:20:23.177042Z",
+  "updated_at": "2026-10-13T23:30:59.264723Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-13T02:20:28.409686Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT19WASSF-SF",
-      "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26OCT19WASSF",
-      "fair_prob": 0.772,
-      "market_price": 0.78,
-      "market_bid": 0.77,
-      "edge": -0.008,
-      "volume_fp": "46701.63"
-    },
-    {
-      "t": "2026-10-13T02:20:28.409876Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT18DALGB-GB",
-      "title": "Green Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT18DALGB",
-      "fair_prob": 0.511,
-      "market_price": 0.52,
-      "market_bid": 0.51,
-      "edge": -0.009,
-      "volume_fp": "83534.29"
-    },
     {
       "t": "2026-10-13T02:20:28.409992Z",
       "category": "sports",
@@ -39504,6 +39480,30 @@
       "market_price": 0.06,
       "market_bid": 0.04,
       "edge": 0.268,
+      "volume_fp": "1838.96"
+    },
+    {
+      "t": "2026-10-13T23:30:55.709623Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT14-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Oct 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT14",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "309.93"
+    },
+    {
+      "t": "2026-10-13T23:30:56.877783Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT14-T96",
+      "title": "Will the maximum temperature be >96\u00b0 on Oct 14, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT14",
+      "fair_prob": 0.328,
+      "market_price": 0.05,
+      "market_bid": 0.04,
+      "edge": 0.278,
       "volume_fp": "1838.96"
     }
   ]
