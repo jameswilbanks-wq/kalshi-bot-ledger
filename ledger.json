@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-01T00:20:23.110130Z",
-      "dollars": 19.23
-    },
-    {
       "t": "2026-10-01T00:30:22.506980Z",
       "dollars": 19.23
     },
@@ -7999,6 +7995,10 @@
     {
       "t": "2026-10-14T23:30:36.530162Z",
       "dollars": 67.49
+    },
+    {
+      "t": "2026-10-14T23:40:30.498321Z",
+      "dollars": 67.49
     }
   ],
   "decisions": [
@@ -15503,33 +15503,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-10-14T23:30:36.530255Z",
+  "updated_at": "2026-10-14T23:40:30.498486Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-14T12:20:17.586134Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25MIANYJ-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26OCT25MIANYJ",
-      "fair_prob": 0.343,
-      "market_price": 0.34,
-      "market_bid": 0.31,
-      "edge": 0.003,
-      "volume_fp": "2013.06"
-    },
-    {
-      "t": "2026-10-14T12:20:17.586238Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25TBCAR-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT25TBCAR",
-      "fair_prob": 0.4,
-      "market_price": 0.42,
-      "market_bid": 0.4,
-      "edge": -0.02,
-      "volume_fp": "371.74"
-    },
     {
       "t": "2026-10-14T12:20:17.586340Z",
       "category": "sports",
@@ -39505,6 +39481,30 @@
       "market_bid": 0.0,
       "edge": 0.123,
       "volume_fp": "435.97"
+    },
+    {
+      "t": "2026-10-14T23:40:24.882342Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT15-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Oct 15, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT15",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "781.10"
+    },
+    {
+      "t": "2026-10-14T23:40:26.630661Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT15-T66",
+      "title": "Will the maximum temperature be >66\u00b0 on Oct 15, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT15",
+      "fair_prob": 0.133,
+      "market_price": 0.22,
+      "market_bid": 0.21,
+      "edge": -0.087,
+      "volume_fp": "2776.77"
     }
   ]
 }
