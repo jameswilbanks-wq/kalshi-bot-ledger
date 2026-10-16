@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-02T05:10:19.626214Z",
-      "dollars": 19.23
-    },
-    {
       "t": "2026-10-02T05:20:16.532681Z",
       "dollars": 19.23
     },
@@ -7999,39 +7995,13 @@
     {
       "t": "2026-10-16T04:20:40.544317Z",
       "dollars": 64.38
+    },
+    {
+      "t": "2026-10-16T04:30:43.386500Z",
+      "dollars": 64.38
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-30T00:10:22.317663Z",
-      "ticker": "KXNFLGAME-26OCT11SFSEA-SF",
-      "title": "San Francisco wins",
-      "side": "no",
-      "fair_prob": 0.396,
-      "market_price": 0.52,
-      "edge": -0.124,
-      "dollars": 1.02,
-      "contracts": 1,
-      "intended_dollars": 1.02,
-      "intended_contracts": 1,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-09-30T00:10:22.317663Z",
-      "ticker": "KXNFLGAME-26OCT11SFSEA-SEA",
-      "title": "Seattle wins",
-      "side": "yes",
-      "fair_prob": 0.604,
-      "market_price": 0.52,
-      "edge": 0.084,
-      "dollars": 1.02,
-      "contracts": 1,
-      "intended_dollars": 1.02,
-      "intended_contracts": 1,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-09-30T00:10:22.317663Z",
       "ticker": "KXNFLGAME-26OCT11BALATL-BAL",
@@ -15501,9 +15471,39 @@
       "intended_contracts": 6,
       "status": "skipped_same_event",
       "note": ""
+    },
+    {
+      "t": "2026-10-16T04:30:33.011440Z",
+      "ticker": "KXNFLGAME-26OCT18CARPHI-PHI",
+      "title": "Philadelphia wins",
+      "side": "no",
+      "fair_prob": 0.378,
+      "market_price": 0.5,
+      "edge": -0.122,
+      "dollars": 3.21,
+      "contracts": 6,
+      "intended_dollars": 3.21,
+      "intended_contracts": 6,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-10-16T04:30:33.011440Z",
+      "ticker": "KXNFLGAME-26OCT18CARPHI-CAR",
+      "title": "Carolina wins",
+      "side": "yes",
+      "fair_prob": 0.622,
+      "market_price": 0.51,
+      "edge": 0.112,
+      "dollars": 3.21,
+      "contracts": 6,
+      "intended_dollars": 3.21,
+      "intended_contracts": 6,
+      "status": "skipped_same_event",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-16T04:20:40.544644Z",
+  "updated_at": "2026-10-16T04:30:43.386754Z",
   "env": "demo",
   "prod_edge_observations": [
     {
