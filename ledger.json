@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-02T18:30:21.158315Z",
-      "dollars": 20.23
-    },
-    {
       "t": "2026-10-02T18:40:26.189799Z",
       "dollars": 20.23
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-10-16T17:40:29.960243Z",
       "dollars": 61.03
+    },
+    {
+      "t": "2026-10-16T17:50:31.078008Z",
+      "dollars": 61.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-30T02:10:15.686098Z",
-      "ticker": "KXNFLGAME-26OCT11CLENYJ-CLE",
-      "title": "Cleveland wins",
-      "side": "no",
-      "fair_prob": 0.437,
-      "market_price": 0.52,
-      "edge": -0.083,
-      "dollars": 0.73,
-      "contracts": 1,
-      "intended_dollars": 0.73,
-      "intended_contracts": 1,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-09-30T02:10:15.686098Z",
       "ticker": "KXNFLGAME-26OCT11HOUTEN-TEN",
@@ -15501,47 +15486,26 @@
       "intended_contracts": 33,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-10-16T17:50:24.131051Z",
+      "ticker": "KXHIGHAUS-26OCT17-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
+      "side": "yes",
+      "fair_prob": 0.187,
+      "market_price": 0.09,
+      "edge": 0.097,
+      "dollars": 3.05,
+      "contracts": 33,
+      "intended_dollars": 3.05,
+      "intended_contracts": 33,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-16T17:40:29.960525Z",
+  "updated_at": "2026-10-16T17:50:31.078256Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-16T02:40:28.290096Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25TBCAR-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26OCT25TBCAR",
-      "fair_prob": 0.407,
-      "market_price": 0.42,
-      "market_bid": 0.4,
-      "edge": -0.013,
-      "volume_fp": "539.97"
-    },
-    {
-      "t": "2026-10-16T02:40:28.290175Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25TBCAR-CAR",
-      "title": "Carolina wins",
-      "event_ticker": "KXNFLGAME-26OCT25TBCAR",
-      "fair_prob": 0.593,
-      "market_price": 0.6,
-      "market_bid": 0.59,
-      "edge": -0.007,
-      "volume_fp": "178.30"
-    },
-    {
-      "t": "2026-10-16T02:40:28.290255Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25CINBAL-CIN",
-      "title": "Cincinnati wins",
-      "event_ticker": "KXNFLGAME-26OCT25CINBAL",
-      "fair_prob": 0.391,
-      "market_price": 0.38,
-      "market_bid": 0.36,
-      "edge": 0.011,
-      "volume_fp": "9692.58"
-    },
     {
       "t": "2026-10-16T02:40:28.290338Z",
       "category": "sports",
@@ -39496,6 +39460,42 @@
     },
     {
       "t": "2026-10-16T17:40:27.531576Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT17-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT17",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "95.94"
+    },
+    {
+      "t": "2026-10-16T17:50:25.512988Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT17-T69",
+      "title": "Will the maximum temperature be >69\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT17",
+      "fair_prob": 0.02,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.01,
+      "volume_fp": "798.00"
+    },
+    {
+      "t": "2026-10-16T17:50:26.957642Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT17-T60",
+      "title": "Will the maximum temperature be >60\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT17",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "204.94"
+    },
+    {
+      "t": "2026-10-16T17:50:27.905424Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26OCT17-T73",
       "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
