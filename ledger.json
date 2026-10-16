@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-02T18:20:32.931105Z",
-      "dollars": 20.23
-    },
-    {
       "t": "2026-10-02T18:30:21.158315Z",
       "dollars": 20.23
     },
@@ -7999,24 +7995,13 @@
     {
       "t": "2026-10-16T17:30:32.314861Z",
       "dollars": 61.03
+    },
+    {
+      "t": "2026-10-16T17:40:29.960243Z",
+      "dollars": 61.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-09-30T02:10:15.686098Z",
-      "ticker": "KXNFLGAME-26OCT11CINMIA-CIN",
-      "title": "Cincinnati wins",
-      "side": "yes",
-      "fair_prob": 0.796,
-      "market_price": 0.52,
-      "edge": 0.276,
-      "dollars": 1.02,
-      "contracts": 1,
-      "intended_dollars": 1.02,
-      "intended_contracts": 1,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-09-30T02:10:15.686098Z",
       "ticker": "KXNFLGAME-26OCT11CLENYJ-CLE",
@@ -15501,47 +15486,26 @@
       "intended_contracts": 33,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-10-16T17:40:23.791373Z",
+      "ticker": "KXHIGHAUS-26OCT17-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
+      "side": "yes",
+      "fair_prob": 0.187,
+      "market_price": 0.09,
+      "edge": 0.097,
+      "dollars": 3.05,
+      "contracts": 33,
+      "intended_dollars": 3.05,
+      "intended_contracts": 33,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-10-16T17:30:32.315274Z",
+  "updated_at": "2026-10-16T17:40:29.960525Z",
   "env": "demo",
   "prod_edge_observations": [
-    {
-      "t": "2026-10-16T02:40:28.289748Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25LARLV-LAR",
-      "title": "Los Angeles R wins",
-      "event_ticker": "KXNFLGAME-26OCT25LARLV",
-      "fair_prob": 0.714,
-      "market_price": 0.75,
-      "market_bid": 0.74,
-      "edge": -0.036,
-      "volume_fp": "2331.99"
-    },
-    {
-      "t": "2026-10-16T02:40:28.289927Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25MIANYJ-NYJ",
-      "title": "New York J wins",
-      "event_ticker": "KXNFLGAME-26OCT25MIANYJ",
-      "fair_prob": 0.657,
-      "market_price": 0.68,
-      "market_bid": 0.66,
-      "edge": -0.023,
-      "volume_fp": "4280.03"
-    },
-    {
-      "t": "2026-10-16T02:40:28.290016Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26OCT25MIANYJ-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26OCT25MIANYJ",
-      "fair_prob": 0.343,
-      "market_price": 0.34,
-      "market_bid": 0.33,
-      "edge": 0.003,
-      "volume_fp": "2845.11"
-    },
     {
       "t": "2026-10-16T02:40:28.290096Z",
       "category": "sports",
@@ -39505,6 +39469,42 @@
       "market_bid": 0.01,
       "edge": 0.0,
       "volume_fp": "2511.08"
+    },
+    {
+      "t": "2026-10-16T17:40:25.149112Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26OCT17-T69",
+      "title": "Will the maximum temperature be >69\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHNY-26OCT17",
+      "fair_prob": 0.02,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.01,
+      "volume_fp": "798.00"
+    },
+    {
+      "t": "2026-10-16T17:40:26.566532Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26OCT17-T60",
+      "title": "Will the maximum temperature be >60\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHCHI-26OCT17",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "204.94"
+    },
+    {
+      "t": "2026-10-16T17:40:27.531576Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26OCT17-T73",
+      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
+      "event_ticker": "KXHIGHAUS-26OCT17",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "95.94"
     }
   ]
 }
