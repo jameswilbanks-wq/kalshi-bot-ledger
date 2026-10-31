@@ -65,6 +65,30 @@ MAX_DAILY_LOSS_PCT = float(os.environ.get("MAX_DAILY_LOSS_PCT", "0.15"))  # kill
 MIN_CONTRACT_VOLUME = int(os.environ.get("MIN_CONTRACT_VOLUME", "50"))    # skip illiquid/thin markets
 LEDGER_PATH = Path(os.environ.get("LEDGER_PATH", "ledger.csv"))
 
+# ADDED 2026-09-21: per-category kill switch for LIVE TRADING ONLY. A
+# comma-separated list of category names (as they appear as keys in
+# ALL_SERIES_REGISTRIES below, e.g. "sports" or "sports,economic") to
+# exclude from the markets the live-trading loop in main() will actually
+# scan/trade. This does NOT touch observe_prod_edges() -- the read-only,
+# no-money validation pass keeps watching every category, including a
+# disabled one, so a track record keeps building even while that category
+# is sitting out of real trading. Motivation: the sports model currently
+# depends on the ESPN single-book fallback while the primary multi-book
+# Odds API key is exhausted (dead until the 2026-10-01 credit reset -- see
+# handoff notes), and a review of the live observation window on
+# 2026-09-21 found 5 real NFL games where the current 0.08 edge threshold
+# would have fired a trade against the ESPN-sourced fair value, and all 5
+# went the market's way instead of the model's (n=5, not remotely
+# statistically conclusive on its own, but a real and recent signal in
+# exactly the category and exactly the data-source condition most likely
+# to generate live trades right now). James's call: keep sports out of
+# real-money trading until the Odds API's primary multi-book source is
+# back, without turning off the rest of the strategy or losing the
+# ongoing validation data for sports itself.
+DISABLED_LIVE_CATEGORIES = {
+    c.strip() for c in os.environ.get("DISABLED_LIVE_CATEGORIES", "").split(",") if c.strip()
+}
+
 # Confirmed live on 2026-09-09: Kalshi's demo/sandbox markets carry
 # volume_fp=0.00 across the board -- there are no real counterparties
 # trading against a paper account, so "volume" there isn't a liquidity
@@ -83,9 +107,16 @@ EFFECTIVE_MIN_VOLUME = MIN_CONTRACT_VOLUME if KALSHI_ENV == "prod" else 0
 GITHUB_LEDGER_TOKEN = os.environ.get("GITHUB_LEDGER_TOKEN", "")
 GITHUB_LEDGER_REPO = os.environ.get("GITHUB_LEDGER_REPO", "")   # e.g. "jameswilbanks-wq/kalshi-bot-ledger"
 GITHUB_LEDGER_PATH = os.environ.get("GITHUB_LEDGER_PATH", "ledger.json")
-MAX_LEDGER_DECISIONS = 500    # keep the public file small; older history stays in the private CSV
-MAX_LEDGER_BANKROLL_POINTS = 2000
-MAX_PROD_OBSERVATIONS = 2000  # capped history of real-market edge sightings, for later calibration
+# REDUCED 2026-10-31 (from 500/2000/2000): the ledger file actually hit
+# 1,048,631 bytes -- just over GitHub's 1 MiB Contents-API inline-content
+# limit -- which silently broke the push on every tick from 2026-10-16
+# onward (see _github_get_ledger()'s comment for the full diagnosis).
+# These caps give real headroom under that limit, with extra margin
+# because adding NBA means more sports decisions/observations per tick
+# than NFL alone produced.
+MAX_LEDGER_DECISIONS = 300    # keep the public file small; older history stays in the private CSV
+MAX_LEDGER_BANKROLL_POINTS = 1200
+MAX_PROD_OBSERVATIONS = 1200  # capped history of real-market edge sightings, for later calibration
 
 # Optional: financials/economics model (Alpha Vantage) and sports model
 # (The Odds API). Both are None-by-default -- if a key isn't set, that
@@ -116,13 +147,35 @@ ODDS_API_BASE_URL = "https://api.the-odds-api.com/v4"
 #      vig rather than averaging several books' no-vig probabilities the
 #      way the primary Odds-API path does. Real evidence, just thinner
 #      evidence than the primary path -- not presented as equivalent.
-# NFL only for now (ESPN's path segment and Kalshi's SPORTS_SERIES have
-# just the one sport today); extend ESPN_SPORT_PATHS below before relying
-# on this for any other sport.
+# ADDED 2026-10-31: NBA support. Confirmed live that Kalshi's NBA
+# moneyline series (KXNBAGAME, e.g. KXNBAGAME-26NOV02MIALAL-MIA) exists
+# and has the exact same ticker shape as KXNFLGAME (date + away+home team
+# block + "-{TEAM}" YES suffix) -- see SPORTS_SERIES and SPORT_TEAM_CODES
+# below. ESPN's own site API has a matching "basketball/nba" path
+# alongside "football/nfl", same schema (scoreboard + per-event
+# "summary"/pickcenter), so the same fallback approach extends cleanly.
 ESPN_SPORT_PATHS = {
     "americanfootball_nfl": "football/nfl",
+    "basketball_nba": "basketball/nba",
 }
 ESPN_SITE_API_BASE = "https://site.api.espn.com/apis/site/v2/sports"
+
+# ADDED 2026-10-31: the Odds API's free tier is 500 credits/month TOTAL,
+# shared across every sport this key calls -- it is not 500 PER SPORT.
+# NFL alone at the old every-2-hour cadence (12 calls/day) was already
+# ~360/month, comfortably under the cap on its own. Adding NBA at the
+# same cadence would double sports' Odds-API usage to ~720/month,
+# blowing through the free tier in under 3 weeks -- which would force
+# BOTH sports onto the weaker single-book ESPN fallback for the rest of
+# every month, the exact condition that produced the worst live-trading
+# outcomes before (see DISABLED_LIVE_CATEGORIES's comment above). Cutting
+# to every 3 hours (8 calls/day/sport) brings both sports combined to
+# ~480/month, back under the free cap with a little room -- but this is
+# a real, direct tradeoff: fewer refreshes a day means slightly staler
+# lines near kickoff. The actual fix, if this is going to trade real
+# money, is a paid Odds API tier (their cheapest paid plan removes this
+# constraint entirely for a few dollars/month) rather than rationing two
+# sports across one free key -- flagged here, not silently worked around.
 
 # Alpha Vantage's free tier is 25 requests PER DAY, not per minute. This
 # bot ticks every 10 minutes (144x/day) -- calling Alpha Vantage on every
@@ -151,7 +204,49 @@ ECONOMIC_CHECK_HOUR_UTC = 6                # once a day is plenty; these change 
 # this to 12 calls/day (~360/month), comfortably under the free cap with
 # room to spare, the same tradeoff already accepted for the financial and
 # economic models above.
-SPORTS_CHECK_HOURS_UTC = {0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22}  # every 2 hours
+#
+# ADJUSTED 2026-10-31: now that NBA shares this same budget (see the
+# ESPN_SPORT_PATHS comment above), every-2-hours x 2 sports would run
+# ~720 calls/month against a 500/month cap. Every 3 hours x 2 sports is
+# ~480/month combined, back under the cap.
+SPORTS_CHECK_HOURS_UTC = {0, 3, 6, 9, 12, 15, 18, 21}  # every 3 hours
+
+# ADDED 2026-10-31, directly in response to "rethink the sports strategy
+# to make it more profitable": two concrete, non-fabricated data-quality
+# gates, both configurable, both defaulting ON.
+#
+# 1. SPORTS_MIN_BOOKS: the primary Odds-API no-vig consensus is only as
+#    good as how many real sportsbooks it's averaging. A "consensus" of
+#    exactly one book is not meaningfully different from the ESPN
+#    fallback's one-book no-vig number -- it's the same thin evidence,
+#    just from a different single book. Require at least this many
+#    books actually contributing a usable h2h price before trusting the
+#    primary path's number; below that, sports_fair_value() falls
+#    through to the ESPN fallback (or to "no opinion") exactly as if the
+#    primary path had no data at all, rather than quietly trading on a
+#    thinner signal than "multi-book consensus" implies.
+SPORTS_MIN_BOOKS = int(os.environ.get("SPORTS_MIN_BOOKS", "2"))
+
+# 2. ALLOW_ESPN_FALLBACK_LIVE_TRADES: the ESPN fallback is real evidence
+#    (see its own comment above) but it is ONE book's line with that
+#    book's own vig removed, not a cross-book consensus -- structurally
+#    weaker than the primary path by design, not just in practice. Default
+#    to NOT risking real money on that weaker source: an ESPN-fallback-
+#    sourced edge in the sports category still gets sized and logged
+#    (so the ledger shows exactly what it would have done), but main()
+#    skips placing the real order unless this is explicitly turned on.
+#    This does not take sports/NBA out of live trading -- most ticks
+#    during SPORTS_CHECK_HOURS_UTC still run on the primary multi-book
+#    path -- it only stops the weakest sports signal specifically from
+#    spending real money.
+ALLOW_ESPN_FALLBACK_LIVE_TRADES = os.environ.get("ALLOW_ESPN_FALLBACK_LIVE_TRADES", "false").lower() == "true"
+
+# Tracks, per market ticker, which data source actually produced this
+# tick's sports fair-value number ("primary" or "espn_fallback") -- set
+# inside sports_fair_value() each time it returns a non-None probability,
+# read in main() to apply the ALLOW_ESPN_FALLBACK_LIVE_TRADES gate above.
+# Module-level and rebuilt fresh every run (each tick is its own process).
+_sports_fair_value_source: dict = {}
 
 # NOTE: Kalshi has changed its base API host more than once. Verify the
 # current value at https://docs.kalshi.com before relying on this.
@@ -491,8 +586,13 @@ ECONOMIC_SERIES = {
 # Kalshi's NFL game-winner series -> The Odds API's sport key. Ticker and
 # event-ticker date+team-code format confirmed via a live Kalshi search
 # on 2026-09-10 (e.g. KXNFLGAME-26SEP10SFLAR = SF at LA Rams, Sep 10).
+# ADDED 2026-10-31: Kalshi's NBA moneyline series, confirmed live via the
+# same kind of search (e.g. KXNBAGAME-26NOV02MIALAL-MIA = Miami at LA
+# Lakers, Nov 2) -- identical ticker shape to KXNFLGAME, same date +
+# away+home team-code block + "-{TEAM}" YES suffix.
 SPORTS_SERIES = {
     "KXNFLGAME": "americanfootball_nfl",
+    "KXNBAGAME": "basketball_nba",
 }
 
 # Kalshi's NFL event tickers encode teams as 2-3 letter codes concatenated
@@ -515,6 +615,40 @@ NFL_TEAM_CODES = {
     "New York Jets": "NYJ", "Philadelphia Eagles": "PHI", "Pittsburgh Steelers": "PIT",
     "San Francisco 49ers": "SF", "Seattle Seahawks": "SEA", "Tampa Bay Buccaneers": "TB",
     "Tennessee Titans": "TEN", "Washington Commanders": "WAS",
+}
+
+# ADDED 2026-10-31: same idea as NFL_TEAM_CODES above, for the NBA's 30
+# teams. These are the standard 3-letter codes used across ESPN/most
+# stats sites; spot-checked against 5 real Kalshi NBA tickers pulled live
+# (MIA, LAL, PHX, GSW, TOR all matched) but, like the NFL dict's own
+# caveat, NOT yet confirmed against every one of the 30 teams -- a wrong
+# or missing code here just means sports_fair_value() can't confidently
+# split that game's ticker and returns None (skip), the same safe
+# failure mode as everywhere else in this file, never a bad trade.
+NBA_TEAM_CODES = {
+    "Atlanta Hawks": "ATL", "Boston Celtics": "BOS", "Brooklyn Nets": "BKN",
+    "Charlotte Hornets": "CHA", "Chicago Bulls": "CHI", "Cleveland Cavaliers": "CLE",
+    "Dallas Mavericks": "DAL", "Denver Nuggets": "DEN", "Detroit Pistons": "DET",
+    "Golden State Warriors": "GSW", "Houston Rockets": "HOU", "Indiana Pacers": "IND",
+    "LA Clippers": "LAC", "Los Angeles Clippers": "LAC", "Los Angeles Lakers": "LAL",
+    "Memphis Grizzlies": "MEM", "Miami Heat": "MIA", "Milwaukee Bucks": "MIL",
+    "Minnesota Timberwolves": "MIN", "New Orleans Pelicans": "NOP", "New York Knicks": "NYK",
+    "Oklahoma City Thunder": "OKC", "Orlando Magic": "ORL", "Philadelphia 76ers": "PHI",
+    "Phoenix Suns": "PHX", "Portland Trail Blazers": "POR", "Sacramento Kings": "SAC",
+    "San Antonio Spurs": "SAS", "Toronto Raptors": "TOR", "Utah Jazz": "UTA",
+    "Washington Wizards": "WAS",
+}
+
+# sport_key -> the team-code dict that applies to it. sports_fair_value()
+# and fetch_espn_sport_fair_prob() below key off this instead of a
+# hardcoded NFL_TEAM_CODES reference, so each sport validates ticker team
+# codes and matches ESPN display names against ONLY its own real teams --
+# important because NBA and NFL actually share some codes (MIA, PHI) for
+# entirely different franchises, so a global/merged code set could
+# silently match the wrong sport's team.
+SPORT_TEAM_CODES = {
+    "americanfootball_nfl": NFL_TEAM_CODES,
+    "basketball_nba": NBA_TEAM_CODES,
 }
 
 _forecast_cache: dict = {}  # (lat, lon) -> list of NWS forecast periods, per run
@@ -1000,19 +1134,24 @@ def _espn_no_vig_prob_for_side(is_home: bool, pickcenter: list) -> Optional[floa
     return sum(probs) / len(probs)
 
 
-def fetch_espn_nfl_fair_prob(sport_key: str, game_date: dt.date, away_code: str,
-                              home_code: str, yes_is_home: bool) -> Optional[float]:
+def fetch_espn_sport_fair_prob(sport_key: str, game_date: dt.date, away_code: str,
+                                home_code: str, yes_is_home: bool, team_codes: dict) -> Optional[float]:
     """Find the ESPN event matching this Kalshi game (by date + both team
-    codes, matched via NFL_TEAM_CODES full-name lookup -- ESPN's own
-    "displayName" field returns the same official franchise names, e.g.
-    "Washington Commanders", confirmed live 2026-09-16) and return the
-    no-vig probability for whichever side Kalshi's YES leg represents.
-    Tries game_date first, then game_date+1 (same UTC-vs-local-date slack
-    reasoning as the Odds-API matching in sports_fair_value()) -- checked
-    one at a time, stopping as soon as a match is found, rather than
-    always fetching both, to keep this a light touch on an unofficial
-    endpoint (most games match on the first date and never need the
-    second call at all)."""
+    codes, matched via this sport's own team_codes full-name lookup --
+    ESPN's own "displayName" field returns the same official franchise
+    names, e.g. "Washington Commanders", confirmed live 2026-09-16 for
+    NFL) and return the no-vig probability for whichever side Kalshi's
+    YES leg represents. Tries game_date first, then game_date+1 (same
+    UTC-vs-local-date slack reasoning as the Odds-API matching in
+    sports_fair_value()) -- checked one at a time, stopping as soon as a
+    match is found, rather than always fetching both, to keep this a
+    light touch on an unofficial endpoint (most games match on the first
+    date and never need the second call at all).
+
+    RENAMED 2026-10-31 from fetch_espn_nfl_fair_prob() and parameterized
+    by team_codes so this one function serves every sport in
+    ESPN_SPORT_PATHS (currently NFL and NBA) instead of being hardcoded
+    to NFL_TEAM_CODES."""
     for offset in (0, 1):
         events = _fetch_espn_scoreboard(sport_key, (game_date + dt.timedelta(days=offset)).strftime("%Y%m%d"))
         if not events:
@@ -1029,7 +1168,7 @@ def fetch_espn_nfl_fair_prob(sport_key: str, game_date: dt.date, away_code: str,
                 continue
             home_name = (home.get("team") or {}).get("displayName")
             away_name = (away.get("team") or {}).get("displayName")
-            if NFL_TEAM_CODES.get(home_name) != home_code or NFL_TEAM_CODES.get(away_name) != away_code:
+            if team_codes.get(home_name) != home_code or team_codes.get(away_name) != away_code:
                 continue
             event_id = event.get("id")
             if not event_id:
@@ -1042,11 +1181,16 @@ def fetch_espn_nfl_fair_prob(sport_key: str, game_date: dt.date, away_code: str,
     return None  # no matching ESPN event found on either candidate date
 
 
-def _no_vig_prob(team_name: str, event: dict) -> Optional[float]:
+def _no_vig_prob(team_name: str, event: dict) -> tuple:
     """Average each bookmaker's no-vig (de-margined) probability for
     team_name, then average across bookmakers. Moneyline odds always
     imply >100% combined probability (the vig); dividing each side by
-    that sum removes it before comparing books to each other."""
+    that sum removes it before comparing books to each other.
+
+    CHANGED 2026-10-31: returns (prob_or_None, books_used) instead of
+    just prob -- sports_fair_value() uses books_used to enforce
+    SPORTS_MIN_BOOKS (see that constant's comment) rather than trusting
+    a "consensus" that might really be just one book."""
     probs = []
     for book in event.get("bookmakers", []):
         h2h = next((m for m in book.get("markets", []) if m.get("key") == "h2h"), None)
@@ -1059,20 +1203,30 @@ def _no_vig_prob(team_name: str, event: dict) -> Optional[float]:
             continue
         probs.append(implied[team_name] / total)  # no-vig normalization
     if not probs:
-        return None
-    return sum(probs) / len(probs)
+        return None, 0
+    return sum(probs) / len(probs), len(probs)
 
 
 def sports_fair_value(market: dict) -> Optional[float]:
-    """P(YES) for a Kalshi NFL game-winner market, from the no-vig
+    """P(YES) for a Kalshi NFL or NBA game-winner market, from the no-vig
     consensus across real sportsbooks. Returns None for anything not
     confidently matched -- unknown series, an unexpected ticker shape, a
     team/date pairing we can't map to an Odds API event, or no
-    sportsbook data available for that game."""
+    sportsbook data available for that game.
+
+    GENERALIZED 2026-10-31 to cover every sport in SPORTS_SERIES (was
+    NFL-only); see SPORT_TEAM_CODES. Also now enforces SPORTS_MIN_BOOKS
+    on the primary path and records which source (primary vs
+    espn_fallback) supplied the number in _sports_fair_value_source, so
+    main() can apply the ALLOW_ESPN_FALLBACK_LIVE_TRADES gate -- see both
+    constants' comments above."""
     event_ticker = market.get("event_ticker", "")
     sport_key = next((sk for prefix, sk in SPORTS_SERIES.items() if event_ticker.startswith(prefix)), None)
     if not sport_key:
         return None
+    team_codes = SPORT_TEAM_CODES.get(sport_key)
+    if not team_codes:
+        return None  # a SPORTS_SERIES entry with no matching SPORT_TEAM_CODES dict -- skip, don't guess
 
     # Kalshi's market ticker (not just event_ticker) carries which team
     # this specific contract resolves YES for, as a trailing suffix --
@@ -1085,7 +1239,9 @@ def sports_fair_value(market: dict) -> Optional[float]:
     # pair for some team combinations (confirmed while testing: "SFLAR"
     # split naively yields "SFL"+"AR", neither a real team) -- instead,
     # extract the whole trailing block and try every 2/3-length split,
-    # accepting only the one where BOTH halves are real codes.
+    # accepting only the one where BOTH halves are real codes for THIS
+    # sport (team_codes, not a global/merged set -- NFL and NBA actually
+    # share some codes, e.g. MIA and PHI, for different franchises).
     import re
     ticker = market.get("ticker", "")
     m_event = re.search(r"-(\d{2})([A-Z]{3})(\d{2})([A-Z]{4,6})$", event_ticker)
@@ -1098,7 +1254,7 @@ def sports_fair_value(market: dict) -> Optional[float]:
     except ValueError:
         return None
 
-    valid_codes = set(NFL_TEAM_CODES.values())
+    valid_codes = set(team_codes.values())
     away_code = home_code = None
     for split in range(2, len(team_block) - 1):
         left, right = team_block[:split], team_block[split:]
@@ -1132,34 +1288,54 @@ def sports_fair_value(market: dict) -> Optional[float]:
             if commence.date() not in (game_date, game_date + dt.timedelta(days=1)):
                 continue  # allow +1 day slack for UTC vs. local-date game-day mismatches
             home, away = event.get("home_team"), event.get("away_team")
-            if NFL_TEAM_CODES.get(home) == home_code and NFL_TEAM_CODES.get(away) == away_code:
+            if team_codes.get(home) == home_code and team_codes.get(away) == away_code:
                 candidate = event
                 break
         if candidate is not None:
             home, away = candidate.get("home_team"), candidate.get("away_team")
             yes_team = home if yes_code == home_code else away
-            prob = _no_vig_prob(yes_team, candidate)
+            prob, books_used = _no_vig_prob(yes_team, candidate)
+            # ADDED 2026-10-31 (SPORTS_MIN_BOOKS gate): a "no-vig consensus"
+            # built from exactly one book isn't meaningfully different
+            # from the ESPN fallback's one-book number below -- don't let
+            # a thin primary-path result pass as if it were real
+            # multi-book agreement. Falls through to the ESPN fallback
+            # (or "no opinion") exactly as if the primary path had
+            # nothing, rather than silently trading on a weaker signal
+            # than "primary source" implies.
+            if prob is not None and books_used < SPORTS_MIN_BOOKS:
+                log.info(
+                    f"sports model: primary Odds-API consensus for {ticker} was only "
+                    f"{books_used} book(s) (need {SPORTS_MIN_BOOKS}) -- treating as "
+                    f"insufficient, falling through to ESPN fallback / no-opinion"
+                )
+                prob = None
             if prob is not None:
+                _sports_fair_value_source[ticker] = "primary"
                 return max(0.02, min(0.98, prob))
 
     # ADDED 2026-09-16: FALLBACK to ESPN's public odds endpoint -- only
     # reached when the primary Odds-API path above didn't return usable
     # events at all (e.g. free-tier credits exhausted -- confirmed live
     # this happened 2026-09-11 through -16, see SPORTS_CHECK_HOURS_UTC
-    # above) OR didn't have this specific game. On a normal day with a
-    # healthy Odds API key this line is never reached -- the primary path
-    # already returned above. See ESPN_SPORT_PATHS and
-    # fetch_espn_nfl_fair_prob() for what this is and its caveats
-    # (unofficial endpoint, single-book no-vig instead of multi-book
-    # consensus).
+    # above), didn't have this specific game, or didn't clear
+    # SPORTS_MIN_BOOKS. On a normal day with a healthy Odds API key and
+    # enough books this line is never reached -- the primary path already
+    # returned above. See ESPN_SPORT_PATHS and fetch_espn_sport_fair_prob()
+    # for what this is and its caveats (unofficial endpoint, single-book
+    # no-vig instead of multi-book consensus) -- and
+    # ALLOW_ESPN_FALLBACK_LIVE_TRADES above for how main() treats a
+    # decision sourced from here.
     if sport_key in ESPN_SPORT_PATHS:
-        espn_prob = fetch_espn_nfl_fair_prob(sport_key, game_date, away_code, home_code,
-                                              yes_is_home=(yes_code == home_code))
+        espn_prob = fetch_espn_sport_fair_prob(sport_key, game_date, away_code, home_code,
+                                                yes_is_home=(yes_code == home_code), team_codes=team_codes)
         if espn_prob is not None:
             log.info(
                 f"sports model: ESPN fallback supplied fair_prob={espn_prob:.3f} for "
-                f"{ticker} (Odds API unavailable or didn't cover this game this tick)"
+                f"{ticker} (Odds API unavailable, didn't cover this game, or below "
+                f"SPORTS_MIN_BOOKS this tick)"
             )
+            _sports_fair_value_source[ticker] = "espn_fallback"
             return max(0.02, min(0.98, espn_prob))
 
     return None
@@ -1187,10 +1363,13 @@ def estimate_fair_value(market: dict) -> Optional[float]:
 # prices instead -- using Kalshi's public, unauthenticated market-data
 # endpoints, which need no API key and no funded account. It only reads
 # data and logs what it finds; it never places an order and never uses
-# LIVE_TRADING. This runs every tick regardless of KALSHI_ENV, so a track
-# record builds up that can later be checked against actual settlement
-# outcomes (Kalshi's own public API reports each market's final "result"
-# once it resolves) -- BEFORE ever trusting this signal with real money.
+# LIVE_TRADING. This runs every tick regardless of KALSHI_ENV (and
+# regardless of DISABLED_LIVE_CATEGORIES -- see that constant's comment:
+# a category kept out of real trading still gets its predictions checked
+# against real settlements here), so a track record builds up that can
+# later be checked against actual settlement outcomes (Kalshi's own
+# public API reports each market's final "result" once it resolves) --
+# BEFORE ever trusting this signal with real money.
 # --------------------------------------------------------------------------
 
 def fetch_prod_markets_public(series_ticker: str) -> list:
@@ -1231,10 +1410,12 @@ ALL_SERIES_REGISTRIES = {
 
 def observe_prod_edges() -> list:
     """One read-only pass over every real Kalshi market we have a model
-    for, across all categories. Returns a list of observation dicts
-    (empty list on total failure -- never raises, so a Kalshi/Alpha
-    Vantage/Odds API hiccup here can't take down the actual trading
-    tick).
+    for, across all categories -- INCLUDING any category currently sitting
+    out of live trading via DISABLED_LIVE_CATEGORIES, so its validation
+    track record keeps building even while it isn't risking money. Returns
+    a list of observation dicts (empty list on total failure -- never
+    raises, so a Kalshi/Alpha Vantage/Odds API hiccup here can't take down
+    the actual trading tick).
 
     Scanning all four categories means ~10 unauthenticated series
     lookups per tick instead of weather-only's 6 -- confirmed via real
@@ -1328,6 +1509,15 @@ def _dollars(market: dict, key: str, default: float = 0.0) -> float:
         return default
 
 
+# ADDED 2026-09-18: on a badly broken book (yes_ask + no_ask summing to
+# way more than ~100 cents), NEITHER real ask price is trustworthy enough
+# to size or execute a trade against -- see MAX_COMBINED_ASK_CENTS below
+# and the no-side sizing bug writeup for the exact incident that motivated
+# this (a 198-cent combined book let a trade get sized off a fictional
+# ~1-cent price when the real price was ~99 cents, a 99x gap).
+MAX_COMBINED_ASK_CENTS = 130
+
+
 def evaluate_market(market: dict, bankroll_cents: int) -> tuple:
     """Returns (Decision_or_None, diagnostic). diagnostic always carries a
     "stage" describing how far this market got, and an "edge" (float or
@@ -1349,7 +1539,37 @@ def evaluate_market(market: dict, bankroll_cents: int) -> tuple:
 
     edge = fair_prob - market_price
     side = "yes" if edge > 0 else "no"
-    effective_price = market_price if side == "yes" else (1 - market_price)
+
+    # FIXED 2026-09-18 (the "no-side sizing bug"): read the REAL tradable
+    # ask for whichever side is about to be bought -- yes_ask_dollars for
+    # a "yes" trade (unchanged), no_ask_dollars for a "no" trade (this is
+    # the fix) -- and use that SAME real price for both the Kelly-fraction
+    # math below AND the contracts-count math later, instead of a derived
+    # complement (1 - yes_ask) for sizing while execution used a different
+    # real price. See the handoff notes for the exact incident this closes
+    # (KXNFLGAME-26SEP13MIALV-LV: a "no" trade was sized off an assumed
+    # ~1-cent price when the real no_ask was ~99 cents, a 99x gap that let
+    # a $2.72-intended trade actually spend $39.63, 73% of bankroll).
+    if side == "yes":
+        real_ask_dollars = yes_ask_dollars
+    else:
+        real_ask_dollars = _dollars(market, "no_ask_dollars")
+    if real_ask_dollars <= 0 or real_ask_dollars >= 1:
+        return None, {"stage": "no_price", "edge": edge}
+
+    # Sanity check: if yes_ask + no_ask (the two REAL sides of the book)
+    # sum to well more than 100 cents, the book itself is too broken/wide
+    # to trust for sizing OR execution -- skip rather than guess. This is
+    # exactly the condition (yes_ask=99, no_ask=99 -> 198 cents) that let
+    # the no-side sizing bug above happen.
+    no_ask_dollars = _dollars(market, "no_ask_dollars")
+    if no_ask_dollars <= 0:
+        return None, {"stage": "no_price", "edge": edge}
+    combined_ask_cents = round(yes_ask_dollars * 100) + round(no_ask_dollars * 100)
+    if combined_ask_cents > MAX_COMBINED_ASK_CENTS:
+        return None, {"stage": "spread_too_wide", "edge": edge}
+
+    effective_price = real_ask_dollars
     effective_fair = fair_prob if side == "yes" else (1 - fair_prob)
 
     if abs(edge) < EDGE_THRESHOLD:
@@ -1361,7 +1581,7 @@ def evaluate_market(market: dict, bankroll_cents: int) -> tuple:
         return None, {"stage": "kelly_zero", "edge": edge}
 
     dollars = int(bankroll_cents * frac)
-    price_cents = yes_ask if side == "yes" else (100 - yes_ask)
+    price_cents = int(round(real_ask_dollars * 100))
     contracts = max(0, dollars // max(price_cents, 1))
     if contracts < 1:
         return None, {"stage": "sized_to_zero_contracts", "edge": edge}
@@ -1421,7 +1641,26 @@ def _github_ledger_configured() -> bool:
 def _github_get_ledger() -> tuple:
     """Returns (ledger_dict, sha_or_None). sha is None if the file doesn't
     exist yet (first run) -- GitHub requires the current sha to update an
-    existing file, but rejects a sha on first creation."""
+    existing file, but rejects a sha on first creation.
+
+    FIXED 2026-10-31: found via a Render log audit that every ledger push
+    had been silently failing ("github ledger push failed (non-fatal):
+    Expecting value: line 1 column 1 (char 0)") on EVERY tick since
+    2026-10-16 -- confirmed by pulling the real ledger.json from the repo:
+    it's 1,048,631 bytes, just over GitHub's Contents API 1 MiB
+    (1,048,576-byte) limit for inline base64 content. Past that limit the
+    API still returns 200 with the file's metadata, but payload["content"]
+    comes back empty -- base64-decoding and json.loads()-ing that empty
+    string is exactly the "Expecting value" error seen in the logs. Once
+    this happened, the read-modify-write cycle below could never
+    recover on its own (the file can't shrink by itself), so the bot kept
+    running and trading but the public ledger silently froze at whatever
+    it last looked like on 2026-10-16. Two fixes: (1) fall back to the
+    repo's public raw-content URL, which has no such size limit, whenever
+    the Contents API doesn't give us inline content; (2) reduced
+    MAX_LEDGER_BANKROLL_POINTS/MAX_LEDGER_DECISIONS/MAX_PROD_OBSERVATIONS
+    below to keep real headroom under 1 MiB going forward, especially
+    with NBA added (more sports observations per tick than NFL alone)."""
     url = f"https://api.github.com/repos/{GITHUB_LEDGER_REPO}/contents/{GITHUB_LEDGER_PATH}"
     headers = {
         "Authorization": f"Bearer {GITHUB_LEDGER_TOKEN}",
@@ -1434,7 +1673,19 @@ def _github_get_ledger() -> tuple:
     resp.raise_for_status()
     payload = resp.json()
     import json
-    content = base64.b64decode(payload["content"]).decode("utf-8")
+    content_b64 = payload.get("content")
+    if content_b64:
+        content = base64.b64decode(content_b64).decode("utf-8")
+    else:
+        log.warning(
+            "github ledger GET returned no inline content (file is likely over "
+            "the Contents API's 1 MiB limit) -- falling back to the public "
+            "raw-content URL to read it"
+        )
+        raw_url = f"https://raw.githubusercontent.com/{GITHUB_LEDGER_REPO}/main/{GITHUB_LEDGER_PATH}"
+        raw_resp = requests.get(raw_url, timeout=10)
+        raw_resp.raise_for_status()
+        content = raw_resp.text
     return json.loads(content), payload["sha"]
 
 
@@ -1508,6 +1759,13 @@ def main():
             f"liquidity signal) -- MIN_CONTRACT_VOLUME={MIN_CONTRACT_VOLUME} is NOT "
             f"being enforced this run; it activates automatically in prod"
         )
+    if DISABLED_LIVE_CATEGORIES:
+        log.info(
+            f"live trading DISABLED for category(ies) {sorted(DISABLED_LIVE_CATEGORIES)} this run "
+            f"(DISABLED_LIVE_CATEGORIES env var) -- these are still scanned read-only by "
+            f"observe_prod_edges() below so their validation track record keeps building, "
+            f"they just won't generate real orders"
+        )
 
     if today_realized_pnl_pct(bankroll_cents) < -MAX_DAILY_LOSS_PCT:
         log.warning("Daily loss cap hit -- skipping this tick.")
@@ -1523,6 +1781,8 @@ def main():
 
     markets = []  # list of (category, market) so we can sample each category below
     for category, series_registry in ALL_SERIES_REGISTRIES.items():
+        if category in DISABLED_LIVE_CATEGORIES:
+            continue  # sitting out of LIVE TRADING this run -- observe_prod_edges() still watches it separately
         category_markets = client.get_known_markets(series_registry)
         log.info(f"pulled {len(category_markets)} markets from known {category} series")
         markets.extend((category, m) for m in category_markets)
@@ -1594,6 +1854,7 @@ def main():
         )
 
         status, note = "paper", "paper mode"
+        actual_contracts, actual_cost_cents = decision.contracts, decision.dollars
         if LIVE_TRADING:
             # ADDED 2026-09-13: don't re-buy a market every tick just because
             # its edge is still there. Without this, a persistent real edge
@@ -1613,6 +1874,7 @@ def main():
                     "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
                     "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
                     "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "intended_dollars": round(decision.dollars / 100, 2), "intended_contracts": decision.contracts,
                     "status": status, "note": note,
                 })
                 continue
@@ -1639,6 +1901,35 @@ def main():
                     "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
                     "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
                     "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "intended_dollars": round(decision.dollars / 100, 2), "intended_contracts": decision.contracts,
+                    "status": status, "note": note,
+                })
+                continue
+
+            # ADDED 2026-10-31: see ALLOW_ESPN_FALLBACK_LIVE_TRADES's
+            # comment above -- a sports decision sourced from the ESPN
+            # single-book fallback (as opposed to the primary multi-book
+            # Odds-API consensus) doesn't spend real money by default,
+            # even while the sports category itself is live. It's still
+            # sized and logged below exactly like any other decision, so
+            # the ledger shows what it would have done -- just not placed
+            # as a real order.
+            if (category == "sports" and not ALLOW_ESPN_FALLBACK_LIVE_TRADES
+                    and _sports_fair_value_source.get(decision.ticker) == "espn_fallback"):
+                log.info(
+                    f"skipping LIVE order for {decision.ticker}: this edge came from "
+                    f"the ESPN single-book fallback, not the primary multi-book Odds-API "
+                    f"consensus -- ALLOW_ESPN_FALLBACK_LIVE_TRADES is off, so this is "
+                    f"logged/paper-sized but no real order is placed"
+                )
+                log_decision(decision, executed=False, note="espn_fallback_live_disabled")
+                status, note = "skipped_espn_fallback_live_disabled", ""
+                tick_decisions.append({
+                    "t": tick_started_at, "ticker": decision.ticker, "title": decision.title,
+                    "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
+                    "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
+                    "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "intended_dollars": round(decision.dollars / 100, 2), "intended_contracts": decision.contracts,
                     "status": status, "note": note,
                 })
                 continue
@@ -1676,6 +1967,7 @@ def main():
                     "side": decision.side, "fair_prob": round(decision.fair_prob, 3),
                     "market_price": round(decision.market_price, 3), "edge": round(decision.edge, 3),
                     "dollars": round(decision.dollars / 100, 2), "contracts": decision.contracts,
+                    "intended_dollars": round(decision.dollars / 100, 2), "intended_contracts": decision.contracts,
                     "status": status, "note": note,
                 })
                 continue
@@ -1734,6 +2026,19 @@ def main():
                     log_decision(decision, executed=True)
                     trades_this_tick += 1
                     status, note = "executed", f"order_id={order_id} fill_count={fill_count}"
+                    # FIXED 2026-09-18 (the "ledger logs intent, not the real
+                    # fill" bug): the ledger used to log decision.dollars /
+                    # decision.contracts here regardless of what Kalshi
+                    # actually filled -- the pre-order Kelly-sized INTENT, not
+                    # the real executed size. That silently broke the public
+                    # dashboard's win/loss math whenever the intended price
+                    # was wrong (pre-2026-09-18 no-side pricing bug) or the
+                    # order only partially filled (fill_count < requested
+                    # count). Use the REAL fill for the fields the dashboard
+                    # actually reads; keep the original intent too, under
+                    # intended_* keys, so sizing accuracy stays auditable.
+                    actual_contracts = fill_count if fill_count is not None else decision.contracts
+                    actual_cost_cents = int(round(actual_contracts * price_cents))
                     # keep this tick's own bookkeeping in sync so a second
                     # market on the SAME event later in this same loop is
                     # also caught by the guard above, not just next tick.
@@ -1755,8 +2060,10 @@ def main():
             "fair_prob": round(decision.fair_prob, 3),
             "market_price": round(decision.market_price, 3),
             "edge": round(decision.edge, 3),
-            "dollars": round(decision.dollars / 100, 2),
-            "contracts": decision.contracts,
+            "dollars": round(actual_cost_cents / 100, 2),
+            "contracts": actual_contracts,
+            "intended_dollars": round(decision.dollars / 100, 2),
+            "intended_contracts": decision.contracts,
             "status": status,
             "note": note,
         })
