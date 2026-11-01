@@ -11,7 +11,7 @@
     "cfbp_enabled": true,
     "long_tier": 0,
     "long_enabled": true,
-    "updated": "2026-10-31"
+    "updated": "2026-11-01"
   },
   "legs": {},
   "bets": [],
@@ -69,11 +69,83 @@
         "updated": "2026-10-31"
       },
       "changes": {}
+    },
+    {
+      "d": "2026-11-01",
+      "settled": {
+        "legs": 0,
+        "bets": 0,
+        "calls": 0
+      },
+      "combo_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "combo_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "legs_settled": 0,
+      "params": {
+        "rho": 0.1,
+        "leg_haircut": 0.97,
+        "cfb_haircut": 0.03,
+        "props_tier": 0,
+        "cfb_tier": 0,
+        "cfbp_tier": 0,
+        "props_enabled": true,
+        "cfb_enabled": true,
+        "cfbp_enabled": true,
+        "long_tier": 0,
+        "long_enabled": true,
+        "updated": "2026-11-01"
+      },
+      "changes": {}
     }
   ],
   "credits": {
     "d": "2026-11-01",
     "used": 350
   },
-  "updated_at": "2026-11-01T08:50:31.820208Z"
+  "updated_at": "2026-11-01T09:00:31.471300Z"
 }
