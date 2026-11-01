@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-09T22:10:20.856225Z",
-      "dollars": 52.86
-    },
-    {
       "t": "2026-10-09T22:20:32.740167Z",
       "dollars": 52.86
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-01T22:20:37.664787Z",
       "dollars": 77.08
+    },
+    {
+      "t": "2026-11-01T22:30:45.777521Z",
+      "dollars": 73.3
     }
   ],
   "decisions": [
@@ -9303,21 +9303,9 @@
       "note": "order_id=01a19933-1c10-7c19-aebf-1e0d772cd5b5 fill_count=12.0"
     }
   ],
-  "updated_at": "2026-11-01T22:20:37.665092Z",
+  "updated_at": "2026-11-01T22:30:45.777619Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-01T16:40:22.695297Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV08LARWAS-WAS",
-      "title": "Washington wins",
-      "event_ticker": "KXNFLGAME-26NOV08LARWAS",
-      "fair_prob": 0.337,
-      "market_price": 0.35,
-      "market_bid": 0.32,
-      "edge": -0.013,
-      "volume_fp": "879.48"
-    },
     {
       "t": "2026-11-01T16:40:22.695365Z",
       "category": "sports",
@@ -23705,6 +23693,18 @@
       "market_bid": 0.82,
       "edge": -0.038,
       "volume_fp": "1194340.83"
+    },
+    {
+      "t": "2026-11-01T22:30:39.880569Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV02-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Nov 2, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV02",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "155.00"
     }
   ]
 }
