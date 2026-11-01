@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-09T14:30:36.044594Z",
-      "dollars": 52.86
-    },
-    {
       "t": "2026-10-09T14:40:32.983529Z",
       "dollars": 52.86
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-01T14:50:35.362119Z",
       "dollars": 81.43
+    },
+    {
+      "t": "2026-11-01T15:01:13.341079Z",
+      "dollars": 81.43
     }
   ],
   "decisions": [
@@ -9303,21 +9303,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-01T14:50:35.362324Z",
+  "updated_at": "2026-11-01T15:01:13.341215Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-01T10:50:31.618050Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV08NYJKC-NYJ",
-      "title": "New York J wins",
-      "event_ticker": "KXNFLGAME-26NOV08NYJKC",
-      "fair_prob": 0.2,
-      "market_price": 0.21,
-      "market_bid": 0.18,
-      "edge": -0.01,
-      "volume_fp": "3367.74"
-    },
     {
       "t": "2026-11-01T10:50:31.618098Z",
       "category": "sports",
@@ -23705,6 +23693,18 @@
       "market_bid": 0.7,
       "edge": -0.023,
       "volume_fp": "101565.47"
+    },
+    {
+      "t": "2026-11-01T15:01:07.265759Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV02-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Nov 2, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV02",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "0.00"
     }
   ]
 }
