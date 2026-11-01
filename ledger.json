@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-09T18:50:30.835814Z",
-      "dollars": 52.86
-    },
-    {
       "t": "2026-10-09T19:00:24.905961Z",
       "dollars": 52.86
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-01T19:01:10.721724Z",
       "dollars": 81.43
+    },
+    {
+      "t": "2026-11-01T19:10:23.391861Z",
+      "dollars": 81.43
     }
   ],
   "decisions": [
@@ -9303,45 +9303,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-01T19:01:10.721867Z",
+  "updated_at": "2026-11-01T19:10:23.391986Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-01T15:20:36.338261Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV01PHIWAS-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26NOV01PHIWAS",
-      "fair_prob": 0.298,
-      "market_price": 0.3,
-      "market_bid": 0.29,
-      "edge": -0.002,
-      "volume_fp": "234694.82"
-    },
-    {
-      "t": "2026-11-01T15:20:36.338329Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV01NEMIA-NE",
-      "title": "New England wins",
-      "event_ticker": "KXNFLGAME-26NOV01NEMIA",
-      "fair_prob": 0.754,
-      "market_price": 0.76,
-      "market_bid": 0.75,
-      "edge": -0.006,
-      "volume_fp": "733115.82"
-    },
-    {
-      "t": "2026-11-01T15:20:36.338425Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV01NEMIA-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26NOV01NEMIA",
-      "fair_prob": 0.246,
-      "market_price": 0.24,
-      "market_bid": 0.23,
-      "edge": 0.006,
-      "volume_fp": "251989.61"
-    },
     {
       "t": "2026-11-01T15:20:36.338502Z",
       "category": "sports",
@@ -23705,6 +23669,42 @@
       "market_bid": 0.72,
       "edge": -0.014,
       "volume_fp": "228318.34"
+    },
+    {
+      "t": "2026-11-01T19:10:16.519237Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV02-T72",
+      "title": "Will the maximum temperature be >72\u00b0 on Nov 2, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV02",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "155.00"
+    },
+    {
+      "t": "2026-11-01T19:10:18.258975Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV02-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 2, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV02",
+      "fair_prob": 0.023,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.013,
+      "volume_fp": "85.00"
+    },
+    {
+      "t": "2026-11-01T19:10:19.796205Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV02-T89",
+      "title": "Will the maximum temperature be >89\u00b0 on Nov 2, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV02",
+      "fair_prob": 0.328,
+      "market_price": 0.02,
+      "market_bid": 0.0,
+      "edge": 0.308,
+      "volume_fp": "32.00"
     }
   ]
 }
