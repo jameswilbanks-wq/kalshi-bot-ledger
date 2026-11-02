@@ -13,7 +13,64 @@
     "long_enabled": true,
     "updated": "2026-11-01"
   },
-  "legs": {},
+  "legs": {
+    "KXNBAPTS-26NOV01BKNIND-INDJWALKER5-10": {
+      "game": "KXNBAPTS",
+      "player": "jarace walker",
+      "stat": "points",
+      "p": 0.4591,
+      "t": "2026-11-02T00:00:26.733916Z"
+    },
+    "KXNBAPTS-26NOV01BKNIND-INDPSIAKAM43-25": {
+      "game": "KXNBAPTS",
+      "player": "pascal siakam",
+      "stat": "points",
+      "p": 0.5033,
+      "t": "2026-11-02T00:00:26.733935Z"
+    },
+    "KXNBAPTS-26NOV01BKNIND-BKNMPORTER17-25": {
+      "game": "KXNBAPTS",
+      "player": "michael porter jr",
+      "stat": "points",
+      "p": 0.4591,
+      "t": "2026-11-02T00:00:26.733942Z"
+    },
+    "KXNBAREB-26NOV01BKNIND-INDANESMITH23-4": {
+      "game": "KXNBAREB",
+      "player": "aaron nesmith",
+      "stat": "rebounds",
+      "p": 0.5632,
+      "t": "2026-11-02T00:00:26.733947Z"
+    },
+    "KXNBAREB-26NOV01BKNIND-INDPSIAKAM43-6": {
+      "game": "KXNBAREB",
+      "player": "pascal siakam",
+      "stat": "rebounds",
+      "p": 0.5841,
+      "t": "2026-11-02T00:00:26.733952Z"
+    },
+    "KXNBAREB-26NOV01BKNIND-BKNJRANDLE30-6": {
+      "game": "KXNBAREB",
+      "player": "julius randle",
+      "stat": "rebounds",
+      "p": 0.5464,
+      "t": "2026-11-02T00:00:26.733957Z"
+    },
+    "KXNBAREB-26NOV01BKNIND-BKNDSHARPE20-12": {
+      "game": "KXNBAREB",
+      "player": "dayron sharpe",
+      "stat": "rebounds",
+      "p": 0.4601,
+      "t": "2026-11-02T00:00:26.733961Z"
+    },
+    "KXNBAAST-26NOV01BKNIND-INDJWALKER5-4": {
+      "game": "KXNBAAST",
+      "player": "jarace walker",
+      "stat": "assists",
+      "p": 0.5147,
+      "t": "2026-11-02T00:00:26.733966Z"
+    }
+  },
   "bets": [],
   "history": [
     {
@@ -144,8 +201,8 @@
     }
   ],
   "credits": {
-    "d": "2026-11-01",
-    "used": 350
+    "d": "2026-11-02",
+    "used": 26
   },
-  "updated_at": "2026-11-01T23:50:33.467993Z"
+  "updated_at": "2026-11-02T00:00:28.833460Z"
 }
