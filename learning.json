@@ -265,6 +265,13 @@
       "stat": "threes",
       "p": 0.3939,
       "t": "2026-11-02T03:01:17.761191Z"
+    },
+    "KXNFLRECYDS-26NOV01PHIWAS-PHIDCOOPER80-20": {
+      "game": "KXNFLRECYDS",
+      "player": "darius cooper",
+      "stat": "rec_yds",
+      "p": 0.451,
+      "t": "2026-11-02T04:00:26.586953Z"
     }
   },
   "bets": [],
@@ -398,7 +405,7 @@
   ],
   "credits": {
     "d": "2026-11-02",
-    "used": 62
+    "used": 84
   },
-  "updated_at": "2026-11-02T03:50:25.294910Z"
+  "updated_at": "2026-11-02T04:00:28.726028Z"
 }
