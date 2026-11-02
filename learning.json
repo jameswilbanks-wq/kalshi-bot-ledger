@@ -11,7 +11,7 @@
     "cfbp_enabled": true,
     "long_tier": 0,
     "long_enabled": true,
-    "updated": "2026-11-01"
+    "updated": "2026-11-02"
   },
   "legs": {
     "KXNBAPTS-26NOV01BKNIND-INDJWALKER5-10": {
@@ -19,14 +19,16 @@
       "player": "jarace walker",
       "stat": "points",
       "p": 0.4591,
-      "t": "2026-11-02T00:00:26.733916Z"
+      "t": "2026-11-02T00:00:26.733916Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV01BKNIND-INDPSIAKAM43-25": {
       "game": "KXNBAPTS",
       "player": "pascal siakam",
       "stat": "points",
       "p": 0.5033,
-      "t": "2026-11-02T00:00:26.733935Z"
+      "t": "2026-11-02T00:00:26.733935Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV01BKNIND-BKNMPORTER17-25": {
       "game": "KXNBAPTS",
@@ -401,11 +403,83 @@
         "updated": "2026-11-01"
       },
       "changes": {}
+    },
+    {
+      "d": "2026-11-02",
+      "settled": {
+        "legs": 2,
+        "bets": 0,
+        "calls": 3
+      },
+      "combo_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "combo_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "legs_settled": 2,
+      "params": {
+        "rho": 0.1,
+        "leg_haircut": 0.97,
+        "cfb_haircut": 0.03,
+        "props_tier": 0,
+        "cfb_tier": 0,
+        "cfbp_tier": 0,
+        "props_enabled": true,
+        "cfb_enabled": true,
+        "cfbp_enabled": true,
+        "long_tier": 0,
+        "long_enabled": true,
+        "updated": "2026-11-02"
+      },
+      "changes": {}
     }
   ],
   "credits": {
     "d": "2026-11-02",
     "used": 84
   },
-  "updated_at": "2026-11-02T08:50:37.618745Z"
+  "updated_at": "2026-11-02T09:00:38.208005Z"
 }
