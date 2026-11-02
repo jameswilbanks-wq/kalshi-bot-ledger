@@ -69,6 +69,97 @@
       "stat": "assists",
       "p": 0.5147,
       "t": "2026-11-02T00:00:26.733966Z"
+    },
+    "KXNBAREB-26NOV01LACGSW-LACBLOPEZ11-4": {
+      "game": "KXNBAREB",
+      "player": "brook lopez",
+      "stat": "rebounds",
+      "p": 0.5141,
+      "t": "2026-11-02T02:00:34.896182Z"
+    },
+    "KXNBAREB-26NOV01LACGSW-LACRHACHIMURA28-6": {
+      "game": "KXNBAREB",
+      "player": "rui hachimura",
+      "stat": "rebounds",
+      "p": 0.53,
+      "t": "2026-11-02T02:00:34.896199Z"
+    },
+    "KXNBAREB-26NOV01LACGSW-LACDGARLAND10-2": {
+      "game": "KXNBAREB",
+      "player": "darius garland",
+      "stat": "rebounds",
+      "p": 0.6107,
+      "t": "2026-11-02T02:00:34.896206Z"
+    },
+    "KXNBAAST-26NOV01LACGSW-LACDGARLAND10-8": {
+      "game": "KXNBAAST",
+      "player": "darius garland",
+      "stat": "assists",
+      "p": 0.437,
+      "t": "2026-11-02T02:00:34.896209Z"
+    },
+    "KXNBAAST-26NOV01LACGSW-GSWYLENDEBORG1-6": {
+      "game": "KXNBAAST",
+      "player": "yaxel lendeborg",
+      "stat": "assists",
+      "p": 0.4486,
+      "t": "2026-11-02T02:00:34.896212Z"
+    },
+    "KXNBAAST-26NOV01LACGSW-GSWBPODZIEMSKI2-4": {
+      "game": "KXNBAAST",
+      "player": "brandin podziemski",
+      "stat": "assists",
+      "p": 0.5,
+      "t": "2026-11-02T02:00:34.896214Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-LACKWAGLER1-2": {
+      "game": "KXNBA3PT",
+      "player": "keaton wagler",
+      "stat": "threes",
+      "p": 0.5173,
+      "t": "2026-11-02T02:00:34.896217Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-LACBLOPEZ11-2": {
+      "game": "KXNBA3PT",
+      "player": "brook lopez",
+      "stat": "threes",
+      "p": 0.3812,
+      "t": "2026-11-02T02:00:34.896219Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-GSWDMELTON8-3": {
+      "game": "KXNBA3PT",
+      "player": "deanthony melton",
+      "stat": "threes",
+      "p": 0.3952,
+      "t": "2026-11-02T02:00:34.896221Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-LACRHACHIMURA28-3": {
+      "game": "KXNBA3PT",
+      "player": "rui hachimura",
+      "stat": "threes",
+      "p": 0.4893,
+      "t": "2026-11-02T02:00:34.896223Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-GSWYLENDEBORG1-3": {
+      "game": "KXNBA3PT",
+      "player": "yaxel lendeborg",
+      "stat": "threes",
+      "p": 0.4286,
+      "t": "2026-11-02T02:00:34.896225Z"
+    },
+    "KXNBA3PT-26NOV01LACGSW-GSWBPODZIEMSKI2-2": {
+      "game": "KXNBA3PT",
+      "player": "brandin podziemski",
+      "stat": "threes",
+      "p": 0.5591,
+      "t": "2026-11-02T02:00:34.896228Z"
+    },
+    "KXNFLRECYDS-26NOV01PHIWAS-PHIDCOOPER80-30": {
+      "game": "KXNFLRECYDS",
+      "player": "darius cooper",
+      "stat": "rec_yds",
+      "p": 0.5094,
+      "t": "2026-11-02T02:00:34.896230Z"
     }
   },
   "bets": [],
@@ -202,7 +293,7 @@
   ],
   "credits": {
     "d": "2026-11-02",
-    "used": 26
+    "used": 40
   },
-  "updated_at": "2026-11-02T01:50:36.740530Z"
+  "updated_at": "2026-11-02T02:00:37.029270Z"
 }
