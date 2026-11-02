@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-10T17:30:26.245409Z",
-      "dollars": 52.86
-    },
-    {
       "t": "2026-10-10T17:40:16.628753Z",
       "dollars": 52.86
     },
@@ -4799,39 +4795,13 @@
     {
       "t": "2026-11-02T17:50:31.243112Z",
       "dollars": 68.3
+    },
+    {
+      "t": "2026-11-02T18:01:31.812766Z",
+      "dollars": 68.3
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-06T02:30:19.066244Z",
-      "ticker": "KXNFLGAME-26OCT05ATLNO-ATL",
-      "title": "Atlanta wins",
-      "side": "yes",
-      "fair_prob": 0.905,
-      "market_price": 0.48,
-      "edge": 0.425,
-      "dollars": 2.39,
-      "contracts": 4,
-      "intended_dollars": 2.39,
-      "intended_contracts": 4,
-      "status": "skipped_same_event",
-      "note": ""
-    },
-    {
-      "t": "2026-10-06T02:40:22.692169Z",
-      "ticker": "KXNFLGAME-26OCT11BALATL-BAL",
-      "title": "Baltimore wins",
-      "side": "no",
-      "fair_prob": 0.583,
-      "market_price": 0.67,
-      "edge": -0.087,
-      "dollars": 2.39,
-      "contracts": 7,
-      "intended_dollars": 2.39,
-      "intended_contracts": 7,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-10-06T02:40:22.692169Z",
       "ticker": "KXNFLGAME-26OCT05ATLNO-ATL",
@@ -9301,9 +9271,39 @@
       "intended_contracts": 9,
       "status": "accepted_zero_fill",
       "note": "order_id=01a199a9-de68-7e43-a6b6-4b1340860334"
+    },
+    {
+      "t": "2026-11-02T18:01:10.924955Z",
+      "ticker": "KXNBAGAME-26NOV02ATLIND-IND",
+      "title": "Indiana wins",
+      "side": "yes",
+      "fair_prob": 0.355,
+      "market_price": 0.27,
+      "edge": 0.085,
+      "dollars": 3.24,
+      "contracts": 12.0,
+      "intended_dollars": 3.41,
+      "intended_contracts": 12,
+      "status": "executed",
+      "note": "order_id=01a19d6c-2a10-7fda-9d98-04241b755e05 fill_count=12.0"
+    },
+    {
+      "t": "2026-11-02T18:01:10.924955Z",
+      "ticker": "KXNBAGAME-26NOV02ATLIND-ATL",
+      "title": "Atlanta wins",
+      "side": "no",
+      "fair_prob": 0.645,
+      "market_price": 0.74,
+      "edge": -0.095,
+      "dollars": 3.41,
+      "contracts": 12,
+      "intended_dollars": 3.41,
+      "intended_contracts": 12,
+      "status": "skipped_same_event",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-02T17:50:31.243242Z",
+  "updated_at": "2026-11-02T18:01:31.812889Z",
   "env": "prod",
   "prod_edge_observations": [
     {
