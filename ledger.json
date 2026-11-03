@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-11T21:20:26.453351Z",
-      "dollars": 64.86
-    },
-    {
       "t": "2026-10-11T21:30:31.450198Z",
       "dollars": 64.86
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-03T21:40:39.532686Z",
       "dollars": 55.55
+    },
+    {
+      "t": "2026-11-03T21:50:15.740290Z",
+      "dollars": 55.55
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-06T18:10:10.396031Z",
-      "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
-      "title": "Atlanta wins",
-      "side": "yes",
-      "fair_prob": 0.61,
-      "market_price": 0.47,
-      "edge": 0.14,
-      "dollars": 2.64,
-      "contracts": 5,
-      "intended_dollars": 2.64,
-      "intended_contracts": 5,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-06T18:20:18.591202Z",
       "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
@@ -9301,9 +9286,24 @@
       "intended_contracts": 5,
       "status": "skipped_espn_fallback_live_disabled",
       "note": ""
+    },
+    {
+      "t": "2026-11-03T21:50:07.140459Z",
+      "ticker": "KXNFLGAME-26NOV15NEDET-DET",
+      "title": "Detroit wins",
+      "side": "no",
+      "fair_prob": 0.457,
+      "market_price": 0.6,
+      "edge": -0.143,
+      "dollars": 2.77,
+      "contracts": 5,
+      "intended_dollars": 2.77,
+      "intended_contracts": 5,
+      "status": "skipped_espn_fallback_live_disabled",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-03T21:40:39.532795Z",
+  "updated_at": "2026-11-03T21:50:15.740391Z",
   "env": "prod",
   "prod_edge_observations": [
     {
