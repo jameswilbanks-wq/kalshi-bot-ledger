@@ -2227,6 +2227,125 @@
       "stat": "rush_yds",
       "p": 0.4904,
       "t": "2026-11-03T04:00:36.714252Z"
+    },
+    "KXNBAPTS-26NOV02MIALAL-MIAPLARSSON9-10": {
+      "game": "KXNBAPTS",
+      "player": "pelle larsson",
+      "stat": "points",
+      "p": 0.4197,
+      "t": "2026-11-03T05:00:17.228155Z"
+    },
+    "KXNBAREB-26NOV02PHXGSW-GSWGNIANGPF-6": {
+      "game": "KXNBAREB",
+      "player": "georges niang",
+      "stat": "rebounds",
+      "p": 0.4586,
+      "t": "2026-11-03T05:00:17.228169Z"
+    },
+    "KXNBAREB-26NOV02MIALAL-MIAPLARSSON9-4": {
+      "game": "KXNBAREB",
+      "player": "pelle larsson",
+      "stat": "rebounds",
+      "p": 0.5,
+      "t": "2026-11-03T05:00:17.228176Z"
+    },
+    "KXNBAREB-26NOV02PHXGSW-PHXKMALUACH10-4": {
+      "game": "KXNBAREB",
+      "player": "khaman maluach",
+      "stat": "rebounds",
+      "p": 0.4145,
+      "t": "2026-11-03T05:00:17.228179Z"
+    },
+    "KXNBAREB-26NOV02MIALAL-MIAGANTETOKOUNMPO7-12": {
+      "game": "KXNBAREB",
+      "player": "giannis antetokounmpo",
+      "stat": "rebounds",
+      "p": 0.4886,
+      "t": "2026-11-03T05:00:17.228184Z"
+    },
+    "KXNBAREB-26NOV02MIALAL-LALWKESSLER14-12": {
+      "game": "KXNBAREB",
+      "player": "walker kessler",
+      "stat": "rebounds",
+      "p": 0.5451,
+      "t": "2026-11-03T05:00:17.228186Z"
+    },
+    "KXNBAAST-26NOV02MIALAL-MIAGANTETOKOUNMPO7-8": {
+      "game": "KXNBAAST",
+      "player": "giannis antetokounmpo",
+      "stat": "assists",
+      "p": 0.3844,
+      "t": "2026-11-03T05:00:17.228194Z"
+    },
+    "KXNBAAST-26NOV02PHXGSW-PHXMBRIDGES22-2": {
+      "game": "KXNBAAST",
+      "player": "miles bridges",
+      "stat": "assists",
+      "p": 0.528,
+      "t": "2026-11-03T05:00:17.228196Z"
+    },
+    "KXNBAAST-26NOV02PHXGSW-PHXJGREEN4-6": {
+      "game": "KXNBAAST",
+      "player": "jalen green",
+      "stat": "assists",
+      "p": 0.457,
+      "t": "2026-11-03T05:00:17.228199Z"
+    },
+    "KXNBAAST-26NOV02PHXGSW-PHXDBOOKER15-6": {
+      "game": "KXNBAAST",
+      "player": "devin booker",
+      "stat": "assists",
+      "p": 0.4321,
+      "t": "2026-11-03T05:00:17.228201Z"
+    },
+    "KXNBAAST-26NOV02PHXGSW-GSWYLENDEBORG1-6": {
+      "game": "KXNBAAST",
+      "player": "yaxel lendeborg",
+      "stat": "assists",
+      "p": 0.3964,
+      "t": "2026-11-03T05:00:17.228204Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-GSWSCURRY30-7": {
+      "game": "KXNBA3PT",
+      "player": "stephen curry",
+      "stat": "threes",
+      "p": 0.3479,
+      "t": "2026-11-03T05:00:17.228209Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-GSWDMELTON8-1": {
+      "game": "KXNBA3PT",
+      "player": "deanthony melton",
+      "stat": "threes",
+      "p": 0.48,
+      "t": "2026-11-03T05:00:17.228214Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-PHXMBRIDGES22-3": {
+      "game": "KXNBA3PT",
+      "player": "miles bridges",
+      "stat": "threes",
+      "p": 0.4219,
+      "t": "2026-11-03T05:00:17.228216Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-PHXDBOOKER15-3": {
+      "game": "KXNBA3PT",
+      "player": "devin booker",
+      "stat": "threes",
+      "p": 0.3713,
+      "t": "2026-11-03T05:00:17.228221Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-PHXCGILLESPIE12-2": {
+      "game": "KXNBA3PT",
+      "player": "collin gillespie",
+      "stat": "threes",
+      "p": 0.6432,
+      "t": "2026-11-03T05:00:17.228223Z"
+    },
+    "KXNBA3PT-26NOV02PHXGSW-GSWBPODZIEMSKI2-4": {
+      "game": "KXNBA3PT",
+      "player": "brandin podziemski",
+      "stat": "threes",
+      "p": 0.4548,
+      "t": "2026-11-03T05:00:17.228226Z"
     }
   },
   "bets": [],
@@ -2432,7 +2551,7 @@
   ],
   "credits": {
     "d": "2026-11-03",
-    "used": 290
+    "used": 314
   },
-  "updated_at": "2026-11-03T04:50:15.321156Z"
+  "updated_at": "2026-11-03T05:00:19.234520Z"
 }
