@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-12T20:10:27.877401Z",
-      "dollars": 68.86
-    },
-    {
       "t": "2026-10-12T20:20:29.129753Z",
       "dollars": 68.86
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-04T20:20:30.587789Z",
       "dollars": 52.68
+    },
+    {
+      "t": "2026-11-04T20:31:19.930155Z",
+      "dollars": 52.68
     }
   ],
   "decisions": [
@@ -9303,21 +9303,9 @@
       "note": "order_id=01a1a81c-c078-7e4e-90be-2e94b9e33b4c fill_count=6.0"
     }
   ],
-  "updated_at": "2026-11-04T20:20:30.587954Z",
+  "updated_at": "2026-11-04T20:31:19.930402Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-04T12:00:35.421074Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-SF",
-      "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.643,
-      "market_price": 0.66,
-      "market_bid": 0.64,
-      "edge": -0.017,
-      "volume_fp": "3375.51"
-    },
     {
       "t": "2026-11-04T12:00:35.421129Z",
       "category": "sports",
@@ -23705,6 +23693,18 @@
       "market_bid": 0.55,
       "edge": -0.003,
       "volume_fp": "461271.55"
+    },
+    {
+      "t": "2026-11-04T20:31:16.105788Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV05-T85",
+      "title": "Will the maximum temperature be >85\u00b0 on Nov 5, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV05",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "280.00"
     }
   ]
 }
