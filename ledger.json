@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-12T19:30:33.909235Z",
-      "dollars": 68.86
-    },
-    {
       "t": "2026-10-12T19:40:18.561362Z",
       "dollars": 68.86
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-04T19:40:16.698799Z",
       "dollars": 55.55
+    },
+    {
+      "t": "2026-11-04T19:50:25.073569Z",
+      "dollars": 55.55
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-06T18:20:18.591202Z",
-      "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
-      "title": "Atlanta wins",
-      "side": "yes",
-      "fair_prob": 0.613,
-      "market_price": 0.47,
-      "edge": 0.143,
-      "dollars": 2.64,
-      "contracts": 5,
-      "intended_dollars": 2.64,
-      "intended_contracts": 5,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-06T18:30:07.517256Z",
       "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
@@ -9301,9 +9286,24 @@
       "intended_contracts": 5,
       "status": "skipped_espn_fallback_live_disabled",
       "note": ""
+    },
+    {
+      "t": "2026-11-04T19:50:19.176378Z",
+      "ticker": "KXNFLGAME-26NOV16LACBAL-BAL",
+      "title": "Baltimore wins",
+      "side": "no",
+      "fair_prob": 0.478,
+      "market_price": 0.56,
+      "edge": -0.082,
+      "dollars": 2.76,
+      "contracts": 6.0,
+      "intended_dollars": 2.77,
+      "intended_contracts": 6,
+      "status": "executed",
+      "note": "order_id=01a1a81c-c078-7e4e-90be-2e94b9e33b4c fill_count=6.0"
     }
   ],
-  "updated_at": "2026-11-04T19:40:16.698901Z",
+  "updated_at": "2026-11-04T19:50:25.073761Z",
   "env": "prod",
   "prod_edge_observations": [
     {
