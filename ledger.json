@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-12T20:40:32.003116Z",
-      "dollars": 68.86
-    },
-    {
       "t": "2026-10-12T20:50:27.397179Z",
       "dollars": 68.86
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-04T20:50:34.365464Z",
       "dollars": 52.68
+    },
+    {
+      "t": "2026-11-04T21:01:12.109770Z",
+      "dollars": 52.68
     }
   ],
   "decisions": [
@@ -9303,21 +9303,9 @@
       "note": "order_id=01a1a81c-c078-7e4e-90be-2e94b9e33b4c fill_count=6.0"
     }
   ],
-  "updated_at": "2026-11-04T20:50:34.365567Z",
+  "updated_at": "2026-11-04T21:01:12.109995Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-04T12:00:35.421129Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.357,
-      "market_price": 0.37,
-      "market_bid": 0.35,
-      "edge": -0.013,
-      "volume_fp": "1005.19"
-    },
     {
       "t": "2026-11-04T12:00:35.421183Z",
       "category": "sports",
@@ -23696,6 +23684,18 @@
     },
     {
       "t": "2026-11-04T20:31:16.105788Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV05-T85",
+      "title": "Will the maximum temperature be >85\u00b0 on Nov 5, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV05",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "280.00"
+    },
+    {
+      "t": "2026-11-04T21:01:08.098420Z",
       "category": "weather",
       "ticker": "KXHIGHAUS-26NOV05-T85",
       "title": "Will the maximum temperature be >85\u00b0 on Nov 5, 2026?",
