@@ -4361,6 +4361,76 @@
       "stat": "threes",
       "p": 0.4628,
       "t": "2026-11-05T04:00:50.240802Z"
+    },
+    "KXNBAPTS-26NOV04MIALAC-LACKWAGLER1-15": {
+      "game": "KXNBAPTS",
+      "player": "keaton wagler",
+      "stat": "points",
+      "p": 0.4759,
+      "t": "2026-11-05T05:01:01.580073Z"
+    },
+    "KXNBAREB-26NOV04MIALAC-LACKWAGLER1-4": {
+      "game": "KXNBAREB",
+      "player": "keaton wagler",
+      "stat": "rebounds",
+      "p": 0.522,
+      "t": "2026-11-05T05:01:01.580087Z"
+    },
+    "KXNBAREB-26NOV04MIALAC-MIABADEBAYO13-8": {
+      "game": "KXNBAREB",
+      "player": "bam adebayo",
+      "stat": "rebounds",
+      "p": 0.4236,
+      "t": "2026-11-05T05:01:01.580092Z"
+    },
+    "KXNBAREB-26NOV04MIALAC-MIAGANTETOKOUNMPO7-10": {
+      "game": "KXNBAREB",
+      "player": "giannis antetokounmpo",
+      "stat": "rebounds",
+      "p": 0.5174,
+      "t": "2026-11-05T05:01:01.580097Z"
+    },
+    "KXNBAREB-26NOV04MIALAC-LACBLOPEZ11-8": {
+      "game": "KXNBAREB",
+      "player": "brook lopez",
+      "stat": "rebounds",
+      "p": 0.4219,
+      "t": "2026-11-05T05:01:01.580101Z"
+    },
+    "KXNBAREB-26NOV04MIALAC-LACIJACKSON23-4": {
+      "game": "KXNBAREB",
+      "player": "isaiah jackson",
+      "stat": "rebounds",
+      "p": 0.4093,
+      "t": "2026-11-05T05:01:01.580103Z"
+    },
+    "KXNBAAST-26NOV04MIALAC-MIABPORTIS95-6": {
+      "game": "KXNBAAST",
+      "player": "bobby portis",
+      "stat": "assists",
+      "p": 0.5669,
+      "t": "2026-11-05T05:01:01.580107Z"
+    },
+    "KXNBAAST-26NOV04MIALAC-LACDGARLAND10-6": {
+      "game": "KXNBAAST",
+      "player": "darius garland",
+      "stat": "assists",
+      "p": 0.4189,
+      "t": "2026-11-05T05:01:01.580114Z"
+    },
+    "KXNBAAST-26NOV04DALSAS-DALNMARSHALL3-4": {
+      "game": "KXNBAAST",
+      "player": "naji marshall",
+      "stat": "assists",
+      "p": 0.472,
+      "t": "2026-11-05T05:01:01.580117Z"
+    },
+    "KXNBAAST-26NOV04DALSAS-DALCFLAGG32-4": {
+      "game": "KXNBAAST",
+      "player": "cooper flagg",
+      "stat": "assists",
+      "p": 0.6437,
+      "t": "2026-11-05T05:01:01.580119Z"
     }
   },
   "bets": [],
@@ -4716,9 +4786,9 @@
   ],
   "credits": {
     "d": "2026-11-05",
-    "used": 256
+    "used": 280
   },
-  "updated_at": "2026-11-05T04:50:28.322838Z",
+  "updated_at": "2026-11-05T05:01:03.727071Z",
   "spend": {
     "d": "2026-11-04",
     "cents": 276
