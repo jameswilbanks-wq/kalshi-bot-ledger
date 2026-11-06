@@ -4581,6 +4581,48 @@
       "stat": "assists",
       "p": 0.6437,
       "t": "2026-11-05T05:01:01.580119Z"
+    },
+    "KXNBAPTS-26NOV05ORLPHX-PHXDBROOKS3-20": {
+      "game": "KXNBAPTS",
+      "player": "dillon brooks",
+      "stat": "points",
+      "p": 0.5027,
+      "t": "2026-11-06T03:00:39.928235Z"
+    },
+    "KXNBAAST-26NOV05ORLPHX-PHXCGILLESPIE12-2": {
+      "game": "KXNBAAST",
+      "player": "collin gillespie",
+      "stat": "assists",
+      "p": 0.5107,
+      "t": "2026-11-06T03:00:39.928255Z"
+    },
+    "KXNBAAST-26NOV05ORLPHX-ORLWCARTER34-2": {
+      "game": "KXNBAAST",
+      "player": "wendell carter jr",
+      "stat": "assists",
+      "p": 0.5913,
+      "t": "2026-11-06T03:00:39.928262Z"
+    },
+    "KXNBAAST-26NOV05ORLPHX-ORLTDASILVA23-2": {
+      "game": "KXNBAAST",
+      "player": "tristan da silva",
+      "stat": "assists",
+      "p": 0.6506,
+      "t": "2026-11-06T03:00:39.928268Z"
+    },
+    "KXNBAAST-26NOV05ORLPHX-ORLDBANE3-2": {
+      "game": "KXNBAAST",
+      "player": "desmond bane",
+      "stat": "assists",
+      "p": 0.4893,
+      "t": "2026-11-06T03:00:39.928271Z"
+    },
+    "KXNBA3PT-26NOV05ORLPHX-ORLDBANE3-3": {
+      "game": "KXNBA3PT",
+      "player": "desmond bane",
+      "stat": "threes",
+      "p": 0.48,
+      "t": "2026-11-06T03:00:39.928274Z"
     }
   },
   "bets": [],
@@ -5008,9 +5050,9 @@
   ],
   "credits": {
     "d": "2026-11-06",
-    "used": 6
+    "used": 20
   },
-  "updated_at": "2026-11-06T02:50:13.444187Z",
+  "updated_at": "2026-11-06T03:00:42.069615Z",
   "spend": {
     "d": "2026-11-05",
     "cents": 0
