@@ -4623,6 +4623,90 @@
       "stat": "threes",
       "p": 0.48,
       "t": "2026-11-06T03:00:39.928274Z"
+    },
+    "KXNBAPTS-26NOV05MIAGSW-MIAKTHOMPSON11-10": {
+      "game": "KXNBAPTS",
+      "player": "klay thompson",
+      "stat": "points",
+      "p": 0.4826,
+      "t": "2026-11-06T04:00:29.633457Z"
+    },
+    "KXNBAREB-26NOV05MIAGSW-GSWYLENDEBORG1-8": {
+      "game": "KXNBAREB",
+      "player": "yaxel lendeborg",
+      "stat": "rebounds",
+      "p": 0.4926,
+      "t": "2026-11-06T04:00:29.633469Z"
+    },
+    "KXNBAREB-26NOV05MIAGSW-GSWDGREEN23-4": {
+      "game": "KXNBAREB",
+      "player": "draymond green",
+      "stat": "rebounds",
+      "p": 0.5541,
+      "t": "2026-11-06T04:00:29.633474Z"
+    },
+    "KXNBAAST-26NOV05MIAGSW-GSWDGREEN23-8": {
+      "game": "KXNBAAST",
+      "player": "draymond green",
+      "stat": "assists",
+      "p": 0.438,
+      "t": "2026-11-06T04:00:29.633477Z"
+    },
+    "KXNBAAST-26NOV05MIAGSW-MIAPLARSSON9-4": {
+      "game": "KXNBAAST",
+      "player": "pelle larsson",
+      "stat": "assists",
+      "p": 0.5469,
+      "t": "2026-11-06T04:00:29.633480Z"
+    },
+    "KXNBAAST-26NOV05MIAGSW-MIADMITCHELL2-8": {
+      "game": "KXNBAAST",
+      "player": "davion mitchell",
+      "stat": "assists",
+      "p": 0.5352,
+      "t": "2026-11-06T04:00:29.633483Z"
+    },
+    "KXNBAAST-26NOV05MIAGSW-MIAGANTETOKOUNMPO7-6": {
+      "game": "KXNBAAST",
+      "player": "giannis antetokounmpo",
+      "stat": "assists",
+      "p": 0.4151,
+      "t": "2026-11-06T04:00:29.633487Z"
+    },
+    "KXNBA3PT-26NOV05MIAGSW-MIAAWIGGINS22-1": {
+      "game": "KXNBA3PT",
+      "player": "andrew wiggins",
+      "stat": "threes",
+      "p": 0.6036,
+      "t": "2026-11-06T04:00:29.633489Z"
+    },
+    "KXNBA3PT-26NOV05MIAGSW-MIAKTHOMPSON11-3": {
+      "game": "KXNBA3PT",
+      "player": "klay thompson",
+      "stat": "threes",
+      "p": 0.4813,
+      "t": "2026-11-06T04:00:29.633491Z"
+    },
+    "KXNBA3PT-26NOV05MIAGSW-MIABADEBAYO13-1": {
+      "game": "KXNBA3PT",
+      "player": "bam adebayo",
+      "stat": "threes",
+      "p": 0.5107,
+      "t": "2026-11-06T04:00:29.633494Z"
+    },
+    "KXNBA3PT-26NOV05MIAGSW-GSWSCURRY30-4": {
+      "game": "KXNBA3PT",
+      "player": "stephen curry",
+      "stat": "threes",
+      "p": 0.4893,
+      "t": "2026-11-06T04:00:29.633496Z"
+    },
+    "KXNBA3PT-26NOV05MIAGSW-GSWBPODZIEMSKI2-4": {
+      "game": "KXNBA3PT",
+      "player": "brandin podziemski",
+      "stat": "threes",
+      "p": 0.3735,
+      "t": "2026-11-06T04:00:29.633499Z"
     }
   },
   "bets": [],
@@ -5050,9 +5134,9 @@
   ],
   "credits": {
     "d": "2026-11-06",
-    "used": 20
+    "used": 42
   },
-  "updated_at": "2026-11-06T03:50:28.485694Z",
+  "updated_at": "2026-11-06T04:00:31.597272Z",
   "spend": {
     "d": "2026-11-05",
     "cents": 0
