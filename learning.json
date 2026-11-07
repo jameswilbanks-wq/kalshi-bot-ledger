@@ -5557,6 +5557,41 @@
       "stat": "threes",
       "p": 0.3913,
       "t": "2026-11-07T02:01:23.542228Z"
+    },
+    "KXNBAPTS-26NOV06UTADAL-UTAJHAYES11-10": {
+      "game": "KXNBAPTS",
+      "player": "jaxson hayes",
+      "stat": "points",
+      "p": 0.5305,
+      "t": "2026-11-07T03:00:38.353801Z"
+    },
+    "KXNBAREB-26NOV06TORMIL-TORJPOELTL19-6": {
+      "game": "KXNBAREB",
+      "player": "jakob poeltl",
+      "stat": "rebounds",
+      "p": 0.4589,
+      "t": "2026-11-07T03:00:38.353815Z"
+    },
+    "KXNBAREB-26NOV06UTADAL-DALPWASHINGTON25-6": {
+      "game": "KXNBAREB",
+      "player": "pj washington",
+      "stat": "rebounds",
+      "p": 0.388,
+      "t": "2026-11-07T03:00:38.353821Z"
+    },
+    "KXNBAREB-26NOV06TORMIL-TORCMURRAYBOYLES30-6": {
+      "game": "KXNBAREB",
+      "player": "collin murrayboyles",
+      "stat": "rebounds",
+      "p": 0.502,
+      "t": "2026-11-07T03:00:38.353824Z"
+    },
+    "KXNBAAST-26NOV06UTADAL-UTAJHAYES11-4": {
+      "game": "KXNBAAST",
+      "player": "jaxson hayes",
+      "stat": "assists",
+      "p": 0.2936,
+      "t": "2026-11-07T03:00:38.353827Z"
     }
   },
   "bets": [],
@@ -6056,9 +6091,9 @@
   ],
   "credits": {
     "d": "2026-11-07",
-    "used": 80
+    "used": 120
   },
-  "updated_at": "2026-11-07T02:50:24.806754Z",
+  "updated_at": "2026-11-07T03:00:40.333499Z",
   "spend": {
     "d": "2026-11-06",
     "cents": 0
