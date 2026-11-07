@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-15T22:00:17.429625Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-15T22:10:25.383614Z",
       "dollars": 64.38
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-07T21:30:30.679734Z",
       "dollars": 49.82
+    },
+    {
+      "t": "2026-11-07T21:40:43.261889Z",
+      "dollars": 49.82
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-12T04:40:24.625281Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-12T04:50:13.795773Z",
       "ticker": "KXNFLGAME-26OCT11DETARI-DET",
@@ -9301,9 +9286,24 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-07T21:40:32.303348Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.94,
+      "contracts": 4,
+      "intended_dollars": 0.94,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-07T21:30:30.680003Z",
+  "updated_at": "2026-11-07T21:40:43.262197Z",
   "env": "prod",
   "prod_edge_observations": [
     {
