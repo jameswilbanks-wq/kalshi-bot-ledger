@@ -5592,6 +5592,181 @@
       "stat": "assists",
       "p": 0.2936,
       "t": "2026-11-07T03:00:38.353827Z"
+    },
+    "KXNBAPTS-26NOV06SASSAC-SASJCHAMPAGNIE30-10": {
+      "game": "KXNBAPTS",
+      "player": "julian champagnie",
+      "stat": "points",
+      "p": 0.4661,
+      "t": "2026-11-07T04:00:56.429620Z"
+    },
+    "KXNBAPTS-26NOV06PORLAL-LALAREAVES15-20": {
+      "game": "KXNBAPTS",
+      "player": "austin reaves",
+      "stat": "points",
+      "p": 0.4893,
+      "t": "2026-11-07T04:00:56.429657Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SASVWEMBANYAMA1-14": {
+      "game": "KXNBAREB",
+      "player": "victor wembanyama",
+      "stat": "rebounds",
+      "p": 0.5187,
+      "t": "2026-11-07T04:00:56.429665Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SASDVASSELL24-4": {
+      "game": "KXNBAREB",
+      "player": "devin vassell",
+      "stat": "rebounds",
+      "p": 0.5585,
+      "t": "2026-11-07T04:00:56.429670Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SACDSABONIS11-12": {
+      "game": "KXNBAREB",
+      "player": "domantas sabonis",
+      "stat": "rebounds",
+      "p": 0.5346,
+      "t": "2026-11-07T04:00:56.429672Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SACDACUFF5-4": {
+      "game": "KXNBAREB",
+      "player": "darius acuff jr",
+      "stat": "rebounds",
+      "p": 0.455,
+      "t": "2026-11-07T04:00:56.429675Z"
+    },
+    "KXNBAREB-26NOV06PORLAL-PORJHOLIDAY5-4": {
+      "game": "KXNBAREB",
+      "player": "jrue holiday",
+      "stat": "rebounds",
+      "p": 0.482,
+      "t": "2026-11-07T04:00:56.429677Z"
+    },
+    "KXNBAREB-26NOV06PORLAL-PORDCLINGAN23-12": {
+      "game": "KXNBAREB",
+      "player": "donovan clingan",
+      "stat": "rebounds",
+      "p": 0.4474,
+      "t": "2026-11-07T04:00:56.429679Z"
+    },
+    "KXNBAREB-26NOV06PORLAL-LALJLARAVIA12-4": {
+      "game": "KXNBAREB",
+      "player": "jake laravia",
+      "stat": "rebounds",
+      "p": 0.3964,
+      "t": "2026-11-07T04:00:56.429681Z"
+    },
+    "KXNBAAST-26NOV06SASSAC-SASDVASSELL24-2": {
+      "game": "KXNBAAST",
+      "player": "devin vassell",
+      "stat": "assists",
+      "p": 0.5305,
+      "t": "2026-11-07T04:00:56.429683Z"
+    },
+    "KXNBAAST-26NOV06SASSAC-SASSCASTLE5-8": {
+      "game": "KXNBAAST",
+      "player": "stephon castle",
+      "stat": "assists",
+      "p": 0.4893,
+      "t": "2026-11-07T04:00:56.429685Z"
+    },
+    "KXNBAAST-26NOV06SASSAC-SACDSABONIS11-6": {
+      "game": "KXNBAAST",
+      "player": "domantas sabonis",
+      "stat": "assists",
+      "p": 0.5722,
+      "t": "2026-11-07T04:00:56.429688Z"
+    },
+    "KXNBAAST-26NOV06PORLAL-PORTCAMARA33-2": {
+      "game": "KXNBAAST",
+      "player": "toumani camara",
+      "stat": "assists",
+      "p": 0.6318,
+      "t": "2026-11-07T04:00:56.429690Z"
+    },
+    "KXNBAAST-26NOV06PORLAL-PORSHENDERSON00-2": {
+      "game": "KXNBAAST",
+      "player": "scoot henderson",
+      "stat": "assists",
+      "p": 0.4286,
+      "t": "2026-11-07T04:00:56.429692Z"
+    },
+    "KXNBAAST-26NOV06PORLAL-PORJHOLIDAY5-4": {
+      "game": "KXNBAAST",
+      "player": "jrue holiday",
+      "stat": "assists",
+      "p": 0.488,
+      "t": "2026-11-07T04:00:56.429695Z"
+    },
+    "KXNBAAST-26NOV06PORLAL-LALAREAVES15-4": {
+      "game": "KXNBAAST",
+      "player": "austin reaves",
+      "stat": "assists",
+      "p": 0.4504,
+      "t": "2026-11-07T04:00:56.429697Z"
+    },
+    "KXNBA3PT-26NOV06SASSAC-SACMMONK0-2": {
+      "game": "KXNBA3PT",
+      "player": "malik monk",
+      "stat": "threes",
+      "p": 0.3804,
+      "t": "2026-11-07T04:00:56.429699Z"
+    },
+    "KXNBA3PT-26NOV06SASSAC-SASJCHAMPAGNIE30-3": {
+      "game": "KXNBA3PT",
+      "player": "julian champagnie",
+      "stat": "threes",
+      "p": 0.4591,
+      "t": "2026-11-07T04:00:56.429701Z"
+    },
+    "KXNBA3PT-26NOV06SASSAC-SASSCASTLE5-2": {
+      "game": "KXNBA3PT",
+      "player": "stephon castle",
+      "stat": "threes",
+      "p": 0.3893,
+      "t": "2026-11-07T04:00:56.429703Z"
+    },
+    "KXNBA3PT-26NOV06SASSAC-SACZLAVINE8-3": {
+      "game": "KXNBA3PT",
+      "player": "zach lavine",
+      "stat": "threes",
+      "p": 0.5464,
+      "t": "2026-11-07T04:00:56.429706Z"
+    },
+    "KXNBA3PT-26NOV06PORLAL-PORTCAMARA33-2": {
+      "game": "KXNBA3PT",
+      "player": "toumani camara",
+      "stat": "threes",
+      "p": 0.5529,
+      "t": "2026-11-07T04:00:56.429708Z"
+    },
+    "KXNBA3PT-26NOV06PORLAL-PORJHOLIDAY5-3": {
+      "game": "KXNBA3PT",
+      "player": "jrue holiday",
+      "stat": "threes",
+      "p": 0.3903,
+      "t": "2026-11-07T04:00:56.429710Z"
+    },
+    "KXNBA3PT-26NOV06PORLAL-PORDLILLARD0-4": {
+      "game": "KXNBA3PT",
+      "player": "damian lillard",
+      "stat": "threes",
+      "p": 0.5722,
+      "t": "2026-11-07T04:00:56.429712Z"
+    },
+    "KXNBA3PT-26NOV06PORLAL-PORDAVDIJA8-3": {
+      "game": "KXNBA3PT",
+      "player": "deni avdija",
+      "stat": "threes",
+      "p": 0.3713,
+      "t": "2026-11-07T04:00:56.429714Z"
+    },
+    "KXNBA3PT-26NOV06PORLAL-LALAREAVES15-2": {
+      "game": "KXNBA3PT",
+      "player": "austin reaves",
+      "stat": "threes",
+      "p": 0.4628,
+      "t": "2026-11-07T04:00:56.429718Z"
     }
   },
   "bets": [],
@@ -6091,9 +6266,9 @@
   ],
   "credits": {
     "d": "2026-11-07",
-    "used": 120
+    "used": 136
   },
-  "updated_at": "2026-11-07T03:50:20.752512Z",
+  "updated_at": "2026-11-07T04:00:58.556963Z",
   "spend": {
     "d": "2026-11-06",
     "cents": 0
