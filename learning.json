@@ -5952,7 +5952,21 @@
       "t": "2026-11-07T05:00:36.532297Z"
     }
   },
-  "bets": [],
+  "bets": [
+    {
+      "kind": "cfb",
+      "key": "KXNCAAFGAME-26NOV21WAKEGT-WAKE",
+      "tickers": [
+        "KXNCAAFGAME-26NOV21WAKEGT-WAKE"
+      ],
+      "fair": 0.97,
+      "stake": 0.9,
+      "price": 0.9,
+      "live": true,
+      "lead": 49,
+      "t": "2026-11-07T22:30:36.956025Z"
+    }
+  ],
   "history": [
     {
       "d": "2026-10-31",
@@ -6523,7 +6537,7 @@
     "d": "2026-11-07",
     "used": 168
   },
-  "updated_at": "2026-11-07T22:20:38.714537Z",
+  "updated_at": "2026-11-07T22:30:37.743514Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
