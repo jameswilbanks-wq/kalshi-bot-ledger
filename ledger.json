@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-15T23:10:36.221209Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-15T23:20:30.201177Z",
       "dollars": 64.38
     },
@@ -4799,39 +4795,13 @@
     {
       "t": "2026-11-07T22:40:28.729154Z",
       "dollars": 48.91
+    },
+    {
+      "t": "2026-11-07T22:50:22.732306Z",
+      "dollars": 46.03
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-12T06:50:20.097394Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-10-12T08:00:17.496495Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-12T08:10:20.968972Z",
       "ticker": "KXNFLGAME-26OCT11DETARI-DET",
@@ -9293,9 +9263,39 @@
       "count": 5,
       "live": true,
       "resp": "{'average_fee_paid': '0.0172', 'average_fill_price': '0.5600', 'client_order_id': 'edgebot-KXNCAAFGAME-26NOV14WAKESMU-WAKE-1794091225', 'fill_count': '5.00', 'order_id': '01a1b82b-8fa8-7f0a-ae6e-b03b6"
+    },
+    {
+      "t": "2026-11-07T22:50:17.780267Z",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "title": "Pittsburgh wins",
+      "side": "no",
+      "fair_prob": 0.391,
+      "market_price": 0.45,
+      "edge": -0.059,
+      "dollars": 1.56,
+      "contracts": 2,
+      "intended_dollars": 1.56,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-11-07T22:50:17.780267Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.87,
+      "contracts": 4,
+      "intended_dollars": 0.87,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-07T22:40:28.729470Z",
+  "updated_at": "2026-11-07T22:50:22.732404Z",
   "env": "prod",
   "prod_edge_observations": [
     {
