@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-15T23:00:16.170507Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-15T23:10:36.221209Z",
       "dollars": 64.38
     },
@@ -4799,54 +4795,13 @@
     {
       "t": "2026-11-07T22:30:47.588635Z",
       "dollars": 49.82
+    },
+    {
+      "t": "2026-11-07T22:40:28.729154Z",
+      "dollars": 48.91
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-12T06:20:26.429154Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-10-12T06:30:33.164179Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-10-12T06:40:13.492126Z",
-      "ticker": "KXNFLGAME-26OCT11DETARI-DET",
-      "title": "Detroit wins",
-      "side": "no",
-      "fair_prob": 0.681,
-      "market_price": 0.95,
-      "edge": -0.269,
-      "dollars": 3.24,
-      "contracts": 54,
-      "intended_dollars": 3.24,
-      "intended_contracts": 54,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-12T06:50:20.097394Z",
       "ticker": "KXNFLGAME-26OCT11DETARI-DET",
@@ -9297,9 +9252,50 @@
       "count": 3,
       "live": true,
       "resp": "{'average_fee_paid': '0.0063', 'average_fill_price': '0.9000', 'client_order_id': 'edgebot-KXNCAAFGAME-26NOV21WAKEGT-WAKE-1794090636', 'fill_count': '1.00', 'order_id': '01a1b822-92e0-7fd0-96b7-87430d"
+    },
+    {
+      "t": "2026-11-07T22:40:23.258194Z",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "title": "Pittsburgh wins",
+      "side": "no",
+      "fair_prob": 0.391,
+      "market_price": 0.45,
+      "edge": -0.059,
+      "dollars": 1.66,
+      "contracts": 2,
+      "intended_dollars": 1.66,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-11-07T22:40:23.258194Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.92,
+      "contracts": 4,
+      "intended_dollars": 0.92,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "kind": "cfb_halftime",
+      "ticker": "KXNCAAFGAME-26NOV14WAKESMU-WAKE",
+      "lead": 49,
+      "fair": 0.97,
+      "ask": 0.56,
+      "edge": 0.41,
+      "count": 5,
+      "live": true,
+      "resp": "{'average_fee_paid': '0.0172', 'average_fill_price': '0.5600', 'client_order_id': 'edgebot-KXNCAAFGAME-26NOV14WAKESMU-WAKE-1794091225', 'fill_count': '5.00', 'order_id': '01a1b82b-8fa8-7f0a-ae6e-b03b6"
     }
   ],
-  "updated_at": "2026-11-07T22:30:47.588776Z",
+  "updated_at": "2026-11-07T22:40:28.729470Z",
   "env": "prod",
   "prod_edge_observations": [
     {
