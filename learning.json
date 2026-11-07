@@ -5767,6 +5767,55 @@
       "stat": "threes",
       "p": 0.4628,
       "t": "2026-11-07T04:00:56.429718Z"
+    },
+    "KXNBAPTS-26NOV06SASSAC-SASDHARPER2-20": {
+      "game": "KXNBAPTS",
+      "player": "dylan harper",
+      "stat": "points",
+      "p": 0.4591,
+      "t": "2026-11-07T05:00:36.532228Z"
+    },
+    "KXNBAPTS-26NOV06SASSAC-SACDACUFF5-20": {
+      "game": "KXNBAPTS",
+      "player": "darius acuff jr",
+      "stat": "points",
+      "p": 0.4755,
+      "t": "2026-11-07T05:00:36.532277Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SASDHARPER2-4": {
+      "game": "KXNBAREB",
+      "player": "dylan harper",
+      "stat": "rebounds",
+      "p": 0.3733,
+      "t": "2026-11-07T05:00:36.532281Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SASJCHAMPAGNIE30-8": {
+      "game": "KXNBAREB",
+      "player": "julian champagnie",
+      "stat": "rebounds",
+      "p": 0.5517,
+      "t": "2026-11-07T05:00:36.532285Z"
+    },
+    "KXNBAREB-26NOV06SASSAC-SASSCASTLE5-4": {
+      "game": "KXNBAREB",
+      "player": "stephon castle",
+      "stat": "rebounds",
+      "p": 0.3766,
+      "t": "2026-11-07T05:00:36.532289Z"
+    },
+    "KXNBAREB-26NOV06PORLAL-PORTCAMARA33-4": {
+      "game": "KXNBAREB",
+      "player": "toumani camara",
+      "stat": "rebounds",
+      "p": 0.5833,
+      "t": "2026-11-07T05:00:36.532293Z"
+    },
+    "KXNBAAST-26NOV06SASSAC-SASDHARPER2-4": {
+      "game": "KXNBAAST",
+      "player": "dylan harper",
+      "stat": "assists",
+      "p": 0.4044,
+      "t": "2026-11-07T05:00:36.532297Z"
     }
   },
   "bets": [],
@@ -6266,9 +6315,9 @@
   ],
   "credits": {
     "d": "2026-11-07",
-    "used": 136
+    "used": 152
   },
-  "updated_at": "2026-11-07T04:50:39.577745Z",
+  "updated_at": "2026-11-07T05:00:38.506592Z",
   "spend": {
     "d": "2026-11-06",
     "cents": 220
