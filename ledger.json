@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-15T19:00:16.236165Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-15T19:10:17.057384Z",
       "dollars": 64.38
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-07T18:30:53.949473Z",
       "dollars": 50.45
+    },
+    {
+      "t": "2026-11-07T18:40:22.195732Z",
+      "dollars": 50.45
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-06T18:40:20.395046Z",
-      "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
-      "title": "Atlanta wins",
-      "side": "yes",
-      "fair_prob": 0.615,
-      "market_price": 0.47,
-      "edge": 0.145,
-      "dollars": 2.64,
-      "contracts": 5,
-      "intended_dollars": 2.64,
-      "intended_contracts": 5,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-06T18:50:19.847045Z",
       "ticker": "KXNFLGAME-26OCT11BALATL-ATL",
@@ -9301,9 +9286,24 @@
       "intended_contracts": 4,
       "status": "executed",
       "note": "order_id=01a1b458-2148-76a8-9b62-dadefac30557 fill_count=4.0"
+    },
+    {
+      "t": "2026-11-07T18:40:12.365341Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.6,
+      "contracts": 3.0,
+      "intended_dollars": 0.65,
+      "intended_contracts": 3,
+      "status": "executed",
+      "note": "order_id=01a1b74f-a6c8-7aed-8089-d2fbc126cad3 fill_count=3.0"
     }
   ],
-  "updated_at": "2026-11-07T18:30:53.949600Z",
+  "updated_at": "2026-11-07T18:40:22.196080Z",
   "env": "prod",
   "prod_edge_observations": [
     {
