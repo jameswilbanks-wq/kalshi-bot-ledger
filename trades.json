@@ -53,23 +53,6 @@
       "note": ""
     },
     {
-      "id": "KXNFLGAME-26NOV08NYGPHI-NYG|no",
-      "ts": "2026-10-31T16:40:21.627593Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV08NYGPHI",
-      "title": "KXNFLGAME-26NOV08NYGPHI-NYG",
-      "ticker": "KXNFLGAME-26NOV08NYGPHI-NYG",
-      "side": "NO",
-      "contracts": 8,
-      "price": 0.43,
-      "cost": 3.44,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26OCT31OSUUSC-OSU|yes",
       "ts": "2026-10-31T23:48:47.870173Z",
       "source": "bot",
@@ -374,8 +357,25 @@
       "payout": null,
       "status": "open",
       "note": ""
+    },
+    {
+      "id": "KXNFLGAME-26NOV08NYGPHI-NYG|no",
+      "ts": "2026-11-08T21:19:32.386281Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV08NYGPHI",
+      "title": "KXNFLGAME-26NOV08NYGPHI-NYG",
+      "ticker": "KXNFLGAME-26NOV08NYGPHI-NYG",
+      "side": "NO",
+      "contracts": 8,
+      "price": 0.43,
+      "cost": 3.44,
+      "payout": -0.14,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 44.14,
-  "updated_at": "2026-11-08T18:31:18.881258Z"
+  "updated_at": "2026-11-08T21:20:56.174425Z"
 }
