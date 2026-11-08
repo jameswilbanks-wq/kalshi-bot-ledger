@@ -391,8 +391,25 @@
       "payout": null,
       "status": "open",
       "note": ""
+    },
+    {
+      "id": "KXNBAGAME-26NOV09DENHOU-HOU|no",
+      "ts": "2026-11-08T22:40:16.015801Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV09DENHOU",
+      "title": "KXNBAGAME-26NOV09DENHOU-HOU",
+      "ticker": "KXNBAGAME-26NOV09DENHOU-HOU",
+      "side": "NO",
+      "contracts": 7,
+      "price": 0.27,
+      "cost": 1.89,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 40.16,
-  "updated_at": "2026-11-08T22:10:37.302720Z"
+  "updated_at": "2026-11-08T22:40:30.882885Z"
 }
