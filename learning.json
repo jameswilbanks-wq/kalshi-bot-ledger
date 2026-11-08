@@ -6762,6 +6762,34 @@
       "stat": "rush_yds",
       "p": 0.5054,
       "t": "2026-11-08T19:00:38.116588Z"
+    },
+    "KXNFLRECYDS-26NOV08CLENO-NOJTYSON0-10": {
+      "game": "KXNFLRECYDS",
+      "player": "jordyn tyson",
+      "stat": "rec_yds",
+      "p": 0.472,
+      "t": "2026-11-08T20:00:57.205572Z"
+    },
+    "KXNFLRECYDS-26NOV08LARWAS-WASRWHITE1-50": {
+      "game": "KXNFLRECYDS",
+      "player": "rachaad white",
+      "stat": "rec_yds",
+      "p": 0.4933,
+      "t": "2026-11-08T20:00:57.205583Z"
+    },
+    "KXNFLRECYDS-26NOV08DETMIA-DETITESLAA18-10": {
+      "game": "KXNFLRECYDS",
+      "player": "isaac teslaa",
+      "stat": "rec_yds",
+      "p": 0.3657,
+      "t": "2026-11-08T20:00:57.205587Z"
+    },
+    "KXNFLRECYDS-26NOV08DETMIA-MIAOGORDON0-10": {
+      "game": "KXNFLRECYDS",
+      "player": "ollie gordon ii",
+      "stat": "rec_yds",
+      "p": 0.4141,
+      "t": "2026-11-08T20:00:57.205589Z"
     }
   },
   "bets": [
@@ -7471,9 +7499,9 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 180
+    "used": 222
   },
-  "updated_at": "2026-11-08T19:50:29.294630Z",
+  "updated_at": "2026-11-08T20:00:58.241286Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
@@ -7576,6 +7604,105 @@
         "gregory desrosiers 5+ no_player {}",
         "geno smith 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "emmett johnson 5+ few_books {'over': 3, 'under': 2, 'pair': 2, 'books': 2}"
+      ]
+    },
+    {
+      "t": "2026-11-08T20:00:47.068864Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 46,
+        "alt_mkts": 33,
+        "books": 7,
+        "players": 14,
+        "keys": 177,
+        "keys_over_only": 121,
+        "keys_few_books": 52,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "no_line": 32,
+        "over_only": 90,
+        "no_player": 130,
+        "few_books": 3
+      },
+      "ex": [
+        "patrick mahomes 125+ no_line {'near': [174.5, 199.5, 218.5]}",
+        "jared goff 150+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "daniel jones 100+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "joe milton iii 75+ no_player {}",
+        "shedeur sanders 100+ no_line {'near': [124.5, 149.5, 160.5]}",
+        "tanner mckee 100+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-08T20:00:47.068864Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 39,
+        "alt_mkts": 33,
+        "books": 6,
+        "players": 91,
+        "keys": 1006,
+        "keys_over_only": 811,
+        "keys_few_books": 175,
+        "keys_wide": 2,
+        "keys_dup_book": 0,
+        "priced": 18
+      },
+      "nocons": {
+        "over_only": 571,
+        "no_line": 255,
+        "few_books": 29,
+        "no_player": 773
+      },
+      "ex": [
+        "adonai mitchell 15+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "konata mumpfield 5+ no_line {'near': [8.5, 9.5, 19.5]}",
+        "jalen coker 15+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "darren waller 75+ no_line {'near': [79.5, 82.5, 87.5]}",
+        "tutu atwell 5+ few_books {'over': 1, 'under': 1, 'pair': 1, 'books': 1}",
+        "brevyn spannford 5+ few_books {'over': 1, 'under': 1, 'pair': 1, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-08T20:00:47.068864Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 38,
+        "alt_mkts": 33,
+        "books": 6,
+        "players": 38,
+        "keys": 456,
+        "keys_over_only": 355,
+        "keys_few_books": 97,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "over_only": 268,
+        "no_line": 101,
+        "no_player": 329,
+        "few_books": 8
+      },
+      "ex": [
+        "seth mcgowan 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "devin singletary 20+ no_line {'near': [24.5, 29.5, 35.5]}",
+        "tyler goodson 85+ no_player {}",
+        "quinshon judkins 30+ no_line {'near': [39.5, 49.5, 50.5]}",
+        "gregory desrosiers 5+ no_player {}",
+        "bo nix 5+ few_books {'over': 3, 'under': 2, 'pair': 2, 'books': 3}"
       ]
     }
   ]
