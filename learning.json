@@ -6027,6 +6027,76 @@
       "stat": "assists",
       "p": 0.3627,
       "t": "2026-11-08T00:01:08.691551Z"
+    },
+    "KXNBAPTS-26NOV07BKNATL-ATLCMCCOLLUM3-15": {
+      "game": "KXNBAPTS",
+      "player": "cj mccollum",
+      "stat": "points",
+      "p": 0.5053,
+      "t": "2026-11-08T01:01:00.926199Z"
+    },
+    "KXNBAPTS-26NOV07BKNATL-ATLDDANIELS5-10": {
+      "game": "KXNBAPTS",
+      "player": "dyson daniels",
+      "stat": "points",
+      "p": 0.5,
+      "t": "2026-11-08T01:01:00.926212Z"
+    },
+    "KXNBAREB-26NOV07BKNATL-BKNMPORTER17-10": {
+      "game": "KXNBAREB",
+      "player": "michael porter jr",
+      "stat": "rebounds",
+      "p": 0.52,
+      "t": "2026-11-08T01:01:00.926218Z"
+    },
+    "KXNBAREB-26NOV07BKNATL-ATLJJOHNSON1-10": {
+      "game": "KXNBAREB",
+      "player": "jalen johnson",
+      "stat": "rebounds",
+      "p": 0.5,
+      "t": "2026-11-08T01:01:00.926221Z"
+    },
+    "KXNBAAST-26NOV07BKNATL-ATLDDANIELS5-6": {
+      "game": "KXNBAAST",
+      "player": "dyson daniels",
+      "stat": "assists",
+      "p": 0.4592,
+      "t": "2026-11-08T01:01:00.926223Z"
+    },
+    "KXNBAAST-26NOV07BKNATL-BKNJRANDLE30-6": {
+      "game": "KXNBAAST",
+      "player": "julius randle",
+      "stat": "assists",
+      "p": 0.4674,
+      "t": "2026-11-08T01:01:00.926226Z"
+    },
+    "KXNBA3PT-26NOV07BKNATL-BKNMBROWN0-2": {
+      "game": "KXNBA3PT",
+      "player": "mikel brown jr",
+      "stat": "threes",
+      "p": 0.5,
+      "t": "2026-11-08T01:01:00.926228Z"
+    },
+    "KXNBA3PT-26NOV07BKNATL-ATLLDORT0-2": {
+      "game": "KXNBA3PT",
+      "player": "luguentz dort",
+      "stat": "threes",
+      "p": 0.5107,
+      "t": "2026-11-08T01:01:00.926231Z"
+    },
+    "KXNBA3PT-26NOV07BKNATL-ATLNALEXANDERWALKER7-5": {
+      "game": "KXNBA3PT",
+      "player": "nickeil alexanderwalker",
+      "stat": "threes",
+      "p": 0.423,
+      "t": "2026-11-08T01:01:00.926234Z"
+    },
+    "KXNBA3PT-26NOV07BKNATL-ATLJJOHNSON1-2": {
+      "game": "KXNBA3PT",
+      "player": "jalen johnson",
+      "stat": "threes",
+      "p": 0.3603,
+      "t": "2026-11-08T01:01:00.926236Z"
     }
   },
   "bets": [
@@ -6638,9 +6708,9 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 8
+    "used": 16
   },
-  "updated_at": "2026-11-08T00:50:32.491288Z",
+  "updated_at": "2026-11-08T01:01:04.154016Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
