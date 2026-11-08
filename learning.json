@@ -6741,6 +6741,27 @@
       "p": 0.3769,
       "t": "2026-11-08T04:00:49.963578Z",
       "o": 0
+    },
+    "KXNFLRECYDS-26NOV08NYJKC-KCKWALKER9-25": {
+      "game": "KXNFLRECYDS",
+      "player": "kenneth walker iii",
+      "stat": "rec_yds",
+      "p": 0.4947,
+      "t": "2026-11-08T19:00:38.116571Z"
+    },
+    "KXNFLRECYDS-26NOV08LARWAS-LARKWILLIAMS23-20": {
+      "game": "KXNFLRECYDS",
+      "player": "kyren williams",
+      "stat": "rec_yds",
+      "p": 0.5107,
+      "t": "2026-11-08T19:00:38.116583Z"
+    },
+    "KXNFLRSHYDS-26NOV08CLENO-CLEDSAMPSON22-15": {
+      "game": "KXNFLRSHYDS",
+      "player": "dylan sampson",
+      "stat": "rush_yds",
+      "p": 0.5054,
+      "t": "2026-11-08T19:00:38.116588Z"
     }
   },
   "bets": [
@@ -7450,12 +7471,112 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 138
+    "used": 180
   },
-  "updated_at": "2026-11-08T18:50:40.848112Z",
+  "updated_at": "2026-11-08T19:00:39.312092Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
-  "nocons": []
+  "nocons": [
+    {
+      "t": "2026-11-08T19:00:27.353348Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 45,
+        "alt_mkts": 33,
+        "books": 7,
+        "players": 14,
+        "keys": 219,
+        "keys_over_only": 156,
+        "keys_few_books": 62,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "no_player": 130,
+        "over_only": 107,
+        "no_line": 11,
+        "few_books": 4
+      },
+      "ex": [
+        "joe milton iii 75+ no_player {}",
+        "shedeur sanders 100+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "bryce young 125+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "tyler shough 150+ no_line {'near': [174.5, 199.5, 219.5]}",
+        "tanner mckee 100+ no_player {}",
+        "shedeur sanders 325+ no_line {'near': [274.5, 249.5, 224.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-08T19:00:27.353348Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 38,
+        "alt_mkts": 33,
+        "books": 6,
+        "players": 93,
+        "keys": 1311,
+        "keys_over_only": 1086,
+        "keys_few_books": 208,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 17
+      },
+      "nocons": {
+        "over_only": 754,
+        "no_line": 74,
+        "few_books": 24,
+        "no_player": 767
+      },
+      "ex": [
+        "jameson williams 15+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "braelon allen 35+ no_line {'near': [39.5, 29.5, 24.5]}",
+        "colby parkinson 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "pat bryant 5+ no_line {'near': [14.5, 17.5, 19.5]}",
+        "colby parkinson 10+ few_books {'over': 4, 'under': 1, 'pair': 1, 'books': 3}",
+        "davis allen 10+ few_books {'over': 4, 'under': 1, 'pair': 1, 'books': 3}"
+      ]
+    },
+    {
+      "t": "2026-11-08T19:00:27.353348Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 7,
+        "http_fail": 0,
+        "main_mkts": 38,
+        "alt_mkts": 33,
+        "books": 6,
+        "players": 39,
+        "keys": 573,
+        "keys_over_only": 459,
+        "keys_few_books": 111,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 3
+      },
+      "nocons": {
+        "over_only": 327,
+        "no_line": 42,
+        "no_player": 318,
+        "few_books": 15
+      },
+      "ex": [
+        "quinshon judkins 30+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "braelon allen 10+ no_line {'near': [24.5, 29.5, 39.5]}",
+        "quinshon judkins 35+ no_line {'near': [29.5, 39.5, 24.5]}",
+        "gregory desrosiers 5+ no_player {}",
+        "geno smith 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "emmett johnson 5+ few_books {'over': 3, 'under': 2, 'pair': 2, 'books': 2}"
+      ]
+    }
+  ]
 }
