@@ -6545,6 +6545,97 @@
       "stat": "threes",
       "p": 0.3596,
       "t": "2026-11-08T03:01:28.005484Z"
+    },
+    "KXNBAPTS-26NOV07SASPOR-SASVWEMBANYAMA1-25": {
+      "game": "KXNBAPTS",
+      "player": "victor wembanyama",
+      "stat": "points",
+      "p": 0.5107,
+      "t": "2026-11-08T04:00:49.963506Z"
+    },
+    "KXNBAREB-26NOV07SASPOR-SASKJOHNSON3-4": {
+      "game": "KXNBAREB",
+      "player": "keldon johnson",
+      "stat": "rebounds",
+      "p": 0.5833,
+      "t": "2026-11-08T04:00:49.963521Z"
+    },
+    "KXNBAREB-26NOV07SASPOR-PORTCAMARA33-6": {
+      "game": "KXNBAREB",
+      "player": "toumani camara",
+      "stat": "rebounds",
+      "p": 0.488,
+      "t": "2026-11-08T04:00:49.963526Z"
+    },
+    "KXNBAREB-26NOV07SASPOR-PORDAVDIJA8-8": {
+      "game": "KXNBAREB",
+      "player": "deni avdija",
+      "stat": "rebounds",
+      "p": 0.4893,
+      "t": "2026-11-08T04:00:49.963529Z"
+    },
+    "KXNBAAST-26NOV07SASPOR-SASDFOX4-8": {
+      "game": "KXNBAAST",
+      "player": "deaaron fox",
+      "stat": "assists",
+      "p": 0.4591,
+      "t": "2026-11-08T04:00:49.963531Z"
+    },
+    "KXNBAAST-26NOV07SASPOR-SASVWEMBANYAMA1-2": {
+      "game": "KXNBAAST",
+      "player": "victor wembanyama",
+      "stat": "assists",
+      "p": 0.4973,
+      "t": "2026-11-08T04:00:49.963542Z"
+    },
+    "KXNBAAST-26NOV07SASPOR-SASDVASSELL24-4": {
+      "game": "KXNBAAST",
+      "player": "devin vassell",
+      "stat": "assists",
+      "p": 0.4727,
+      "t": "2026-11-08T04:00:49.963550Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-SASDFOX4-1": {
+      "game": "KXNBA3PT",
+      "player": "deaaron fox",
+      "stat": "threes",
+      "p": 0.5348,
+      "t": "2026-11-08T04:00:49.963552Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-PORSHENDERSON00-1": {
+      "game": "KXNBA3PT",
+      "player": "scoot henderson",
+      "stat": "threes",
+      "p": 0.5943,
+      "t": "2026-11-08T04:00:49.963560Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-PORJHOLIDAY5-2": {
+      "game": "KXNBA3PT",
+      "player": "jrue holiday",
+      "stat": "threes",
+      "p": 0.3694,
+      "t": "2026-11-08T04:00:49.963565Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-PORDLILLARD0-2": {
+      "game": "KXNBA3PT",
+      "player": "damian lillard",
+      "stat": "threes",
+      "p": 0.5816,
+      "t": "2026-11-08T04:00:49.963570Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-PORDCLINGAN23-1": {
+      "game": "KXNBA3PT",
+      "player": "donovan clingan",
+      "stat": "threes",
+      "p": 0.5,
+      "t": "2026-11-08T04:00:49.963574Z"
+    },
+    "KXNBA3PT-26NOV07SASPOR-PORDAVDIJA8-3": {
+      "game": "KXNBA3PT",
+      "player": "deni avdija",
+      "stat": "threes",
+      "p": 0.3769,
+      "t": "2026-11-08T04:00:49.963578Z"
     }
   },
   "bets": [
@@ -7182,9 +7273,9 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 88
+    "used": 112
   },
-  "updated_at": "2026-11-08T03:50:22.112549Z",
+  "updated_at": "2026-11-08T04:00:51.037588Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
