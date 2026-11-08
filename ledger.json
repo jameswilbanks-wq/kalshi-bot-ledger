@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-16T02:00:58.439418Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-16T02:10:36.771316Z",
       "dollars": 64.38
     },
@@ -4799,39 +4795,13 @@
     {
       "t": "2026-11-08T01:30:28.033243Z",
       "dollars": 43.79
+    },
+    {
+      "t": "2026-11-08T01:40:29.389011Z",
+      "dollars": 43.79
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-13T22:30:32.354376Z",
-      "ticker": "KXNFLGAME-26OCT25CLETEN-CLE",
-      "title": "Cleveland wins",
-      "side": "no",
-      "fair_prob": 0.532,
-      "market_price": 0.68,
-      "edge": -0.148,
-      "dollars": 1.65,
-      "contracts": 3,
-      "intended_dollars": 1.65,
-      "intended_contracts": 3,
-      "status": "skipped_already_held",
-      "note": ""
-    },
-    {
-      "t": "2026-10-13T22:40:25.632048Z",
-      "ticker": "KXNFLGAME-26OCT25CLETEN-CLE",
-      "title": "Cleveland wins",
-      "side": "no",
-      "fair_prob": 0.532,
-      "market_price": 0.68,
-      "edge": -0.148,
-      "dollars": 1.65,
-      "contracts": 3,
-      "intended_dollars": 1.65,
-      "intended_contracts": 3,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-13T22:50:25.050494Z",
       "ticker": "KXNFLGAME-26OCT25CLETEN-CLE",
@@ -9289,9 +9259,39 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-08T01:40:24.211504Z",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "title": "Pittsburgh wins",
+      "side": "no",
+      "fair_prob": 0.392,
+      "market_price": 0.45,
+      "edge": -0.058,
+      "dollars": 1.44,
+      "contracts": 2,
+      "intended_dollars": 1.44,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
+    },
+    {
+      "t": "2026-11-08T01:40:24.211504Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.83,
+      "contracts": 4,
+      "intended_dollars": 0.83,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-08T01:30:28.033342Z",
+  "updated_at": "2026-11-08T01:40:29.389082Z",
   "env": "prod",
   "prod_edge_observations": [
     {
