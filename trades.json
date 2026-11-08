@@ -303,9 +303,9 @@
       "contracts": 1,
       "price": 0.9,
       "cost": 0.9,
-      "payout": null,
-      "status": "open",
-      "note": ""
+      "payout": 0.83,
+      "status": "lost",
+      "note": "closed before settling (sold)"
     },
     {
       "id": "KXNCAAFGAME-26NOV14WAKESMU-WAKE|yes",
@@ -320,9 +320,9 @@
       "contracts": 5,
       "price": 0.56,
       "cost": 2.8,
-      "payout": null,
-      "status": "open",
-      "note": ""
+      "payout": 2.65,
+      "status": "lost",
+      "note": "closed before settling (sold)"
     },
     {
       "id": "KXNCAAFGAME-26NOV14ORSTBSU-BSU|yes",
@@ -377,5 +377,5 @@
     }
   ],
   "balance": 44.14,
-  "updated_at": "2026-11-08T18:20:50.601625Z"
+  "updated_at": "2026-11-08T18:31:18.881258Z"
 }
