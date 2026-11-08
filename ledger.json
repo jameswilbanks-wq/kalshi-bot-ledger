@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-16T10:40:39.859075Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-16T10:50:24.537179Z",
       "dollars": 64.38
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-08T10:10:30.794960Z",
       "dollars": 40.76
+    },
+    {
+      "t": "2026-11-08T10:20:37.501823Z",
+      "dollars": 40.76
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-15T22:50:24.449382Z",
-      "ticker": "KXNFLGAME-26OCT18CARPHI-PHI",
-      "title": "Philadelphia wins",
-      "side": "no",
-      "fair_prob": 0.378,
-      "market_price": 0.5,
-      "edge": -0.122,
-      "dollars": 3.21,
-      "contracts": 6,
-      "intended_dollars": 3.21,
-      "intended_contracts": 6,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-15T22:50:24.449382Z",
       "ticker": "KXNFLGAME-26OCT18CARPHI-CAR",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 3,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-08T10:20:33.845709Z",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "title": "Pittsburgh wins",
+      "side": "no",
+      "fair_prob": 0.392,
+      "market_price": 0.46,
+      "edge": -0.068,
+      "dollars": 1.79,
+      "contracts": 3,
+      "intended_dollars": 1.79,
+      "intended_contracts": 3,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-08T10:10:30.795155Z",
+  "updated_at": "2026-11-08T10:20:37.501959Z",
   "env": "prod",
   "prod_edge_observations": [
     {
