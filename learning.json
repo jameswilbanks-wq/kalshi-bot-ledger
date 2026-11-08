@@ -6006,6 +6006,27 @@
       "stat": "threes",
       "p": 0.5319,
       "t": "2026-11-07T23:01:06.130926Z"
+    },
+    "KXNBAREB-26NOV07DENIND-INDPSIAKAM43-4": {
+      "game": "KXNBAREB",
+      "player": "pascal siakam",
+      "stat": "rebounds",
+      "p": 0.4893,
+      "t": "2026-11-08T00:01:08.691530Z"
+    },
+    "KXNBAREB-26NOV07DENIND-DENJMURRAY27-6": {
+      "game": "KXNBAREB",
+      "player": "jamal murray",
+      "stat": "rebounds",
+      "p": 0.5722,
+      "t": "2026-11-08T00:01:08.691546Z"
+    },
+    "KXNBAAST-26NOV07DENIND-DENJMURRAY27-8": {
+      "game": "KXNBAAST",
+      "player": "jamal murray",
+      "stat": "assists",
+      "p": 0.3627,
+      "t": "2026-11-08T00:01:08.691551Z"
     }
   },
   "bets": [
@@ -6603,10 +6624,10 @@
     }
   ],
   "credits": {
-    "d": "2026-11-07",
-    "used": 176
+    "d": "2026-11-08",
+    "used": 8
   },
-  "updated_at": "2026-11-07T23:50:11.508606Z",
+  "updated_at": "2026-11-08T00:01:10.612762Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
