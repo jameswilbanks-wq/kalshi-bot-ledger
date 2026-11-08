@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-16T01:30:13.266405Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-16T01:40:33.965130Z",
       "dollars": 64.38
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-08T01:01:13.106542Z",
       "dollars": 43.79
+    },
+    {
+      "t": "2026-11-08T01:10:16.020851Z",
+      "dollars": 43.79
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-13T20:30:20.202522Z",
-      "ticker": "KXNFLGAME-26OCT25CLETEN-CLE",
-      "title": "Cleveland wins",
-      "side": "no",
-      "fair_prob": 0.532,
-      "market_price": 0.68,
-      "edge": -0.148,
-      "dollars": 1.65,
-      "contracts": 3,
-      "intended_dollars": 1.65,
-      "intended_contracts": 3,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-13T20:40:22.659560Z",
       "ticker": "KXNFLGAME-26OCT25CLETEN-CLE",
@@ -9289,9 +9274,24 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-08T01:10:10.871154Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.83,
+      "contracts": 4,
+      "intended_dollars": 0.83,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-08T01:01:13.106664Z",
+  "updated_at": "2026-11-08T01:10:16.020982Z",
   "env": "prod",
   "prod_edge_observations": [
     {
