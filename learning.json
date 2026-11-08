@@ -6930,6 +6930,13 @@
       "stat": "rush_yds",
       "p": 0.5,
       "t": "2026-11-08T22:01:03.566665Z"
+    },
+    "KXNFLRECYDS-26NOV08LVSF-SFJWATKINS17-25": {
+      "game": "KXNFLRECYDS",
+      "player": "jordan watkins",
+      "stat": "rec_yds",
+      "p": 0.4444,
+      "t": "2026-11-08T23:00:26.747103Z"
     }
   },
   "bets": [
@@ -7639,9 +7646,9 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 304
+    "used": 328
   },
-  "updated_at": "2026-11-08T22:50:32.278987Z",
+  "updated_at": "2026-11-08T23:00:27.761631Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
@@ -8304,6 +8311,105 @@
         "corey kiner 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "jordan love 5+ no_line {'near': [13.5, 14.5, 15.5]}",
         "gardner minshew ii 5+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}",
+        "luther burden iii 25+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-08T23:00:20.203151Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 26,
+        "alt_mkts": 19,
+        "books": 7,
+        "players": 8,
+        "keys": 118,
+        "keys_over_only": 86,
+        "keys_few_books": 30,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 2
+      },
+      "nocons": {
+        "over_only": 57,
+        "no_line": 16,
+        "no_player": 38
+      },
+      "ex": [
+        "drake maye 375+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "kirk cousins 150+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "drew lock 325+ no_line {'near': [274.5, 249.5, 224.5]}",
+        "drew lock 300+ no_line {'near': [274.5, 249.5, 224.5]}",
+        "carson wentz 350+ no_player {}",
+        "carson wentz 325+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-08T23:00:20.203151Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 22,
+        "alt_mkts": 19,
+        "books": 6,
+        "players": 49,
+        "keys": 641,
+        "keys_over_only": 526,
+        "keys_few_books": 103,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 11
+      },
+      "nocons": {
+        "no_line": 138,
+        "few_books": 13,
+        "over_only": 343,
+        "no_player": 293
+      },
+      "ex": [
+        "jadarian price 55+ no_line {'near': [49.5, 59.5, 69.5]}",
+        "cooper kupp 5+ few_books {'over': 4, 'under': 2, 'pair': 2, 'books': 3}",
+        "kyle juszczyk 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "demario douglas 115+ no_line {'near': [109.5, 119.5, 108.5]}",
+        "ashton jeanty 10+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "ladd mcconkey 15+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-08T23:00:20.203151Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 22,
+        "alt_mkts": 19,
+        "books": 6,
+        "players": 23,
+        "keys": 248,
+        "keys_over_only": 198,
+        "keys_few_books": 47,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 2
+      },
+      "nocons": {
+        "no_line": 49,
+        "no_player": 123,
+        "over_only": 134,
+        "wide_spread": 1,
+        "few_books": 5
+      },
+      "ex": [
+        "justin herbert 5+ no_line {'near': [9.5, 14.5, 17.5]}",
+        "woody marks 35+ no_line {'near': [39.5, 49.5, 53.5]}",
+        "josh jacobs 15+ no_player {}",
+        "corey kiner 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "mike washington jr 15+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "luther burden iii 25+ no_player {}"
       ]
     }
