@@ -6426,6 +6426,125 @@
       "stat": "threes",
       "p": 0.516,
       "t": "2026-11-08T02:00:48.509906Z"
+    },
+    "KXNBAPTS-26NOV07NYKCLE-NYKLSHAMET44-10": {
+      "game": "KXNBAPTS",
+      "player": "landry shamet",
+      "stat": "points",
+      "p": 0.4226,
+      "t": "2026-11-08T03:01:28.005428Z"
+    },
+    "KXNBAPTS-26NOV07HOUPHX-HOUKDURANT7-20": {
+      "game": "KXNBAPTS",
+      "player": "kevin durant",
+      "stat": "points",
+      "p": 0.4853,
+      "t": "2026-11-08T03:01:28.005441Z"
+    },
+    "KXNBAPTS-26NOV07HOUPHX-PHXDBROOKS3-15": {
+      "game": "KXNBAPTS",
+      "player": "dillon brooks",
+      "stat": "points",
+      "p": 0.4866,
+      "t": "2026-11-08T03:01:28.005445Z"
+    },
+    "KXNBAPTS-26NOV07HOUPHX-PHXDBOOKER15-20": {
+      "game": "KXNBAPTS",
+      "player": "devin booker",
+      "stat": "points",
+      "p": 0.4826,
+      "t": "2026-11-08T03:01:28.005447Z"
+    },
+    "KXNBAREB-26NOV07HOUPHX-PHXJGREEN4-4": {
+      "game": "KXNBAREB",
+      "player": "jalen green",
+      "stat": "rebounds",
+      "p": 0.5405,
+      "t": "2026-11-08T03:01:28.005450Z"
+    },
+    "KXNBAREB-26NOV07ORLGSW-ORLTDASILVA23-6": {
+      "game": "KXNBAREB",
+      "player": "tristan da silva",
+      "stat": "rebounds",
+      "p": 0.5705,
+      "t": "2026-11-08T03:01:28.005452Z"
+    },
+    "KXNBAREB-26NOV07ORLGSW-GSWDGREEN23-8": {
+      "game": "KXNBAREB",
+      "player": "draymond green",
+      "stat": "rebounds",
+      "p": 0.4318,
+      "t": "2026-11-08T03:01:28.005457Z"
+    },
+    "KXNBAAST-26NOV07NYKCLE-CLEEMOBLEY4-6": {
+      "game": "KXNBAAST",
+      "player": "evan mobley",
+      "stat": "assists",
+      "p": 0.4005,
+      "t": "2026-11-08T03:01:28.005460Z"
+    },
+    "KXNBAAST-26NOV07HOUPHX-PHXDBROOKS3-2": {
+      "game": "KXNBAAST",
+      "player": "dillon brooks",
+      "stat": "assists",
+      "p": 0.3858,
+      "t": "2026-11-08T03:01:28.005462Z"
+    },
+    "KXNBAAST-26NOV07HOUPHX-PHXCGILLESPIE12-4": {
+      "game": "KXNBAAST",
+      "player": "collin gillespie",
+      "stat": "assists",
+      "p": 0.5457,
+      "t": "2026-11-08T03:01:28.005465Z"
+    },
+    "KXNBAAST-26NOV07ORLGSW-ORLTDASILVA23-2": {
+      "game": "KXNBAAST",
+      "player": "tristan da silva",
+      "stat": "assists",
+      "p": 0.5913,
+      "t": "2026-11-08T03:01:28.005467Z"
+    },
+    "KXNBAAST-26NOV07ORLGSW-ORLFWAGNER22-8": {
+      "game": "KXNBAAST",
+      "player": "franz wagner",
+      "stat": "assists",
+      "p": 0.5,
+      "t": "2026-11-08T03:01:28.005470Z"
+    },
+    "KXNBAAST-26NOV07ORLGSW-GSWDGREEN23-8": {
+      "game": "KXNBAAST",
+      "player": "draymond green",
+      "stat": "assists",
+      "p": 0.4661,
+      "t": "2026-11-08T03:01:28.005475Z"
+    },
+    "KXNBA3PT-26NOV07ORLGSW-GSWSCURRY30-4": {
+      "game": "KXNBA3PT",
+      "player": "stephen curry",
+      "stat": "threes",
+      "p": 0.5517,
+      "t": "2026-11-08T03:01:28.005477Z"
+    },
+    "KXNBA3PT-26NOV07HOUPHX-HOUJSMITH10-2": {
+      "game": "KXNBA3PT",
+      "player": "jabari smith jr",
+      "stat": "threes",
+      "p": 0.4,
+      "t": "2026-11-08T03:01:28.005480Z"
+    },
+    "KXNBA3PT-26NOV07HOUPHX-HOUFVANVLEET5-5": {
+      "game": "KXNBA3PT",
+      "player": "fred vanvleet",
+      "stat": "threes",
+      "p": 0.4167,
+      "t": "2026-11-08T03:01:28.005482Z"
+    },
+    "KXNBA3PT-26NOV07HOUPHX-PHXMBRIDGES22-2": {
+      "game": "KXNBA3PT",
+      "player": "miles bridges",
+      "stat": "threes",
+      "p": 0.3596,
+      "t": "2026-11-08T03:01:28.005484Z"
     }
   },
   "bets": [
@@ -7063,9 +7182,9 @@
   ],
   "credits": {
     "d": "2026-11-08",
-    "used": 48
+    "used": 88
   },
-  "updated_at": "2026-11-08T02:50:19.656598Z",
+  "updated_at": "2026-11-08T03:01:29.042641Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
