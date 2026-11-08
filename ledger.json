@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-16T04:00:35.328683Z",
-      "dollars": 64.38
-    },
-    {
       "t": "2026-10-16T04:10:24.360261Z",
       "dollars": 64.38
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-08T03:30:34.150048Z",
       "dollars": 40.76
+    },
+    {
+      "t": "2026-11-08T03:40:29.982714Z",
+      "dollars": 40.76
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-15T18:50:14.342374Z",
-      "ticker": "KXNFLGAME-26OCT18CARPHI-CAR",
-      "title": "Carolina wins",
-      "side": "yes",
-      "fair_prob": 0.622,
-      "market_price": 0.5,
-      "edge": 0.122,
-      "dollars": 3.21,
-      "contracts": 6,
-      "intended_dollars": 3.21,
-      "intended_contracts": 6,
-      "status": "skipped_same_event",
-      "note": ""
-    },
     {
       "t": "2026-10-15T20:00:25.741828Z",
       "ticker": "KXNFLGAME-26OCT18CARPHI-PHI",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-08T03:40:19.136059Z",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "title": "Buffalo wins",
+      "side": "no",
+      "fair_prob": 0.779,
+      "market_price": 0.83,
+      "edge": -0.051,
+      "dollars": 0.77,
+      "contracts": 4,
+      "intended_dollars": 0.77,
+      "intended_contracts": 4,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-08T03:30:34.150444Z",
+  "updated_at": "2026-11-08T03:40:29.983059Z",
   "env": "prod",
   "prod_edge_observations": [
     {
