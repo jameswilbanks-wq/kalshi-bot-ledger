@@ -374,8 +374,25 @@
       "payout": -0.14,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV08GBNE-NE|no",
+      "ts": "2026-11-08T22:05:58.980991Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV08GBNE",
+      "title": "KXNFLGAME-26NOV08GBNE-NE",
+      "ticker": "KXNFLGAME-26NOV08GBNE-NE",
+      "side": "NO",
+      "contracts": 5,
+      "price": 0.829,
+      "cost": 3.94,
+      "payout": null,
+      "status": "open",
+      "note": ""
     }
   ],
-  "balance": 44.14,
-  "updated_at": "2026-11-08T21:20:56.174425Z"
+  "balance": 40.16,
+  "updated_at": "2026-11-08T22:10:37.302720Z"
 }
