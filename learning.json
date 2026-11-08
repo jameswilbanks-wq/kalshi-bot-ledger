@@ -6480,6 +6480,19 @@
       "live": true,
       "lead": 14,
       "t": "2026-11-08T02:10:13.032822Z"
+    },
+    {
+      "kind": "cfb",
+      "key": "KXNCAAFGAME-26NOV21UGASCAR-UGA",
+      "tickers": [
+        "KXNCAAFGAME-26NOV21UGASCAR-UGA"
+      ],
+      "fair": 0.9601,
+      "stake": 1.58,
+      "price": 0.79,
+      "live": true,
+      "lead": 28,
+      "t": "2026-11-08T02:30:28.482880Z"
     }
   ],
   "history": [
@@ -7052,7 +7065,7 @@
     "d": "2026-11-08",
     "used": 48
   },
-  "updated_at": "2026-11-08T02:20:31.099239Z",
+  "updated_at": "2026-11-08T02:30:29.316601Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
