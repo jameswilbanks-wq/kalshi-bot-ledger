@@ -6055,6 +6055,19 @@
       "live": true,
       "lead": 49,
       "t": "2026-11-07T22:40:25.348342Z"
+    },
+    {
+      "kind": "cfb",
+      "key": "KXNCAAFGAME-26NOV14ORSTBSU-BSU",
+      "tickers": [
+        "KXNCAAFGAME-26NOV14ORSTBSU-BSU"
+      ],
+      "fair": 0.913,
+      "stake": 2.19,
+      "price": 0.73,
+      "live": true,
+      "lead": 19,
+      "t": "2026-11-08T00:40:29.244507Z"
     }
   ],
   "history": [
@@ -6627,7 +6640,7 @@
     "d": "2026-11-08",
     "used": 8
   },
-  "updated_at": "2026-11-08T00:30:55.478131Z",
+  "updated_at": "2026-11-08T00:40:30.053641Z",
   "spend": {
     "d": "2026-11-07",
     "cents": 60
