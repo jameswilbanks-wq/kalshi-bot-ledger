@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-10-16T15:20:34.817188Z",
-      "dollars": 61.03
-    },
-    {
       "t": "2026-10-16T15:30:51.304947Z",
       "dollars": 61.03
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-08T14:50:35.718096Z",
       "dollars": 44.14
+    },
+    {
+      "t": "2026-11-08T15:01:01.119012Z",
+      "dollars": 44.14
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-08T14:50:35.718574Z",
+  "updated_at": "2026-11-08T15:01:01.119334Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-08T06:00:39.729284Z",
-      "category": "sports",
-      "ticker": "KXNBAGAME-26NOV08BOSMIL-MIL",
-      "title": "Milwaukee wins",
-      "event_ticker": "KXNBAGAME-26NOV08BOSMIL",
-      "fair_prob": 0.155,
-      "market_price": 0.14,
-      "market_bid": 0.13,
-      "edge": 0.015,
-      "volume_fp": "8353.35"
-    },
-    {
-      "t": "2026-11-08T06:00:39.729329Z",
-      "category": "sports",
-      "ticker": "KXNBAGAME-26NOV08BOSMIL-BOS",
-      "title": "Boston wins",
-      "event_ticker": "KXNBAGAME-26NOV08BOSMIL",
-      "fair_prob": 0.845,
-      "market_price": 0.87,
-      "market_bid": 0.86,
-      "edge": -0.025,
-      "volume_fp": "18657.58"
-    },
     {
       "t": "2026-11-08T06:00:39.729372Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.21,
       "edge": 0.01,
       "volume_fp": "26987.76"
+    },
+    {
+      "t": "2026-11-08T15:00:54.391709Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV09-T64",
+      "title": "Will the maximum temperature be >64\u00b0 on Nov 9, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV09",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "0.00"
+    },
+    {
+      "t": "2026-11-08T15:00:57.088320Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV09-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 9, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV09",
+      "fair_prob": 0.187,
+      "market_price": 0.07,
+      "market_bid": 0.01,
+      "edge": 0.117,
+      "volume_fp": "0.00"
     }
   ]
 }
