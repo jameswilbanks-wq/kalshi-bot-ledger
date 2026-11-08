@@ -53,6 +53,23 @@
       "note": ""
     },
     {
+      "id": "KXNFLGAME-26NOV08NYGPHI-NYG|no",
+      "ts": "2026-10-31T16:40:21.627593Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV08NYGPHI",
+      "title": "KXNFLGAME-26NOV08NYGPHI-NYG",
+      "ticker": "KXNFLGAME-26NOV08NYGPHI-NYG",
+      "side": "NO",
+      "contracts": 8,
+      "price": 0.43,
+      "cost": 3.44,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
+    },
+    {
       "id": "KXNCAAFGAME-26OCT31OSUUSC-OSU|yes",
       "ts": "2026-10-31T23:48:47.870173Z",
       "source": "bot",
@@ -121,6 +138,23 @@
       "note": ""
     },
     {
+      "id": "KXNBAGAME-26NOV02OKCCLE-OKC|no",
+      "ts": "2026-11-03T02:37:47.452567Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV02OKCCLE",
+      "title": "KXNBAGAME-26NOV02OKCCLE-OKC",
+      "ticker": "KXNBAGAME-26NOV02OKCCLE-OKC",
+      "side": "NO",
+      "contracts": 60,
+      "price": 0.04,
+      "cost": 2.4,
+      "payout": -0.16,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
+    },
+    {
       "id": "KXNBAGAME-26NOV02WASORL-ORL|yes",
       "ts": "2026-11-03T02:50:20.12677Z",
       "source": "bot",
@@ -187,6 +221,74 @@
       "payout": -0.17,
       "status": "lost",
       "note": ""
+    },
+    {
+      "id": "KXNBAGAME-26NOV02PHXGSW-PHX|no",
+      "ts": "2026-11-03T05:55:27.575896Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV02PHXGSW",
+      "title": "KXNBAGAME-26NOV02PHXGSW-PHX",
+      "ticker": "KXNBAGAME-26NOV02PHXGSW-PHX",
+      "side": "NO",
+      "contracts": 6,
+      "price": 0.43,
+      "cost": 2.58,
+      "payout": 5.9,
+      "status": "won",
+      "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV16LACBAL-BAL|no",
+      "ts": "2026-11-04T19:50:19.52171Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV16LACBAL",
+      "title": "KXNFLGAME-26NOV16LACBAL-BAL",
+      "ticker": "KXNFLGAME-26NOV16LACBAL-BAL",
+      "side": "NO",
+      "contracts": 6,
+      "price": 0.46,
+      "cost": 2.76,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV15PITCIN-PIT|no",
+      "ts": "2026-11-07T04:50:37.206628Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15PITCIN",
+      "title": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.54,
+      "cost": 2.16,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV15BUFNYJ-BUF|no",
+      "ts": "2026-11-07T18:40:13.230106Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15BUFNYJ",
+      "title": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.2,
+      "cost": 0.6,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     },
     {
       "id": "KXNCAAFGAME-26NOV21WAKEGT-WAKE|yes",
@@ -275,5 +377,5 @@
     }
   ],
   "balance": 44.14,
-  "updated_at": "2026-11-08T17:50:35.692286Z"
+  "updated_at": "2026-11-08T18:20:50.601625Z"
 }
