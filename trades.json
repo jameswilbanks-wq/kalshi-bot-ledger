@@ -408,8 +408,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV09MEMTOR-TOR|yes",
+      "ts": "2026-11-09T22:50:13.123709Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV09MEMTOR",
+      "title": "KXNBAGAME-26NOV09MEMTOR-TOR",
+      "ticker": "KXNBAGAME-26NOV09MEMTOR-TOR",
+      "side": "YES",
+      "contracts": 4,
+      "price": 0.47,
+      "cost": 1.88,
+      "payout": null,
+      "status": "open",
+      "note": ""
     }
   ],
   "balance": 42.92,
-  "updated_at": "2026-11-09T00:50:47.175709Z"
+  "updated_at": "2026-11-09T22:50:28.016497Z"
 }
