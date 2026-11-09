@@ -388,8 +388,8 @@
       "contracts": 5,
       "price": 0.829,
       "cost": 3.94,
-      "payout": null,
-      "status": "open",
+      "payout": 4.7,
+      "status": "won",
       "note": ""
     },
     {
@@ -410,6 +410,6 @@
       "note": "from open positions (no fill record)"
     }
   ],
-  "balance": 38.17,
-  "updated_at": "2026-11-08T22:50:44.217150Z"
+  "balance": 42.92,
+  "updated_at": "2026-11-09T00:50:47.175709Z"
 }
