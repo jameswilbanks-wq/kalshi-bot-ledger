@@ -1,7 +1,7 @@
 {
   "params": {
     "rho": 0.1,
-    "leg_haircut": 0.9551,
+    "leg_haircut": 0.9518,
     "cfb_haircut": 0.03,
     "props_tier": 0,
     "cfb_tier": 0,
@@ -11,7 +11,7 @@
     "cfbp_enabled": true,
     "long_tier": 0,
     "long_enabled": true,
-    "updated": "2026-11-08"
+    "updated": "2026-11-09"
   },
   "legs": {
     "KXNBAPTS-26NOV01BKNIND-INDJWALKER5-10": {
@@ -6747,917 +6747,1048 @@
       "player": "kenneth walker iii",
       "stat": "rec_yds",
       "p": 0.4947,
-      "t": "2026-11-08T19:00:38.116571Z"
+      "t": "2026-11-08T19:00:38.116571Z",
+      "o": 1
     },
     "KXNFLRECYDS-26NOV08LARWAS-LARKWILLIAMS23-20": {
       "game": "KXNFLRECYDS",
       "player": "kyren williams",
       "stat": "rec_yds",
       "p": 0.5107,
-      "t": "2026-11-08T19:00:38.116583Z"
+      "t": "2026-11-08T19:00:38.116583Z",
+      "o": 0
     },
     "KXNFLRSHYDS-26NOV08CLENO-CLEDSAMPSON22-15": {
       "game": "KXNFLRSHYDS",
       "player": "dylan sampson",
       "stat": "rush_yds",
       "p": 0.5054,
-      "t": "2026-11-08T19:00:38.116588Z"
+      "t": "2026-11-08T19:00:38.116588Z",
+      "o": 1
     },
     "KXNFLRECYDS-26NOV08CLENO-NOJTYSON0-10": {
       "game": "KXNFLRECYDS",
       "player": "jordyn tyson",
       "stat": "rec_yds",
       "p": 0.472,
-      "t": "2026-11-08T20:00:57.205572Z"
+      "t": "2026-11-08T20:00:57.205572Z",
+      "o": 1
     },
     "KXNFLRECYDS-26NOV08LARWAS-WASRWHITE1-50": {
       "game": "KXNFLRECYDS",
       "player": "rachaad white",
       "stat": "rec_yds",
       "p": 0.4933,
-      "t": "2026-11-08T20:00:57.205583Z"
+      "t": "2026-11-08T20:00:57.205583Z",
+      "o": 0
     },
     "KXNFLRECYDS-26NOV08DETMIA-DETITESLAA18-10": {
       "game": "KXNFLRECYDS",
       "player": "isaac teslaa",
       "stat": "rec_yds",
       "p": 0.3657,
-      "t": "2026-11-08T20:00:57.205587Z"
+      "t": "2026-11-08T20:00:57.205587Z",
+      "o": 0
     },
     "KXNFLRECYDS-26NOV08DETMIA-MIAOGORDON0-10": {
       "game": "KXNFLRECYDS",
       "player": "ollie gordon ii",
       "stat": "rec_yds",
       "p": 0.4141,
-      "t": "2026-11-08T20:00:57.205589Z"
+      "t": "2026-11-08T20:00:57.205589Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08PHICHI-CHIIOKORO35-10": {
       "game": "KXNBAPTS",
       "player": "isaac okoro",
       "stat": "points",
       "p": 0.502,
-      "t": "2026-11-08T21:01:00.444146Z"
+      "t": "2026-11-08T21:01:00.444146Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08PHICHI-CHIMBUZELIS14-15": {
       "game": "KXNBAPTS",
       "player": "matas buzelis",
       "stat": "points",
       "p": 0.4867,
-      "t": "2026-11-08T21:01:00.444191Z"
+      "t": "2026-11-08T21:01:00.444191Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08PHICHI-PHIVEDGECOMBE77-8": {
       "game": "KXNBAREB",
       "player": "vj edgecombe",
       "stat": "rebounds",
       "p": 0.4967,
-      "t": "2026-11-08T21:01:00.444204Z"
+      "t": "2026-11-08T21:01:00.444204Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08PHICHI-PHITMAXEY0-4": {
       "game": "KXNBAREB",
       "player": "tyrese maxey",
       "stat": "rebounds",
       "p": 0.5488,
-      "t": "2026-11-08T21:01:00.444209Z"
+      "t": "2026-11-08T21:01:00.444209Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08PHICHI-PHIJEMBIID21-12": {
       "game": "KXNBAREB",
       "player": "joel embiid",
       "stat": "rebounds",
       "p": 0.4497,
-      "t": "2026-11-08T21:01:00.444214Z"
+      "t": "2026-11-08T21:01:00.444214Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08PHICHI-PHIJBROWN7-8": {
       "game": "KXNBAREB",
       "player": "jaylen brown",
       "stat": "rebounds",
       "p": 0.4413,
-      "t": "2026-11-08T21:01:00.444218Z"
+      "t": "2026-11-08T21:01:00.444218Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08PHICHI-PHIDWADE45-4": {
       "game": "KXNBAREB",
       "player": "dean wade",
       "stat": "rebounds",
       "p": 0.4591,
-      "t": "2026-11-08T21:01:00.444223Z"
+      "t": "2026-11-08T21:01:00.444223Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08PHICHI-CHIJGIDDEY3-14": {
       "game": "KXNBAAST",
       "player": "josh giddey",
       "stat": "assists",
       "p": 0.5154,
-      "t": "2026-11-08T21:01:00.444227Z"
+      "t": "2026-11-08T21:01:00.444227Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08PHICHI-CHITJONES30-4": {
       "game": "KXNBAAST",
       "player": "tre jones",
       "stat": "assists",
       "p": 0.4859,
-      "t": "2026-11-08T21:01:00.444232Z"
+      "t": "2026-11-08T21:01:00.444232Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08PHICHI-PHITMAXEY0-6": {
       "game": "KXNBAAST",
       "player": "tyrese maxey",
       "stat": "assists",
       "p": 0.4314,
-      "t": "2026-11-08T21:01:00.444237Z"
+      "t": "2026-11-08T21:01:00.444237Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08PHICHI-PHILJAMES23-8": {
       "game": "KXNBAAST",
       "player": "lebron james",
       "stat": "assists",
       "p": 0.4568,
-      "t": "2026-11-08T21:01:00.444241Z"
+      "t": "2026-11-08T21:01:00.444241Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08PHICHI-PHIJBROWN7-4": {
       "game": "KXNBAAST",
       "player": "jaylen brown",
       "stat": "assists",
       "p": 0.5722,
-      "t": "2026-11-08T21:01:00.444245Z"
+      "t": "2026-11-08T21:01:00.444245Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08PHICHI-PHITMAXEY0-2": {
       "game": "KXNBA3PT",
       "player": "tyrese maxey",
       "stat": "threes",
       "p": 0.5669,
-      "t": "2026-11-08T21:01:00.444250Z"
+      "t": "2026-11-08T21:01:00.444250Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08PHICHI-PHIJBROWN7-2": {
       "game": "KXNBA3PT",
       "player": "jaylen brown",
       "stat": "threes",
       "p": 0.4005,
-      "t": "2026-11-08T21:01:00.444254Z"
+      "t": "2026-11-08T21:01:00.444254Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08PHICHI-CHICWILSON8-3": {
       "game": "KXNBA3PT",
       "player": "caleb wilson",
       "stat": "threes",
       "p": 0.48,
-      "t": "2026-11-08T21:01:00.444259Z"
+      "t": "2026-11-08T21:01:00.444259Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08PHICHI-PHITMAXEY0-30": {
       "game": "KXNBAPTS",
       "player": "tyrese maxey",
       "stat": "points",
       "p": 0.4947,
-      "t": "2026-11-08T22:01:03.566641Z"
+      "t": "2026-11-08T22:01:03.566641Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08PHICHI-CHICWILSON8-6": {
       "game": "KXNBAREB",
       "player": "caleb wilson",
       "stat": "rebounds",
       "p": 0.408,
-      "t": "2026-11-08T22:01:03.566653Z"
+      "t": "2026-11-08T22:01:03.566653Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08PHICHI-PHILJAMES23-4": {
       "game": "KXNBAREB",
       "player": "lebron james",
       "stat": "rebounds",
       "p": 0.4331,
-      "t": "2026-11-08T22:01:03.566658Z"
+      "t": "2026-11-08T22:01:03.566658Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08PHICHI-PHIJEMBIID21-4": {
       "game": "KXNBAAST",
       "player": "joel embiid",
       "stat": "assists",
       "p": 0.6521,
-      "t": "2026-11-08T22:01:03.566662Z"
+      "t": "2026-11-08T22:01:03.566662Z",
+      "o": 1
     },
     "KXNFLRSHYDS-26NOV08LVSF-LVAJEANTY2-30": {
       "game": "KXNFLRSHYDS",
       "player": "ashton jeanty",
       "stat": "rush_yds",
       "p": 0.5,
-      "t": "2026-11-08T22:01:03.566665Z"
+      "t": "2026-11-08T22:01:03.566665Z",
+      "o": 0
     },
     "KXNFLRECYDS-26NOV08LVSF-SFJWATKINS17-25": {
       "game": "KXNFLRECYDS",
       "player": "jordan watkins",
       "stat": "rec_yds",
       "p": 0.4444,
-      "t": "2026-11-08T23:00:26.747103Z"
+      "t": "2026-11-08T23:00:26.747103Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08LALDET-DETCCUNNINGHAM2-15": {
       "game": "KXNBAPTS",
       "player": "cade cunningham",
       "stat": "points",
       "p": 0.5127,
-      "t": "2026-11-09T00:01:10.718728Z"
+      "t": "2026-11-09T00:01:10.718728Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08LALDET-LALWKESSLER14-10": {
       "game": "KXNBAREB",
       "player": "walker kessler",
       "stat": "rebounds",
       "p": 0.476,
-      "t": "2026-11-09T00:01:10.718754Z"
+      "t": "2026-11-09T00:01:10.718754Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08LALDET-DETATHOMPSON9-8": {
       "game": "KXNBAREB",
       "player": "ausar thompson",
       "stat": "rebounds",
       "p": 0.555,
-      "t": "2026-11-09T00:01:10.718762Z"
+      "t": "2026-11-09T00:01:10.718762Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08LALDET-LALAREAVES15-6": {
       "game": "KXNBAAST",
       "player": "austin reaves",
       "stat": "assists",
       "p": 0.4282,
-      "t": "2026-11-09T00:01:10.718768Z"
+      "t": "2026-11-09T00:01:10.718768Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08LALDET-DETCCUNNINGHAM2-6": {
       "game": "KXNBAAST",
       "player": "cade cunningham",
       "stat": "assists",
       "p": 0.5307,
-      "t": "2026-11-09T00:01:10.718772Z"
+      "t": "2026-11-09T00:01:10.718772Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08LALDET-DETATHOMPSON9-4": {
       "game": "KXNBAAST",
       "player": "ausar thompson",
       "stat": "assists",
       "p": 0.4465,
-      "t": "2026-11-09T00:01:10.718777Z"
+      "t": "2026-11-09T00:01:10.718777Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08LALDET-LALAREAVES15-2": {
       "game": "KXNBA3PT",
       "player": "austin reaves",
       "stat": "threes",
       "p": 0.4083,
-      "t": "2026-11-09T00:01:10.718781Z"
+      "t": "2026-11-09T00:01:10.718781Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08LALDET-DETCCUNNINGHAM2-2": {
       "game": "KXNBA3PT",
       "player": "cade cunningham",
       "stat": "threes",
       "p": 0.3778,
-      "t": "2026-11-09T00:01:10.718786Z"
+      "t": "2026-11-09T00:01:10.718786Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08UTAMIN-UTAJHAYES11-10": {
       "game": "KXNBAPTS",
       "player": "jaxson hayes",
       "stat": "points",
       "p": 0.5,
-      "t": "2026-11-09T01:00:51.332234Z"
+      "t": "2026-11-09T01:00:51.332234Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08UTAMIN-UTADPETERSON22-20": {
       "game": "KXNBAPTS",
       "player": "darryn peterson",
       "stat": "points",
       "p": 0.4786,
-      "t": "2026-11-09T01:00:51.332250Z"
+      "t": "2026-11-09T01:00:51.332250Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08UTAMIN-UTAABAILEY19-15": {
       "game": "KXNBAPTS",
       "player": "ace bailey",
       "stat": "points",
       "p": 0.4893,
-      "t": "2026-11-09T01:00:51.332255Z"
+      "t": "2026-11-09T01:00:51.332255Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08UTAMIN-MINLBALL1-25": {
       "game": "KXNBAPTS",
       "player": "lamelo ball",
       "stat": "points",
       "p": 0.5187,
-      "t": "2026-11-09T01:00:51.332258Z"
+      "t": "2026-11-09T01:00:51.332258Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08LALDET-DETATHOMPSON9-12": {
       "game": "KXNBAREB",
       "player": "ausar thompson",
       "stat": "rebounds",
       "p": 0.4444,
-      "t": "2026-11-09T01:00:51.332262Z"
+      "t": "2026-11-09T01:00:51.332262Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-BKNMWAGNER13-4": {
       "game": "KXNBAREB",
       "player": "moritz wagner",
       "stat": "rebounds",
       "p": 0.5426,
-      "t": "2026-11-09T01:00:51.332265Z"
+      "t": "2026-11-09T01:00:51.332265Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-BKNNCLOWNEY21-4": {
       "game": "KXNBAREB",
       "player": "noah clowney",
       "stat": "rebounds",
       "p": 0.4369,
-      "t": "2026-11-09T01:00:51.332269Z"
+      "t": "2026-11-09T01:00:51.332269Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-BKNDWOLF2-4": {
       "game": "KXNBAREB",
       "player": "danny wolf",
       "stat": "rebounds",
       "p": 0.5053,
-      "t": "2026-11-09T01:00:51.332272Z"
+      "t": "2026-11-09T01:00:51.332272Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-UTAKGEORGE3-6": {
       "game": "KXNBAREB",
       "player": "keyonte george",
       "stat": "rebounds",
       "p": 0.4372,
-      "t": "2026-11-09T01:00:51.332275Z"
+      "t": "2026-11-09T01:00:51.332275Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-UTAABAILEY19-6": {
       "game": "KXNBAREB",
       "player": "ace bailey",
       "stat": "rebounds",
       "p": 0.5409,
-      "t": "2026-11-09T01:00:51.332278Z"
+      "t": "2026-11-09T01:00:51.332278Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-UTAJHAYES11-6": {
       "game": "KXNBAREB",
       "player": "jaxson hayes",
       "stat": "rebounds",
       "p": 0.4847,
-      "t": "2026-11-09T01:00:51.332281Z"
+      "t": "2026-11-09T01:00:51.332281Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08UTAMIN-MINRGOBERT27-10": {
       "game": "KXNBAREB",
       "player": "rudy gobert",
       "stat": "rebounds",
       "p": 0.4562,
-      "t": "2026-11-09T01:00:51.332284Z"
+      "t": "2026-11-09T01:00:51.332284Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08UTAMIN-MINJKUMINGA0-4": {
       "game": "KXNBAREB",
       "player": "jonathan kuminga",
       "stat": "rebounds",
       "p": 0.4314,
-      "t": "2026-11-09T01:00:51.332287Z"
+      "t": "2026-11-09T01:00:51.332287Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-MINADOSUNMU13-6": {
       "game": "KXNBAREB",
       "player": "ayo dosunmu",
       "stat": "rebounds",
       "p": 0.4209,
-      "t": "2026-11-09T01:00:51.332290Z"
+      "t": "2026-11-09T01:00:51.332290Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-BKNJRANDLE30-6": {
       "game": "KXNBAREB",
       "player": "julius randle",
       "stat": "rebounds",
       "p": 0.5541,
-      "t": "2026-11-09T01:00:51.332294Z"
+      "t": "2026-11-09T01:00:51.332294Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-DALKIRVING11-4": {
       "game": "KXNBAREB",
       "player": "kyrie irving",
       "stat": "rebounds",
       "p": 0.5107,
-      "t": "2026-11-09T01:00:51.332296Z"
+      "t": "2026-11-09T01:00:51.332296Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-DALCFLAGG32-8": {
       "game": "KXNBAREB",
       "player": "cooper flagg",
       "stat": "rebounds",
       "p": 0.4582,
-      "t": "2026-11-09T01:00:51.332299Z"
+      "t": "2026-11-09T01:00:51.332299Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08BKNDAL-BKNNTRAORE10-4": {
       "game": "KXNBAAST",
       "player": "nolan traore",
       "stat": "assists",
       "p": 0.5344,
-      "t": "2026-11-09T01:00:51.332303Z"
+      "t": "2026-11-09T01:00:51.332303Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08UTAMIN-UTAKGEORGE3-8": {
       "game": "KXNBAAST",
       "player": "keyonte george",
       "stat": "assists",
       "p": 0.4913,
-      "t": "2026-11-09T01:00:51.332306Z"
+      "t": "2026-11-09T01:00:51.332306Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08UTAMIN-UTADPETERSON22-6": {
       "game": "KXNBAAST",
       "player": "darryn peterson",
       "stat": "assists",
       "p": 0.5417,
-      "t": "2026-11-09T01:00:51.332309Z"
+      "t": "2026-11-09T01:00:51.332309Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08UTAMIN-MINLBALL1-8": {
       "game": "KXNBAAST",
       "player": "lamelo ball",
       "stat": "assists",
       "p": 0.5,
-      "t": "2026-11-09T01:00:51.332312Z"
+      "t": "2026-11-09T01:00:51.332312Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08BKNDAL-BKNJRANDLE30-4": {
       "game": "KXNBAAST",
       "player": "julius randle",
       "stat": "assists",
       "p": 0.4853,
-      "t": "2026-11-09T01:00:51.332315Z"
+      "t": "2026-11-09T01:00:51.332315Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08BKNDAL-DALPWASHINGTON25-2": {
       "game": "KXNBA3PT",
       "player": "pj washington",
       "stat": "threes",
       "p": 0.4591,
-      "t": "2026-11-09T01:00:51.332318Z"
+      "t": "2026-11-09T01:00:51.332318Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08UTAMIN-UTAKGEORGE3-2": {
       "game": "KXNBA3PT",
       "player": "keyonte george",
       "stat": "threes",
       "p": 0.4609,
-      "t": "2026-11-09T01:00:51.332321Z"
+      "t": "2026-11-09T01:00:51.332321Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08UTAMIN-UTAABAILEY19-3": {
       "game": "KXNBA3PT",
       "player": "ace bailey",
       "stat": "threes",
       "p": 0.3636,
-      "t": "2026-11-09T01:00:51.332324Z"
+      "t": "2026-11-09T01:00:51.332324Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08UTAMIN-MINLBALL1-5": {
       "game": "KXNBA3PT",
       "player": "lamelo ball",
       "stat": "threes",
       "p": 0.3998,
-      "t": "2026-11-09T01:00:51.332327Z"
+      "t": "2026-11-09T01:00:51.332327Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08BKNDAL-DALKIRVING11-3": {
       "game": "KXNBA3PT",
       "player": "kyrie irving",
       "stat": "threes",
       "p": 0.5928,
-      "t": "2026-11-09T01:00:51.332330Z"
+      "t": "2026-11-09T01:00:51.332330Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08BKNDAL-BKNMPORTER17-3": {
       "game": "KXNBA3PT",
       "player": "michael porter jr",
       "stat": "threes",
       "p": 0.4654,
-      "t": "2026-11-09T01:00:51.332333Z"
+      "t": "2026-11-09T01:00:51.332333Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08BKNDAL-DALDGAFFORD21-10": {
       "game": "KXNBAPTS",
       "player": "daniel gafford",
       "stat": "points",
       "p": 0.5053,
-      "t": "2026-11-09T02:00:23.878350Z"
+      "t": "2026-11-09T02:00:23.878350Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08BKNDAL-DALKIRVING11-20": {
       "game": "KXNBAPTS",
       "player": "kyrie irving",
       "stat": "points",
       "p": 0.4893,
-      "t": "2026-11-09T02:00:23.878366Z"
+      "t": "2026-11-09T02:00:23.878366Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08UTAMIN-UTAKGEORGE3-25": {
       "game": "KXNBAPTS",
       "player": "keyonte george",
       "stat": "points",
       "p": 0.5107,
-      "t": "2026-11-09T02:00:23.878374Z"
+      "t": "2026-11-09T02:00:23.878374Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08UTAMIN-MINRGOBERT27-10": {
       "game": "KXNBAPTS",
       "player": "rudy gobert",
       "stat": "points",
       "p": 0.5426,
-      "t": "2026-11-09T02:00:23.878377Z"
+      "t": "2026-11-09T02:00:23.878377Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08BKNDAL-DALDGAFFORD21-6": {
       "game": "KXNBAREB",
       "player": "daniel gafford",
       "stat": "rebounds",
       "p": 0.3975,
-      "t": "2026-11-09T02:00:23.878380Z"
+      "t": "2026-11-09T02:00:23.878380Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-DALPWASHINGTON25-6": {
       "game": "KXNBAREB",
       "player": "pj washington",
       "stat": "rebounds",
       "p": 0.4947,
-      "t": "2026-11-09T02:00:23.878383Z"
+      "t": "2026-11-09T02:00:23.878383Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-UTAABAILEY19-4": {
       "game": "KXNBAREB",
       "player": "ace bailey",
       "stat": "rebounds",
       "p": 0.401,
-      "t": "2026-11-09T02:00:23.878388Z"
+      "t": "2026-11-09T02:00:23.878388Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-MINLBALL1-4": {
       "game": "KXNBAREB",
       "player": "lamelo ball",
       "stat": "rebounds",
       "p": 0.5962,
-      "t": "2026-11-09T02:00:23.878390Z"
+      "t": "2026-11-09T02:00:23.878390Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08UTAMIN-MINADOSUNMU13-4": {
       "game": "KXNBAREB",
       "player": "ayo dosunmu",
       "stat": "rebounds",
       "p": 0.5632,
-      "t": "2026-11-09T02:00:23.878393Z"
+      "t": "2026-11-09T02:00:23.878393Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08BKNDAL-BKNMPORTER17-10": {
       "game": "KXNBAREB",
       "player": "michael porter jr",
       "stat": "rebounds",
       "p": 0.5833,
-      "t": "2026-11-09T02:00:23.878395Z"
+      "t": "2026-11-09T02:00:23.878395Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BKNDAL-BKNDSHARPE20-6": {
       "game": "KXNBAREB",
       "player": "dayron sharpe",
       "stat": "rebounds",
       "p": 0.4417,
-      "t": "2026-11-09T02:00:23.878397Z"
+      "t": "2026-11-09T02:00:23.878397Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08BOSMIL-BOSDWHITE9-4": {
       "game": "KXNBAREB",
       "player": "derrick white",
       "stat": "rebounds",
       "p": 0.5637,
-      "t": "2026-11-09T02:00:23.878404Z"
+      "t": "2026-11-09T02:00:23.878404Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08UTAMIN-UTAKGEORGE3-10": {
       "game": "KXNBAAST",
       "player": "keyonte george",
       "stat": "assists",
       "p": 0.4866,
-      "t": "2026-11-09T02:00:23.878408Z"
+      "t": "2026-11-09T02:00:23.878408Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08UTAMIN-MINLBALL1-6": {
       "game": "KXNBAAST",
       "player": "lamelo ball",
       "stat": "assists",
       "p": 0.4681,
-      "t": "2026-11-09T02:00:23.878413Z"
+      "t": "2026-11-09T02:00:23.878413Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08UTAMIN-MINJMCDANIELS3-4": {
       "game": "KXNBAAST",
       "player": "jaden mcdaniels",
       "stat": "assists",
       "p": 0.4787,
-      "t": "2026-11-09T02:00:23.878417Z"
+      "t": "2026-11-09T02:00:23.878417Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08BKNDAL-DALCFLAGG32-10": {
       "game": "KXNBAAST",
       "player": "cooper flagg",
       "stat": "assists",
       "p": 0.5167,
-      "t": "2026-11-09T02:00:23.878422Z"
+      "t": "2026-11-09T02:00:23.878422Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08BKNDAL-DALKIRVING11-4": {
       "game": "KXNBAAST",
       "player": "kyrie irving",
       "stat": "assists",
       "p": 0.5437,
-      "t": "2026-11-09T02:00:23.878426Z"
+      "t": "2026-11-09T02:00:23.878426Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08BKNDAL-BKNDSHARPE20-4": {
       "game": "KXNBAAST",
       "player": "dayron sharpe",
       "stat": "assists",
       "p": 0.4806,
-      "t": "2026-11-09T02:00:23.878431Z"
+      "t": "2026-11-09T02:00:23.878431Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08BOSMIL-MILJJAQUEZ24-4": {
       "game": "KXNBAAST",
       "player": "jaime jaquez jr",
       "stat": "assists",
       "p": 0.4465,
-      "t": "2026-11-09T02:00:23.878435Z"
+      "t": "2026-11-09T02:00:23.878435Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08BOSMIL-BOSNQUETA88-4": {
       "game": "KXNBAAST",
       "player": "neemias queta",
       "stat": "assists",
       "p": 0.4893,
-      "t": "2026-11-09T02:00:23.878439Z"
+      "t": "2026-11-09T02:00:23.878439Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08BOSMIL-BOSDWHITE9-6": {
       "game": "KXNBAAST",
       "player": "derrick white",
       "stat": "assists",
       "p": 0.4148,
-      "t": "2026-11-09T02:00:23.878442Z"
+      "t": "2026-11-09T02:00:23.878442Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08BKNDAL-BKNMPORTER17-5": {
       "game": "KXNBA3PT",
       "player": "michael porter jr",
       "stat": "threes",
       "p": 0.401,
-      "t": "2026-11-09T02:00:23.878444Z"
+      "t": "2026-11-09T02:00:23.878444Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08BOSMIL-MILTHERRO11-3": {
       "game": "KXNBA3PT",
       "player": "tyler herro",
       "stat": "threes",
       "p": 0.4103,
-      "t": "2026-11-09T02:00:23.878448Z"
+      "t": "2026-11-09T02:00:23.878448Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08NOPLAC-NOPDMURRAY5-15": {
       "game": "KXNBAPTS",
       "player": "dejounte murray",
       "stat": "points",
       "p": 0.4753,
-      "t": "2026-11-09T03:00:30.281619Z"
+      "t": "2026-11-09T03:00:30.281619Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08NOPLAC-LACRHACHIMURA28-15": {
       "game": "KXNBAPTS",
       "player": "rui hachimura",
       "stat": "points",
       "p": 0.5305,
-      "t": "2026-11-09T03:00:30.281630Z"
+      "t": "2026-11-09T03:00:30.281630Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08NOPLAC-LACKWAGLER1-10": {
       "game": "KXNBAPTS",
       "player": "keaton wagler",
       "stat": "points",
       "p": 0.5273,
-      "t": "2026-11-09T03:00:30.281635Z"
+      "t": "2026-11-09T03:00:30.281635Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08NOPLAC-NOPJFEARS0-6": {
       "game": "KXNBAREB",
       "player": "jeremiah fears",
       "stat": "rebounds",
       "p": 0.5312,
-      "t": "2026-11-09T03:00:30.281637Z"
+      "t": "2026-11-09T03:00:30.281637Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08NOPLAC-NOPTMURPHY25-6": {
       "game": "KXNBAREB",
       "player": "trey murphy iii",
       "stat": "rebounds",
       "p": 0.4452,
-      "t": "2026-11-09T03:00:30.281640Z"
+      "t": "2026-11-09T03:00:30.281640Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08NOPLAC-NOPDMURRAY5-4": {
       "game": "KXNBAREB",
       "player": "dejounte murray",
       "stat": "rebounds",
       "p": 0.4591,
-      "t": "2026-11-09T03:00:30.281642Z"
+      "t": "2026-11-09T03:00:30.281642Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08NOPLAC-NOPZWILLIAMSON1-6": {
       "game": "KXNBAREB",
       "player": "zion williamson",
       "stat": "rebounds",
       "p": 0.5714,
-      "t": "2026-11-09T03:00:30.281645Z"
+      "t": "2026-11-09T03:00:30.281645Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-SACZLAVINE8-4": {
       "game": "KXNBAREB",
       "player": "zach lavine",
       "stat": "rebounds",
       "p": 0.5789,
-      "t": "2026-11-09T03:00:30.281647Z"
+      "t": "2026-11-09T03:00:30.281647Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08NOPLAC-LACKDUNN8-6": {
       "game": "KXNBAREB",
       "player": "kris dunn",
       "stat": "rebounds",
       "p": 0.3964,
-      "t": "2026-11-09T03:00:30.281650Z"
+      "t": "2026-11-09T03:00:30.281650Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08NOPLAC-LACDGARLAND10-2": {
       "game": "KXNBAREB",
       "player": "darius garland",
       "stat": "rebounds",
       "p": 0.5107,
-      "t": "2026-11-09T03:00:30.281652Z"
+      "t": "2026-11-09T03:00:30.281652Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-MIAPLARSSON9-4": {
       "game": "KXNBAREB",
       "player": "pelle larsson",
       "stat": "rebounds",
       "p": 0.4005,
-      "t": "2026-11-09T03:00:30.281654Z"
+      "t": "2026-11-09T03:00:30.281654Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-MIABPORTIS95-4": {
       "game": "KXNBAREB",
       "player": "bobby portis",
       "stat": "rebounds",
       "p": 0.4667,
-      "t": "2026-11-09T03:00:30.281657Z"
+      "t": "2026-11-09T03:00:30.281657Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-MIABADEBAYO13-10": {
       "game": "KXNBAREB",
       "player": "bam adebayo",
       "stat": "rebounds",
       "p": 0.5497,
-      "t": "2026-11-09T03:00:30.281659Z"
+      "t": "2026-11-09T03:00:30.281659Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-MIAAWIGGINS22-2": {
       "game": "KXNBAREB",
       "player": "andrew wiggins",
       "stat": "rebounds",
       "p": 0.5995,
-      "t": "2026-11-09T03:00:30.281662Z"
+      "t": "2026-11-09T03:00:30.281662Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08NOPLAC-NOPJFEARS0-4": {
       "game": "KXNBAAST",
       "player": "jeremiah fears",
       "stat": "assists",
       "p": 0.4225,
-      "t": "2026-11-09T03:00:30.281664Z"
+      "t": "2026-11-09T03:00:30.281664Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08NOPLAC-NOPZWILLIAMSON1-2": {
       "game": "KXNBAAST",
       "player": "zion williamson",
       "stat": "assists",
       "p": 0.5829,
-      "t": "2026-11-09T03:00:30.281666Z"
+      "t": "2026-11-09T03:00:30.281666Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08MIASAC-SACZLAVINE8-2": {
       "game": "KXNBAAST",
       "player": "zach lavine",
       "stat": "assists",
       "p": 0.5409,
-      "t": "2026-11-09T03:00:30.281668Z"
+      "t": "2026-11-09T03:00:30.281668Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08MIASAC-SACMMONK0-6": {
       "game": "KXNBAAST",
       "player": "malik monk",
       "stat": "assists",
       "p": 0.4241,
-      "t": "2026-11-09T03:00:30.281670Z"
+      "t": "2026-11-09T03:00:30.281670Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08NOPLAC-LACKWAGLER1-4": {
       "game": "KXNBAAST",
       "player": "keaton wagler",
       "stat": "assists",
       "p": 0.3875,
-      "t": "2026-11-09T03:00:30.281673Z"
+      "t": "2026-11-09T03:00:30.281673Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08NOPLAC-LACKDUNN8-6": {
       "game": "KXNBAAST",
       "player": "kris dunn",
       "stat": "assists",
       "p": 0.4171,
-      "t": "2026-11-09T03:00:30.281675Z"
+      "t": "2026-11-09T03:00:30.281675Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08MIASAC-MIADMITCHELL2-10": {
       "game": "KXNBAAST",
       "player": "davion mitchell",
       "stat": "assists",
       "p": 0.5134,
-      "t": "2026-11-09T03:00:30.281677Z"
+      "t": "2026-11-09T03:00:30.281677Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08MIASAC-MIABADEBAYO13-4": {
       "game": "KXNBAAST",
       "player": "bam adebayo",
       "stat": "assists",
       "p": 0.5709,
-      "t": "2026-11-09T03:00:30.281679Z"
+      "t": "2026-11-09T03:00:30.281679Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08NOPLAC-NOPTMURPHY25-3": {
       "game": "KXNBA3PT",
       "player": "trey murphy iii",
       "stat": "threes",
       "p": 0.4967,
-      "t": "2026-11-09T03:00:30.281681Z"
+      "t": "2026-11-09T03:00:30.281681Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08NOPLAC-NOPJFEARS0-1": {
       "game": "KXNBA3PT",
       "player": "jeremiah fears",
       "stat": "threes",
       "p": 0.5833,
-      "t": "2026-11-09T03:00:30.281684Z"
+      "t": "2026-11-09T03:00:30.281684Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08NOPLAC-NOPDMURRAY5-1": {
       "game": "KXNBA3PT",
       "player": "dejounte murray",
       "stat": "threes",
       "p": 0.5803,
-      "t": "2026-11-09T03:00:30.281686Z"
+      "t": "2026-11-09T03:00:30.281686Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08NOPLAC-LACRHACHIMURA28-2": {
       "game": "KXNBA3PT",
       "player": "rui hachimura",
       "stat": "threes",
       "p": 0.4235,
-      "t": "2026-11-09T03:00:30.281688Z"
+      "t": "2026-11-09T03:00:30.281688Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV08NOPLAC-LACBLOPEZ11-2": {
       "game": "KXNBA3PT",
       "player": "brook lopez",
       "stat": "threes",
       "p": 0.6284,
-      "t": "2026-11-09T03:00:30.281691Z"
+      "t": "2026-11-09T03:00:30.281691Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08MIASAC-SACMMONK0-1": {
       "game": "KXNBA3PT",
       "player": "malik monk",
       "stat": "threes",
       "p": 0.557,
-      "t": "2026-11-09T03:00:30.281693Z"
+      "t": "2026-11-09T03:00:30.281693Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08MIASAC-SACDACUFF5-4": {
       "game": "KXNBA3PT",
       "player": "darius acuff jr",
       "stat": "threes",
       "p": 0.5319,
-      "t": "2026-11-09T03:00:30.281695Z"
+      "t": "2026-11-09T03:00:30.281695Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08MIASAC-MIABADEBAYO13-2": {
       "game": "KXNBA3PT",
       "player": "bam adebayo",
       "stat": "threes",
       "p": 0.4893,
-      "t": "2026-11-09T03:00:30.281697Z"
+      "t": "2026-11-09T03:00:30.281697Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV08MIASAC-MIAAWIGGINS22-3": {
       "game": "KXNBA3PT",
       "player": "andrew wiggins",
       "stat": "threes",
       "p": 0.5107,
-      "t": "2026-11-09T03:00:30.281699Z"
+      "t": "2026-11-09T03:00:30.281699Z",
+      "o": 0
     },
     "KXNFLRECYDS-26NOV08TBCHI-TBKGAINWELL1-50": {
       "game": "KXNFLRECYDS",
       "player": "kenny gainwell",
       "stat": "rec_yds",
       "p": 0.5054,
-      "t": "2026-11-09T03:00:30.281701Z"
+      "t": "2026-11-09T03:00:30.281701Z",
+      "o": 1
     },
     "KXNFLRECYDS-26NOV08TBCHI-CHICLOVELAND84-30": {
       "game": "KXNFLRECYDS",
       "player": "colston loveland",
       "stat": "rec_yds",
       "p": 0.4947,
-      "t": "2026-11-09T03:00:30.281703Z"
+      "t": "2026-11-09T03:00:30.281703Z",
+      "o": 1
     },
     "KXNFLRSHYDS-26NOV08TBCHI-TBKGAINWELL1-15": {
       "game": "KXNFLRSHYDS",
       "player": "kenny gainwell",
       "stat": "rush_yds",
       "p": 0.5,
-      "t": "2026-11-09T03:00:30.281706Z"
+      "t": "2026-11-09T03:00:30.281706Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV08MIASAC-SACZLAVINE8-20": {
       "game": "KXNBAPTS",
       "player": "zach lavine",
       "stat": "points",
       "p": 0.536,
-      "t": "2026-11-09T04:00:26.998956Z"
+      "t": "2026-11-09T04:00:26.998956Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08MIASAC-MIAGANTETOKOUNMPO7-30": {
       "game": "KXNBAPTS",
       "player": "giannis antetokounmpo",
       "stat": "points",
       "p": 0.496,
-      "t": "2026-11-09T04:00:26.998969Z"
+      "t": "2026-11-09T04:00:26.998969Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV08MIASAC-MIADMITCHELL2-15": {
       "game": "KXNBAPTS",
       "player": "davion mitchell",
       "stat": "points",
       "p": 0.48,
-      "t": "2026-11-09T04:00:26.998973Z"
+      "t": "2026-11-09T04:00:26.998973Z",
+      "o": 1
     },
     "KXNBAREB-26NOV08NOPLAC-NOPDQUEEN22-6": {
       "game": "KXNBAREB",
       "player": "derik queen",
       "stat": "rebounds",
       "p": 0.5482,
-      "t": "2026-11-09T04:00:26.998976Z"
+      "t": "2026-11-09T04:00:26.998976Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08NOPLAC-NOPTMURPHY25-8": {
       "game": "KXNBAREB",
       "player": "trey murphy iii",
       "stat": "rebounds",
       "p": 0.625,
-      "t": "2026-11-09T04:00:26.998979Z"
+      "t": "2026-11-09T04:00:26.998979Z",
+      "o": 0
     },
     "KXNBAREB-26NOV08MIASAC-MIAGANTETOKOUNMPO7-14": {
       "game": "KXNBAREB",
       "player": "giannis antetokounmpo",
       "stat": "rebounds",
       "p": 0.5881,
-      "t": "2026-11-09T04:00:26.998981Z"
+      "t": "2026-11-09T04:00:26.998981Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08NOPLAC-NOPTMURPHY25-4": {
       "game": "KXNBAAST",
       "player": "trey murphy iii",
       "stat": "assists",
       "p": 0.4005,
-      "t": "2026-11-09T04:00:26.998986Z"
+      "t": "2026-11-09T04:00:26.998986Z",
+      "o": 0
     },
     "KXNBAAST-26NOV08NOPLAC-LACDGARLAND10-10": {
       "game": "KXNBAAST",
       "player": "darius garland",
       "stat": "assists",
       "p": 0.5,
-      "t": "2026-11-09T04:00:26.998988Z"
+      "t": "2026-11-09T04:00:26.998988Z",
+      "o": 1
     },
     "KXNBAAST-26NOV08MIASAC-MIADMITCHELL2-8": {
       "game": "KXNBAAST",
       "player": "davion mitchell",
       "stat": "assists",
       "p": 0.4907,
-      "t": "2026-11-09T04:00:26.998990Z"
+      "t": "2026-11-09T04:00:26.998990Z",
+      "o": 1
     },
     "KXNFLRECYDS-26NOV08TBCHI-CHIKRAYMOND14-25": {
       "game": "KXNFLRECYDS",
       "player": "kalif raymond",
       "stat": "rec_yds",
       "p": 0.3179,
-      "t": "2026-11-09T04:00:26.998993Z"
+      "t": "2026-11-09T04:00:26.998993Z",
+      "o": 1
     }
   },
   "bets": [
@@ -8363,13 +8494,91 @@
         "updated": "2026-11-08"
       },
       "changes": {}
+    },
+    {
+      "d": "2026-11-09",
+      "settled": {
+        "legs": 131,
+        "bets": 0,
+        "calls": 136
+      },
+      "combo_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "combo_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "legs_settled": 972,
+      "params": {
+        "rho": 0.1,
+        "leg_haircut": 0.9518,
+        "cfb_haircut": 0.03,
+        "props_tier": 0,
+        "cfb_tier": 0,
+        "cfbp_tier": 0,
+        "props_enabled": true,
+        "cfb_enabled": true,
+        "cfbp_enabled": true,
+        "long_tier": 0,
+        "long_enabled": true,
+        "updated": "2026-11-09"
+      },
+      "changes": {
+        "leg_haircut": [
+          0.9551,
+          0.9518,
+          "972 legs obs=0.462 pred=0.489"
+        ]
+      }
     }
   ],
   "credits": {
     "d": "2026-11-09",
     "used": 146
   },
-  "updated_at": "2026-11-09T08:50:26.728450Z",
+  "updated_at": "2026-11-09T09:00:26.737590Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
