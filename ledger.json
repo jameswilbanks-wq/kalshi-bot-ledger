@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-02T10:20:30.299396Z",
-      "dollars": 68.3
-    },
-    {
       "t": "2026-11-02T10:30:59.983773Z",
       "dollars": 68.3
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-10T18:40:50.365644Z",
       "dollars": 36.03
+    },
+    {
+      "t": "2026-11-10T18:50:34.229423Z",
+      "dollars": 36.03
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-10T18:40:50.365792Z",
+  "updated_at": "2026-11-10T18:50:34.229528Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-10T12:40:44.391646Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15LARARI-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26NOV15LARARI",
-      "fair_prob": 0.214,
-      "market_price": 0.22,
-      "market_bid": 0.21,
-      "edge": -0.006,
-      "volume_fp": "23982.73"
-    },
-    {
-      "t": "2026-11-10T12:40:44.391696Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SEALV-SEA",
-      "title": "Seattle wins",
-      "event_ticker": "KXNFLGAME-26NOV15SEALV",
-      "fair_prob": 0.619,
-      "market_price": 0.63,
-      "market_bid": 0.62,
-      "edge": -0.011,
-      "volume_fp": "103425.88"
-    },
     {
       "t": "2026-11-10T12:40:44.391742Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.09,
       "edge": 0.023,
       "volume_fp": "217411.44"
+    },
+    {
+      "t": "2026-11-10T18:50:28.081414Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV11-T66",
+      "title": "Will the maximum temperature be >66\u00b0 on Nov 11, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV11",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "280.00"
+    },
+    {
+      "t": "2026-11-10T18:50:29.743897Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV11-T60",
+      "title": "Will the maximum temperature be >60\u00b0 on Nov 11, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV11",
+      "fair_prob": 0.091,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.061,
+      "volume_fp": "572.13"
     }
   ]
 }
