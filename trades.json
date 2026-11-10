@@ -463,7 +463,7 @@
         "KXNBAREB-26NOV09INDDAL-INDIZUBAC40-4"
       ],
       "leg_status": [
-        "",
+        "hit",
         "",
         "",
         "",
@@ -476,5 +476,5 @@
     }
   ],
   "balance": 36.03,
-  "updated_at": "2026-11-10T01:00:58.216737Z"
+  "updated_at": "2026-11-10T01:20:48.790840Z"
 }
