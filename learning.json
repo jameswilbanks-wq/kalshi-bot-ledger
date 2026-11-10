@@ -11,6 +11,8 @@
     "cfbp_enabled": true,
     "long_tier": 0,
     "long_enabled": true,
+    "nba80_tier": 0,
+    "nba80_enabled": true,
     "updated": "2026-11-09"
   },
   "legs": {
@@ -8578,7 +8580,7 @@
     "d": "2026-11-09",
     "used": 146
   },
-  "updated_at": "2026-11-10T00:30:29.583815Z",
+  "updated_at": "2026-11-10T00:40:36.976113Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
