@@ -393,23 +393,6 @@
       "note": ""
     },
     {
-      "id": "KXNBAGAME-26NOV09DENHOU-HOU|no",
-      "ts": "2026-11-08T22:40:16.015801Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV09DENHOU",
-      "title": "KXNBAGAME-26NOV09DENHOU-HOU",
-      "ticker": "KXNBAGAME-26NOV09DENHOU-HOU",
-      "side": "NO",
-      "contracts": 7,
-      "price": 0.27,
-      "cost": 1.89,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNBAGAME-26NOV09MEMTOR-TOR|yes",
       "ts": "2026-11-09T22:50:13.123709Z",
       "source": "bot",
@@ -439,8 +422,8 @@
       "contracts": 40,
       "price": 0.236,
       "cost": 9.49,
-      "payout": null,
-      "status": "open",
+      "payout": -0.51,
+      "status": "lost",
       "note": "",
       "legs": [
         "Cooper Flagg: 1+ 3PM",
@@ -473,8 +456,25 @@
         "miss"
       ],
       "legs_v": 3
+    },
+    {
+      "id": "KXNBAGAME-26NOV09DENHOU-HOU|no",
+      "ts": "2026-11-10T03:53:31.302105Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV09DENHOU",
+      "title": "KXNBAGAME-26NOV09DENHOU-HOU",
+      "ticker": "KXNBAGAME-26NOV09DENHOU-HOU",
+      "side": "NO",
+      "contracts": 7,
+      "price": 0.27,
+      "cost": 1.89,
+      "payout": -0.1,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 36.03,
-  "updated_at": "2026-11-10T03:50:37.912223Z"
+  "updated_at": "2026-11-10T04:01:19.672899Z"
 }
