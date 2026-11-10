@@ -7791,6 +7791,216 @@
       "p": 0.3179,
       "t": "2026-11-09T04:00:26.998993Z",
       "o": 1
+    },
+    "KXNBAPTS-26NOV09CLECHA-CLEJALLEN31-15": {
+      "game": "KXNBAPTS",
+      "player": "jarrett allen",
+      "stat": "points",
+      "p": 0.5087,
+      "t": "2026-11-10T01:00:41.572306Z"
+    },
+    "KXNBAPTS-26NOV09WASDET-DETJCOLLINS20-20": {
+      "game": "KXNBAPTS",
+      "player": "john collins",
+      "stat": "points",
+      "p": 0.522,
+      "t": "2026-11-10T01:00:41.572325Z"
+    },
+    "KXNBAPTS-26NOV09WASDET-DETATHOMPSON9-10": {
+      "game": "KXNBAPTS",
+      "player": "ausar thompson",
+      "stat": "points",
+      "p": 0.528,
+      "t": "2026-11-10T01:00:41.572330Z"
+    },
+    "KXNBAREB-26NOV09CLECHA-CLEMHEZONJA33-4": {
+      "game": "KXNBAREB",
+      "player": "mario hezonja",
+      "stat": "rebounds",
+      "p": 0.4707,
+      "t": "2026-11-10T01:00:41.572340Z"
+    },
+    "KXNBAREB-26NOV09LALATL-LALJLARAVIA12-4": {
+      "game": "KXNBAREB",
+      "player": "jake laravia",
+      "stat": "rebounds",
+      "p": 0.4714,
+      "t": "2026-11-10T01:00:41.572344Z"
+    },
+    "KXNBAREB-26NOV09LALATL-ATLNALEXANDERWALKER7-4": {
+      "game": "KXNBAREB",
+      "player": "nickeil alexanderwalker",
+      "stat": "rebounds",
+      "p": 0.5516,
+      "t": "2026-11-10T01:00:41.572346Z"
+    },
+    "KXNBAREB-26NOV09LALATL-ATLJJOHNSON1-6": {
+      "game": "KXNBAREB",
+      "player": "jalen johnson",
+      "stat": "rebounds",
+      "p": 0.5658,
+      "t": "2026-11-10T01:00:41.572349Z"
+    },
+    "KXNBAREB-26NOV09LALATL-ATLDDANIELS5-4": {
+      "game": "KXNBAREB",
+      "player": "dyson daniels",
+      "stat": "rebounds",
+      "p": 0.5312,
+      "t": "2026-11-10T01:00:41.572351Z"
+    },
+    "KXNBAREB-26NOV09CLECHA-CHANREID0-10": {
+      "game": "KXNBAREB",
+      "player": "naz reid",
+      "stat": "rebounds",
+      "p": 0.5391,
+      "t": "2026-11-10T01:00:41.572354Z"
+    },
+    "KXNBAREB-26NOV09CLECHA-CLEPWATSON8-4": {
+      "game": "KXNBAREB",
+      "player": "peyton watson",
+      "stat": "rebounds",
+      "p": 0.4093,
+      "t": "2026-11-10T01:00:41.572356Z"
+    },
+    "KXNBAREB-26NOV09CLECHA-CLEDMITCHELL45-4": {
+      "game": "KXNBAREB",
+      "player": "donovan mitchell",
+      "stat": "rebounds",
+      "p": 0.4873,
+      "t": "2026-11-10T01:00:41.572359Z"
+    },
+    "KXNBAREB-26NOV09WASDET-WASASARR20-6": {
+      "game": "KXNBAREB",
+      "player": "alex sarr",
+      "stat": "rebounds",
+      "p": 0.4681,
+      "t": "2026-11-10T01:00:41.572362Z"
+    },
+    "KXNBAREB-26NOV09WASDET-WASADAVIS23-12": {
+      "game": "KXNBAREB",
+      "player": "anthony davis",
+      "stat": "rebounds",
+      "p": 0.5147,
+      "t": "2026-11-10T01:00:41.572364Z"
+    },
+    "KXNBAREB-26NOV09WASDET-DETDROBINSON55-4": {
+      "game": "KXNBAREB",
+      "player": "duncan robinson",
+      "stat": "rebounds",
+      "p": 0.4741,
+      "t": "2026-11-10T01:00:41.572366Z"
+    },
+    "KXNBAREB-26NOV09WASDET-DETJCOLLINS20-6": {
+      "game": "KXNBAREB",
+      "player": "john collins",
+      "stat": "rebounds",
+      "p": 0.5287,
+      "t": "2026-11-10T01:00:41.572369Z"
+    },
+    "KXNBAREB-26NOV09MEMTOR-MEMZEDEY14-8": {
+      "game": "KXNBAREB",
+      "player": "zach edey",
+      "stat": "rebounds",
+      "p": 0.5372,
+      "t": "2026-11-10T01:00:41.572371Z"
+    },
+    "KXNBAREB-26NOV09WASDET-DETCCUNNINGHAM2-6": {
+      "game": "KXNBAREB",
+      "player": "cade cunningham",
+      "stat": "rebounds",
+      "p": 0.4197,
+      "t": "2026-11-10T01:00:41.572373Z"
+    },
+    "KXNBAAST-26NOV09LALATL-ATLJJOHNSON1-6": {
+      "game": "KXNBAAST",
+      "player": "jalen johnson",
+      "stat": "assists",
+      "p": 0.4681,
+      "t": "2026-11-10T01:00:41.572376Z"
+    },
+    "KXNBAAST-26NOV09LALATL-ATLKFLEMINGS4-4": {
+      "game": "KXNBAAST",
+      "player": "kingston flemings",
+      "stat": "assists",
+      "p": 0.599,
+      "t": "2026-11-10T01:00:41.572378Z"
+    },
+    "KXNBAAST-26NOV09CLECHA-CHAGALLEN8-4": {
+      "game": "KXNBAAST",
+      "player": "grayson allen",
+      "stat": "assists",
+      "p": 0.5548,
+      "t": "2026-11-10T01:00:41.572381Z"
+    },
+    "KXNBAAST-26NOV09CLECHA-CLEEMOBLEY4-4": {
+      "game": "KXNBAAST",
+      "player": "evan mobley",
+      "stat": "assists",
+      "p": 0.5592,
+      "t": "2026-11-10T01:00:41.572383Z"
+    },
+    "KXNBAAST-26NOV09WASDET-WASKGEORGE18-4": {
+      "game": "KXNBAAST",
+      "player": "kyshawn george",
+      "stat": "assists",
+      "p": 0.5305,
+      "t": "2026-11-10T01:00:41.572386Z"
+    },
+    "KXNBAAST-26NOV09WASDET-DETDJENKINS24-8": {
+      "game": "KXNBAAST",
+      "player": "daniss jenkins",
+      "stat": "assists",
+      "p": 0.4193,
+      "t": "2026-11-10T01:00:41.572388Z"
+    },
+    "KXNBA3PT-26NOV09CLECHA-CLEJHARDEN1-3": {
+      "game": "KXNBA3PT",
+      "player": "james harden",
+      "stat": "threes",
+      "p": 0.3858,
+      "t": "2026-11-10T01:00:41.572391Z"
+    },
+    "KXNBA3PT-26NOV09CLECHA-CLEDMITCHELL45-3": {
+      "game": "KXNBA3PT",
+      "player": "donovan mitchell",
+      "stat": "threes",
+      "p": 0.4654,
+      "t": "2026-11-10T01:00:41.572393Z"
+    },
+    "KXNBA3PT-26NOV09CLECHA-CHARONEALE00-2": {
+      "game": "KXNBA3PT",
+      "player": "royce oneale",
+      "stat": "threes",
+      "p": 0.3939,
+      "t": "2026-11-10T01:00:41.572396Z"
+    },
+    "KXNBA3PT-26NOV09CLECHA-CHANREID0-5": {
+      "game": "KXNBA3PT",
+      "player": "naz reid",
+      "stat": "threes",
+      "p": 0.464,
+      "t": "2026-11-10T01:00:41.572398Z"
+    },
+    "KXNBA3PT-26NOV09CLECHA-CHAGALLEN8-6": {
+      "game": "KXNBA3PT",
+      "player": "grayson allen",
+      "stat": "threes",
+      "p": 0.5411,
+      "t": "2026-11-10T01:00:41.572401Z"
+    },
+    "KXNBA3PT-26NOV09LALATL-ATLNALEXANDERWALKER7-4": {
+      "game": "KXNBA3PT",
+      "player": "nickeil alexanderwalker",
+      "stat": "threes",
+      "p": 0.5658,
+      "t": "2026-11-10T01:00:41.572410Z"
+    },
+    "KXNBA3PT-26NOV09WASDET-DETCCUNNINGHAM2-2": {
+      "game": "KXNBA3PT",
+      "player": "cade cunningham",
+      "stat": "threes",
+      "p": 0.3778,
+      "t": "2026-11-10T01:00:41.572413Z"
     }
   },
   "bets": [
@@ -8577,10 +8787,10 @@
     }
   ],
   "credits": {
-    "d": "2026-11-09",
-    "used": 146
+    "d": "2026-11-10",
+    "used": 32
   },
-  "updated_at": "2026-11-10T00:50:41.502847Z",
+  "updated_at": "2026-11-10T01:00:44.070097Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
@@ -10402,6 +10612,140 @@
         "roschon johnson 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "ray davis 30+ no_player {}",
         "ray davis 25+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-10T01:00:34.365512Z",
+      "series": "KXNBAPTS",
+      "stat": "points",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 19,
+        "alt_mkts": 19,
+        "books": 6,
+        "players": 58,
+        "keys": 1061,
+        "keys_over_only": 956,
+        "keys_few_books": 84,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 21
+      },
+      "nocons": {
+        "over_only": 146,
+        "no_player": 185,
+        "no_line": 14,
+        "few_books": 13
+      },
+      "ex": [
+        "grayson allen 35+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "trae young 30+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
+        "alijah martin 25+ no_player {}",
+        "reed sheppard 15+ no_player {}",
+        "deandre ayton 15+ no_line {'near': [11.5, 10.5, 9.5]}",
+        "jamison battle 10+ few_books {'over': 3, 'under': 1, 'pair': 1, 'books': 2}"
+      ]
+    },
+    {
+      "t": "2026-11-10T01:00:34.365512Z",
+      "series": "KXNBAREB",
+      "stat": "rebounds",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 15,
+        "alt_mkts": 12,
+        "books": 5,
+        "players": 53,
+        "keys": 387,
+        "keys_over_only": 323,
+        "keys_few_books": 35,
+        "keys_wide": 3,
+        "keys_dup_book": 0,
+        "priced": 26
+      },
+      "nocons": {
+        "no_line": 39,
+        "over_only": 132,
+        "no_player": 220,
+        "few_books": 14,
+        "wide_spread": 1
+      },
+      "ex": [
+        "mario hezonja 10+ no_line {'near': [7.5, 6.5, 5.5]}",
+        "anthony davis 16+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "naji marshall 8+ no_player {}",
+        "mario hezonja 8+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "mario hezonja 2+ no_line {'near': [2.5, 3.5, 4.5]}",
+        "naji marshall 6+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-10T01:00:34.365512Z",
+      "series": "KXNBAAST",
+      "stat": "assists",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 15,
+        "alt_mkts": 16,
+        "books": 6,
+        "players": 45,
+        "keys": 248,
+        "keys_over_only": 201,
+        "keys_few_books": 31,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 15
+      },
+      "nocons": {
+        "over_only": 79,
+        "no_player": 150,
+        "no_line": 30,
+        "few_books": 19,
+        "wide_spread": 1
+      },
+      "ex": [
+        "coby white 10+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "collin sexton 8+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "cooper flagg 12+ no_player {}",
+        "bennedict mathurin 6+ no_player {}",
+        "mario hezonja 6+ no_line {'near': [3.5, 2.5, 1.5]}",
+        "jamal shead 10+ few_books {'over': 5, 'under': 1, 'pair': 1, 'books': 5}"
+      ]
+    },
+    {
+      "t": "2026-11-10T01:00:34.365512Z",
+      "series": "KXNBA3PT",
+      "stat": "threes",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 11,
+        "alt_mkts": 15,
+        "books": 4,
+        "players": 46,
+        "keys": 202,
+        "keys_over_only": 157,
+        "keys_few_books": 37,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 8
+      },
+      "nocons": {
+        "no_player": 216,
+        "no_line": 42,
+        "over_only": 112,
+        "few_books": 35
+      },
+      "ex": [
+        "reed sheppard 5+ no_player {}",
+        "bennedict mathurin 4+ no_player {}",
+        "mario hezonja 5+ no_line {'near': [2.5, 1.5, 0.5]}",
+        "mario hezonja 4+ no_line {'near': [2.5, 1.5, 0.5]}",
+        "mario hezonja 3+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "mario hezonja 2+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}"
       ]
     }
   ]
