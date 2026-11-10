@@ -452,9 +452,29 @@
         "Kyrie Irving: 2+ reb",
         "Ivica Zubac: 4+ reb"
       ],
-      "legs_v": 2
+      "leg_tickers": [
+        "KXNBA3PT-26NOV09INDDAL-DALCFLAGG32-1",
+        "KXNBAAST-26NOV09INDDAL-DALCFLAGG32-6",
+        "KXNBAAST-26NOV09INDDAL-DALKIRVING11-2",
+        "KXNBAAST-26NOV09INDDAL-INDPSIAKAM43-2",
+        "KXNBAPTS-26NOV09INDDAL-DALCFLAGG32-20",
+        "KXNBAPTS-26NOV09INDDAL-DALKIRVING11-15",
+        "KXNBAREB-26NOV09INDDAL-DALKIRVING11-2",
+        "KXNBAREB-26NOV09INDDAL-INDIZUBAC40-4"
+      ],
+      "leg_status": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "legs_v": 3
     }
   ],
   "balance": 36.03,
-  "updated_at": "2026-11-10T00:40:51.053042Z"
+  "updated_at": "2026-11-10T01:00:58.216737Z"
 }
