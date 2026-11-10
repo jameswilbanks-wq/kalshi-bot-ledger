@@ -320,9 +320,9 @@
       "contracts": 3,
       "price": 0.73,
       "cost": 2.19,
-      "payout": null,
-      "status": "open",
-      "note": ""
+      "payout": 2.43,
+      "status": "won",
+      "note": "closed before settling (sold)"
     },
     {
       "id": "KXNCAAFGAME-26NOV21IOWAILL-IOWA|yes",
@@ -337,9 +337,9 @@
       "contracts": 2,
       "price": 0.7,
       "cost": 1.4,
-      "payout": null,
-      "status": "open",
-      "note": ""
+      "payout": 1.24,
+      "status": "lost",
+      "note": "closed before settling (sold)"
     },
     {
       "id": "KXNCAAFGAME-26NOV21UGASCAR-UGA|yes",
@@ -354,9 +354,9 @@
       "contracts": 2,
       "price": 0.79,
       "cost": 1.58,
-      "payout": null,
-      "status": "open",
-      "note": ""
+      "payout": 1.47,
+      "status": "lost",
+      "note": "closed before settling (sold)"
     },
     {
       "id": "KXNFLGAME-26NOV08NYGPHI-NYG|no",
@@ -433,7 +433,7 @@
       "live": true,
       "strategy": "combo",
       "event": "S2026XHVHQJ44WU5UB5EA",
-      "title": "Combo, 8 legs: Cooper Flagg: 1+; Cooper Flagg: 6+; Kyrie Irving: 2+; Pascal Siakam: 2+; Cooper Flagg: 20+; Kyrie Irving: 15+; Kyrie Irving: 2+; Ivica Zubac: 4+",
+      "title": "Combo, 8 legs: Cooper Flagg: 1+ 3PM; Cooper Flagg: 6+ ast; Kyrie Irving: 2+ ast; Pascal Siakam: 2+ ast; Cooper Flagg: 20+ pts; Kyrie Irving: 15+ pts; Kyrie Irving: 2+ reb; Ivica Zubac: 4+ reb",
       "ticker": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2",
       "side": "YES",
       "contracts": 40,
@@ -443,17 +443,18 @@
       "status": "open",
       "note": "",
       "legs": [
-        "Cooper Flagg: 1+",
-        "Cooper Flagg: 6+",
-        "Kyrie Irving: 2+",
-        "Pascal Siakam: 2+",
-        "Cooper Flagg: 20+",
-        "Kyrie Irving: 15+",
-        "Kyrie Irving: 2+",
-        "Ivica Zubac: 4+"
-      ]
+        "Cooper Flagg: 1+ 3PM",
+        "Cooper Flagg: 6+ ast",
+        "Kyrie Irving: 2+ ast",
+        "Pascal Siakam: 2+ ast",
+        "Cooper Flagg: 20+ pts",
+        "Kyrie Irving: 15+ pts",
+        "Kyrie Irving: 2+ reb",
+        "Ivica Zubac: 4+ reb"
+      ],
+      "legs_v": 2
     }
   ],
-  "balance": 30.97,
-  "updated_at": "2026-11-10T00:30:45.203387Z"
+  "balance": 36.03,
+  "updated_at": "2026-11-10T00:40:51.053042Z"
 }
