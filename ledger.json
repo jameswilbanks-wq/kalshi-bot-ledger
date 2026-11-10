@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-02T10:01:28.000564Z",
-      "dollars": 68.3
-    },
-    {
       "t": "2026-11-02T10:10:36.215831Z",
       "dollars": 68.3
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-10T18:20:42.557727Z",
       "dollars": 36.03
+    },
+    {
+      "t": "2026-11-10T18:31:06.263949Z",
+      "dollars": 36.03
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-10T18:20:42.557892Z",
+  "updated_at": "2026-11-10T18:31:06.264254Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-10T12:20:53.349125Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15KCATL-ATL",
-      "title": "Atlanta wins",
-      "event_ticker": "KXNFLGAME-26NOV15KCATL",
-      "fair_prob": 0.379,
-      "market_price": 0.37,
-      "market_bid": 0.36,
-      "edge": 0.009,
-      "volume_fp": "18271.56"
-    },
     {
       "t": "2026-11-10T12:20:53.349194Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.09,
       "edge": 0.022,
       "volume_fp": "211675.32"
+    },
+    {
+      "t": "2026-11-10T18:31:02.996539Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV11-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Nov 11, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV11",
+      "fair_prob": 0.252,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.242,
+      "volume_fp": "2.00"
     }
   ]
 }
