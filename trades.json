@@ -433,7 +433,7 @@
       "live": true,
       "strategy": "combo",
       "event": "S2026XHVHQJ44WU5UB5EA",
-      "title": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2",
+      "title": "Combo, 8 legs: Cooper Flagg: 1+; Cooper Flagg: 6+; Kyrie Irving: 2+; Pascal Siakam: 2+; Cooper Flagg: 20+; Kyrie Irving: 15+; Kyrie Irving: 2+; Ivica Zubac: 4+",
       "ticker": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2",
       "side": "YES",
       "contracts": 40,
@@ -441,9 +441,19 @@
       "cost": 9.49,
       "payout": null,
       "status": "open",
-      "note": ""
+      "note": "",
+      "legs": [
+        "Cooper Flagg: 1+",
+        "Cooper Flagg: 6+",
+        "Kyrie Irving: 2+",
+        "Pascal Siakam: 2+",
+        "Cooper Flagg: 20+",
+        "Kyrie Irving: 15+",
+        "Kyrie Irving: 2+",
+        "Ivica Zubac: 4+"
+      ]
     }
   ],
   "balance": 30.97,
-  "updated_at": "2026-11-10T00:10:48.489141Z"
+  "updated_at": "2026-11-10T00:30:45.203387Z"
 }
