@@ -422,8 +422,8 @@
       "contracts": 4,
       "price": 0.47,
       "cost": 1.88,
-      "payout": null,
-      "status": "open",
+      "payout": -0.07,
+      "status": "lost",
       "note": ""
     },
     {
@@ -464,7 +464,7 @@
       ],
       "leg_status": [
         "hit",
-        "",
+        "hit",
         "hit",
         "hit",
         "hit",
@@ -476,5 +476,5 @@
     }
   ],
   "balance": 36.03,
-  "updated_at": "2026-11-10T02:40:25.783337Z"
+  "updated_at": "2026-11-10T03:00:46.531848Z"
 }
