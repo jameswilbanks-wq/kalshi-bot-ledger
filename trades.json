@@ -425,8 +425,25 @@
       "payout": null,
       "status": "open",
       "note": ""
+    },
+    {
+      "id": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2|yes",
+      "ts": "2026-11-10T00:07:41.437126Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "combo",
+      "event": "S2026XHVHQJ44WU5UB5EA",
+      "title": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2",
+      "ticker": "KXMVECROSSCATEGORY-S2026XHVHQJ44WU5UB5EA-OVO6742W2",
+      "side": "YES",
+      "contracts": 40,
+      "price": 0.236,
+      "cost": 9.49,
+      "payout": null,
+      "status": "open",
+      "note": ""
     }
   ],
-  "balance": 40.97,
-  "updated_at": "2026-11-09T23:01:12.673036Z"
+  "balance": 30.97,
+  "updated_at": "2026-11-10T00:10:48.489141Z"
 }
