@@ -504,8 +504,8 @@
       "contracts": 18,
       "price": 0.539,
       "cost": 9.69,
-      "payout": null,
-      "status": "open",
+      "payout": 17.66,
+      "status": "won",
       "note": "",
       "legs": [
         "Jayson Tatum: 1+ 3PM",
@@ -528,6 +528,6 @@
       "legs_v": 3
     }
   ],
-  "balance": 24.9,
-  "updated_at": "2026-11-11T03:10:48.967471Z"
+  "balance": 42.87,
+  "updated_at": "2026-11-11T03:31:12.875366Z"
 }
