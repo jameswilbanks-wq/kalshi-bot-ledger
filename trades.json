@@ -543,8 +543,53 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXMVECROSSCATEGORY-S2026XNDZALIHTLPAD5DX-67KBD5NTO|yes",
+      "ts": "2026-11-11T22:58:57.460533Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "combo",
+      "event": "S2026XNDZALIHTLPAD5DX",
+      "title": "Combo, 7 legs: Cameron Johnson: 1+ 3PM; Victor Wembanyama: 2+ ast; Michael Porter Jr.: 15+ pts; Jeremiah Fears: 10+ pts; Jabari Smith Jr.: 10+ pts; Jayson Tatum: 4+ reb; Walker Kessler: 8+ reb",
+      "ticker": "KXMVECROSSCATEGORY-S2026XNDZALIHTLPAD5DX-67KBD5NTO",
+      "side": "YES",
+      "contracts": 29,
+      "price": 0.334,
+      "cost": 9.55,
+      "payout": null,
+      "status": "open",
+      "note": "",
+      "legs": [
+        "Cameron Johnson: 1+ 3PM",
+        "Victor Wembanyama: 2+ ast",
+        "Michael Porter Jr.: 15+ pts",
+        "Jeremiah Fears: 10+ pts",
+        "Jabari Smith Jr.: 10+ pts",
+        "Jayson Tatum: 4+ reb",
+        "Walker Kessler: 8+ reb"
+      ],
+      "leg_tickers": [
+        "KXNBA3PT-26NOV11DENMEM-DENCJOHNSON23-1",
+        "KXNBAAST-26NOV11SASCHI-SASVWEMBANYAMA1-2",
+        "KXNBAPTS-26NOV11BKNNOP-BKNMPORTER17-15",
+        "KXNBAPTS-26NOV11BKNNOP-NOPJFEARS0-10",
+        "KXNBAPTS-26NOV11GSWHOU-HOUJSMITH10-10",
+        "KXNBAREB-26NOV11BOSTOR-BOSJTATUM0-4",
+        "KXNBAREB-26NOV11LALMIL-LALWKESSLER14-8"
+      ],
+      "leg_status": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "legs_v": 3
     }
   ],
-  "balance": 42.39,
-  "updated_at": "2026-11-11T04:20:28.748327Z"
+  "balance": 32.39,
+  "updated_at": "2026-11-11T23:00:42.013433Z"
 }
