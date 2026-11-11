@@ -490,8 +490,44 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXMVECROSSCATEGORY-S2026C5KZF5UTQQHCPCVA-WMH6DJMZG|yes",
+      "ts": "2026-11-11T00:10:26.502653Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "combo",
+      "event": "S2026C5KZF5UTQQHCPCVA",
+      "title": "Combo, 4 legs: Jayson Tatum: 1+ 3PM; Jayson Tatum: 20+ pts; LeBron James: 10+ pts; Joel Embiid: 6+ reb",
+      "ticker": "KXMVECROSSCATEGORY-S2026C5KZF5UTQQHCPCVA-WMH6DJMZG",
+      "side": "YES",
+      "contracts": 18,
+      "price": 0.539,
+      "cost": 9.69,
+      "payout": null,
+      "status": "open",
+      "note": "",
+      "legs": [
+        "Jayson Tatum: 1+ 3PM",
+        "Jayson Tatum: 20+ pts",
+        "LeBron James: 10+ pts",
+        "Joel Embiid: 6+ reb"
+      ],
+      "leg_tickers": [
+        "KXNBA3PT-26NOV10BOSPHI-BOSJTATUM0-1",
+        "KXNBAPTS-26NOV10BOSPHI-BOSJTATUM0-20",
+        "KXNBAPTS-26NOV10BOSPHI-PHILJAMES23-10",
+        "KXNBAREB-26NOV10BOSPHI-PHIJEMBIID21-6"
+      ],
+      "leg_status": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "legs_v": 3
     }
   ],
-  "balance": 34.9,
-  "updated_at": "2026-11-10T21:00:35.935249Z"
+  "balance": 24.9,
+  "updated_at": "2026-11-11T00:11:01.492019Z"
 }
