@@ -520,8 +520,8 @@
         "KXNBAREB-26NOV10BOSPHI-PHIJEMBIID21-6"
       ],
       "leg_status": [
-        "",
-        "",
+        "hit",
+        "hit",
         "",
         ""
       ],
@@ -529,5 +529,5 @@
     }
   ],
   "balance": 24.9,
-  "updated_at": "2026-11-11T00:11:01.492019Z"
+  "updated_at": "2026-11-11T01:30:51.912073Z"
 }
