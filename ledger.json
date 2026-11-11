@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-03T14:50:35.986698Z",
-      "dollars": 55.55
-    },
-    {
       "t": "2026-11-03T15:00:48.728923Z",
       "dollars": 55.55
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-11T23:00:36.800489Z",
       "dollars": 32.39
+    },
+    {
+      "t": "2026-11-11T23:10:22.402992Z",
+      "dollars": 32.39
     }
   ],
   "decisions": [
@@ -9283,45 +9283,9 @@
       "note": "order_id=01a1c8cc-b3c8-7493-af83-2b6f85cecd3e fill_count=1.0"
     }
   ],
-  "updated_at": "2026-11-11T23:00:36.800627Z",
+  "updated_at": "2026-11-11T23:10:22.403234Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-11T19:50:39.355670Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15PITCIN-CIN",
-      "title": "Cincinnati wins",
-      "event_ticker": "KXNFLGAME-26NOV15PITCIN",
-      "fair_prob": 0.625,
-      "market_price": 0.64,
-      "market_bid": 0.63,
-      "edge": -0.015,
-      "volume_fp": "74400.37"
-    },
-    {
-      "t": "2026-11-11T19:50:39.355720Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-SF",
-      "title": "San Francisco wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.653,
-      "market_price": 0.67,
-      "market_bid": 0.66,
-      "edge": -0.017,
-      "volume_fp": "357946.11"
-    },
-    {
-      "t": "2026-11-11T19:50:39.355767Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.347,
-      "market_price": 0.34,
-      "market_bid": 0.33,
-      "edge": 0.007,
-      "volume_fp": "96216.01"
-    },
     {
       "t": "2026-11-11T19:50:39.355813Z",
       "category": "sports",
@@ -23685,6 +23649,42 @@
       "market_bid": 0.1,
       "edge": 0.005,
       "volume_fp": "93450.87"
+    },
+    {
+      "t": "2026-11-11T23:10:15.718150Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV12-T66",
+      "title": "Will the maximum temperature be >66\u00b0 on Nov 12, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV12",
+      "fair_prob": 0.038,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.028,
+      "volume_fp": "2120.23"
+    },
+    {
+      "t": "2026-11-11T23:10:17.334662Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV12-T51",
+      "title": "Will the maximum temperature be >51\u00b0 on Nov 12, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV12",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "1223.32"
+    },
+    {
+      "t": "2026-11-11T23:10:18.428665Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV12-T80",
+      "title": "Will the maximum temperature be >80\u00b0 on Nov 12, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV12",
+      "fair_prob": 0.187,
+      "market_price": 0.04,
+      "market_bid": 0.03,
+      "edge": 0.147,
+      "volume_fp": "1604.12"
     }
   ]
 }
