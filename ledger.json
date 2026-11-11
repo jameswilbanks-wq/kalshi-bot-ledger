@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-03T06:50:47.926940Z",
-      "dollars": 55.55
-    },
-    {
       "t": "2026-11-03T07:00:48.605826Z",
       "dollars": 55.55
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-11T15:01:03.609355Z",
       "dollars": 42.39
+    },
+    {
+      "t": "2026-11-11T15:10:35.015146Z",
+      "dollars": 42.39
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": "order_id=01a1c8cc-b3c8-7493-af83-2b6f85cecd3e fill_count=1.0"
     }
   ],
-  "updated_at": "2026-11-11T15:01:03.609453Z",
+  "updated_at": "2026-11-11T15:10:35.015452Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-11T10:50:19.368608Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.348,
-      "market_price": 0.34,
-      "market_bid": 0.33,
-      "edge": 0.008,
-      "volume_fp": "87426.62"
-    },
     {
       "t": "2026-11-11T10:50:19.368659Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.56,
       "edge": -0.015,
       "volume_fp": "711339.29"
+    },
+    {
+      "t": "2026-11-11T15:10:30.222777Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV12-T51",
+      "title": "Will the maximum temperature be >51\u00b0 on Nov 12, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV12",
+      "fair_prob": 0.252,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.232,
+      "volume_fp": "1.04"
     }
   ]
 }
