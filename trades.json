@@ -526,8 +526,25 @@
         "hit"
       ],
       "legs_v": 3
+    },
+    {
+      "id": "KXNBAGAME-26NOV11OKCPOR-OKC|no",
+      "ts": "2026-11-11T04:10:21.336211Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV11OKCPOR",
+      "title": "KXNBAGAME-26NOV11OKCPOR-OKC",
+      "ticker": "KXNBAGAME-26NOV11OKCPOR-OKC",
+      "side": "NO",
+      "contracts": 1,
+      "price": 0.46,
+      "cost": 0.46,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 42.87,
-  "updated_at": "2026-11-11T03:31:12.875366Z"
+  "updated_at": "2026-11-11T04:10:36.305626Z"
 }
