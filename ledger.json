@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-03T11:40:37.378846Z",
-      "dollars": 55.55
-    },
-    {
       "t": "2026-11-03T11:50:27.356859Z",
       "dollars": 55.55
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-11T19:50:40.889460Z",
       "dollars": 42.39
+    },
+    {
+      "t": "2026-11-11T20:00:30.657182Z",
+      "dollars": 42.39
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": "order_id=01a1c8cc-b3c8-7493-af83-2b6f85cecd3e fill_count=1.0"
     }
   ],
-  "updated_at": "2026-11-11T19:50:40.889784Z",
+  "updated_at": "2026-11-11T20:00:30.657265Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-11T16:10:35.906364Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26NOV15BUFNYJ",
-      "fair_prob": 0.784,
-      "market_price": 0.81,
-      "market_bid": 0.8,
-      "edge": -0.026,
-      "volume_fp": "174629.48"
-    },
     {
       "t": "2026-11-11T16:10:35.906410Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.56,
       "edge": -0.016,
       "volume_fp": "766898.53"
+    },
+    {
+      "t": "2026-11-11T20:00:23.992653Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV12-T66",
+      "title": "Will the maximum temperature be >66\u00b0 on Nov 12, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV12",
+      "fair_prob": 0.038,
+      "market_price": 0.03,
+      "market_bid": 0.02,
+      "edge": 0.008,
+      "volume_fp": "1885.43"
     }
   ]
 }
