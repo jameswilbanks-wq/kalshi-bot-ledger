@@ -528,23 +528,6 @@
       "legs_v": 3
     },
     {
-      "id": "KXNBAGAME-26NOV11OKCPOR-OKC|no",
-      "ts": "2026-11-11T04:10:21.336211Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV11OKCPOR",
-      "title": "KXNBAGAME-26NOV11OKCPOR-OKC",
-      "ticker": "KXNBAGAME-26NOV11OKCPOR-OKC",
-      "side": "NO",
-      "contracts": 1,
-      "price": 0.46,
-      "cost": 0.46,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXMVECROSSCATEGORY-S2026XNDZALIHTLPAD5DX-67KBD5NTO|yes",
       "ts": "2026-11-11T22:58:57.460533Z",
       "source": "bot",
@@ -633,8 +616,25 @@
         "hit"
       ],
       "legs_v": 3
+    },
+    {
+      "id": "KXNBAGAME-26NOV11OKCPOR-OKC|no",
+      "ts": "2026-11-12T05:35:41.472866Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV11OKCPOR",
+      "title": "KXNBAGAME-26NOV11OKCPOR-OKC",
+      "ticker": "KXNBAGAME-26NOV11OKCPOR-OKC",
+      "side": "NO",
+      "contracts": 1,
+      "price": 0.46,
+      "cost": 0.46,
+      "payout": 0.98,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 32.63,
-  "updated_at": "2026-11-12T03:30:43.900015Z"
+  "balance": 33.63,
+  "updated_at": "2026-11-12T05:40:42.448856Z"
 }
