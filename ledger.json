@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-04T06:31:09.177915Z",
-      "dollars": 55.55
-    },
-    {
       "t": "2026-11-04T06:40:27.887618Z",
       "dollars": 55.55
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-12T14:40:43.550818Z",
       "dollars": 33.63
+    },
+    {
+      "t": "2026-11-12T14:50:26.329868Z",
+      "dollars": 33.63
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": "order_id=01a1c8cc-b3c8-7493-af83-2b6f85cecd3e fill_count=1.0"
     }
   ],
-  "updated_at": "2026-11-12T14:40:43.550904Z",
+  "updated_at": "2026-11-12T14:50:26.330110Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-12T10:30:22.424250Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15MINGB-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26NOV15MINGB",
-      "fair_prob": 0.403,
-      "market_price": 0.4,
-      "market_bid": 0.39,
-      "edge": 0.003,
-      "volume_fp": "414288.65"
-    },
     {
       "t": "2026-11-12T10:30:22.424290Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.33,
       "edge": -0.0,
       "volume_fp": "97060.30"
+    },
+    {
+      "t": "2026-11-12T14:50:23.043879Z",
+      "category": "financial",
+      "ticker": "KXNASDAQDUD-26NOV12H1600-T28374.25",
+      "title": "Will the NASDAQ-100 be above 28374.25 on Nov 12, 2026 at 4pm EST?",
+      "event_ticker": "KXNASDAQDUD-26NOV12H1600",
+      "fair_prob": 0.02,
+      "market_price": 0.34,
+      "market_bid": 0.22,
+      "edge": -0.32,
+      "volume_fp": "2109.48"
     }
   ]
 }
