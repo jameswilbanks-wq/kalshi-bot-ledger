@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-04T12:00:38.730667Z",
-      "dollars": 55.55
-    },
-    {
       "t": "2026-11-04T12:10:48.741586Z",
       "dollars": 55.55
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-12T20:00:52.616808Z",
       "dollars": 33.63
+    },
+    {
+      "t": "2026-11-12T20:10:30.756855Z",
+      "dollars": 33.63
     }
   ],
   "decisions": [
@@ -9283,45 +9283,9 @@
       "note": "order_id=01a1c8cc-b3c8-7493-af83-2b6f85cecd3e fill_count=1.0"
     }
   ],
-  "updated_at": "2026-11-12T20:00:52.616974Z",
+  "updated_at": "2026-11-12T20:10:30.757193Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-12T16:20:32.635269Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15SFDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV15SFDAL",
-      "fair_prob": 0.347,
-      "market_price": 0.34,
-      "market_bid": 0.33,
-      "edge": 0.007,
-      "volume_fp": "122668.22"
-    },
-    {
-      "t": "2026-11-12T16:20:32.635318Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15LARARI-LAR",
-      "title": "Los Angeles R wins",
-      "event_ticker": "KXNFLGAME-26NOV15LARARI",
-      "fair_prob": 0.794,
-      "market_price": 0.81,
-      "market_bid": 0.8,
-      "edge": -0.016,
-      "volume_fp": "174416.31"
-    },
-    {
-      "t": "2026-11-12T16:20:32.635364Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV15LARARI-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26NOV15LARARI",
-      "fair_prob": 0.206,
-      "market_price": 0.21,
-      "market_bid": 0.2,
-      "edge": -0.004,
-      "volume_fp": "51891.61"
-    },
     {
       "t": "2026-11-12T16:20:32.635411Z",
       "category": "sports",
@@ -23685,6 +23649,42 @@
       "market_bid": 0.33,
       "edge": -0.003,
       "volume_fp": "300624.15"
+    },
+    {
+      "t": "2026-11-12T20:10:24.066397Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV13-T57",
+      "title": "Will the maximum temperature be >57\u00b0 on Nov 13, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV13",
+      "fair_prob": 0.02,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.01,
+      "volume_fp": "228.00"
+    },
+    {
+      "t": "2026-11-12T20:10:26.769962Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV13-T82",
+      "title": "Will the maximum temperature be >82\u00b0 on Nov 13, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV13",
+      "fair_prob": 0.091,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.071,
+      "volume_fp": "280.99"
+    },
+    {
+      "t": "2026-11-12T20:10:27.504685Z",
+      "category": "financial",
+      "ticker": "KXNASDAQDUD-26NOV12H1600-T28374.25",
+      "title": "Will the NASDAQ-100 be above 28374.25 on Nov 12, 2026 at 4pm EST?",
+      "event_ticker": "KXNASDAQDUD-26NOV12H1600",
+      "fair_prob": 0.02,
+      "market_price": 0.13,
+      "market_bid": 0.08,
+      "edge": -0.11,
+      "volume_fp": "4018.88"
     }
   ]
 }
