@@ -579,7 +579,7 @@
         "KXNBAREB-26NOV11LALMIL-LALWKESSLER14-8"
       ],
       "leg_status": [
-        "",
+        "hit",
         "",
         "",
         "",
@@ -591,5 +591,5 @@
     }
   ],
   "balance": 32.39,
-  "updated_at": "2026-11-12T00:31:08.893942Z"
+  "updated_at": "2026-11-12T01:20:35.846875Z"
 }
