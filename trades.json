@@ -557,9 +557,9 @@
       "contracts": 29,
       "price": 0.334,
       "cost": 9.55,
-      "payout": 0.25,
+      "payout": -0.46,
       "status": "lost",
-      "note": "closed before settling (sold)",
+      "note": "",
       "legs": [
         "Cameron Johnson: 1+ 3PM",
         "Victor Wembanyama: 2+ ast",
@@ -588,8 +588,53 @@
         "hit"
       ],
       "legs_v": 3
+    },
+    {
+      "id": "KXMVECROSSCATEGORY-S2026XNDZALIHTLPAD5DX-67KBD5NTO|no",
+      "ts": "2026-11-12T03:30:06.313851Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "combo",
+      "event": "S2026XNDZALIHTLPAD5DX",
+      "title": "Combo, 7 legs: Cameron Johnson: 1+ 3PM; Victor Wembanyama: 2+ ast; Michael Porter Jr.: 15+ pts; Jeremiah Fears: 10+ pts; Jabari Smith Jr.: 10+ pts; Jayson Tatum: 4+ reb; Walker Kessler: 8+ reb",
+      "ticker": "KXMVECROSSCATEGORY-S2026XNDZALIHTLPAD5DX-67KBD5NTO",
+      "side": "NO",
+      "contracts": 29,
+      "price": 0.991,
+      "cost": 28.35,
+      "payout": -0.46,
+      "status": "lost",
+      "note": "from settlements (no fill record)",
+      "legs": [
+        "Cameron Johnson: 1+ 3PM",
+        "Victor Wembanyama: 2+ ast",
+        "Michael Porter Jr.: 15+ pts",
+        "Jeremiah Fears: 10+ pts",
+        "Jabari Smith Jr.: 10+ pts",
+        "Jayson Tatum: 4+ reb",
+        "Walker Kessler: 8+ reb"
+      ],
+      "leg_tickers": [
+        "KXNBA3PT-26NOV11DENMEM-DENCJOHNSON23-1",
+        "KXNBAAST-26NOV11SASCHI-SASVWEMBANYAMA1-2",
+        "KXNBAPTS-26NOV11BKNNOP-BKNMPORTER17-15",
+        "KXNBAPTS-26NOV11BKNNOP-NOPJFEARS0-10",
+        "KXNBAPTS-26NOV11GSWHOU-HOUJSMITH10-10",
+        "KXNBAREB-26NOV11BOSTOR-BOSJTATUM0-4",
+        "KXNBAREB-26NOV11LALMIL-LALWKESSLER14-8"
+      ],
+      "leg_status": [
+        "hit",
+        "miss",
+        "hit",
+        "hit",
+        "",
+        "hit",
+        "hit"
+      ],
+      "legs_v": 3
     }
   ],
   "balance": 32.63,
-  "updated_at": "2026-11-12T03:20:49.086420Z"
+  "updated_at": "2026-11-12T03:30:43.900015Z"
 }
