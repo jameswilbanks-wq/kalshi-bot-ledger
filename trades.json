@@ -675,8 +675,25 @@
         ""
       ],
       "legs_v": 3
+    },
+    {
+      "id": "KXNFLGAME-26NOV23CINWAS-WAS|no",
+      "ts": "2026-11-13T04:50:31.511953Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV23CINWAS",
+      "title": "KXNFLGAME-26NOV23CINWAS-WAS",
+      "ticker": "KXNFLGAME-26NOV23CINWAS-WAS",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.6,
+      "cost": 2.4,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 48.63,
-  "updated_at": "2026-11-13T02:50:45.971784Z"
+  "updated_at": "2026-11-13T04:50:45.791604Z"
 }
