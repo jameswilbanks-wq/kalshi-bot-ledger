@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-05T07:50:29.313917Z",
-      "dollars": 52.68
-    },
-    {
       "t": "2026-11-05T08:01:04.735387Z",
       "dollars": 52.68
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-13T15:50:42.157149Z",
       "dollars": 46.17
+    },
+    {
+      "t": "2026-11-13T16:00:26.560031Z",
+      "dollars": 46.17
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-13T15:50:42.157248Z",
+  "updated_at": "2026-11-13T16:00:26.560282Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-13T12:20:31.493821Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TENDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV22TENDAL",
-      "fair_prob": 0.782,
-      "market_price": 0.81,
-      "market_bid": 0.79,
-      "edge": -0.028,
-      "volume_fp": "756.04"
-    },
-    {
-      "t": "2026-11-13T12:20:31.493865Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NOCHI-NO",
-      "title": "New Orleans wins",
-      "event_ticker": "KXNFLGAME-26NOV22NOCHI",
-      "fair_prob": 0.2,
-      "market_price": 0.19,
-      "market_bid": 0.17,
-      "edge": 0.01,
-      "volume_fp": "6671.17"
-    },
     {
       "t": "2026-11-13T12:20:31.493909Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.7,
       "edge": -0.013,
       "volume_fp": "85915.33"
+    },
+    {
+      "t": "2026-11-13T16:00:20.171104Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV14-T53",
+      "title": "Will the maximum temperature be >53\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV14",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "0.00"
+    },
+    {
+      "t": "2026-11-13T16:00:21.722161Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV14-T51",
+      "title": "Will the maximum temperature be >51\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV14",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "78.00"
     }
   ]
 }
