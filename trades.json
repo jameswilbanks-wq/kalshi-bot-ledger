@@ -633,8 +633,50 @@
       "payout": 0.98,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXMVECROSSCATEGORY-S20262MZP2FGPDRM4HWIA-OK74M4FIN|yes",
+      "ts": "2026-11-13T00:07:58.656804Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "combo",
+      "event": "S20262MZP2FGPDRM4HWIA",
+      "title": "Combo, 6 legs: Cooper Flagg: 20+ pts; Kyrie Irving: 15+ pts; Jaylen Brown: 15+ pts; Cooper Flagg: 4+ reb; Rudy Gobert: 8+ reb; Joel Embiid: 6+ reb",
+      "ticker": "KXMVECROSSCATEGORY-S20262MZP2FGPDRM4HWIA-OK74M4FIN",
+      "side": "YES",
+      "contracts": 14,
+      "price": 0.346,
+      "cost": 4.78,
+      "payout": null,
+      "status": "open",
+      "note": "",
+      "legs": [
+        "Cooper Flagg: 20+ pts",
+        "Kyrie Irving: 15+ pts",
+        "Jaylen Brown: 15+ pts",
+        "Cooper Flagg: 4+ reb",
+        "Rudy Gobert: 8+ reb",
+        "Joel Embiid: 6+ reb"
+      ],
+      "leg_tickers": [
+        "KXNBAPTS-26NOV12DALMIN-DALCFLAGG32-20",
+        "KXNBAPTS-26NOV12DALMIN-DALKIRVING11-15",
+        "KXNBAPTS-26NOV12TORPHI-PHIJBROWN7-15",
+        "KXNBAREB-26NOV12DALMIN-DALCFLAGG32-4",
+        "KXNBAREB-26NOV12DALMIN-MINRGOBERT27-8",
+        "KXNBAREB-26NOV12TORPHI-PHIJEMBIID21-6"
+      ],
+      "leg_status": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "legs_v": 3
     }
   ],
-  "balance": 33.63,
-  "updated_at": "2026-11-12T05:40:42.448856Z"
+  "balance": 48.63,
+  "updated_at": "2026-11-13T00:11:16.840813Z"
 }
