@@ -692,8 +692,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV22NOCHI-CHI|no",
+      "ts": "2026-11-13T18:40:23.901357Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22NOCHI",
+      "title": "KXNFLGAME-26NOV22NOCHI-CHI",
+      "ticker": "KXNFLGAME-26NOV22NOCHI-CHI",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.17,
+      "cost": 0.68,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 46.17,
-  "updated_at": "2026-11-13T05:00:37.386741Z"
+  "updated_at": "2026-11-13T18:40:44.623804Z"
 }
