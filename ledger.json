@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-05T11:30:33.237912Z",
-      "dollars": 52.68
-    },
-    {
       "t": "2026-11-05T11:40:36.044196Z",
       "dollars": 52.68
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-13T19:31:01.162955Z",
       "dollars": 45.45
+    },
+    {
+      "t": "2026-11-13T19:40:45.553357Z",
+      "dollars": 45.45
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": "order_id=01a1d635-f5d8-7abb-bf0d-4babf44a9eae fill_count=4.0"
     }
   ],
-  "updated_at": "2026-11-13T19:31:01.163147Z",
+  "updated_at": "2026-11-13T19:40:45.553446Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-13T15:00:52.470468Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22MIABUF-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26NOV22MIABUF",
-      "fair_prob": 0.907,
-      "market_price": 0.92,
-      "market_bid": 0.91,
-      "edge": -0.013,
-      "volume_fp": "4082.07"
-    },
-    {
-      "t": "2026-11-13T15:00:52.470512Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22ARIKC-KC",
-      "title": "Kansas City wins",
-      "event_ticker": "KXNFLGAME-26NOV22ARIKC",
-      "fair_prob": 0.878,
-      "market_price": 0.9,
-      "market_bid": 0.89,
-      "edge": -0.022,
-      "volume_fp": "8523.91"
-    },
     {
       "t": "2026-11-13T15:00:52.470554Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.71,
       "edge": -0.013,
       "volume_fp": "108125.97"
+    },
+    {
+      "t": "2026-11-13T19:40:39.631170Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV14-T53",
+      "title": "Will the maximum temperature be >53\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV14",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "60.00"
+    },
+    {
+      "t": "2026-11-13T19:40:41.162510Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV14-T51",
+      "title": "Will the maximum temperature be >51\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV14",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "258.00"
     }
   ]
 }
