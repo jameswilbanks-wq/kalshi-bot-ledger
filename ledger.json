@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-05T10:20:20.823372Z",
-      "dollars": 52.68
-    },
-    {
       "t": "2026-11-05T10:30:36.326358Z",
       "dollars": 52.68
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-13T18:20:32.802226Z",
       "dollars": 46.17
+    },
+    {
+      "t": "2026-11-13T18:30:52.083252Z",
+      "dollars": 46.17
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-13T18:20:32.802353Z",
+  "updated_at": "2026-11-13T18:30:52.083535Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-13T14:00:59.893581Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22ARIKC-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26NOV22ARIKC",
-      "fair_prob": 0.122,
-      "market_price": 0.12,
-      "market_bid": 0.1,
-      "edge": 0.002,
-      "volume_fp": "7786.56"
-    },
-    {
-      "t": "2026-11-13T14:00:59.893628Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TENDAL-TEN",
-      "title": "Tennessee wins",
-      "event_ticker": "KXNFLGAME-26NOV22TENDAL",
-      "fair_prob": 0.218,
-      "market_price": 0.22,
-      "market_bid": 0.18,
-      "edge": -0.002,
-      "volume_fp": "1100.25"
-    },
     {
       "t": "2026-11-13T14:00:59.893673Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.71,
       "edge": -0.013,
       "volume_fp": "101693.91"
+    },
+    {
+      "t": "2026-11-13T18:30:46.363810Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV14-T53",
+      "title": "Will the maximum temperature be >53\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV14",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "60.00"
+    },
+    {
+      "t": "2026-11-13T18:30:48.885262Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV14-T74",
+      "title": "Will the maximum temperature be >74\u00b0 on Nov 14, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV14",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "128.00"
     }
   ]
 }
