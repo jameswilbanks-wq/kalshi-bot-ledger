@@ -647,8 +647,8 @@
       "contracts": 14,
       "price": 0.346,
       "cost": 4.78,
-      "payout": null,
-      "status": "open",
+      "payout": -0.22,
+      "status": "lost",
       "note": "",
       "legs": [
         "Cooper Flagg: 20+ pts",
@@ -678,5 +678,5 @@
     }
   ],
   "balance": 48.63,
-  "updated_at": "2026-11-13T02:00:43.271625Z"
+  "updated_at": "2026-11-13T02:50:45.971784Z"
 }
