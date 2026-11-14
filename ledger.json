@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-05T21:50:28.177920Z",
-      "dollars": 52.68
-    },
-    {
       "t": "2026-11-05T22:01:00.330215Z",
       "dollars": 52.68
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-14T05:50:21.652644Z",
       "dollars": 65.45
+    },
+    {
+      "t": "2026-11-14T06:01:29.294153Z",
+      "dollars": 65.45
     }
   ],
   "decisions": [
@@ -9283,7 +9283,7 @@
       "note": "order_id=01a1d635-f5d8-7abb-bf0d-4babf44a9eae fill_count=4.0"
     }
   ],
-  "updated_at": "2026-11-14T05:50:21.652750Z",
+  "updated_at": "2026-11-14T06:01:29.294487Z",
   "env": "prod",
   "prod_edge_observations": [
     {
