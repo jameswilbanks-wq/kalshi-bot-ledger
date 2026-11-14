@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-05T19:10:19.099920Z",
-      "dollars": 52.68
-    },
-    {
       "t": "2026-11-05T19:20:18.198992Z",
       "dollars": 52.68
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-14T03:10:33.659795Z",
       "dollars": 65.45
+    },
+    {
+      "t": "2026-11-14T03:20:36.705251Z",
+      "dollars": 65.45
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": "order_id=01a1d635-f5d8-7abb-bf0d-4babf44a9eae fill_count=4.0"
     }
   ],
-  "updated_at": "2026-11-14T03:10:33.659901Z",
+  "updated_at": "2026-11-14T03:20:36.705347Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-13T23:20:30.538561Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NYJLAC-NYJ",
-      "title": "New York J wins",
-      "event_ticker": "KXNFLGAME-26NOV22NYJLAC",
-      "fair_prob": 0.468,
-      "market_price": 0.49,
-      "market_bid": 0.45,
-      "edge": -0.022,
-      "volume_fp": "1481.17"
-    },
-    {
-      "t": "2026-11-13T23:20:30.538634Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NYJLAC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26NOV22NYJLAC",
-      "fair_prob": 0.532,
-      "market_price": 0.55,
-      "market_bid": 0.53,
-      "edge": -0.018,
-      "volume_fp": "1422.32"
-    },
     {
       "t": "2026-11-13T23:20:30.538700Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.32,
       "edge": -0.002,
       "volume_fp": "180601.35"
+    },
+    {
+      "t": "2026-11-14T03:20:34.026434Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV13OKCLAC-OKC",
+      "title": "Oklahoma City wins",
+      "event_ticker": "KXNBAGAME-26NOV13OKCLAC",
+      "fair_prob": 0.67,
+      "market_price": 0.68,
+      "market_bid": 0.67,
+      "edge": -0.01,
+      "volume_fp": "364612.10"
+    },
+    {
+      "t": "2026-11-14T03:20:34.026496Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV13OKCLAC-LAC",
+      "title": "Los Angeles C wins",
+      "event_ticker": "KXNBAGAME-26NOV13OKCLAC",
+      "fair_prob": 0.33,
+      "market_price": 0.33,
+      "market_bid": 0.32,
+      "edge": -0.0,
+      "volume_fp": "188417.11"
     }
   ]
 }
