@@ -760,8 +760,25 @@
       "payout": 5.9,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV22ARIKC-ARI|no",
+      "ts": "2026-11-15T12:50:19.579652Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22ARIKC",
+      "title": "KXNFLGAME-26NOV22ARIKC-ARI",
+      "ticker": "KXNFLGAME-26NOV22ARIKC-ARI",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.86,
+      "cost": 3.44,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 69.07,
-  "updated_at": "2026-11-15T03:10:51.708407Z"
+  "updated_at": "2026-11-15T12:50:42.053824Z"
 }
