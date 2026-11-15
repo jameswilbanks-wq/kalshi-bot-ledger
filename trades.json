@@ -711,23 +711,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV14DALCLE-DAL|no",
-      "ts": "2026-11-14T18:20:12.13125Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV14DALCLE",
-      "title": "KXNBAGAME-26NOV14DALCLE-DAL",
-      "ticker": "KXNBAGAME-26NOV14DALCLE-DAL",
-      "side": "NO",
-      "contracts": 6,
-      "price": 0.38,
-      "cost": 2.28,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26NOV14WAKESMU-WAKE|no",
       "ts": "2026-11-14T20:32:54.746984Z",
       "source": "bot",
@@ -760,8 +743,25 @@
       "payout": -0.07,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV14DALCLE-DAL|no",
+      "ts": "2026-11-15T03:05:19.676889Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV14DALCLE",
+      "title": "KXNBAGAME-26NOV14DALCLE-DAL",
+      "ticker": "KXNBAGAME-26NOV14DALCLE-DAL",
+      "side": "NO",
+      "contracts": 6,
+      "price": 0.38,
+      "cost": 2.28,
+      "payout": 5.9,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 63.07,
-  "updated_at": "2026-11-15T02:50:34.875736Z"
+  "balance": 69.07,
+  "updated_at": "2026-11-15T03:10:51.708407Z"
 }
