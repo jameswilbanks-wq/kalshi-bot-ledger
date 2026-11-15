@@ -10955,115 +10955,14 @@
   ],
   "credits": {
     "d": "2026-11-15",
-    "used": 88
+    "used": 94
   },
-  "updated_at": "2026-11-15T14:50:16.048828Z",
+  "updated_at": "2026-11-15T15:01:12.079514Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-12T03:00:39.151597Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 26,
-        "alt_mkts": 33,
-        "books": 7,
-        "players": 66,
-        "keys": 287,
-        "keys_over_only": 232,
-        "keys_few_books": 36,
-        "keys_wide": 5,
-        "keys_dup_book": 0,
-        "priced": 14
-      },
-      "nocons": {
-        "over_only": 90,
-        "no_line": 80,
-        "no_player": 71,
-        "few_books": 17,
-        "wide_spread": 1
-      },
-      "ex": [
-        "jamal murray 12+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
-        "dylan harper 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "cedric coward 8+ no_line {'near': [6.5, 9.5, 5.5]}",
-        "dayron sharpe 10+ no_line {'near': [8.5, 7.5, 6.5]}",
-        "scoot henderson 6+ no_player {}",
-        "scoot henderson 4+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-12T03:00:39.151597Z",
-      "series": "KXNBA3PT",
-      "stat": "threes",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 17,
-        "alt_mkts": 28,
-        "books": 6,
-        "players": 59,
-        "keys": 184,
-        "keys_over_only": 136,
-        "keys_few_books": 33,
-        "keys_wide": 4,
-        "keys_dup_book": 0,
-        "priced": 11
-      },
-      "nocons": {
-        "few_books": 30,
-        "over_only": 105,
-        "no_player": 123,
-        "no_line": 107,
-        "wide_spread": 4
-      },
-      "ex": [
-        "sandro mamukelashvili 6+ few_books {'over': 3, 'under': 1, 'pair': 1, 'books': 2}",
-        "reed sheppard 5+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "reed sheppard 4+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "nate ament 5+ no_player {}",
-        "nate ament 4+ no_player {}",
-        "danny wolf 5+ no_line {'near': [2.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-12T04:00:41.373287Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 3,
-        "http_fail": 0,
-        "main_mkts": 17,
-        "alt_mkts": 17,
-        "books": 7,
-        "players": 40,
-        "keys": 666,
-        "keys_over_only": 600,
-        "keys_few_books": 41,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 25
-      },
-      "nocons": {
-        "over_only": 102,
-        "no_player": 8,
-        "no_line": 17,
-        "few_books": 7
-      },
-      "ex": [
-        "deni avdija 35+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "yaxel lendeborg 40+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "robert williams iii 15+ no_player {}",
-        "robert williams iii 10+ no_player {}",
-        "kenrich williams 20+ no_line {'near': [17.5, 16.5, 15.5]}",
-        "aday mara 10+ few_books {'over': 6, 'under': 1, 'pair': 1, 'books': 5}"
-      ]
-    },
     {
       "t": "2026-11-12T04:00:41.373287Z",
       "series": "KXNBAREB",
@@ -12965,6 +12864,104 @@
         "patrick williams 5+ no_line {'near': [2.5]}",
         "patrick williams 3+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "thomas bryant 5+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-15T15:01:03.672151Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 5,
+        "books": 7,
+        "players": 2,
+        "keys": 32,
+        "keys_over_only": 26,
+        "keys_few_books": 6,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_line": 7,
+        "no_player": 227,
+        "over_only": 13,
+        "few_books": 1
+      },
+      "ex": [
+        "drake maye 150+ no_line {'near': [199.5, 219.5, 229.5]}",
+        "drew lock 325+ no_player {}",
+        "drew lock 300+ no_player {}",
+        "drake maye 400+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "drake maye 375+ no_line {'near': [399.5, 349.5, 299.5]}",
+        "drake maye 350+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-15T15:01:03.672151Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 12,
+        "keys": 227,
+        "keys_over_only": 194,
+        "keys_few_books": 32,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "over_only": 99,
+        "no_player": 1437,
+        "no_line": 13,
+        "few_books": 4
+      },
+      "ex": [
+        "efton chism iii 5+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "isaac teslaa 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "myles price 50+ no_player {}",
+        "myles price 40+ no_player {}",
+        "mack hollins 35+ no_line {'near': [39.5, 29.5, 49.5]}",
+        "mack hollins 25+ no_line {'near': [29.5, 39.5, 49.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-15T15:01:03.672151Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 6,
+        "keys": 95,
+        "keys_over_only": 79,
+        "keys_few_books": 15,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "over_only": 41,
+        "no_player": 609,
+        "no_line": 5
+      },
+      "ex": [
+        "corey kiner 25+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "sione vaki 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "trevor etienne 40+ no_player {}",
+        "trevor etienne 30+ no_player {}",
+        "drake maye 60+ no_line {'near': [54.5, 49.5, 74.5]}",
+        "drake maye 20+ no_line {'near': [24.5, 29.5, 33.5]}"
       ]
     }
   ]
