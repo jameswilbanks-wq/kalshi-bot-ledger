@@ -794,8 +794,25 @@
       "payout": -0.05,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV22MINSF-MIN|no",
+      "ts": "2026-11-15T23:30:24.761242Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22MINSF",
+      "title": "KXNFLGAME-26NOV22MINSF-MIN",
+      "ticker": "KXNFLGAME-26NOV22MINSF-MIN",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.59,
+      "cost": 1.4,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 60.6,
-  "updated_at": "2026-11-15T21:20:37.816491Z"
+  "updated_at": "2026-11-15T23:30:38.418958Z"
 }
