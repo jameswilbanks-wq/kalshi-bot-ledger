@@ -10955,114 +10955,14 @@
   ],
   "credits": {
     "d": "2026-11-15",
-    "used": 100
+    "used": 106
   },
-  "updated_at": "2026-11-15T16:50:27.561688Z",
+  "updated_at": "2026-11-15T17:00:35.021592Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-12T05:00:39.165274Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 10,
-        "alt_mkts": 12,
-        "books": 7,
-        "players": 28,
-        "keys": 234,
-        "keys_over_only": 198,
-        "keys_few_books": 29,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 7
-      },
-      "nocons": {
-        "over_only": 45,
-        "no_line": 31,
-        "few_books": 6,
-        "no_player": 10
-      },
-      "ex": [
-        "sidy cissoko 25+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "alex caruso 25+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "deanthony melton 20+ no_line {'near': [17.5, 15.5, 14.5]}",
-        "yaxel lendeborg 40+ no_line {'near': [35.5, 34.5, 33.5]}",
-        "reed sheppard 15+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 1}",
-        "robert williams iii 15+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-12T05:00:39.165274Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 10,
-        "alt_mkts": 12,
-        "books": 7,
-        "players": 26,
-        "keys": 103,
-        "keys_over_only": 84,
-        "keys_few_books": 6,
-        "keys_wide": 3,
-        "keys_dup_book": 0,
-        "priced": 10
-      },
-      "nocons": {
-        "no_player": 19,
-        "no_line": 51,
-        "over_only": 32,
-        "wide_spread": 2,
-        "few_books": 2
-      },
-      "ex": [
-        "brandin podziemski 10+ no_player {}",
-        "jabari smith jr 12+ no_line {'near': [10.5, 9.5]}",
-        "yaxel lendeborg 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "amen thompson 14+ no_line {'near': [10.5, 9.5, 8.5]}",
-        "robert williams iii 10+ no_player {}",
-        "scoot henderson 4+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}"
-      ]
-    },
-    {
-      "t": "2026-11-12T05:00:39.165274Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 10,
-        "alt_mkts": 12,
-        "books": 7,
-        "players": 23,
-        "keys": 59,
-        "keys_over_only": 45,
-        "keys_few_books": 8,
-        "keys_wide": 4,
-        "keys_dup_book": 0,
-        "priced": 2
-      },
-      "nocons": {
-        "no_line": 36,
-        "over_only": 19,
-        "wide_spread": 3,
-        "no_player": 22
-      },
-      "ex": [
-        "draymond green 12+ no_line {'near': [9.5, 8.5, 7.5]}",
-        "alperen sengun 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "jared mccain 8+ no_line {'near': [4.5, 3.5]}",
-        "scoot henderson 4+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
-        "jrue holiday 4+ wide_spread {'over': 5, 'under': 3, 'pair': 3, 'books': 3, 'spread': 0.083}",
-        "sidy cissoko 6+ no_player {}"
-      ]
-    },
     {
       "t": "2026-11-12T05:00:39.165274Z",
       "series": "KXNBA3PT",
@@ -12957,6 +12857,103 @@
         "drake maye 5+ no_player {}",
         "corey kiner 25+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
         "sione vaki 5+ no_line {'near': [19.5, 24.5, 29.5]}",
+        "trevor etienne 40+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-15T17:00:26.314685Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 4,
+        "books": 6,
+        "players": 2,
+        "keys": 21,
+        "keys_over_only": 16,
+        "keys_few_books": 5,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_player": 238,
+        "no_line": 6,
+        "over_only": 4
+      },
+      "ex": [
+        "drake maye 150+ no_player {}",
+        "drew lock 325+ no_player {}",
+        "jared goff 400+ no_line {'near': [349.5, 329.5, 324.5]}",
+        "jared goff 375+ no_line {'near': [349.5, 329.5, 324.5]}",
+        "jared goff 350+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "jared goff 325+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}"
+      ]
+    },
+    {
+      "t": "2026-11-15T17:00:26.314685Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 4,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 12,
+        "keys": 98,
+        "keys_over_only": 82,
+        "keys_few_books": 12,
+        "keys_wide": 4,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "over_only": 60,
+        "no_line": 64,
+        "few_books": 1,
+        "no_player": 1425
+      },
+      "ex": [
+        "demario douglas 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "jahmyr gibbs 105+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "sam laporta 5+ no_line {'near': [16.5, 19.5, 24.5]}",
+        "eli raridon 5+ no_line {'near': [6.5, 9.5, 14.5]}",
+        "demario douglas 10+ few_books {'over': 5, 'under': 1, 'pair': 1, 'books': 5}",
+        "myles price 50+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-15T17:00:26.314685Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 4,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 6,
+        "keys": 53,
+        "keys_over_only": 42,
+        "keys_few_books": 11,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_line": 18,
+        "over_only": 22,
+        "no_player": 611
+      },
+      "ex": [
+        "corey kiner 15+ no_line {'near': [19.5, 20.5, 24.5]}",
+        "corey kiner 20+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "drake maye 5+ no_player {}",
+        "corey kiner 25+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "sione vaki 5+ no_line {'near': [19.5, 24.5, 25.5]}",
         "trevor etienne 40+ no_player {}"
       ]
     }
