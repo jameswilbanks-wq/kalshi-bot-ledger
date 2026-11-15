@@ -320,9 +320,9 @@
       "contracts": 3,
       "price": 0.73,
       "cost": 2.19,
-      "payout": 2.43,
-      "status": "won",
-      "note": "closed before settling (sold)"
+      "payout": -0.07,
+      "status": "lost",
+      "note": ""
     },
     {
       "id": "KXNCAAFGAME-26NOV21IOWAILL-IOWA|yes",
@@ -743,8 +743,25 @@
       "payout": -0.17,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNCAAFGAME-26NOV14ORSTBSU-BSU|no",
+      "ts": "2026-11-15T02:47:14.634337Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "cfb",
+      "event": "26NOV14ORSTBSU",
+      "title": "KXNCAAFGAME-26NOV14ORSTBSU-BSU",
+      "ticker": "KXNCAAFGAME-26NOV14ORSTBSU-BSU",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.19,
+      "cost": 0.57,
+      "payout": -0.07,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 63.07,
-  "updated_at": "2026-11-14T20:40:45.380759Z"
+  "updated_at": "2026-11-15T02:50:34.875736Z"
 }
