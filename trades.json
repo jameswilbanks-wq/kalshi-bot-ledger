@@ -257,23 +257,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNFLGAME-26NOV15BUFNYJ-BUF|no",
-      "ts": "2026-11-07T18:40:13.230106Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV15BUFNYJ",
-      "title": "KXNFLGAME-26NOV15BUFNYJ-BUF",
-      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
-      "side": "NO",
-      "contracts": 3,
-      "price": 0.2,
-      "cost": 0.6,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26NOV21WAKEGT-WAKE|yes",
       "ts": "2026-11-07T22:30:36.929507Z",
       "source": "bot",
@@ -473,23 +456,6 @@
       "payout": -0.1,
       "status": "lost",
       "note": "from settlements (no fill record)"
-    },
-    {
-      "id": "KXNFLGAME-26NOV15MIAIND-IND|no",
-      "ts": "2026-11-10T20:50:33.062325Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV15MIAIND",
-      "title": "KXNFLGAME-26NOV15MIAIND-IND",
-      "ticker": "KXNFLGAME-26NOV15MIAIND-IND",
-      "side": "NO",
-      "contracts": 3,
-      "price": 0.36,
-      "cost": 1.08,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
     },
     {
       "id": "KXMVECROSSCATEGORY-S2026C5KZF5UTQQHCPCVA-WMH6DJMZG|yes",
@@ -777,8 +743,59 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV15BUFNYJ-BUF|no",
+      "ts": "2026-11-15T21:11:29.778992Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15BUFNYJ",
+      "title": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.2,
+      "cost": 0.6,
+      "payout": -0.03,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV15SFDAL-DAL|yes",
+      "ts": "2026-11-15T21:13:42.43729Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15SFDAL",
+      "title": "KXNFLGAME-26NOV15SFDAL-DAL",
+      "ticker": "KXNFLGAME-26NOV15SFDAL-DAL",
+      "side": "YES",
+      "contracts": 13,
+      "price": 0.37,
+      "cost": 4.79,
+      "payout": null,
+      "status": "open",
+      "note": ""
+    },
+    {
+      "id": "KXNFLGAME-26NOV15MIAIND-IND|no",
+      "ts": "2026-11-15T21:19:25.002336Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15MIAIND",
+      "title": "KXNFLGAME-26NOV15MIAIND-IND",
+      "ticker": "KXNFLGAME-26NOV15MIAIND-IND",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.36,
+      "cost": 1.08,
+      "payout": -0.05,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 65.59,
-  "updated_at": "2026-11-15T13:00:31.770896Z"
+  "balance": 60.6,
+  "updated_at": "2026-11-15T21:20:37.816491Z"
 }
