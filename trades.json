@@ -240,23 +240,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNFLGAME-26NOV15PITCIN-PIT|no",
-      "ts": "2026-11-07T04:50:37.206628Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV15PITCIN",
-      "title": "KXNFLGAME-26NOV15PITCIN-PIT",
-      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
-      "side": "NO",
-      "contracts": 4,
-      "price": 0.54,
-      "cost": 2.16,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26NOV21WAKEGT-WAKE|yes",
       "ts": "2026-11-07T22:30:36.929507Z",
       "source": "bot",
@@ -828,8 +811,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV15PITCIN-PIT|no",
+      "ts": "2026-11-16T04:31:25.214069Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV15PITCIN",
+      "title": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.54,
+      "cost": 2.16,
+      "payout": 3.93,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 58.28,
-  "updated_at": "2026-11-16T01:40:39.922139Z"
+  "balance": 62.28,
+  "updated_at": "2026-11-16T04:40:39.907445Z"
 }
