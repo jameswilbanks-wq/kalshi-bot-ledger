@@ -811,8 +811,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV17PORMIN-MIN|no",
+      "ts": "2026-11-16T01:30:31.166867Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV17PORMIN",
+      "title": "KXNBAGAME-26NOV17PORMIN-MIN",
+      "ticker": "KXNBAGAME-26NOV17PORMIN-MIN",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.42,
+      "cost": 0.84,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 59.16,
-  "updated_at": "2026-11-16T01:00:52.902123Z"
+  "updated_at": "2026-11-16T01:30:44.312168Z"
 }
