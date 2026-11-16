@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-08T05:00:48.529134Z",
-      "dollars": 40.76
-    },
-    {
       "t": "2026-11-08T05:10:33.574963Z",
       "dollars": 40.76
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-16T13:00:55.171374Z",
       "dollars": 62.28
+    },
+    {
+      "t": "2026-11-16T13:10:37.462846Z",
+      "dollars": 62.28
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T15:30:44.726075Z",
-      "ticker": "KXHIGHAUS-26OCT17-T73",
-      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.187,
-      "market_price": 0.09,
-      "edge": 0.097,
-      "dollars": 3.05,
-      "contracts": 33,
-      "intended_dollars": 3.05,
-      "intended_contracts": 33,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T15:40:10.380931Z",
       "ticker": "KXHIGHAUS-26OCT17-T73",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 2,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-16T13:10:25.397294Z",
+      "ticker": "KXNBAGAME-26NOV17PORMIN-MIN",
+      "title": "Minnesota wins",
+      "side": "no",
+      "fair_prob": 0.548,
+      "market_price": 0.6,
+      "edge": -0.052,
+      "dollars": 1.17,
+      "contracts": 2,
+      "intended_dollars": 1.17,
+      "intended_contracts": 2,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-16T13:00:55.171483Z",
+  "updated_at": "2026-11-16T13:10:37.462956Z",
   "env": "prod",
   "prod_edge_observations": [
     {
