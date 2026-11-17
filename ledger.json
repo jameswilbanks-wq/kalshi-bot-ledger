@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-09T13:40:24.718247Z",
-      "dollars": 42.92
-    },
-    {
       "t": "2026-11-09T13:50:26.848963Z",
       "dollars": 42.92
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-17T21:50:32.263942Z",
       "dollars": 68.28
+    },
+    {
+      "t": "2026-11-17T22:00:54.269719Z",
+      "dollars": 68.28
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-17T21:50:32.264058Z",
+  "updated_at": "2026-11-17T22:00:54.269829Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-17T17:30:35.744947Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NOCHI-NO",
-      "title": "New Orleans wins",
-      "event_ticker": "KXNFLGAME-26NOV22NOCHI",
-      "fair_prob": 0.168,
-      "market_price": 0.16,
-      "market_bid": 0.15,
-      "edge": 0.008,
-      "volume_fp": "37810.88"
-    },
-    {
-      "t": "2026-11-17T17:30:35.744992Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NOCHI-CHI",
-      "title": "Chicago wins",
-      "event_ticker": "KXNFLGAME-26NOV22NOCHI",
-      "fair_prob": 0.832,
-      "market_price": 0.85,
-      "market_bid": 0.84,
-      "edge": -0.018,
-      "volume_fp": "138176.11"
-    },
     {
       "t": "2026-11-17T17:30:35.745047Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.21,
       "edge": -0.001,
       "volume_fp": "856188.39"
+    },
+    {
+      "t": "2026-11-17T22:00:48.176793Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV18-T65",
+      "title": "Will the maximum temperature be >65\u00b0 on Nov 18, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV18",
+      "fair_prob": 0.187,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.167,
+      "volume_fp": "160.13"
+    },
+    {
+      "t": "2026-11-17T22:00:49.817886Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV18-T65",
+      "title": "Will the maximum temperature be >65\u00b0 on Nov 18, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV18",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "80.00"
     }
   ]
 }
