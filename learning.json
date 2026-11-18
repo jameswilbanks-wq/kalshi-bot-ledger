@@ -1,7 +1,7 @@
 {
   "params": {
     "rho": 0.1,
-    "leg_haircut": 0.9746,
+    "leg_haircut": 0.9822,
     "cfb_haircut": 0.03,
     "props_tier": 0,
     "cfb_tier": 0,
@@ -13,7 +13,7 @@
     "long_enabled": true,
     "nba80_tier": 0,
     "nba80_enabled": true,
-    "updated": "2026-11-17"
+    "updated": "2026-11-18"
   },
   "legs": {
     "KXNBA3PT-26NOV06PORLAL-PORDLILLARD0-4": {
@@ -8797,588 +8797,672 @@
       "player": "josh hart",
       "stat": "points",
       "p": 0.5426,
-      "t": "2026-11-18T01:00:26.976456Z"
+      "t": "2026-11-18T01:00:26.976456Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17NYKTOR-TORCMURRAYBOYLES30-10": {
       "game": "KXNBAPTS",
       "player": "collin murrayboyles",
       "stat": "points",
       "p": 0.482,
-      "t": "2026-11-18T01:00:26.976475Z"
+      "t": "2026-11-18T01:00:26.976475Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17NYKTOR-TORCMURRAYBOYLES30-6": {
       "game": "KXNBAREB",
       "player": "collin murrayboyles",
       "stat": "rebounds",
       "p": 0.5074,
-      "t": "2026-11-18T01:00:26.976482Z"
+      "t": "2026-11-18T01:00:26.976482Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17NYKTOR-TORJPOELTL19-6": {
       "game": "KXNBAREB",
       "player": "jakob poeltl",
       "stat": "rebounds",
       "p": 0.476,
-      "t": "2026-11-18T01:00:26.976486Z"
+      "t": "2026-11-18T01:00:26.976486Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17NYKTOR-TORSBARNES4-6": {
       "game": "KXNBAREB",
       "player": "scottie barnes",
       "stat": "rebounds",
       "p": 0.504,
-      "t": "2026-11-18T01:00:26.976491Z"
+      "t": "2026-11-18T01:00:26.976491Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17NYKTOR-NYKOANUNOBY8-4": {
       "game": "KXNBAREB",
       "player": "og anunoby",
       "stat": "rebounds",
       "p": 0.5725,
-      "t": "2026-11-18T01:00:26.976495Z"
+      "t": "2026-11-18T01:00:26.976495Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17NYKTOR-TORJSHEAD1-6": {
       "game": "KXNBAAST",
       "player": "jamal shead",
       "stat": "assists",
       "p": 0.4368,
-      "t": "2026-11-18T01:00:26.976500Z"
+      "t": "2026-11-18T01:00:26.976500Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17NYKTOR-NYKKTOWNS32-6": {
       "game": "KXNBAAST",
       "player": "karlanthony towns",
       "stat": "assists",
       "p": 0.545,
-      "t": "2026-11-18T01:00:26.976504Z"
+      "t": "2026-11-18T01:00:26.976504Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17NYKTOR-TORJWALTER14-3": {
       "game": "KXNBA3PT",
       "player": "jakobe walter",
       "stat": "threes",
       "p": 0.4947,
-      "t": "2026-11-18T01:00:26.976509Z"
+      "t": "2026-11-18T01:00:26.976509Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17NYKTOR-NYKLSHAMET44-2": {
       "game": "KXNBA3PT",
       "player": "landry shamet",
       "stat": "threes",
       "p": 0.5107,
-      "t": "2026-11-18T01:00:26.976514Z"
+      "t": "2026-11-18T01:00:26.976514Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17NYKTOR-NYKMMCBRIDE2-3": {
       "game": "KXNBA3PT",
       "player": "miles mcbride",
       "stat": "threes",
       "p": 0.4057,
-      "t": "2026-11-18T01:00:26.976519Z"
+      "t": "2026-11-18T01:00:26.976519Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17NYKTOR-TORRBARRETT9-2": {
       "game": "KXNBA3PT",
       "player": "rj barrett",
       "stat": "threes",
       "p": 0.4005,
-      "t": "2026-11-18T01:00:26.976524Z"
+      "t": "2026-11-18T01:00:26.976524Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17NYKTOR-TORIQUICKLEY5-2": {
       "game": "KXNBA3PT",
       "player": "immanuel quickley",
       "stat": "threes",
       "p": 0.5759,
-      "t": "2026-11-18T01:00:26.976528Z"
+      "t": "2026-11-18T01:00:26.976528Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17NYKTOR-NYKOANUNOBY8-2": {
       "game": "KXNBA3PT",
       "player": "og anunoby",
       "stat": "threes",
       "p": 0.5267,
-      "t": "2026-11-18T01:00:26.976531Z"
+      "t": "2026-11-18T01:00:26.976531Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17NYKTOR-NYKKTOWNS32-2": {
       "game": "KXNBA3PT",
       "player": "karlanthony towns",
       "stat": "threes",
       "p": 0.3716,
-      "t": "2026-11-18T01:00:26.976534Z"
+      "t": "2026-11-18T01:00:26.976534Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17NYKTOR-NYKJBRUNSON11-4": {
       "game": "KXNBA3PT",
       "player": "jalen brunson",
       "stat": "threes",
       "p": 0.504,
-      "t": "2026-11-18T01:00:26.976536Z"
+      "t": "2026-11-18T01:00:26.976536Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17DETSAS-SASJCHAMPAGNIE30-20": {
       "game": "KXNBAPTS",
       "player": "julian champagnie",
       "stat": "points",
       "p": 0.5254,
-      "t": "2026-11-18T02:00:33.412757Z"
+      "t": "2026-11-18T02:00:33.412757Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV17PORMIN-PORDLILLARD0-20": {
       "game": "KXNBAPTS",
       "player": "damian lillard",
       "stat": "points",
       "p": 0.4893,
-      "t": "2026-11-18T02:00:33.412775Z"
+      "t": "2026-11-18T02:00:33.412775Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17PORMIN-PORJHOLIDAY5-20": {
       "game": "KXNBAPTS",
       "player": "jrue holiday",
       "stat": "points",
       "p": 0.5253,
-      "t": "2026-11-18T02:00:33.412780Z"
+      "t": "2026-11-18T02:00:33.412780Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17PORMIN-PORTCAMARA33-10": {
       "game": "KXNBAPTS",
       "player": "toumani camara",
       "stat": "points",
       "p": 0.4893,
-      "t": "2026-11-18T02:00:33.412783Z"
+      "t": "2026-11-18T02:00:33.412783Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17PORMIN-MINTSHANNON4-10": {
       "game": "KXNBAPTS",
       "player": "terrence shannon jr",
       "stat": "points",
       "p": 0.52,
-      "t": "2026-11-18T02:00:33.412786Z"
+      "t": "2026-11-18T02:00:33.412786Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17DETSAS-SASDFOX4-10": {
       "game": "KXNBAPTS",
       "player": "deaaron fox",
       "stat": "points",
       "p": 0.4893,
-      "t": "2026-11-18T02:00:33.412789Z"
+      "t": "2026-11-18T02:00:33.412789Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17PORMIN-PORTCAMARA33-6": {
       "game": "KXNBAREB",
       "player": "toumani camara",
       "stat": "rebounds",
       "p": 0.4714,
-      "t": "2026-11-18T02:00:33.412791Z"
+      "t": "2026-11-18T02:00:33.412791Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17PORMIN-PORSCISSOKO91-4": {
       "game": "KXNBAREB",
       "player": "sidy cissoko",
       "stat": "rebounds",
       "p": 0.6142,
-      "t": "2026-11-18T02:00:33.412794Z"
+      "t": "2026-11-18T02:00:33.412794Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17PORMIN-PORJHOLIDAY5-2": {
       "game": "KXNBAREB",
       "player": "jrue holiday",
       "stat": "rebounds",
       "p": 0.6142,
-      "t": "2026-11-18T02:00:33.412796Z"
+      "t": "2026-11-18T02:00:33.412796Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17PORMIN-MINRGOBERT27-6": {
       "game": "KXNBAREB",
       "player": "rudy gobert",
       "stat": "rebounds",
       "p": 0.4421,
-      "t": "2026-11-18T02:00:33.412798Z"
+      "t": "2026-11-18T02:00:33.412798Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17DETSAS-DETCCUNNINGHAM2-4": {
       "game": "KXNBAREB",
       "player": "cade cunningham",
       "stat": "rebounds",
       "p": 0.4591,
-      "t": "2026-11-18T02:00:33.412800Z"
+      "t": "2026-11-18T02:00:33.412800Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17DETSAS-DETDJENKINS24-4": {
       "game": "KXNBAREB",
       "player": "daniss jenkins",
       "stat": "rebounds",
       "p": 0.4369,
-      "t": "2026-11-18T02:00:33.412803Z"
+      "t": "2026-11-18T02:00:33.412803Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17DETSAS-DETATHOMPSON9-6": {
       "game": "KXNBAREB",
       "player": "ausar thompson",
       "stat": "rebounds",
       "p": 0.5,
-      "t": "2026-11-18T02:00:33.412805Z"
+      "t": "2026-11-18T02:00:33.412805Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17DETSAS-DETJCOLLINS20-4": {
       "game": "KXNBAREB",
       "player": "john collins",
       "stat": "rebounds",
       "p": 0.5333,
-      "t": "2026-11-18T02:00:33.412807Z"
+      "t": "2026-11-18T02:00:33.412807Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17DETSAS-SASDVASSELL24-6": {
       "game": "KXNBAREB",
       "player": "devin vassell",
       "stat": "rebounds",
       "p": 0.4164,
-      "t": "2026-11-18T02:00:33.412810Z"
+      "t": "2026-11-18T02:00:33.412810Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17DETSAS-SASDFOX4-4": {
       "game": "KXNBAREB",
       "player": "deaaron fox",
       "stat": "rebounds",
       "p": 0.3913,
-      "t": "2026-11-18T02:00:33.412812Z"
+      "t": "2026-11-18T02:00:33.412812Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17NYKTOR-NYKOANUNOBY8-6": {
       "game": "KXNBAREB",
       "player": "og anunoby",
       "stat": "rebounds",
       "p": 0.5579,
-      "t": "2026-11-18T02:00:33.412816Z"
+      "t": "2026-11-18T02:00:33.412816Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17DETSAS-SASSCASTLE5-10": {
       "game": "KXNBAAST",
       "player": "stephon castle",
       "stat": "assists",
       "p": 0.5592,
-      "t": "2026-11-18T02:00:33.412819Z"
+      "t": "2026-11-18T02:00:33.412819Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17PORMIN-PORJHOLIDAY5-6": {
       "game": "KXNBAAST",
       "player": "jrue holiday",
       "stat": "assists",
       "p": 0.4483,
-      "t": "2026-11-18T02:00:33.412821Z"
+      "t": "2026-11-18T02:00:33.412821Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17PORMIN-PORDLILLARD0-8": {
       "game": "KXNBAAST",
       "player": "damian lillard",
       "stat": "assists",
       "p": 0.4098,
-      "t": "2026-11-18T02:00:33.412823Z"
+      "t": "2026-11-18T02:00:33.412823Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17PORMIN-MINLBALL1-6": {
       "game": "KXNBAAST",
       "player": "lamelo ball",
       "stat": "assists",
       "p": 0.4163,
-      "t": "2026-11-18T02:00:33.412826Z"
+      "t": "2026-11-18T02:00:33.412826Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17PORMIN-MINADOSUNMU13-4": {
       "game": "KXNBAAST",
       "player": "ayo dosunmu",
       "stat": "assists",
       "p": 0.5907,
-      "t": "2026-11-18T02:00:33.412828Z"
+      "t": "2026-11-18T02:00:33.412828Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17DETSAS-DETATHOMPSON9-6": {
       "game": "KXNBAAST",
       "player": "ausar thompson",
       "stat": "assists",
       "p": 0.52,
-      "t": "2026-11-18T02:00:33.412830Z"
+      "t": "2026-11-18T02:00:33.412830Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17DETSAS-SASVWEMBANYAMA1-2": {
       "game": "KXNBAAST",
       "player": "victor wembanyama",
       "stat": "assists",
       "p": 0.5409,
-      "t": "2026-11-18T02:00:33.412832Z"
+      "t": "2026-11-18T02:00:33.412832Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17NYKTOR-TORJSHEAD1-8": {
       "game": "KXNBAAST",
       "player": "jamal shead",
       "stat": "assists",
       "p": 0.423,
-      "t": "2026-11-18T02:00:33.412837Z"
+      "t": "2026-11-18T02:00:33.412837Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17NYKTOR-TORIQUICKLEY5-8": {
       "game": "KXNBAAST",
       "player": "immanuel quickley",
       "stat": "assists",
       "p": 0.5174,
-      "t": "2026-11-18T02:00:33.412841Z"
+      "t": "2026-11-18T02:00:33.412841Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-SASJCHAMPAGNIE30-6": {
       "game": "KXNBA3PT",
       "player": "julian champagnie",
       "stat": "threes",
       "p": 0.4509,
-      "t": "2026-11-18T02:00:33.412846Z"
+      "t": "2026-11-18T02:00:33.412846Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17PORMIN-PORSCISSOKO91-2": {
       "game": "KXNBA3PT",
       "player": "sidy cissoko",
       "stat": "threes",
       "p": 0.4413,
-      "t": "2026-11-18T02:00:33.412850Z"
+      "t": "2026-11-18T02:00:33.412850Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17PORMIN-PORDLILLARD0-3": {
       "game": "KXNBA3PT",
       "player": "damian lillard",
       "stat": "threes",
       "p": 0.5909,
-      "t": "2026-11-18T02:00:33.412855Z"
+      "t": "2026-11-18T02:00:33.412855Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17PORMIN-PORDCLINGAN23-1": {
       "game": "KXNBA3PT",
       "player": "donovan clingan",
       "stat": "threes",
       "p": 0.4278,
-      "t": "2026-11-18T02:00:33.412860Z"
+      "t": "2026-11-18T02:00:33.412860Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17PORMIN-PORTCAMARA33-2": {
       "game": "KXNBA3PT",
       "player": "toumani camara",
       "stat": "threes",
       "p": 0.3774,
-      "t": "2026-11-18T02:00:33.412864Z"
+      "t": "2026-11-18T02:00:33.412864Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17PORMIN-MINLBALL1-2": {
       "game": "KXNBA3PT",
       "player": "lamelo ball",
       "stat": "threes",
       "p": 0.5803,
-      "t": "2026-11-18T02:00:33.412866Z"
+      "t": "2026-11-18T02:00:33.412866Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17PORMIN-MINADOSUNMU13-4": {
       "game": "KXNBA3PT",
       "player": "ayo dosunmu",
       "stat": "threes",
       "p": 0.6506,
-      "t": "2026-11-18T02:00:33.412868Z"
+      "t": "2026-11-18T02:00:33.412868Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17DETSAS-DETDJENKINS24-2": {
       "game": "KXNBA3PT",
       "player": "daniss jenkins",
       "stat": "threes",
       "p": 0.3682,
-      "t": "2026-11-18T02:00:33.412871Z"
+      "t": "2026-11-18T02:00:33.412871Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17DETSAS-DETJCOLLINS20-2": {
       "game": "KXNBA3PT",
       "player": "john collins",
       "stat": "threes",
       "p": 0.5305,
-      "t": "2026-11-18T02:00:33.412873Z"
+      "t": "2026-11-18T02:00:33.412873Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-DETKHUERTERSF-2": {
       "game": "KXNBA3PT",
       "player": "kevin huerter",
       "stat": "threes",
       "p": 0.4021,
-      "t": "2026-11-18T02:00:33.412875Z"
+      "t": "2026-11-18T02:00:33.412875Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-DETCCUNNINGHAM2-2": {
       "game": "KXNBA3PT",
       "player": "cade cunningham",
       "stat": "threes",
       "p": 0.4455,
-      "t": "2026-11-18T02:00:33.412877Z"
+      "t": "2026-11-18T02:00:33.412877Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-SASVWEMBANYAMA1-2": {
       "game": "KXNBA3PT",
       "player": "victor wembanyama",
       "stat": "threes",
       "p": 0.3488,
-      "t": "2026-11-18T02:00:33.412880Z"
+      "t": "2026-11-18T02:00:33.412880Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-SASDVASSELL24-1": {
       "game": "KXNBA3PT",
       "player": "devin vassell",
       "stat": "threes",
       "p": 0.6479,
-      "t": "2026-11-18T02:00:33.412882Z"
+      "t": "2026-11-18T02:00:33.412882Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17DETSAS-SASDHARPER2-1": {
       "game": "KXNBA3PT",
       "player": "dylan harper",
       "stat": "threes",
       "p": 0.5781,
-      "t": "2026-11-18T02:00:33.412884Z"
+      "t": "2026-11-18T02:00:33.412884Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17DETSAS-SASDFOX4-1": {
       "game": "KXNBA3PT",
       "player": "deaaron fox",
       "stat": "threes",
       "p": 0.4947,
-      "t": "2026-11-18T02:00:33.412886Z"
+      "t": "2026-11-18T02:00:33.412886Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV17DETSAS-SASDVASSELL24-10": {
       "game": "KXNBAPTS",
       "player": "devin vassell",
       "stat": "points",
       "p": 0.5426,
-      "t": "2026-11-18T03:01:25.477302Z"
+      "t": "2026-11-18T03:01:25.477302Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17DETSAS-SASDHARPER2-15": {
       "game": "KXNBAPTS",
       "player": "dylan harper",
       "stat": "points",
       "p": 0.486,
-      "t": "2026-11-18T03:01:25.477322Z"
+      "t": "2026-11-18T03:01:25.477322Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17PORMIN-PORTCAMARA33-8": {
       "game": "KXNBAREB",
       "player": "toumani camara",
       "stat": "rebounds",
       "p": 0.6522,
-      "t": "2026-11-18T03:01:25.477329Z"
+      "t": "2026-11-18T03:01:25.477329Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17PORMIN-PORDCLINGAN23-14": {
       "game": "KXNBAREB",
       "player": "donovan clingan",
       "stat": "rebounds",
       "p": 0.5274,
-      "t": "2026-11-18T03:01:25.477334Z"
+      "t": "2026-11-18T03:01:25.477334Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17PORMIN-MINJMCDANIELS3-6": {
       "game": "KXNBAREB",
       "player": "jaden mcdaniels",
       "stat": "rebounds",
       "p": 0.4087,
-      "t": "2026-11-18T03:01:25.477338Z"
+      "t": "2026-11-18T03:01:25.477338Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17DETSAS-DETCCUNNINGHAM2-6": {
       "game": "KXNBAREB",
       "player": "cade cunningham",
       "stat": "rebounds",
       "p": 0.3713,
-      "t": "2026-11-18T03:01:25.477343Z"
+      "t": "2026-11-18T03:01:25.477343Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17DETSAS-DETKHUERTERSF-6": {
       "game": "KXNBAREB",
       "player": "kevin huerter",
       "stat": "rebounds",
       "p": 0.6373,
-      "t": "2026-11-18T03:01:25.477347Z"
+      "t": "2026-11-18T03:01:25.477347Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17DETSAS-SASSCASTLE5-4": {
       "game": "KXNBAREB",
       "player": "stephon castle",
       "stat": "rebounds",
       "p": 0.4087,
-      "t": "2026-11-18T03:01:25.477351Z"
+      "t": "2026-11-18T03:01:25.477351Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17PORMIN-PORDLILLARD0-6": {
       "game": "KXNBAAST",
       "player": "damian lillard",
       "stat": "assists",
       "p": 0.6091,
-      "t": "2026-11-18T03:01:25.477360Z"
+      "t": "2026-11-18T03:01:25.477360Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17PORMIN-MINLBALL1-4": {
       "game": "KXNBAAST",
       "player": "lamelo ball",
       "stat": "assists",
       "p": 0.4164,
-      "t": "2026-11-18T03:01:25.477364Z"
+      "t": "2026-11-18T03:01:25.477364Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17DETSAS-SASSCASTLE5-8": {
       "game": "KXNBAAST",
       "player": "stephon castle",
       "stat": "assists",
       "p": 0.4005,
-      "t": "2026-11-18T03:01:25.477369Z"
+      "t": "2026-11-18T03:01:25.477369Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17DETSAS-SASDVASSELL24-4": {
       "game": "KXNBAAST",
       "player": "devin vassell",
       "stat": "assists",
       "p": 0.375,
-      "t": "2026-11-18T03:01:25.477373Z"
+      "t": "2026-11-18T03:01:25.477373Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17PORMIN-PORTCAMARA33-3": {
       "game": "KXNBA3PT",
       "player": "toumani camara",
       "stat": "threes",
       "p": 0.4171,
-      "t": "2026-11-18T03:01:25.477378Z"
+      "t": "2026-11-18T03:01:25.477378Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17PORMIN-MINADOSUNMU13-5": {
       "game": "KXNBA3PT",
       "player": "ayo dosunmu",
       "stat": "threes",
       "p": 0.4368,
-      "t": "2026-11-18T03:01:25.477382Z"
+      "t": "2026-11-18T03:01:25.477382Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17UTALAC-UTAKGEORGE3-25": {
       "game": "KXNBAPTS",
       "player": "keyonte george",
       "stat": "points",
       "p": 0.5401,
-      "t": "2026-11-18T04:00:33.940180Z"
+      "t": "2026-11-18T04:00:33.940180Z",
+      "o": 1
     },
     "KXNBAPTS-26NOV17UTALAC-UTAABAILEY19-15": {
       "game": "KXNBAPTS",
       "player": "ace bailey",
       "stat": "points",
       "p": 0.4807,
-      "t": "2026-11-18T04:00:33.940198Z"
+      "t": "2026-11-18T04:00:33.940198Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV17UTALAC-UTAJGREEN5-5": {
       "game": "KXNBAPTS",
       "player": "josh green",
       "stat": "points",
       "p": 0.5541,
-      "t": "2026-11-18T04:00:33.940202Z"
+      "t": "2026-11-18T04:00:33.940202Z",
+      "o": 1
     },
     "KXNBAREB-26NOV17UTALAC-UTAKGEORGE3-4": {
       "game": "KXNBAREB",
       "player": "keyonte george",
       "stat": "rebounds",
       "p": 0.5829,
-      "t": "2026-11-18T04:00:33.940205Z"
+      "t": "2026-11-18T04:00:33.940205Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17UTALAC-UTAJOKOGIE21-4": {
       "game": "KXNBAREB",
       "player": "josh okogie",
       "stat": "rebounds",
       "p": 0.4327,
-      "t": "2026-11-18T04:00:33.940209Z"
+      "t": "2026-11-18T04:00:33.940209Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17UTALAC-UTADPETERSON22-6": {
       "game": "KXNBAREB",
       "player": "darryn peterson",
       "stat": "rebounds",
       "p": 0.4506,
-      "t": "2026-11-18T04:00:33.940211Z"
+      "t": "2026-11-18T04:00:33.940211Z",
+      "o": 0
     },
     "KXNBAREB-26NOV17UTALAC-LACDGARLAND10-4": {
       "game": "KXNBAREB",
       "player": "darius garland",
       "stat": "rebounds",
       "p": 0.3921,
-      "t": "2026-11-18T04:00:33.940214Z"
+      "t": "2026-11-18T04:00:33.940214Z",
+      "o": 0
     },
     "KXNBAAST-26NOV17UTALAC-UTAKGEORGE3-8": {
       "game": "KXNBAAST",
       "player": "keyonte george",
       "stat": "assists",
       "p": 0.5319,
-      "t": "2026-11-18T04:00:33.940216Z"
+      "t": "2026-11-18T04:00:33.940216Z",
+      "o": 1
     },
     "KXNBAAST-26NOV17UTALAC-UTADPETERSON22-4": {
       "game": "KXNBAAST",
       "player": "darryn peterson",
       "stat": "assists",
       "p": 0.5206,
-      "t": "2026-11-18T04:00:33.940218Z"
+      "t": "2026-11-18T04:00:33.940218Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17UTALAC-UTADPETERSON22-3": {
       "game": "KXNBA3PT",
       "player": "darryn peterson",
       "stat": "threes",
       "p": 0.4103,
-      "t": "2026-11-18T04:00:33.940221Z"
+      "t": "2026-11-18T04:00:33.940221Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17UTALAC-UTAABAILEY19-3": {
       "game": "KXNBA3PT",
       "player": "ace bailey",
       "stat": "threes",
       "p": 0.4695,
-      "t": "2026-11-18T04:00:33.940223Z"
+      "t": "2026-11-18T04:00:33.940223Z",
+      "o": 0
     },
     "KXNBA3PT-26NOV17UTALAC-LACRHACHIMURA28-3": {
       "game": "KXNBA3PT",
       "player": "rui hachimura",
       "stat": "threes",
       "p": 0.4151,
-      "t": "2026-11-18T04:00:33.940226Z"
+      "t": "2026-11-18T04:00:33.940226Z",
+      "o": 1
     },
     "KXNBA3PT-26NOV17UTALAC-LACKWAGLER1-2": {
       "game": "KXNBA3PT",
       "player": "keaton wagler",
       "stat": "threes",
       "p": 0.4241,
-      "t": "2026-11-18T04:00:33.940228Z"
+      "t": "2026-11-18T04:00:33.940228Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV17CHALAL-LALQGRIMES5-25": {
       "game": "KXNBAPTS",
@@ -11069,13 +11153,109 @@
           "1200 legs obs=0.484 pred=0.489"
         ]
       }
+    },
+    {
+      "d": "2026-11-18",
+      "settled": {
+        "legs": 84,
+        "bets": 0,
+        "calls": 87
+      },
+      "combo_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "combo_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "nba80_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "nba80_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_live": {
+        "n": 2,
+        "wins": 2,
+        "stake": 4.99,
+        "pnl": 2.88,
+        "roi": 0.5776352705410821,
+        "pred": 0.9415
+      },
+      "cfb_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "legs_settled": 1181,
+      "params": {
+        "rho": 0.1,
+        "leg_haircut": 0.9822,
+        "cfb_haircut": 0.03,
+        "props_tier": 0,
+        "cfb_tier": 0,
+        "cfbp_tier": 0,
+        "props_enabled": true,
+        "cfb_enabled": true,
+        "cfbp_enabled": true,
+        "long_tier": 0,
+        "long_enabled": true,
+        "nba80_tier": 0,
+        "nba80_enabled": true,
+        "updated": "2026-11-18"
+      },
+      "changes": {
+        "leg_haircut": [
+          0.9746,
+          0.9822,
+          "1181 legs obs=0.492 pred=0.488"
+        ]
+      }
     }
   ],
   "credits": {
     "d": "2026-11-18",
     "used": 104
   },
-  "updated_at": "2026-11-18T08:50:34.422982Z",
+  "updated_at": "2026-11-18T09:00:47.589404Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
