@@ -845,8 +845,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV18WASTOR-WAS|no",
+      "ts": "2026-11-18T17:40:09.86731Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV18WASTOR",
+      "title": "KXNBAGAME-26NOV18WASTOR-WAS",
+      "ticker": "KXNBAGAME-26NOV18WASTOR-WAS",
+      "side": "NO",
+      "contracts": 5,
+      "price": 0.62,
+      "cost": 3.1,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 65.78,
-  "updated_at": "2026-11-18T10:31:13.978694Z"
+  "updated_at": "2026-11-18T17:40:23.974646Z"
 }
