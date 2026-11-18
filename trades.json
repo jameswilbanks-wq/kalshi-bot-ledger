@@ -779,23 +779,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV17PORMIN-MIN|no",
-      "ts": "2026-11-16T01:30:31.166867Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV17PORMIN",
-      "title": "KXNBAGAME-26NOV17PORMIN-MIN",
-      "ticker": "KXNBAGAME-26NOV17PORMIN-MIN",
-      "side": "NO",
-      "contracts": 2,
-      "price": 0.42,
-      "cost": 0.84,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV15PITCIN-PIT|no",
       "ts": "2026-11-16T04:31:25.214069Z",
       "source": "bot",
@@ -828,8 +811,25 @@
       "payout": 5.9,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV17PORMIN-MIN|no",
+      "ts": "2026-11-18T03:39:24.987539Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV17PORMIN",
+      "title": "KXNBAGAME-26NOV17PORMIN-MIN",
+      "ticker": "KXNBAGAME-26NOV17PORMIN-MIN",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.42,
+      "cost": 0.84,
+      "payout": -0.03,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 68.28,
-  "updated_at": "2026-11-17T04:40:27.907018Z"
+  "updated_at": "2026-11-18T03:40:54.641680Z"
 }
