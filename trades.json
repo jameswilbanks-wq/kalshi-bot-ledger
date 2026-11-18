@@ -828,8 +828,25 @@
       "payout": -0.03,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV25GBLAR-GB|no",
+      "ts": "2026-11-18T10:20:36.293185Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV25GBLAR",
+      "title": "KXNFLGAME-26NOV25GBLAR-GB",
+      "ticker": "KXNFLGAME-26NOV25GBLAR-GB",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.61,
+      "cost": 2.44,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 68.28,
-  "updated_at": "2026-11-18T03:40:54.641680Z"
+  "updated_at": "2026-11-18T10:20:51.753551Z"
 }
