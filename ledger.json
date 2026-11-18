@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-10T02:01:11.809143Z",
-      "dollars": 36.03
-    },
-    {
       "t": "2026-11-10T02:10:42.905656Z",
       "dollars": 36.03
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-18T10:10:21.885048Z",
       "dollars": 68.28
+    },
+    {
+      "t": "2026-11-18T10:20:48.305451Z",
+      "dollars": 68.28
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T18:00:37.974299Z",
-      "ticker": "KXHIGHAUS-26OCT17-T73",
-      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.187,
-      "market_price": 0.09,
-      "edge": 0.097,
-      "dollars": 3.05,
-      "contracts": 33,
-      "intended_dollars": 3.05,
-      "intended_contracts": 33,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T18:10:26.152973Z",
       "ticker": "KXHIGHAUS-26OCT17-T73",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 2,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-18T10:20:35.856817Z",
+      "ticker": "KXNFLGAME-26NOV25GBLAR-GB",
+      "title": "Green Bay wins",
+      "side": "no",
+      "fair_prob": 0.357,
+      "market_price": 0.41,
+      "edge": -0.053,
+      "dollars": 2.44,
+      "contracts": 4.0,
+      "intended_dollars": 2.91,
+      "intended_contracts": 4,
+      "status": "executed",
+      "note": "order_id=01a1ee2c-3120-73a4-ac79-124acbb69318 fill_count=4.0"
     }
   ],
-  "updated_at": "2026-11-18T10:10:21.885248Z",
+  "updated_at": "2026-11-18T10:20:48.305529Z",
   "env": "prod",
   "prod_edge_observations": [
     {
