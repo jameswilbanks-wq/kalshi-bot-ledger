@@ -862,8 +862,25 @@
       "payout": -0.08,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV27DENPIT-DEN|no",
+      "ts": "2026-11-19T21:20:08.927743Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV27DENPIT",
+      "title": "KXNFLGAME-26NOV27DENPIT-DEN",
+      "ticker": "KXNFLGAME-26NOV27DENPIT-DEN",
+      "side": "NO",
+      "contracts": 1,
+      "price": 0.45,
+      "cost": 0.4,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 62.59,
-  "updated_at": "2026-11-19T03:11:01.331065Z"
+  "updated_at": "2026-11-19T21:20:31.162292Z"
 }
