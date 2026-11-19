@@ -848,7 +848,7 @@
     },
     {
       "id": "KXNBAGAME-26NOV18WASTOR-WAS|no",
-      "ts": "2026-11-18T17:40:09.86731Z",
+      "ts": "2026-11-19T03:02:15.113013Z",
       "source": "bot",
       "live": true,
       "strategy": "moneyline",
@@ -859,11 +859,11 @@
       "contracts": 5,
       "price": 0.62,
       "cost": 3.1,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
+      "payout": -0.08,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 62.59,
-  "updated_at": "2026-11-18T17:50:29.085836Z"
+  "updated_at": "2026-11-19T03:11:01.331065Z"
 }
