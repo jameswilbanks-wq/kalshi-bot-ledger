@@ -879,8 +879,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV29NYGIND-NYG|no",
+      "ts": "2026-11-20T18:20:28.272919Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV29NYGIND",
+      "title": "KXNFLGAME-26NOV29NYGIND-NYG",
+      "ticker": "KXNFLGAME-26NOV29NYGIND-NYG",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.27,
+      "cost": 0.81,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 62.18,
-  "updated_at": "2026-11-19T21:31:18.825256Z"
+  "updated_at": "2026-11-20T18:20:47.942320Z"
 }
