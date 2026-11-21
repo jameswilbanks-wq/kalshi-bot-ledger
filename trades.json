@@ -286,9 +286,9 @@
       "contracts": 2,
       "price": 0.7,
       "cost": 1.4,
-      "payout": 1.24,
+      "payout": -0.06,
       "status": "lost",
-      "note": "closed before settling (sold)"
+      "note": ""
     },
     {
       "id": "KXNCAAFGAME-26NOV21UGASCAR-UGA|yes",
@@ -930,8 +930,25 @@
       "payout": -0.02,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNCAAFGAME-26NOV21IOWAILL-IOWA|no",
+      "ts": "2026-11-21T23:03:14.157416Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "cfb",
+      "event": "26NOV21IOWAILL",
+      "title": "KXNCAAFGAME-26NOV21IOWAILL-IOWA",
+      "ticker": "KXNCAAFGAME-26NOV21IOWAILL-IOWA",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.38,
+      "cost": 0.76,
+      "payout": -0.06,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 58.3,
-  "updated_at": "2026-11-21T20:40:39.465411Z"
+  "updated_at": "2026-11-21T23:10:25.522010Z"
 }
