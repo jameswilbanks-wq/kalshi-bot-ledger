@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-13T12:30:33.211881Z",
-      "dollars": 46.17
-    },
-    {
       "t": "2026-11-13T12:40:30.169935Z",
       "dollars": 46.17
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-21T20:31:07.305505Z",
       "dollars": 58.3
+    },
+    {
+      "t": "2026-11-21T20:40:36.764948Z",
+      "dollars": 58.3
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": "order_id=01a1fed6-cb20-7889-acf0-d2b927c6a30a fill_count=5.0"
     }
   ],
-  "updated_at": "2026-11-21T20:31:07.305640Z",
+  "updated_at": "2026-11-21T20:40:36.765079Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-21T16:20:30.145668Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NYJLAC-NYJ",
-      "title": "New York J wins",
-      "event_ticker": "KXNFLGAME-26NOV22NYJLAC",
-      "fair_prob": 0.39,
-      "market_price": 0.4,
-      "market_bid": 0.39,
-      "edge": -0.01,
-      "volume_fp": "96057.91"
-    },
-    {
-      "t": "2026-11-21T16:20:30.145759Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NYJLAC-LAC",
-      "title": "Los Angeles C wins",
-      "event_ticker": "KXNFLGAME-26NOV22NYJLAC",
-      "fair_prob": 0.61,
-      "market_price": 0.61,
-      "market_bid": 0.6,
-      "edge": -0.0,
-      "volume_fp": "58056.04"
-    },
     {
       "t": "2026-11-21T16:20:30.145818Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.63,
       "edge": -0.006,
       "volume_fp": "55530.25"
+    },
+    {
+      "t": "2026-11-21T20:40:30.595451Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV22-T68",
+      "title": "Will the maximum temperature be >68\u00b0 on Nov 22, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV22",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "60.00"
+    },
+    {
+      "t": "2026-11-21T20:40:32.133337Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV22-T65",
+      "title": "Will the maximum temperature be >65\u00b0 on Nov 22, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV22",
+      "fair_prob": 0.133,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.123,
+      "volume_fp": "100.00"
     }
   ]
 }
