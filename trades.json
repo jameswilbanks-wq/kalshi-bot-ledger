@@ -896,8 +896,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV21PORNYK-POR|no",
+      "ts": "2026-11-21T16:00:52.826956Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV21PORNYK",
+      "title": "KXNBAGAME-26NOV21PORNYK-POR",
+      "ticker": "KXNBAGAME-26NOV21PORNYK-POR",
+      "side": "NO",
+      "contracts": 5,
+      "price": 0.59,
+      "cost": 2.95,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 61.33,
-  "updated_at": "2026-11-20T18:31:21.879800Z"
+  "updated_at": "2026-11-21T16:01:12.139031Z"
 }
