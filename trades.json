@@ -235,9 +235,9 @@
       "contracts": 1,
       "price": 0.9,
       "cost": 0.9,
-      "payout": 0.83,
+      "payout": -0.02,
       "status": "lost",
-      "note": "closed before settling (sold)"
+      "note": ""
     },
     {
       "id": "KXNCAAFGAME-26NOV14WAKESMU-WAKE|yes",
@@ -913,8 +913,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNCAAFGAME-26NOV21WAKEGT-WAKE|no",
+      "ts": "2026-11-21T20:37:49.127911Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "cfb",
+      "event": "26NOV21WAKEGT",
+      "title": "KXNCAAFGAME-26NOV21WAKEGT-WAKE",
+      "ticker": "KXNCAAFGAME-26NOV21WAKEGT-WAKE",
+      "side": "NO",
+      "contracts": 1,
+      "price": 0.17,
+      "cost": 0.17,
+      "payout": -0.02,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 58.3,
-  "updated_at": "2026-11-21T16:10:39.029217Z"
+  "updated_at": "2026-11-21T20:40:39.465411Z"
 }
