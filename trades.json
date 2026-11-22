@@ -898,23 +898,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV21PORNYK-POR|no",
-      "ts": "2026-11-21T16:00:52.826956Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV21PORNYK",
-      "title": "KXNBAGAME-26NOV21PORNYK-POR",
-      "ticker": "KXNBAGAME-26NOV21PORNYK-POR",
-      "side": "NO",
-      "contracts": 5,
-      "price": 0.59,
-      "cost": 2.95,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26NOV21WAKEGT-WAKE|no",
       "ts": "2026-11-21T20:37:49.127911Z",
       "source": "bot",
@@ -964,8 +947,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV21PORNYK-POR|no",
+      "ts": "2026-11-22T02:57:34.259747Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV21PORNYK",
+      "title": "KXNBAGAME-26NOV21PORNYK-POR",
+      "ticker": "KXNBAGAME-26NOV21PORNYK-POR",
+      "side": "NO",
+      "contracts": 5,
+      "price": 0.59,
+      "cost": 2.95,
+      "payout": 4.92,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 58.3,
-  "updated_at": "2026-11-22T02:50:40.702711Z"
+  "balance": 60.79,
+  "updated_at": "2026-11-22T03:01:10.541625Z"
 }
