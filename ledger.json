@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-14T04:40:36.549948Z",
-      "dollars": 65.45
-    },
-    {
       "t": "2026-11-14T04:50:24.415461Z",
       "dollars": 65.45
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-22T12:40:34.480855Z",
       "dollars": 60.79
+    },
+    {
+      "t": "2026-11-22T12:50:41.027957Z",
+      "dollars": 60.79
     }
   ],
   "decisions": [
@@ -9283,177 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-22T12:40:34.481169Z",
+  "updated_at": "2026-11-22T12:50:41.028199Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-22T09:10:39.929380Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TBDET-TB",
-      "title": "Tampa Bay wins",
-      "event_ticker": "KXNFLGAME-26NOV22TBDET",
-      "fair_prob": 0.348,
-      "market_price": 0.33,
-      "market_bid": 0.32,
-      "edge": 0.018,
-      "volume_fp": "694442.56"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929422Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TBDET-DET",
-      "title": "Detroit wins",
-      "event_ticker": "KXNFLGAME-26NOV22TBDET",
-      "fair_prob": 0.652,
-      "market_price": 0.67,
-      "market_bid": 0.66,
-      "edge": -0.018,
-      "volume_fp": "848960.30"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929480Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22BALCAR-CAR",
-      "title": "Carolina wins",
-      "event_ticker": "KXNFLGAME-26NOV22BALCAR",
-      "fair_prob": 0.573,
-      "market_price": 0.58,
-      "market_bid": 0.57,
-      "edge": -0.007,
-      "volume_fp": "616806.54"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929521Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22BALCAR-BAL",
-      "title": "Baltimore wins",
-      "event_ticker": "KXNFLGAME-26NOV22BALCAR",
-      "fair_prob": 0.427,
-      "market_price": 0.43,
-      "market_bid": 0.42,
-      "edge": -0.003,
-      "volume_fp": "195104.48"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929566Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22MIABUF-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26NOV22MIABUF",
-      "fair_prob": 0.096,
-      "market_price": 0.09,
-      "market_bid": 0.08,
-      "edge": 0.006,
-      "volume_fp": "601233.22"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929607Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22MIABUF-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26NOV22MIABUF",
-      "fair_prob": 0.904,
-      "market_price": 0.92,
-      "market_bid": 0.91,
-      "edge": -0.016,
-      "volume_fp": "448789.82"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929664Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22ARIKC-KC",
-      "title": "Kansas City wins",
-      "event_ticker": "KXNFLGAME-26NOV22ARIKC",
-      "fair_prob": 0.902,
-      "market_price": 0.92,
-      "market_bid": 0.91,
-      "edge": -0.018,
-      "volume_fp": "161081.71"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929735Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22ARIKC-ARI",
-      "title": "Arizona wins",
-      "event_ticker": "KXNFLGAME-26NOV22ARIKC",
-      "fair_prob": 0.098,
-      "market_price": 0.09,
-      "market_bid": 0.08,
-      "edge": 0.008,
-      "volume_fp": "371572.15"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929794Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TENDAL-TEN",
-      "title": "Tennessee wins",
-      "event_ticker": "KXNFLGAME-26NOV22TENDAL",
-      "fair_prob": 0.248,
-      "market_price": 0.24,
-      "market_bid": 0.23,
-      "edge": 0.008,
-      "volume_fp": "169407.28"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929838Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TENDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV22TENDAL",
-      "fair_prob": 0.752,
-      "market_price": 0.77,
-      "market_bid": 0.76,
-      "edge": -0.018,
-      "volume_fp": "162181.14"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929882Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NOCHI-NO",
-      "title": "New Orleans wins",
-      "event_ticker": "KXNFLGAME-26NOV22NOCHI",
-      "fair_prob": 0.171,
-      "market_price": 0.16,
-      "market_bid": 0.15,
-      "edge": 0.011,
-      "volume_fp": "170457.01"
-    },
-    {
-      "t": "2026-11-22T09:10:39.929922Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22NOCHI-CHI",
-      "title": "Chicago wins",
-      "event_ticker": "KXNFLGAME-26NOV22NOCHI",
-      "fair_prob": 0.829,
-      "market_price": 0.85,
-      "market_bid": 0.84,
-      "edge": -0.021,
-      "volume_fp": "268399.18"
-    },
-    {
-      "t": "2026-11-22T09:10:42.365408Z",
-      "category": "sports",
-      "ticker": "KXNBAGAME-26NOV22INDNYK-NYK",
-      "title": "New York wins",
-      "event_ticker": "KXNBAGAME-26NOV22INDNYK",
-      "fair_prob": 0.758,
-      "market_price": 0.78,
-      "market_bid": 0.76,
-      "edge": -0.022,
-      "volume_fp": "9660.01"
-    },
-    {
-      "t": "2026-11-22T09:10:42.365479Z",
-      "category": "sports",
-      "ticker": "KXNBAGAME-26NOV22INDNYK-IND",
-      "title": "Indiana wins",
-      "event_ticker": "KXNBAGAME-26NOV22INDNYK",
-      "fair_prob": 0.242,
-      "market_price": 0.24,
-      "market_bid": 0.23,
-      "edge": 0.002,
-      "volume_fp": "15066.23"
-    },
     {
       "t": "2026-11-22T09:10:42.365596Z",
       "category": "sports",
@@ -23685,6 +23517,174 @@
       "market_bid": 0.57,
       "edge": -0.013,
       "volume_fp": "77141.74"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551283Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22INDNYK-NYK",
+      "title": "New York wins",
+      "event_ticker": "KXNBAGAME-26NOV22INDNYK",
+      "fair_prob": 0.756,
+      "market_price": 0.76,
+      "market_bid": 0.75,
+      "edge": -0.004,
+      "volume_fp": "10578.23"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551378Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22INDNYK-IND",
+      "title": "Indiana wins",
+      "event_ticker": "KXNBAGAME-26NOV22INDNYK",
+      "fair_prob": 0.244,
+      "market_price": 0.25,
+      "market_bid": 0.24,
+      "edge": -0.006,
+      "volume_fp": "16706.81"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551530Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DALUTA-UTA",
+      "title": "Utah wins",
+      "event_ticker": "KXNBAGAME-26NOV22DALUTA",
+      "fair_prob": 0.486,
+      "market_price": 0.5,
+      "market_bid": 0.49,
+      "edge": -0.014,
+      "volume_fp": "3471.34"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551583Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DALUTA-DAL",
+      "title": "Dallas wins",
+      "event_ticker": "KXNBAGAME-26NOV22DALUTA",
+      "fair_prob": 0.514,
+      "market_price": 0.51,
+      "market_bid": 0.5,
+      "edge": 0.004,
+      "volume_fp": "67930.50"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551632Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22ORLWAS-WAS",
+      "title": "Washington wins",
+      "event_ticker": "KXNBAGAME-26NOV22ORLWAS",
+      "fair_prob": 0.35,
+      "market_price": 0.36,
+      "market_bid": 0.34,
+      "edge": -0.01,
+      "volume_fp": "22709.74"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551674Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22ORLWAS-ORL",
+      "title": "Orlando wins",
+      "event_ticker": "KXNBAGAME-26NOV22ORLWAS",
+      "fair_prob": 0.65,
+      "market_price": 0.65,
+      "market_bid": 0.64,
+      "edge": -0.0,
+      "volume_fp": "3983.89"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551745Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DENCHI-DEN",
+      "title": "Denver wins",
+      "event_ticker": "KXNBAGAME-26NOV22DENCHI",
+      "fair_prob": 0.754,
+      "market_price": 0.77,
+      "market_bid": 0.76,
+      "edge": -0.016,
+      "volume_fp": "25515.29"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551792Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DENCHI-CHI",
+      "title": "Chicago wins",
+      "event_ticker": "KXNBAGAME-26NOV22DENCHI",
+      "fair_prob": 0.246,
+      "market_price": 0.24,
+      "market_bid": 0.23,
+      "edge": 0.006,
+      "volume_fp": "23608.55"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551842Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DETATL-DET",
+      "title": "Detroit wins",
+      "event_ticker": "KXNBAGAME-26NOV22DETATL",
+      "fair_prob": 0.543,
+      "market_price": 0.55,
+      "market_bid": 0.54,
+      "edge": -0.007,
+      "volume_fp": "35788.10"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551879Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22DETATL-ATL",
+      "title": "Atlanta wins",
+      "event_ticker": "KXNBAGAME-26NOV22DETATL",
+      "fair_prob": 0.457,
+      "market_price": 0.46,
+      "market_bid": 0.45,
+      "edge": -0.003,
+      "volume_fp": "86029.93"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551926Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22BOSGSW-GSW",
+      "title": "Golden State wins",
+      "event_ticker": "KXNBAGAME-26NOV22BOSGSW",
+      "fair_prob": 0.255,
+      "market_price": 0.25,
+      "market_bid": 0.24,
+      "edge": 0.005,
+      "volume_fp": "41174.29"
+    },
+    {
+      "t": "2026-11-22T12:50:39.551967Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS",
+      "title": "Boston wins",
+      "event_ticker": "KXNBAGAME-26NOV22BOSGSW",
+      "fair_prob": 0.745,
+      "market_price": 0.76,
+      "market_bid": 0.75,
+      "edge": -0.015,
+      "volume_fp": "55418.30"
+    },
+    {
+      "t": "2026-11-22T12:50:39.552009Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22OKCMIA-OKC",
+      "title": "Oklahoma City wins",
+      "event_ticker": "KXNBAGAME-26NOV22OKCMIA",
+      "fair_prob": 0.42,
+      "market_price": 0.42,
+      "market_bid": 0.41,
+      "edge": -0.0,
+      "volume_fp": "77293.73"
+    },
+    {
+      "t": "2026-11-22T12:50:39.552046Z",
+      "category": "sports",
+      "ticker": "KXNBAGAME-26NOV22OKCMIA-MIA",
+      "title": "Miami wins",
+      "event_ticker": "KXNBAGAME-26NOV22OKCMIA",
+      "fair_prob": 0.58,
+      "market_price": 0.59,
+      "market_bid": 0.57,
+      "edge": -0.01,
+      "volume_fp": "77158.18"
     }
   ]
 }
