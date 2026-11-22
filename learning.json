@@ -16,30 +16,6 @@
     "updated": "2026-11-21"
   },
   "legs": {
-    "KXNBAREB-26NOV11BKNNOP-NOPDMURRAY5-6": {
-      "game": "KXNBAREB",
-      "player": "dejounte murray",
-      "stat": "rebounds",
-      "p": 0.4329,
-      "t": "2026-11-12T02:00:49.001596Z",
-      "o": 0
-    },
-    "KXNBAREB-26NOV11BKNNOP-BKNDSHARPE20-8": {
-      "game": "KXNBAREB",
-      "player": "dayron sharpe",
-      "stat": "rebounds",
-      "p": 0.5632,
-      "t": "2026-11-12T02:00:49.001600Z",
-      "o": 0
-    },
-    "KXNBAREB-26NOV11CLENYK-CLEJHARDEN1-2": {
-      "game": "KXNBAREB",
-      "player": "james harden",
-      "stat": "rebounds",
-      "p": 0.6036,
-      "t": "2026-11-12T02:00:49.001604Z",
-      "o": 1
-    },
     "KXNBAREB-26NOV11DENMEM-MEMZEDEY14-6": {
       "game": "KXNBAREB",
       "player": "zach edey",
@@ -9427,6 +9403,27 @@
       "stat": "threes",
       "p": 0.6318,
       "t": "2026-11-22T02:00:48.136926Z"
+    },
+    "KXNBAREB-26NOV21LACDAL-LACRHACHIMURA28-10": {
+      "game": "KXNBAREB",
+      "player": "rui hachimura",
+      "stat": "rebounds",
+      "p": 0.4191,
+      "t": "2026-11-22T03:00:57.465928Z"
+    },
+    "KXNBA3PT-26NOV21LACDAL-LACRHACHIMURA28-5": {
+      "game": "KXNBA3PT",
+      "player": "rui hachimura",
+      "stat": "threes",
+      "p": 0.3494,
+      "t": "2026-11-22T03:00:57.465950Z"
+    },
+    "KXNBA3PT-26NOV21LACDAL-DALCFLAGG32-4": {
+      "game": "KXNBA3PT",
+      "player": "cooper flagg",
+      "stat": "threes",
+      "p": 0.3479,
+      "t": "2026-11-22T03:00:57.465956Z"
     }
   },
   "bets": [
@@ -11372,149 +11369,14 @@
   ],
   "credits": {
     "d": "2026-11-22",
-    "used": 40
+    "used": 72
   },
-  "updated_at": "2026-11-22T02:50:30.130969Z",
+  "updated_at": "2026-11-22T03:00:58.652476Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-19T04:00:34.166813Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 3,
-        "http_fail": 0,
-        "main_mkts": 15,
-        "alt_mkts": 17,
-        "books": 7,
-        "players": 44,
-        "keys": 315,
-        "keys_over_only": 268,
-        "keys_few_books": 15,
-        "keys_wide": 4,
-        "keys_dup_book": 0,
-        "priced": 28
-      },
-      "nocons": {
-        "over_only": 101,
-        "no_player": 40,
-        "few_books": 8,
-        "no_line": 43,
-        "wide_spread": 3
-      },
-      "ex": [
-        "aaron gordon 10+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "victor wembanyama 8+ no_player {}",
-        "victor wembanyama 16+ no_player {}",
-        "domantas sabonis 20+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "keegan murray 6+ few_books {'over': 7, 'under': 2, 'pair': 2, 'books': 6}",
-        "keegan murray 2+ no_line {'near': [3.5, 4.5, 5.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-19T04:00:34.166813Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 3,
-        "http_fail": 0,
-        "main_mkts": 15,
-        "alt_mkts": 17,
-        "books": 7,
-        "players": 37,
-        "keys": 200,
-        "keys_over_only": 166,
-        "keys_few_books": 16,
-        "keys_wide": 3,
-        "keys_dup_book": 0,
-        "priced": 15
-      },
-      "nocons": {
-        "over_only": 66,
-        "no_player": 37,
-        "no_line": 35,
-        "wide_spread": 3,
-        "few_books": 4
-      },
-      "ex": [
-        "keyonte george 14+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "ace bailey 8+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "victor wembanyama 8+ no_player {}",
-        "victor wembanyama 6+ no_player {}",
-        "keegan murray 2+ no_line {'near': [2.5, 3.5, 4.5]}",
-        "ace bailey 2+ no_line {'near': [3.5, 4.5, 5.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-19T04:00:34.166813Z",
-      "series": "KXNBA3PT",
-      "stat": "threes",
-      "odds": {
-        "events": 3,
-        "http_fail": 0,
-        "main_mkts": 12,
-        "alt_mkts": 14,
-        "books": 6,
-        "players": 40,
-        "keys": 159,
-        "keys_over_only": 119,
-        "keys_few_books": 27,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 12
-      },
-      "nocons": {
-        "over_only": 84,
-        "no_player": 49,
-        "no_line": 56,
-        "few_books": 24,
-        "wide_spread": 1
-      },
-      "ex": [
-        "brice sensabaugh 6+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "payton pritchard 6+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "victor wembanyama 5+ no_player {}",
-        "victor wembanyama 4+ no_player {}",
-        "keegan murray 5+ no_line {'near': [2.5, 1.5, 0.5]}",
-        "keegan murray 4+ no_line {'near': [2.5, 1.5, 0.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-19T05:00:22.739694Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 3,
-        "http_fail": 0,
-        "main_mkts": 17,
-        "alt_mkts": 17,
-        "books": 7,
-        "players": 41,
-        "keys": 386,
-        "keys_over_only": 332,
-        "keys_few_books": 45,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 9
-      },
-      "nocons": {
-        "over_only": 65,
-        "no_line": 47,
-        "few_books": 7,
-        "no_player": 55
-      },
-      "ex": [
-        "darius acuff jr 45+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
-        "quentin grimes 30+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "christian braun 25+ no_line {'near': [22.5, 21.5, 20.5]}",
-        "darius acuff jr 40+ few_books {'over': 6, 'under': 1, 'pair': 1, 'books': 6}",
-        "victor wembanyama 40+ no_player {}",
-        "victor wembanyama 35+ no_player {}"
-      ]
-    },
     {
       "t": "2026-11-19T05:00:22.739694Z",
       "series": "KXNBAREB",
@@ -13373,6 +13235,140 @@
         "dyson daniels 3+ no_player {}",
         "scoot henderson 5+ no_line {'near': [2.5, 1.5, 0.5]}",
         "scoot henderson 4+ no_line {'near': [2.5, 1.5, 0.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-22T03:00:48.579361Z",
+      "series": "KXNBAPTS",
+      "stat": "points",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 18,
+        "alt_mkts": 21,
+        "books": 7,
+        "players": 50,
+        "keys": 366,
+        "keys_over_only": 324,
+        "keys_few_books": 37,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "over_only": 67,
+        "no_line": 76,
+        "few_books": 8,
+        "no_player": 108
+      },
+      "ex": [
+        "rui hachimura 30+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "donovan clingan 25+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "cedric coward 30+ no_line {'near': [24.5, 23.5, 22.5]}",
+        "victor wembanyama 45+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}",
+        "dyson daniels 20+ no_player {}",
+        "dyson daniels 15+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-22T03:00:48.579361Z",
+      "series": "KXNBAREB",
+      "stat": "rebounds",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 14,
+        "alt_mkts": 19,
+        "books": 7,
+        "players": 48,
+        "keys": 199,
+        "keys_over_only": 166,
+        "keys_few_books": 28,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "over_only": 69,
+        "no_player": 135,
+        "few_books": 15,
+        "no_line": 84
+      },
+      "ex": [
+        "yves missi 12+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "jaden mcdaniels 10+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "domantas sabonis 6+ no_player {}",
+        "victor wembanyama 18+ few_books {'over': 4, 'under': 1, 'pair': 1, 'books': 4}",
+        "dyson daniels 10+ no_player {}",
+        "brook lopez 10+ no_line {'near': [7.5, 6.5, 5.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-22T03:00:48.579361Z",
+      "series": "KXNBAAST",
+      "stat": "assists",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 14,
+        "alt_mkts": 20,
+        "books": 7,
+        "players": 37,
+        "keys": 107,
+        "keys_over_only": 85,
+        "keys_few_books": 17,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 3
+      },
+      "nocons": {
+        "over_only": 41,
+        "no_line": 60,
+        "no_player": 107,
+        "few_books": 9,
+        "no_pair": 1
+      },
+      "ex": [
+        "kris dunn 8+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "deaaron fox 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "cam spencer 10+ no_line {'near': [7.5, 6.5, 5.5]}",
+        "dyson daniels 8+ no_player {}",
+        "dyson daniels 6+ no_player {}",
+        "kyrie irving 10+ no_line {'near': [6.5, 5.5, 4.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-22T03:00:48.579361Z",
+      "series": "KXNBA3PT",
+      "stat": "threes",
+      "odds": {
+        "events": 4,
+        "http_fail": 0,
+        "main_mkts": 8,
+        "alt_mkts": 17,
+        "books": 5,
+        "players": 38,
+        "keys": 73,
+        "keys_over_only": 60,
+        "keys_few_books": 9,
+        "keys_wide": 1,
+        "keys_dup_book": 0,
+        "priced": 3
+      },
+      "nocons": {
+        "no_line": 97,
+        "over_only": 51,
+        "no_player": 117,
+        "few_books": 8,
+        "wide_spread": 1
+      },
+      "ex": [
+        "stephon castle 6+ no_line {'near': [6.5]}",
+        "rui hachimura 6+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "landry shamet 7+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "victor wembanyama 6+ no_line {'near': [4.5, 3.5]}",
+        "dyson daniels 4+ no_player {}",
+        "dyson daniels 3+ no_player {}"
       ]
     }
   ]
