@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-14T14:31:06.978275Z",
-      "dollars": 65.45
-    },
-    {
       "t": "2026-11-14T14:40:32.474868Z",
       "dollars": 65.45
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-22T22:30:26.987418Z",
       "dollars": 62.16
+    },
+    {
+      "t": "2026-11-22T22:40:36.835473Z",
+      "dollars": 62.16
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-22T22:30:26.987682Z",
+  "updated_at": "2026-11-22T22:40:36.835771Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-22T16:10:37.414423Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV29NOCIN-CIN",
-      "title": "Cincinnati wins",
-      "event_ticker": "KXNFLGAME-26NOV29NOCIN",
-      "fair_prob": 0.818,
-      "market_price": 0.84,
-      "market_bid": 0.82,
-      "edge": -0.022,
-      "volume_fp": "1437.09"
-    },
-    {
-      "t": "2026-11-22T16:10:37.414467Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV29ATLMIN-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26NOV29ATLMIN",
-      "fair_prob": 0.737,
-      "market_price": 0.76,
-      "market_bid": 0.74,
-      "edge": -0.023,
-      "volume_fp": "4491.67"
-    },
     {
       "t": "2026-11-22T16:10:37.414509Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.63,
       "edge": -0.011,
       "volume_fp": "690102.89"
+    },
+    {
+      "t": "2026-11-22T22:40:20.884519Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV23-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV23",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "83.00"
+    },
+    {
+      "t": "2026-11-22T22:40:33.593308Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV23-T68",
+      "title": "Will the maximum temperature be >68\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV23",
+      "fair_prob": 0.038,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.028,
+      "volume_fp": "0.00"
     }
   ]
 }
