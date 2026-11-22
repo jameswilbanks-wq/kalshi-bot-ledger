@@ -947,8 +947,25 @@
       "payout": -0.06,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV29NELAC-NE|no",
+      "ts": "2026-11-22T02:50:27.43052Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV29NELAC",
+      "title": "KXNFLGAME-26NOV29NELAC-NE",
+      "ticker": "KXNFLGAME-26NOV29NELAC-NE",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.61,
+      "cost": 2.44,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 58.3,
-  "updated_at": "2026-11-21T23:10:25.522010Z"
+  "updated_at": "2026-11-22T02:50:40.702711Z"
 }
