@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-14T11:50:30.441833Z",
-      "dollars": 65.45
-    },
-    {
       "t": "2026-11-14T12:00:37.281923Z",
       "dollars": 65.45
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-22T19:50:38.511573Z",
       "dollars": 60.79
+    },
+    {
+      "t": "2026-11-22T20:00:49.273382Z",
+      "dollars": 60.79
     }
   ],
   "decisions": [
@@ -9283,33 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-22T19:50:38.511791Z",
+  "updated_at": "2026-11-22T20:00:49.273638Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-22T15:00:48.333764Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV26PHIDAL-PHI",
-      "title": "Philadelphia wins",
-      "event_ticker": "KXNFLGAME-26NOV26PHIDAL",
-      "fair_prob": 0.22,
-      "market_price": 0.23,
-      "market_bid": 0.22,
-      "edge": -0.01,
-      "volume_fp": "24553.68"
-    },
-    {
-      "t": "2026-11-22T15:00:48.333820Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV26PHIDAL",
-      "fair_prob": 0.78,
-      "market_price": 0.79,
-      "market_bid": 0.77,
-      "edge": -0.01,
-      "volume_fp": "7942.60"
-    },
     {
       "t": "2026-11-22T15:00:48.333867Z",
       "category": "sports",
@@ -23685,6 +23661,30 @@
       "market_bid": 0.6,
       "edge": 0.003,
       "volume_fp": "215657.81"
+    },
+    {
+      "t": "2026-11-22T20:00:43.068786Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV23-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV23",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "83.00"
+    },
+    {
+      "t": "2026-11-22T20:00:44.979841Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV23-T47",
+      "title": "Will the maximum temperature be >47\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV23",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "64.00"
     }
   ]
 }
