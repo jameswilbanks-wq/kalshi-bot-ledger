@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-14T07:40:25.926287Z",
-      "dollars": 65.45
-    },
-    {
       "t": "2026-11-14T07:50:33.480661Z",
       "dollars": 65.45
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-22T15:40:28.942473Z",
       "dollars": 60.79
+    },
+    {
+      "t": "2026-11-22T15:50:39.225735Z",
+      "dollars": 60.79
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-22T15:40:28.942680Z",
+  "updated_at": "2026-11-22T15:50:39.226054Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-22T11:40:40.442990Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22MIABUF-MIA",
-      "title": "Miami wins",
-      "event_ticker": "KXNFLGAME-26NOV22MIABUF",
-      "fair_prob": 0.096,
-      "market_price": 0.09,
-      "market_bid": 0.08,
-      "edge": 0.006,
-      "volume_fp": "614260.06"
-    },
     {
       "t": "2026-11-22T11:40:40.443033Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.59,
       "edge": -0.001,
       "volume_fp": "83087.11"
+    },
+    {
+      "t": "2026-11-22T15:50:33.082756Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV23-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV23",
+      "fair_prob": 0.091,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.081,
+      "volume_fp": "20.00"
     }
   ]
 }
