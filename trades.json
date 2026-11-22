@@ -303,9 +303,9 @@
       "contracts": 2,
       "price": 0.79,
       "cost": 1.58,
-      "payout": 1.47,
+      "payout": -0.05,
       "status": "lost",
-      "note": "closed before settling (sold)"
+      "note": ""
     },
     {
       "id": "KXNFLGAME-26NOV08NYGPHI-NYG|no",
@@ -964,8 +964,25 @@
       "payout": 4.92,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNCAAFGAME-26NOV21UGASCAR-UGA|no",
+      "ts": "2026-11-22T03:56:59.293262Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "cfb",
+      "event": "26NOV21UGASCAR",
+      "title": "KXNCAAFGAME-26NOV21UGASCAR-UGA",
+      "ticker": "KXNCAAFGAME-26NOV21UGASCAR-UGA",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.263,
+      "cost": 0.53,
+      "payout": -0.05,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 60.79,
-  "updated_at": "2026-11-22T03:01:10.541625Z"
+  "updated_at": "2026-11-22T04:00:37.198254Z"
 }
