@@ -694,23 +694,6 @@
       "note": "from settlements (no fill record)"
     },
     {
-      "id": "KXNFLGAME-26NOV22ARIKC-ARI|no",
-      "ts": "2026-11-15T12:50:19.579652Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV22ARIKC",
-      "title": "KXNFLGAME-26NOV22ARIKC-ARI",
-      "ticker": "KXNFLGAME-26NOV22ARIKC-ARI",
-      "side": "NO",
-      "contracts": 4,
-      "price": 0.86,
-      "cost": 3.44,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV15BUFNYJ-BUF|no",
       "ts": "2026-11-15T21:11:29.778992Z",
       "source": "bot",
@@ -981,8 +964,25 @@
       "payout": -0.05,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV22ARIKC-ARI|no",
+      "ts": "2026-11-22T20:47:29.222686Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22ARIKC",
+      "title": "KXNFLGAME-26NOV22ARIKC-ARI",
+      "ticker": "KXNFLGAME-26NOV22ARIKC-ARI",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.86,
+      "cost": 3.44,
+      "payout": 3.97,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 60.79,
-  "updated_at": "2026-11-22T04:00:37.198254Z"
+  "balance": 64.79,
+  "updated_at": "2026-11-22T20:50:52.391371Z"
 }
