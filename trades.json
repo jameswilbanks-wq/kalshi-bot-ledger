@@ -981,8 +981,25 @@
       "payout": -0.04,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV22OKCMIA-OKC|no",
+      "ts": "2026-11-22T22:00:35.813748Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22OKCMIA",
+      "title": "KXNBAGAME-26NOV22OKCMIA-OKC",
+      "ticker": "KXNBAGAME-26NOV22OKCMIA-OKC",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.64,
+      "cost": 2.56,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 64.79,
-  "updated_at": "2026-11-22T21:10:53.445929Z"
+  "updated_at": "2026-11-22T22:00:58.028163Z"
 }
