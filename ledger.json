@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-14T10:50:25.179062Z",
-      "dollars": 65.45
-    },
-    {
       "t": "2026-11-14T11:01:05.755347Z",
       "dollars": 65.45
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-22T18:50:29.885947Z",
       "dollars": 60.79
+    },
+    {
+      "t": "2026-11-22T19:00:44.936670Z",
+      "dollars": 60.79
     }
   ],
   "decisions": [
@@ -9283,21 +9283,9 @@
       "note": ""
     }
   ],
-  "updated_at": "2026-11-22T18:50:29.886193Z",
+  "updated_at": "2026-11-22T19:00:44.936739Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-22T14:40:37.440987Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV22TENDAL-DAL",
-      "title": "Dallas wins",
-      "event_ticker": "KXNFLGAME-26NOV22TENDAL",
-      "fair_prob": 0.757,
-      "market_price": 0.77,
-      "market_bid": 0.76,
-      "edge": -0.013,
-      "volume_fp": "209757.04"
-    },
     {
       "t": "2026-11-22T14:40:37.441033Z",
       "category": "sports",
@@ -23676,6 +23664,18 @@
     },
     {
       "t": "2026-11-22T18:50:25.161119Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV23-T47",
+      "title": "Will the maximum temperature be >47\u00b0 on Nov 23, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV23",
+      "fair_prob": 0.187,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.177,
+      "volume_fp": "61.00"
+    },
+    {
+      "t": "2026-11-22T19:00:40.219954Z",
       "category": "weather",
       "ticker": "KXHIGHCHI-26NOV23-T47",
       "title": "Will the maximum temperature be >47\u00b0 on Nov 23, 2026?",
