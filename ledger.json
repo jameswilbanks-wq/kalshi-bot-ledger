@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-13T21:50:52.818596Z",
-      "dollars": 45.45
-    },
-    {
       "t": "2026-11-13T22:00:46.054940Z",
       "dollars": 45.45
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-22T05:50:23.811552Z",
       "dollars": 60.79
+    },
+    {
+      "t": "2026-11-22T06:00:44.353951Z",
+      "dollars": 60.79
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T21:00:45.475492Z",
-      "ticker": "KXHIGHCHI-26OCT17-T60",
-      "title": "Will the maximum temperature be >60\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.412,
-      "market_price": 0.03,
-      "edge": 0.382,
-      "dollars": 3.05,
-      "contracts": 101,
-      "intended_dollars": 3.05,
-      "intended_contracts": 101,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T21:00:45.475492Z",
       "ticker": "KXHIGHAUS-26OCT17-T73",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-22T06:00:18.921022Z",
+      "ticker": "KXNFLGAME-26NOV29NELAC-NE",
+      "title": "New England wins",
+      "side": "no",
+      "fair_prob": 0.356,
+      "market_price": 0.42,
+      "edge": -0.064,
+      "dollars": 1.18,
+      "contracts": 1,
+      "intended_dollars": 1.18,
+      "intended_contracts": 1,
+      "status": "skipped_already_held",
+      "note": ""
     }
   ],
-  "updated_at": "2026-11-22T05:50:23.811824Z",
+  "updated_at": "2026-11-22T06:00:44.354306Z",
   "env": "prod",
   "prod_edge_observations": [
     {
