@@ -728,23 +728,6 @@
       "note": "from settlements (no fill record)"
     },
     {
-      "id": "KXNFLGAME-26NOV22MINSF-MIN|no",
-      "ts": "2026-11-15T23:30:24.761242Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV22MINSF",
-      "title": "KXNFLGAME-26NOV22MINSF-MIN",
-      "ticker": "KXNFLGAME-26NOV22MINSF-MIN",
-      "side": "NO",
-      "contracts": 2,
-      "price": 0.59,
-      "cost": 1.4,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV15PITCIN-PIT|no",
       "ts": "2026-11-16T04:31:25.214069Z",
       "source": "bot",
@@ -998,8 +981,42 @@
       "payout": 3.94,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV22MINSF-MIN|no",
+      "ts": "2026-11-23T04:31:25.143893Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV22MINSF",
+      "title": "KXNFLGAME-26NOV22MINSF-MIN",
+      "ticker": "KXNFLGAME-26NOV22MINSF-MIN",
+      "side": "NO",
+      "contracts": 2,
+      "price": 0.59,
+      "cost": 1.4,
+      "payout": 2.33,
+      "status": "won",
+      "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV29SEASF-SF|no",
+      "ts": "2026-11-23T04:40:20.738757Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV29SEASF",
+      "title": "KXNFLGAME-26NOV29SEASF-SF",
+      "ticker": "KXNFLGAME-26NOV29SEASF-SF",
+      "side": "NO",
+      "contracts": 6,
+      "price": 0.36,
+      "cost": 2.16,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
-  "balance": 66.16,
-  "updated_at": "2026-11-23T01:30:51.028521Z"
+  "balance": 68.53,
+  "updated_at": "2026-11-23T04:40:35.420140Z"
 }
