@@ -11472,114 +11472,14 @@
   ],
   "credits": {
     "d": "2026-11-23",
-    "used": 120
+    "used": 126
   },
-  "updated_at": "2026-11-23T03:50:39.343165Z",
+  "updated_at": "2026-11-23T04:01:03.230298Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-22T03:00:48.579361Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 4,
-        "http_fail": 0,
-        "main_mkts": 18,
-        "alt_mkts": 21,
-        "books": 7,
-        "players": 50,
-        "keys": 366,
-        "keys_over_only": 324,
-        "keys_few_books": 37,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 4
-      },
-      "nocons": {
-        "over_only": 67,
-        "no_line": 76,
-        "few_books": 8,
-        "no_player": 108
-      },
-      "ex": [
-        "rui hachimura 30+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
-        "donovan clingan 25+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "cedric coward 30+ no_line {'near': [24.5, 23.5, 22.5]}",
-        "victor wembanyama 45+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}",
-        "dyson daniels 20+ no_player {}",
-        "dyson daniels 15+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-22T03:00:48.579361Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 4,
-        "http_fail": 0,
-        "main_mkts": 14,
-        "alt_mkts": 19,
-        "books": 7,
-        "players": 48,
-        "keys": 199,
-        "keys_over_only": 166,
-        "keys_few_books": 28,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 4
-      },
-      "nocons": {
-        "over_only": 69,
-        "no_player": 135,
-        "few_books": 15,
-        "no_line": 84
-      },
-      "ex": [
-        "yves missi 12+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
-        "jaden mcdaniels 10+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "domantas sabonis 6+ no_player {}",
-        "victor wembanyama 18+ few_books {'over': 4, 'under': 1, 'pair': 1, 'books': 4}",
-        "dyson daniels 10+ no_player {}",
-        "brook lopez 10+ no_line {'near': [7.5, 6.5, 5.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-22T03:00:48.579361Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 4,
-        "http_fail": 0,
-        "main_mkts": 14,
-        "alt_mkts": 20,
-        "books": 7,
-        "players": 37,
-        "keys": 107,
-        "keys_over_only": 85,
-        "keys_few_books": 17,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 3
-      },
-      "nocons": {
-        "over_only": 41,
-        "no_line": 60,
-        "no_player": 107,
-        "few_books": 9,
-        "no_pair": 1
-      },
-      "ex": [
-        "kris dunn 8+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "deaaron fox 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "cam spencer 10+ no_line {'near': [7.5, 6.5, 5.5]}",
-        "dyson daniels 8+ no_player {}",
-        "dyson daniels 6+ no_player {}",
-        "kyrie irving 10+ no_line {'near': [6.5, 5.5, 4.5]}"
-      ]
-    },
     {
       "t": "2026-11-22T03:00:48.579361Z",
       "series": "KXNBA3PT",
@@ -13473,6 +13373,104 @@
         "jordan love 30+ no_player {}",
         "kirk cousins 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "brock purdy 5+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-23T04:00:59.135678Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 4,
+        "books": 6,
+        "players": 2,
+        "keys": 17,
+        "keys_over_only": 9,
+        "keys_few_books": 8,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_player": 53,
+        "no_line": 9,
+        "over_only": 9,
+        "few_books": 1
+      },
+      "ex": [
+        "jared goff 400+ no_player {}",
+        "jared goff 350+ no_player {}",
+        "brock purdy 375+ no_line {'near': [324.5, 299.5, 274.5]}",
+        "brock purdy 350+ no_line {'near': [324.5, 299.5, 274.5]}",
+        "brock purdy 325+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "brock purdy 300+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}"
+      ]
+    },
+    {
+      "t": "2026-11-23T04:00:59.135678Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 13,
+        "keys": 93,
+        "keys_over_only": 73,
+        "keys_few_books": 18,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 2
+      },
+      "nocons": {
+        "over_only": 59,
+        "no_player": 378,
+        "no_line": 61,
+        "few_books": 3
+      },
+      "ex": [
+        "mike evans 130+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "tyler higbee 90+ no_player {}",
+        "tyler higbee 80+ no_player {}",
+        "mike evans 125+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "christian mccaffrey 5+ no_line {'near': [13.5, 14.5, 19.5]}",
+        "tai felton 5+ no_line {'near': [24.5, 28.5, 29.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-23T04:00:59.135678Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 7,
+        "keys": 49,
+        "keys_over_only": 37,
+        "keys_few_books": 12,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_player": 136,
+        "no_line": 19,
+        "over_only": 28
+      },
+      "ex": [
+        "matthew stafford 30+ no_player {}",
+        "matthew stafford 25+ no_player {}",
+        "jordan mason 20+ no_line {'near': [24.5, 26.5, 29.5]}",
+        "kaelon black 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "kirk cousins 5+ no_line {'near': [5.5, 0.5, 9.5]}",
+        "brock purdy 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
       ]
     }
   ]
