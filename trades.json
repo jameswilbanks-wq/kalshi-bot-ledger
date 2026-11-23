@@ -984,7 +984,7 @@
     },
     {
       "id": "KXNBAGAME-26NOV22OKCMIA-OKC|no",
-      "ts": "2026-11-22T22:00:35.813748Z",
+      "ts": "2026-11-23T01:23:44.357286Z",
       "source": "bot",
       "live": true,
       "strategy": "moneyline",
@@ -995,11 +995,11 @@
       "contracts": 4,
       "price": 0.64,
       "cost": 2.56,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
+      "payout": 3.94,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 62.16,
-  "updated_at": "2026-11-22T22:10:41.439789Z"
+  "balance": 66.16,
+  "updated_at": "2026-11-23T01:30:51.028521Z"
 }
