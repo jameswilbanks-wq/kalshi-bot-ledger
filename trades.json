@@ -1000,23 +1000,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV23SASSAC-SAC|no",
-      "ts": "2026-11-24T01:20:36.608344Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV23SASSAC",
-      "title": "KXNBAGAME-26NOV23SASSAC-SAC",
-      "ticker": "KXNBAGAME-26NOV23SASSAC-SAC",
-      "side": "NO",
-      "contracts": 4,
-      "price": 0.76,
-      "cost": 3.04,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV23CINWAS-WAS|no",
       "ts": "2026-11-24T04:25:19.938238Z",
       "source": "bot",
@@ -1032,8 +1015,25 @@
       "payout": -0.07,
       "status": "lost",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV23SASSAC-SAC|no",
+      "ts": "2026-11-24T05:29:44.286967Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV23SASSAC",
+      "title": "KXNBAGAME-26NOV23SASSAC-SAC",
+      "ticker": "KXNBAGAME-26NOV23SASSAC-SAC",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.76,
+      "cost": 3.04,
+      "payout": 3.95,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 63.19,
-  "updated_at": "2026-11-24T04:30:58.601770Z"
+  "balance": 67.19,
+  "updated_at": "2026-11-24T05:30:57.327145Z"
 }
