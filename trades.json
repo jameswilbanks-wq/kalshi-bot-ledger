@@ -1032,8 +1032,25 @@
       "payout": 3.95,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV26PHIDAL-DAL|no",
+      "ts": "2026-11-24T21:00:37.221812Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV26PHIDAL",
+      "title": "KXNFLGAME-26NOV26PHIDAL-DAL",
+      "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
+      "side": "NO",
+      "contracts": 9,
+      "price": 0.21,
+      "cost": 1.89,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 67.19,
-  "updated_at": "2026-11-24T05:30:57.327145Z"
+  "updated_at": "2026-11-24T21:01:00.119709Z"
 }
