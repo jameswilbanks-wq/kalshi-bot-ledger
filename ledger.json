@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-16T12:50:43.849921Z",
-      "dollars": 62.28
-    },
-    {
       "t": "2026-11-16T13:00:55.171374Z",
       "dollars": 62.28
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-24T20:50:26.091825Z",
       "dollars": 67.19
+    },
+    {
+      "t": "2026-11-24T21:00:57.332236Z",
+      "dollars": 67.19
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T21:40:12.154858Z",
-      "ticker": "KXHIGHAUS-26OCT17-T73",
-      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.187,
-      "market_price": 0.03,
-      "edge": 0.157,
-      "dollars": 3.05,
-      "contracts": 101,
-      "intended_dollars": 3.05,
-      "intended_contracts": 101,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T21:50:07.931253Z",
       "ticker": "KXHIGHCHI-26OCT17-T60",
@@ -9281,23 +9266,26 @@
       "intended_contracts": 4,
       "status": "executed",
       "note": "order_id=01a20b23-f6a0-7529-a47d-75d75f1d7d00 fill_count=4.0"
+    },
+    {
+      "t": "2026-11-24T21:00:35.793500Z",
+      "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
+      "title": "Dallas wins",
+      "side": "no",
+      "fair_prob": 0.745,
+      "market_price": 0.8,
+      "edge": -0.055,
+      "dollars": 1.89,
+      "contracts": 9.0,
+      "intended_dollars": 1.91,
+      "intended_contracts": 9,
+      "status": "executed",
+      "note": "order_id=01a20f5c-4d08-73d1-a1d4-dc17a877ba2e fill_count=9.0"
     }
   ],
-  "updated_at": "2026-11-24T20:50:26.092128Z",
+  "updated_at": "2026-11-24T21:00:57.332452Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-24T15:50:55.212147Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV26KCBUF-BUF",
-      "title": "Buffalo wins",
-      "event_ticker": "KXNFLGAME-26NOV26KCBUF",
-      "fair_prob": 0.579,
-      "market_price": 0.59,
-      "market_bid": 0.58,
-      "edge": -0.011,
-      "volume_fp": "111410.49"
-    },
     {
       "t": "2026-11-24T15:50:55.212191Z",
       "category": "sports",
@@ -23685,6 +23673,18 @@
       "market_bid": 0.54,
       "edge": -0.005,
       "volume_fp": "153639.08"
+    },
+    {
+      "t": "2026-11-24T21:00:51.587376Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV25-T54",
+      "title": "Will the maximum temperature be >54\u00b0 on Nov 25, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV25",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "60.00"
     }
   ]
 }
