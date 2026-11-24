@@ -609,23 +609,6 @@
       "legs_v": 3
     },
     {
-      "id": "KXNFLGAME-26NOV23CINWAS-WAS|no",
-      "ts": "2026-11-13T04:50:31.511953Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV23CINWAS",
-      "title": "KXNFLGAME-26NOV23CINWAS-WAS",
-      "ticker": "KXNFLGAME-26NOV23CINWAS-WAS",
-      "side": "NO",
-      "contracts": 4,
-      "price": 0.6,
-      "cost": 2.4,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNCAAFGAME-26NOV14WAKESMU-WAKE|no",
       "ts": "2026-11-14T20:32:54.746984Z",
       "source": "bot",
@@ -1032,8 +1015,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV23CINWAS-WAS|no",
+      "ts": "2026-11-24T04:25:19.938238Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV23CINWAS",
+      "title": "KXNFLGAME-26NOV23CINWAS-WAS",
+      "ticker": "KXNFLGAME-26NOV23CINWAS-WAS",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.6,
+      "cost": 2.4,
+      "payout": -0.07,
+      "status": "lost",
+      "note": "from settlements (no fill record)"
     }
   ],
   "balance": 63.19,
-  "updated_at": "2026-11-24T01:30:52.717028Z"
+  "updated_at": "2026-11-24T04:30:58.601770Z"
 }
