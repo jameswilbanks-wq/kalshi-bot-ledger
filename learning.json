@@ -11934,114 +11934,14 @@
   ],
   "credits": {
     "d": "2026-11-26",
-    "used": 160
+    "used": 166
   },
-  "updated_at": "2026-11-26T19:50:35.778248Z",
+  "updated_at": "2026-11-26T20:01:08.584967Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-24T05:01:10.466278Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 11,
-        "alt_mkts": 12,
-        "books": 7,
-        "players": 27,
-        "keys": 259,
-        "keys_over_only": 233,
-        "keys_few_books": 15,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 11
-      },
-      "nocons": {
-        "over_only": 49,
-        "no_line": 30,
-        "no_player": 4,
-        "few_books": 4
-      },
-      "ex": [
-        "stephon castle 35+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "jake laravia 20+ over_only {'over': 6, 'under': 0, 'pair': 0, 'books': 6}",
-        "julian champagnie 35+ no_line {'near': [31.5, 30.5, 29.5]}",
-        "keegan murray 25+ no_line {'near': [19.5, 18.5, 17.5]}",
-        "mo bamba 20+ no_player {}",
-        "mo bamba 15+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-24T05:01:10.466278Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 10,
-        "alt_mkts": 11,
-        "books": 7,
-        "players": 26,
-        "keys": 113,
-        "keys_over_only": 85,
-        "keys_few_books": 23,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 4
-      },
-      "nocons": {
-        "over_only": 32,
-        "few_books": 11,
-        "no_line": 37,
-        "no_player": 9,
-        "wide_spread": 1
-      },
-      "ex": [
-        "jake laravia 12+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "darryn peterson 10+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "stephon castle 10+ few_books {'over': 6, 'under': 1, 'pair': 1, 'books': 6}",
-        "harrison barnes 6+ no_line {'near': [4.5, 3.5, 2.5]}",
-        "harrison barnes 2+ no_line {'near': [2.5, 3.5, 4.5]}",
-        "luke kornet 8+ few_books {'over': 1, 'under': 1, 'pair': 1, 'books': 1}"
-      ]
-    },
-    {
-      "t": "2026-11-24T05:01:10.466278Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 2,
-        "http_fail": 0,
-        "main_mkts": 10,
-        "alt_mkts": 12,
-        "books": 7,
-        "players": 18,
-        "keys": 62,
-        "keys_over_only": 47,
-        "keys_few_books": 13,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 1
-      },
-      "nocons": {
-        "no_line": 27,
-        "over_only": 17,
-        "few_books": 7,
-        "wide_spread": 1
-      },
-      "ex": [
-        "deandre hunter 8+ no_line {'near': [6.5, 5.5]}",
-        "collin sexton 8+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "stephon castle 14+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "keldon johnson 8+ no_line {'near': [6.5, 5.5, 3.5]}",
-        "keldon johnson 4+ few_books {'over': 1, 'under': 1, 'pair': 1, 'books': 1}",
-        "keyonte george 4+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}"
-      ]
-    },
     {
       "t": "2026-11-24T05:01:10.466278Z",
       "series": "KXNBA3PT",
@@ -13916,6 +13816,104 @@
         "bam knight 80+ no_player {}",
         "bam knight 70+ no_player {}",
         "caleb williams 20+ few_books {'over': 5, 'under': 1, 'pair': 1, 'books': 4}"
+      ]
+    },
+    {
+      "t": "2026-11-26T20:01:02.275299Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 7,
+        "alt_mkts": 5,
+        "books": 7,
+        "players": 2,
+        "keys": 28,
+        "keys_over_only": 18,
+        "keys_few_books": 9,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "no_player": 197,
+        "over_only": 14,
+        "no_line": 3
+      },
+      "ex": [
+        "josh johnson 200+ no_player {}",
+        "josh johnson 150+ no_player {}",
+        "jared goff 400+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "jared goff 350+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
+        "jared goff 225+ no_line {'near': [249.5, 274.5, 299.5]}",
+        "jared goff 200+ no_line {'near': [249.5, 274.5, 299.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-26T20:01:02.275299Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 14,
+        "keys": 178,
+        "keys_over_only": 149,
+        "keys_few_books": 24,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 5
+      },
+      "nocons": {
+        "over_only": 110,
+        "no_line": 38,
+        "no_player": 1466,
+        "few_books": 3
+      },
+      "ex": [
+        "dandre swift 80+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "luther burden iii 25+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "sam laporta 10+ no_line {'near': [14.5, 19.5, 24.5]}",
+        "jameson williams 15+ no_line {'near': [39.5, 49.5, 57.5]}",
+        "colston loveland 15+ no_player {}",
+        "colston loveland 20+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-26T20:01:02.275299Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 8,
+        "keys": 93,
+        "keys_over_only": 75,
+        "keys_few_books": 17,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "no_line": 12,
+        "over_only": 56,
+        "no_player": 648,
+        "few_books": 1
+      },
+      "ex": [
+        "kyle monangai 5+ no_line {'near': [9.5, 14.5, 17.5]}",
+        "caleb williams 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "kyle monangai 10+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "sione vaki 5+ no_line {'near': [14.5, 17.5, 18.5]}",
+        "bam knight 80+ no_player {}",
+        "bam knight 70+ no_player {}"
       ]
     }
   ]
