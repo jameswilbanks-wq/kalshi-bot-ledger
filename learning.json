@@ -16,78 +16,6 @@
     "updated": "2026-11-25"
   },
   "legs": {
-    "KXNBAPTS-26NOV15HOUWAS-HOUASENGUN28-20": {
-      "game": "KXNBAPTS",
-      "player": "alperen sengun",
-      "stat": "points",
-      "p": 0.4654,
-      "t": "2026-11-16T01:00:39.246095Z",
-      "o": 0
-    },
-    "KXNBAPTS-26NOV15NYKTOR-TORSBARNES4-20": {
-      "game": "KXNBAPTS",
-      "player": "scottie barnes",
-      "stat": "points",
-      "p": 0.4893,
-      "t": "2026-11-16T01:00:39.246097Z",
-      "o": 1
-    },
-    "KXNBAPTS-26NOV15NYKTOR-TORIQUICKLEY5-10": {
-      "game": "KXNBAPTS",
-      "player": "immanuel quickley",
-      "stat": "points",
-      "p": 0.4628,
-      "t": "2026-11-16T01:00:39.246100Z",
-      "o": 1
-    },
-    "KXNBAREB-26NOV15NYKTOR-TORCMURRAYBOYLES30-10": {
-      "game": "KXNBAREB",
-      "player": "collin murrayboyles",
-      "stat": "rebounds",
-      "p": 0.4583,
-      "t": "2026-11-16T01:00:39.246102Z",
-      "o": 1
-    },
-    "KXNBAREB-26NOV15HOUWAS-WASASARR20-6": {
-      "game": "KXNBAREB",
-      "player": "alex sarr",
-      "stat": "rebounds",
-      "p": 0.563,
-      "t": "2026-11-16T01:00:39.246105Z",
-      "o": 1
-    },
-    "KXNBAREB-26NOV15HOUWAS-HOUATHOMPSON1-8": {
-      "game": "KXNBAREB",
-      "player": "amen thompson",
-      "stat": "rebounds",
-      "p": 0.463,
-      "t": "2026-11-16T01:00:39.246107Z",
-      "o": 0
-    },
-    "KXNBAAST-26NOV15HOUWAS-WASTYOUNG3-8": {
-      "game": "KXNBAAST",
-      "player": "trae young",
-      "stat": "assists",
-      "p": 0.5692,
-      "t": "2026-11-16T01:00:39.246114Z",
-      "o": 1
-    },
-    "KXNBAAST-26NOV15HOUWAS-HOURSHEPPARD15-4": {
-      "game": "KXNBAAST",
-      "player": "reed sheppard",
-      "stat": "assists",
-      "p": 0.5831,
-      "t": "2026-11-16T01:00:39.246116Z",
-      "o": 1
-    },
-    "KXNBAAST-26NOV15HOUWAS-HOUASENGUN28-8": {
-      "game": "KXNBAAST",
-      "player": "alperen sengun",
-      "stat": "assists",
-      "p": 0.5053,
-      "t": "2026-11-16T01:00:39.246118Z",
-      "o": 1
-    },
     "KXNBA3PT-26NOV15HOUWAS-HOUKDURANT7-2": {
       "game": "KXNBA3PT",
       "player": "kevin durant",
@@ -9512,6 +9440,69 @@
       "stat": "rush_yds",
       "p": 0.4893,
       "t": "2026-11-26T03:00:40.720585Z"
+    },
+    "KXNBAPTS-26NOV25SASPOR-PORDLILLARD0-30": {
+      "game": "KXNBAPTS",
+      "player": "damian lillard",
+      "stat": "points",
+      "p": 0.5127,
+      "t": "2026-11-26T04:00:22.141504Z"
+    },
+    "KXNBAPTS-26NOV25SASPOR-SASJCHAMPAGNIE30-15": {
+      "game": "KXNBAPTS",
+      "player": "julian champagnie",
+      "stat": "points",
+      "p": 0.4654,
+      "t": "2026-11-26T04:00:22.141535Z"
+    },
+    "KXNBAREB-26NOV25SASPOR-SASVWEMBANYAMA1-14": {
+      "game": "KXNBAREB",
+      "player": "victor wembanyama",
+      "stat": "rebounds",
+      "p": 0.4574,
+      "t": "2026-11-26T04:00:22.141542Z"
+    },
+    "KXNBAAST-26NOV25SASPOR-PORDAVDIJA8-6": {
+      "game": "KXNBAAST",
+      "player": "deni avdija",
+      "stat": "assists",
+      "p": 0.5319,
+      "t": "2026-11-26T04:00:22.141547Z"
+    },
+    "KXNBA3PT-26NOV25SASPOR-SASVWEMBANYAMA1-3": {
+      "game": "KXNBA3PT",
+      "player": "victor wembanyama",
+      "stat": "threes",
+      "p": 0.4524,
+      "t": "2026-11-26T04:00:22.141550Z"
+    },
+    "KXNBA3PT-26NOV25SASPOR-SASSCASTLE5-2": {
+      "game": "KXNBA3PT",
+      "player": "stephon castle",
+      "stat": "threes",
+      "p": 0.3804,
+      "t": "2026-11-26T04:00:22.141553Z"
+    },
+    "KXNBA3PT-26NOV25SASPOR-SASJCHAMPAGNIE30-2": {
+      "game": "KXNBA3PT",
+      "player": "julian champagnie",
+      "stat": "threes",
+      "p": 0.599,
+      "t": "2026-11-26T04:00:22.141555Z"
+    },
+    "KXNBA3PT-26NOV25SASPOR-SASDVASSELL24-3": {
+      "game": "KXNBA3PT",
+      "player": "devin vassell",
+      "stat": "threes",
+      "p": 0.3929,
+      "t": "2026-11-26T04:00:22.141558Z"
+    },
+    "KXNFLRECYDS-26NOV25GBLAR-LARKMUMPFIELD4-70": {
+      "game": "KXNFLRECYDS",
+      "player": "konata mumpfield",
+      "stat": "rec_yds",
+      "p": 0.4698,
+      "t": "2026-11-26T04:00:22.141560Z"
     }
   },
   "bets": [
@@ -11850,247 +11841,14 @@
   ],
   "credits": {
     "d": "2026-11-26",
-    "used": 108
+    "used": 138
   },
-  "updated_at": "2026-11-26T03:50:24.341931Z",
+  "updated_at": "2026-11-26T04:00:23.982271Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 18,
-        "alt_mkts": 30,
-        "books": 7,
-        "players": 74,
-        "keys": 656,
-        "keys_over_only": 601,
-        "keys_few_books": 43,
-        "keys_wide": 3,
-        "keys_dup_book": 0,
-        "priced": 9
-      },
-      "nocons": {
-        "over_only": 119,
-        "no_line": 87,
-        "no_player": 122,
-        "few_books": 9,
-        "wide_spread": 1
-      },
-      "ex": [
-        "james harden 30+ over_only {'over': 6, 'under': 0, 'pair': 0, 'books': 6}",
-        "tyler herro 35+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "kyle kuzma 25+ no_line {'near': [19.5, 18.5, 17.5]}",
-        "bones hyland 25+ no_line {'near': [19.5, 17.5]}",
-        "harrison barnes 20+ no_player {}",
-        "harrison barnes 15+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 14,
-        "alt_mkts": 27,
-        "books": 7,
-        "players": 73,
-        "keys": 313,
-        "keys_over_only": 280,
-        "keys_few_books": 17,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 16
-      },
-      "nocons": {
-        "no_player": 125,
-        "over_only": 108,
-        "no_line": 122,
-        "few_books": 10
-      },
-      "ex": [
-        "brandon ingram 10+ no_player {}",
-        "mo bamba 4+ no_player {}",
-        "peyton watson 10+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
-        "trey murphy iii 10+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
-        "tyler herro 10+ no_line {'near': [7.5, 6.5]}",
-        "myles turner 12+ few_books {'over': 3, 'under': 1, 'pair': 1, 'books': 3}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 13,
-        "alt_mkts": 26,
-        "books": 7,
-        "players": 59,
-        "keys": 187,
-        "keys_over_only": 159,
-        "keys_few_books": 17,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 10
-      },
-      "nocons": {
-        "no_player": 112,
-        "over_only": 69,
-        "no_line": 80,
-        "few_books": 10
-      },
-      "ex": [
-        "tre jones 10+ no_player {}",
-        "jeremiah fears 12+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "terrence shannon jr 8+ no_line {'near': [6.5, 9.5]}",
-        "keldon johnson 6+ no_player {}",
-        "fred vanvleet 10+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "derik queen 8+ no_line {'near': [4.5, 3.5, 2.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNBA3PT",
-      "stat": "threes",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 8,
-        "alt_mkts": 23,
-        "books": 5,
-        "players": 57,
-        "keys": 126,
-        "keys_over_only": 98,
-        "keys_few_books": 28,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 0
-      },
-      "nocons": {
-        "over_only": 82,
-        "few_books": 27,
-        "no_player": 158,
-        "no_line": 128
-      },
-      "ex": [
-        "ayo dosunmu 6+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "myles turner 6+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}",
-        "julian champagnie 6+ no_player {}",
-        "mikel brown jr 6+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "jaden mcdaniels 6+ no_line {'near': [4.5]}",
-        "keaton wagler 5+ no_line {'near': [2.5, 1.5, 0.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNFLPASSYDS",
-      "stat": "pass_yds",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 7,
-        "alt_mkts": 5,
-        "books": 7,
-        "players": 2,
-        "keys": 30,
-        "keys_over_only": 19,
-        "keys_few_books": 11,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 0
-      },
-      "nocons": {
-        "over_only": 17,
-        "no_player": 80,
-        "few_books": 1,
-        "no_line": 1
-      },
-      "ex": [
-        "jayden daniels 125+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "aaron rodgers 325+ no_player {}",
-        "aaron rodgers 300+ no_player {}",
-        "jayden daniels 350+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "joe burrow 325+ few_books {'over': 5, 'under': 1, 'pair': 1, 'books': 4}",
-        "joe burrow 225+ no_line {'near': [249.5, 274.5, 299.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNFLRECYDS",
-      "stat": "rec_yds",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 6,
-        "alt_mkts": 5,
-        "books": 6,
-        "players": 16,
-        "keys": 206,
-        "keys_over_only": 168,
-        "keys_few_books": 33,
-        "keys_wide": 1,
-        "keys_dup_book": 0,
-        "priced": 4
-      },
-      "nocons": {
-        "over_only": 126,
-        "no_line": 33,
-        "few_books": 5,
-        "no_player": 608,
-        "wide_spread": 1
-      },
-      "ex": [
-        "dohnte meyers 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "tee higgins 30+ no_line {'near': [39.5, 49.5, 59.5]}",
-        "stefon diggs 15+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "samaje perine 45+ no_line {'near': [66.5, 68.5, 69.5]}",
-        "austin ekeler 5+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}",
-        "roman wilson 60+ no_player {}"
-      ]
-    },
-    {
-      "t": "2026-11-24T03:00:17.045422Z",
-      "series": "KXNFLRSHYDS",
-      "stat": "rush_yds",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 6,
-        "alt_mkts": 5,
-        "books": 6,
-        "players": 7,
-        "keys": 94,
-        "keys_over_only": 73,
-        "keys_few_books": 19,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 2
-      },
-      "nocons": {
-        "over_only": 50,
-        "no_line": 16,
-        "few_books": 3,
-        "no_player": 218
-      },
-      "ex": [
-        "chase brown 10+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
-        "jayden daniels 10+ no_line {'near': [59.5, 69.5, 70.5]}",
-        "chase brown 15+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
-        "rachaad white 5+ few_books {'over': 3, 'under': 2, 'pair': 2, 'books': 2}",
-        "rachaad white 70+ no_line {'near': [74.5, 49.5, 99.5]}",
-        "jacory croskeymerritt 50+ few_books {'over': 7, 'under': 2, 'pair': 2, 'books': 6}"
-      ]
-    },
     {
       "t": "2026-11-24T04:00:34.696047Z",
       "series": "KXNBAPTS",
@@ -13835,6 +13593,239 @@
         "kyren williams 25+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
         "marshawn lloyd 5+ no_line {'near': [12.5, 13.5, 14.5]}",
         "jordan love 5+ no_line {'near': [7.5, 9.5, 14.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNBAPTS",
+      "stat": "points",
+      "odds": {
+        "events": 3,
+        "http_fail": 0,
+        "main_mkts": 14,
+        "alt_mkts": 17,
+        "books": 7,
+        "players": 43,
+        "keys": 596,
+        "keys_over_only": 555,
+        "keys_few_books": 31,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 10
+      },
+      "nocons": {
+        "no_player": 2,
+        "over_only": 77,
+        "no_line": 39,
+        "few_books": 5
+      },
+      "ex": [
+        "jordan goodwin 15+ no_player {}",
+        "malik monk 20+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "malik monk 15+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "jordan goodwin 10+ no_player {}",
+        "collin gillespie 20+ no_line {'near': [11.5, 9.5, 7.5]}",
+        "devin booker 35+ no_line {'near': [31.5, 30.5, 29.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNBAREB",
+      "stat": "rebounds",
+      "odds": {
+        "events": 3,
+        "http_fail": 0,
+        "main_mkts": 11,
+        "alt_mkts": 16,
+        "books": 7,
+        "players": 39,
+        "keys": 251,
+        "keys_over_only": 215,
+        "keys_few_books": 29,
+        "keys_wide": 3,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "no_player": 6,
+        "over_only": 79,
+        "wide_spread": 2,
+        "no_line": 40,
+        "few_books": 9
+      },
+      "ex": [
+        "jordan goodwin 8+ no_player {}",
+        "jordan goodwin 6+ no_player {}",
+        "scoot henderson 6+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "scoot henderson 4+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "keldon johnson 6+ wide_spread {'over': 8, 'under': 4, 'pair': 4, 'books': 6, 'spread': 0.122}",
+        "keldon johnson 2+ no_line {'near': [3.5, 4.5, 5.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNBAAST",
+      "stat": "assists",
+      "odds": {
+        "events": 3,
+        "http_fail": 0,
+        "main_mkts": 9,
+        "alt_mkts": 13,
+        "books": 7,
+        "players": 32,
+        "keys": 134,
+        "keys_over_only": 113,
+        "keys_few_books": 16,
+        "keys_wide": 4,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "over_only": 40,
+        "few_books": 6,
+        "no_line": 38,
+        "wide_spread": 1,
+        "no_player": 6
+      },
+      "ex": [
+        "devin vassell 6+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "devin vassell 4+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "devin vassell 2+ few_books {'over': 4, 'under': 2, 'pair': 2, 'books': 3}",
+        "julian champagnie 6+ no_line {'near': [4.5, 3.5, 2.5]}",
+        "julian champagnie 2+ no_line {'near': [2.5, 3.5, 4.5]}",
+        "deanthony melton 6+ few_books {'over': 5, 'under': 2, 'pair': 2, 'books': 4}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNBA3PT",
+      "stat": "threes",
+      "odds": {
+        "events": 3,
+        "http_fail": 0,
+        "main_mkts": 7,
+        "alt_mkts": 13,
+        "books": 5,
+        "players": 28,
+        "keys": 106,
+        "keys_over_only": 85,
+        "keys_few_books": 17,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 4
+      },
+      "nocons": {
+        "no_player": 37,
+        "no_line": 39,
+        "over_only": 58,
+        "few_books": 14
+      },
+      "ex": [
+        "jordan goodwin 5+ no_player {}",
+        "jordan goodwin 4+ no_player {}",
+        "malik monk 5+ no_line {'near': [3.5, 2.5, 1.5]}",
+        "malik monk 4+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "malik monk 3+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "malik monk 1+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 4,
+        "books": 6,
+        "players": 2,
+        "keys": 21,
+        "keys_over_only": 12,
+        "keys_few_books": 9,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_line": 8,
+        "no_player": 212,
+        "over_only": 10,
+        "few_books": 1
+      },
+      "ex": [
+        "matthew stafford 125+ no_line {'near': [149.5, 154.5, 155.5]}",
+        "baker mayfield 325+ no_player {}",
+        "baker mayfield 300+ no_player {}",
+        "matthew stafford 350+ no_line {'near': [224.5, 199.5, 179.5]}",
+        "matthew stafford 225+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "matthew stafford 200+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 14,
+        "keys": 109,
+        "keys_over_only": 89,
+        "keys_few_books": 18,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 2
+      },
+      "nocons": {
+        "over_only": 81,
+        "no_player": 1574,
+        "no_line": 41,
+        "few_books": 2
+      },
+      "ex": [
+        "cj daniels 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "harrison wallace iii 70+ no_player {}",
+        "harrison wallace iii 60+ no_player {}",
+        "colby parkinson 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "marshawn lloyd 5+ no_line {'near': [6.5, 9.5, 14.5]}",
+        "chris brooks 5+ no_line {'near': [6.5, 9.5, 14.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-26T04:00:10.544814Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 7,
+        "keys": 44,
+        "keys_over_only": 34,
+        "keys_few_books": 10,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_line": 36,
+        "no_player": 651,
+        "few_books": 2,
+        "over_only": 29
+      },
+      "ex": [
+        "kyren williams 20+ no_line {'near': [28.5, 29.5, 33.5]}",
+        "devin singletary 50+ no_player {}",
+        "devin singletary 40+ no_player {}",
+        "kaleb johnson 5+ no_line {'near': [9.5, 14.5, 19.5]}",
+        "kaleb johnson 10+ few_books {'over': 5, 'under': 2, 'pair': 2, 'books': 4}",
+        "chris brooks 5+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 2}"
       ]
     }
   ]
