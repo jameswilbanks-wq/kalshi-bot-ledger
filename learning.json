@@ -1,7 +1,7 @@
 {
   "params": {
     "rho": 0.1,
-    "leg_haircut": 0.9985,
+    "leg_haircut": 0.999,
     "cfb_haircut": 0.03,
     "props_tier": 0,
     "cfb_tier": 0,
@@ -13,7 +13,7 @@
     "long_enabled": true,
     "nba80_tier": 0,
     "nba80_enabled": true,
-    "updated": "2026-11-25"
+    "updated": "2026-11-26"
   },
   "legs": {
     "KXNBAREB-26NOV15ATLMIL-ATLOOKONGWU17-10": {
@@ -8677,28 +8677,32 @@
       "player": "ryan conwell",
       "stat": "points",
       "p": 0.5081,
-      "t": "2026-11-25T23:00:20.813072Z"
+      "t": "2026-11-25T23:00:20.813072Z",
+      "o": 0
     },
     "KXNBAPTS-26NOV25MIAPHI-PHIASIMONS5-5": {
       "game": "KXNBAPTS",
       "player": "anfernee simons",
       "stat": "points",
       "p": 0.5053,
-      "t": "2026-11-25T23:00:20.813087Z"
+      "t": "2026-11-25T23:00:20.813087Z",
+      "o": 1
     },
     "KXNBAREB-26NOV25MIAPHI-PHIJWALKER33-4": {
       "game": "KXNBAREB",
       "player": "jabari walker",
       "stat": "rebounds",
       "p": 0.492,
-      "t": "2026-11-25T23:00:20.813091Z"
+      "t": "2026-11-25T23:00:20.813091Z",
+      "o": 0
     },
     "KXNBAREB-26NOV25MIAPHI-PHIVEDGECOMBE77-6": {
       "game": "KXNBAREB",
       "player": "vj edgecombe",
       "stat": "rebounds",
       "p": 0.48,
-      "t": "2026-11-25T23:00:20.813094Z"
+      "t": "2026-11-25T23:00:20.813094Z",
+      "o": 1
     },
     "KXNBAREB-26NOV25MIAPHI-PHIJBROWN7-4": {
       "game": "KXNBAREB",
@@ -11831,13 +11835,109 @@
           "1200 legs obs=0.499 pred=0.486"
         ]
       }
+    },
+    {
+      "d": "2026-11-26",
+      "settled": {
+        "legs": 4,
+        "bets": 0,
+        "calls": 5
+      },
+      "combo_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "combo_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "long_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "nba80_live": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "nba80_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "cfb_live": {
+        "n": 5,
+        "wins": 5,
+        "stake": 8.87,
+        "pnl": 3.94,
+        "roi": 0.44458850056369786,
+        "pred": 0.9321999999999999
+      },
+      "cfb_paper": {
+        "n": 0,
+        "wins": 0,
+        "stake": 0,
+        "pnl": 0,
+        "roi": 0.0,
+        "pred": 0.0
+      },
+      "legs_settled": 1086,
+      "params": {
+        "rho": 0.1,
+        "leg_haircut": 0.999,
+        "cfb_haircut": 0.03,
+        "props_tier": 0,
+        "cfb_tier": 0,
+        "cfbp_tier": 0,
+        "props_enabled": true,
+        "cfb_enabled": true,
+        "cfbp_enabled": true,
+        "long_tier": 0,
+        "long_enabled": true,
+        "nba80_tier": 0,
+        "nba80_enabled": true,
+        "updated": "2026-11-26"
+      },
+      "changes": {
+        "leg_haircut": [
+          0.9985,
+          0.999,
+          "1086 legs obs=0.499 pred=0.486"
+        ]
+      }
     }
   ],
   "credits": {
     "d": "2026-11-26",
     "used": 154
   },
-  "updated_at": "2026-11-26T08:50:24.813754Z",
+  "updated_at": "2026-11-26T09:00:55.870432Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
