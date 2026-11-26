@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-18T01:50:36.109805Z",
-      "dollars": 68.28
-    },
-    {
       "t": "2026-11-18T02:00:45.212191Z",
       "dollars": 68.28
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-26T09:50:37.544940Z",
       "dollars": 69.19
+    },
+    {
+      "t": "2026-11-26T10:00:35.005123Z",
+      "dollars": 69.19
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T22:40:24.846417Z",
-      "ticker": "KXHIGHAUS-26OCT17-T73",
-      "title": "Will the maximum temperature be >73\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.187,
-      "market_price": 0.03,
-      "edge": 0.157,
-      "dollars": 3.05,
-      "contracts": 101,
-      "intended_dollars": 3.05,
-      "intended_contracts": 101,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T22:50:21.922784Z",
       "ticker": "KXHIGHCHI-26OCT17-T60",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 2,
       "status": "failed",
       "note": "409 Client Error: Conflict for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders -- response body: {'error': {'code': 'trading_is_paused', 'message': 'trading is paused'}} -- request body: {'ticker': 'KXNBAGAME-26NOV27LALSAS-LAL', 'client_order_id': 'edgebot-KXNBAGAME-26NOV27LALSAS-LAL-1795686625', 'side': 'ask', 'count': '2.00', 'price': '0.3700', 'time_in_force': 'immediate_or_cancel', 'self_trade_prevention_type': 'taker_at_cross'}"
+    },
+    {
+      "t": "2026-11-26T10:00:20.650113Z",
+      "ticker": "KXNBAGAME-26NOV27LALSAS-LAL",
+      "title": "Los Angeles L wins",
+      "side": "no",
+      "fair_prob": 0.355,
+      "market_price": 0.41,
+      "edge": -0.055,
+      "dollars": 0.07,
+      "contracts": 0.11,
+      "intended_dollars": 1.41,
+      "intended_contracts": 2,
+      "status": "executed",
+      "note": "order_id=01a2174c-8708-7b7f-bb05-34b89401a302 fill_count=0.11"
     }
   ],
-  "updated_at": "2026-11-26T09:50:37.545281Z",
+  "updated_at": "2026-11-26T10:00:35.005388Z",
   "env": "prod",
   "prod_edge_observations": [
     {
