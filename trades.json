@@ -1049,8 +1049,25 @@
       "payout": 3.93,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV27LALSAS-LAL|no",
+      "ts": "2026-11-26T10:00:21.104151Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV27LALSAS",
+      "title": "KXNBAGAME-26NOV27LALSAS-LAL",
+      "ticker": "KXNBAGAME-26NOV27LALSAS-LAL",
+      "side": "NO",
+      "contracts": 0,
+      "price": 0.63,
+      "cost": 0.07,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 69.19,
-  "updated_at": "2026-11-26T04:40:52.785435Z"
+  "updated_at": "2026-11-26T10:00:38.344815Z"
 }
