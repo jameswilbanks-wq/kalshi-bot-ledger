@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-18T00:10:39.888302Z",
-      "dollars": 68.28
-    },
-    {
       "t": "2026-11-18T00:20:36.080596Z",
       "dollars": 68.28
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-26T08:10:29.390858Z",
       "dollars": 69.19
+    },
+    {
+      "t": "2026-11-26T08:20:46.883540Z",
+      "dollars": 69.19
     }
   ],
   "decisions": [
@@ -9283,7 +9283,7 @@
       "note": "409 Client Error: Conflict for url: https://external-api.kalshi.com/trade-api/v2/portfolio/events/orders -- response body: {'error': {'code': 'trading_is_paused', 'message': 'trading is paused'}} -- request body: {'ticker': 'KXNBAGAME-26NOV27LALSAS-LAL', 'client_order_id': 'edgebot-KXNBAGAME-26NOV27LALSAS-LAL-1795680618', 'side': 'ask', 'count': '2.00', 'price': '0.3700', 'time_in_force': 'immediate_or_cancel', 'self_trade_prevention_type': 'taker_at_cross'}"
     }
   ],
-  "updated_at": "2026-11-26T08:10:29.390977Z",
+  "updated_at": "2026-11-26T08:20:46.883776Z",
   "env": "prod",
   "prod_edge_observations": [
     {
