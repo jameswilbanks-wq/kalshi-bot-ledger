@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-18T09:40:36.613489Z",
-      "dollars": 68.28
-    },
-    {
       "t": "2026-11-18T09:50:48.747970Z",
       "dollars": 68.28
     },
@@ -4799,6 +4795,10 @@
     {
       "t": "2026-11-26T17:40:25.603697Z",
       "dollars": 69.12
+    },
+    {
+      "t": "2026-11-26T17:50:24.329658Z",
+      "dollars": 69.12
     }
   ],
   "decisions": [
@@ -9283,45 +9283,9 @@
       "note": "order_id=01a2174c-8708-7b7f-bb05-34b89401a302 fill_count=0.11"
     }
   ],
-  "updated_at": "2026-11-26T17:40:25.603998Z",
+  "updated_at": "2026-11-26T17:50:24.330349Z",
   "env": "prod",
   "prod_edge_observations": [
-    {
-      "t": "2026-11-26T14:40:37.028834Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV29NOCIN-CIN",
-      "title": "Cincinnati wins",
-      "event_ticker": "KXNFLGAME-26NOV29NOCIN",
-      "fair_prob": 0.817,
-      "market_price": 0.84,
-      "market_bid": 0.83,
-      "edge": -0.023,
-      "volume_fp": "20287.57"
-    },
-    {
-      "t": "2026-11-26T14:40:37.028879Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV29ATLMIN-MIN",
-      "title": "Minnesota wins",
-      "event_ticker": "KXNFLGAME-26NOV29ATLMIN",
-      "fair_prob": 0.733,
-      "market_price": 0.76,
-      "market_bid": 0.75,
-      "edge": -0.027,
-      "volume_fp": "45103.65"
-    },
-    {
-      "t": "2026-11-26T14:40:37.028921Z",
-      "category": "sports",
-      "ticker": "KXNFLGAME-26NOV29ATLMIN-ATL",
-      "title": "Atlanta wins",
-      "event_ticker": "KXNFLGAME-26NOV29ATLMIN",
-      "fair_prob": 0.267,
-      "market_price": 0.26,
-      "market_bid": 0.25,
-      "edge": 0.007,
-      "volume_fp": "34000.10"
-    },
     {
       "t": "2026-11-26T14:40:37.028965Z",
       "category": "sports",
@@ -23685,6 +23649,42 @@
       "market_bid": 0.24,
       "edge": -0.006,
       "volume_fp": "13445.56"
+    },
+    {
+      "t": "2026-11-26T17:50:17.668052Z",
+      "category": "weather",
+      "ticker": "KXHIGHNY-26NOV27-T64",
+      "title": "Will the maximum temperature be >64\u00b0 on Nov 27, 2026?",
+      "event_ticker": "KXHIGHNY-26NOV27",
+      "fair_prob": 0.06,
+      "market_price": 0.01,
+      "market_bid": 0.0,
+      "edge": 0.05,
+      "volume_fp": "60.00"
+    },
+    {
+      "t": "2026-11-26T17:50:19.212663Z",
+      "category": "weather",
+      "ticker": "KXHIGHCHI-26NOV27-T50",
+      "title": "Will the maximum temperature be >50\u00b0 on Nov 27, 2026?",
+      "event_ticker": "KXHIGHCHI-26NOV27",
+      "fair_prob": 0.133,
+      "market_price": 0.02,
+      "market_bid": 0.01,
+      "edge": 0.113,
+      "volume_fp": "78.00"
+    },
+    {
+      "t": "2026-11-26T17:50:20.301737Z",
+      "category": "weather",
+      "ticker": "KXHIGHAUS-26NOV27-T71",
+      "title": "Will the maximum temperature be >71\u00b0 on Nov 27, 2026?",
+      "event_ticker": "KXHIGHAUS-26NOV27",
+      "fair_prob": 0.187,
+      "market_price": 0.04,
+      "market_bid": 0.03,
+      "edge": 0.147,
+      "volume_fp": "535.55"
     }
   ]
 }
