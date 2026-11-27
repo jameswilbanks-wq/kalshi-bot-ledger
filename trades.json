@@ -1017,23 +1017,6 @@
       "note": "from settlements (no fill record)"
     },
     {
-      "id": "KXNFLGAME-26NOV26PHIDAL-DAL|no",
-      "ts": "2026-11-24T21:00:37.221812Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV26PHIDAL",
-      "title": "KXNFLGAME-26NOV26PHIDAL-DAL",
-      "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
-      "side": "NO",
-      "contracts": 9,
-      "price": 0.21,
-      "cost": 1.89,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV25GBLAR-GB|no",
       "ts": "2026-11-26T04:36:05.41562Z",
       "source": "bot",
@@ -1066,8 +1049,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV26PHIDAL-DAL|no",
+      "ts": "2026-11-27T01:39:22.100337Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV26PHIDAL",
+      "title": "KXNFLGAME-26NOV26PHIDAL-DAL",
+      "ticker": "KXNFLGAME-26NOV26PHIDAL-DAL",
+      "side": "NO",
+      "contracts": 9,
+      "price": 0.21,
+      "cost": 1.89,
+      "payout": 8.9,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 69.12,
-  "updated_at": "2026-11-26T10:10:36.224272Z"
+  "balance": 78.12,
+  "updated_at": "2026-11-27T01:40:23.741650Z"
 }
