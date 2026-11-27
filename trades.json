@@ -1080,11 +1080,11 @@
       "contracts": 17,
       "price": 0.28,
       "cost": 4.76,
-      "payout": null,
-      "status": "open",
+      "payout": -0.24,
+      "status": "lost",
       "note": ""
     }
   ],
   "balance": 73.12,
-  "updated_at": "2026-11-27T02:30:29.561978Z"
+  "updated_at": "2026-11-27T04:40:54.310223Z"
 }
