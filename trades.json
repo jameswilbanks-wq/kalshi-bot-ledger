@@ -1083,8 +1083,25 @@
       "payout": -0.24,
       "status": "lost",
       "note": ""
+    },
+    {
+      "id": "KXNFLGAME-26DEC06PHIARI-PHI|no",
+      "ts": "2026-11-27T18:20:36.941336Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26DEC06PHIARI",
+      "title": "KXNFLGAME-26DEC06PHIARI-PHI",
+      "ticker": "KXNFLGAME-26DEC06PHIARI-PHI",
+      "side": "NO",
+      "contracts": 3,
+      "price": 0.37,
+      "cost": 1.11,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 73.12,
-  "updated_at": "2026-11-27T04:40:54.310223Z"
+  "updated_at": "2026-11-27T18:20:55.252679Z"
 }
