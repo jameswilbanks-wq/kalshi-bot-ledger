@@ -12144,113 +12144,14 @@
   ],
   "credits": {
     "d": "2026-11-27",
-    "used": 36
+    "used": 42
   },
-  "updated_at": "2026-11-27T21:50:27.235289Z",
+  "updated_at": "2026-11-27T22:00:46.615576Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-26T00:01:03.314672Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 5,
-        "alt_mkts": 6,
-        "books": 7,
-        "players": 11,
-        "keys": 49,
-        "keys_over_only": 39,
-        "keys_few_books": 5,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 5
-      },
-      "nocons": {
-        "over_only": 17,
-        "no_line": 17,
-        "no_player": 344,
-        "few_books": 3
-      },
-      "ex": [
-        "vj edgecombe 10+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
-        "giannis antetokounmpo 12+ no_line {'near': [8.5, 7.5, 6.5]}",
-        "tre jones 8+ no_player {}",
-        "tre jones 6+ no_player {}",
-        "lebron james 14+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "giannis antetokounmpo 10+ no_line {'near': [8.5, 7.5, 6.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-26T00:01:03.314672Z",
-      "series": "KXNBA3PT",
-      "stat": "threes",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 3,
-        "alt_mkts": 5,
-        "books": 5,
-        "players": 13,
-        "keys": 32,
-        "keys_over_only": 21,
-        "keys_few_books": 9,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 2
-      },
-      "nocons": {
-        "no_player": 472,
-        "over_only": 18,
-        "no_line": 30,
-        "few_books": 8
-      },
-      "ex": [
-        "jordan goodwin 5+ no_player {}",
-        "jordan goodwin 4+ no_player {}",
-        "lebron james 6+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "bobby portis 5+ no_line {'near': [2.5, 1.5]}",
-        "bobby portis 4+ no_line {'near': [2.5, 1.5]}",
-        "bobby portis 3+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
-      ]
-    },
-    {
-      "t": "2026-11-26T02:00:40.901902Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 6,
-        "http_fail": 0,
-        "main_mkts": 33,
-        "alt_mkts": 33,
-        "books": 7,
-        "players": 90,
-        "keys": 1443,
-        "keys_over_only": 1330,
-        "keys_few_books": 61,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 52
-      },
-      "nocons": {
-        "over_only": 211,
-        "no_player": 99,
-        "no_line": 54,
-        "few_books": 10
-      },
-      "ex": [
-        "bones hyland 15+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
-        "jordan goodwin 15+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "malik monk 20+ no_player {}",
-        "malik monk 15+ no_player {}",
-        "bones hyland 5+ no_line {'near': [5.5, 6.5, 7.5]}",
-        "nic claxton 5+ no_line {'near': [8.5, 9.5, 10.5]}"
-      ]
-    },
     {
       "t": "2026-11-26T02:00:40.901902Z",
       "series": "KXNBAREB",
@@ -14108,6 +14009,104 @@
         "bo nix 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
         "tyler badie 15+ few_books {'over': 2, 'under': 1, 'pair': 1, 'books': 1}",
         "bam knight 80+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-27T22:00:39.004401Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 4,
+        "books": 6,
+        "players": 2,
+        "keys": 25,
+        "keys_over_only": 14,
+        "keys_few_books": 11,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_player": 167,
+        "no_line": 6,
+        "over_only": 12
+      },
+      "ex": [
+        "tommy devito 300+ no_player {}",
+        "tommy devito 275+ no_player {}",
+        "mason rudolph 300+ no_line {'near': [199.5, 174.5, 149.5]}",
+        "mason rudolph 275+ no_line {'near': [199.5, 174.5, 149.5]}",
+        "mason rudolph 200+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "mason rudolph 175+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}"
+      ]
+    },
+    {
+      "t": "2026-11-27T22:00:39.004401Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 4,
+        "books": 5,
+        "players": 18,
+        "keys": 151,
+        "keys_over_only": 125,
+        "keys_few_books": 21,
+        "keys_wide": 2,
+        "keys_dup_book": 0,
+        "priced": 3
+      },
+      "nocons": {
+        "over_only": 110,
+        "no_line": 47,
+        "no_player": 1104,
+        "few_books": 4
+      },
+      "ex": [
+        "evan engram 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "germie bernard 90+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "germie bernard 85+ no_line {'near': [79.5, 89.5, 74.5]}",
+        "michael pittman jr 5+ no_line {'near': [7.5, 9.5, 14.5]}",
+        "samaje perine 40+ no_player {}",
+        "samaje perine 30+ no_player {}"
+      ]
+    },
+    {
+      "t": "2026-11-27T22:00:39.004401Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 5,
+        "alt_mkts": 3,
+        "books": 5,
+        "players": 7,
+        "keys": 57,
+        "keys_over_only": 43,
+        "keys_few_books": 14,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 0
+      },
+      "nocons": {
+        "no_line": 18,
+        "over_only": 39,
+        "no_player": 486,
+        "few_books": 1
+      },
+      "ex": [
+        "jonah coleman 25+ no_line {'near': [29.5, 35.5, 36.5]}",
+        "jonah coleman 30+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "jonah coleman 35+ no_line {'near': [35.5, 36.5, 38.5]}",
+        "marvin mims jr 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "bam knight 80+ no_player {}",
+        "bam knight 70+ no_player {}"
       ]
     }
   ]
