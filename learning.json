@@ -11933,114 +11933,15 @@
     }
   ],
   "credits": {
-    "d": "2026-11-26",
-    "used": 184
+    "d": "2026-11-27",
+    "used": 6
   },
-  "updated_at": "2026-11-26T23:50:31.816487Z",
+  "updated_at": "2026-11-27T00:01:16.967458Z",
   "spend": {
     "d": "2026-11-08",
     "cents": 0
   },
   "nocons": [
-    {
-      "t": "2026-11-25T03:00:20.565442Z",
-      "series": "KXNBAPTS",
-      "stat": "points",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 5,
-        "alt_mkts": 5,
-        "books": 6,
-        "players": 14,
-        "keys": 143,
-        "keys_over_only": 123,
-        "keys_few_books": 17,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 3
-      },
-      "nocons": {
-        "over_only": 26,
-        "no_player": 45,
-        "no_line": 17,
-        "few_books": 1
-      },
-      "ex": [
-        "anthony davis 40+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "anthony davis 35+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "morez johnson jr 15+ no_player {}",
-        "morez johnson jr 10+ no_player {}",
-        "neemias queta 30+ no_line {'near': [22.5]}",
-        "neemias queta 25+ no_line {'near': [22.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-25T03:00:20.565442Z",
-      "series": "KXNBAREB",
-      "stat": "rebounds",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 4,
-        "alt_mkts": 5,
-        "books": 6,
-        "players": 13,
-        "keys": 63,
-        "keys_over_only": 50,
-        "keys_few_books": 12,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 1
-      },
-      "nocons": {
-        "over_only": 20,
-        "no_player": 52,
-        "no_line": 24,
-        "few_books": 3
-      },
-      "ex": [
-        "anthony davis 18+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "morez johnson jr 8+ no_player {}",
-        "morez johnson jr 6+ no_player {}",
-        "aj dybantsa 12+ over_only {'over': 5, 'under': 0, 'pair': 0, 'books': 5}",
-        "alex sarr 2+ no_line {'near': [2.5, 3.5, 4.5]}",
-        "sam hauser 8+ no_line {'near': [5.5, 4.5, 3.5]}"
-      ]
-    },
-    {
-      "t": "2026-11-25T03:00:20.565442Z",
-      "series": "KXNBAAST",
-      "stat": "assists",
-      "odds": {
-        "events": 1,
-        "http_fail": 0,
-        "main_mkts": 4,
-        "alt_mkts": 5,
-        "books": 6,
-        "players": 10,
-        "keys": 45,
-        "keys_over_only": 39,
-        "keys_few_books": 3,
-        "keys_wide": 0,
-        "keys_dup_book": 0,
-        "priced": 3
-      },
-      "nocons": {
-        "over_only": 16,
-        "no_line": 11,
-        "no_player": 42,
-        "few_books": 1
-      },
-      "ex": [
-        "aj dybantsa 8+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "paul george 10+ over_only {'over': 4, 'under': 0, 'pair': 0, 'books': 4}",
-        "jayson tatum 12+ no_line {'near': [10.5, 9.5, 8.5]}",
-        "jamal murray 8+ no_player {}",
-        "jamal murray 6+ no_player {}",
-        "kyshawn george 8+ no_line {'near': [6.5, 5.5, 4.5]}"
-      ]
-    },
     {
       "t": "2026-11-25T03:00:20.565442Z",
       "series": "KXNBA3PT",
@@ -13903,6 +13804,104 @@
         "saquon barkley 30+ no_player {}",
         "saquon barkley 35+ no_player {}",
         "jashaun corbin 5+ no_line {'near': [9.5, 14.5, 16.5]}",
+        "dak prescott 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-27T00:01:11.198725Z",
+      "series": "KXNFLPASSYDS",
+      "stat": "pass_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 7,
+        "alt_mkts": 5,
+        "books": 7,
+        "players": 2,
+        "keys": 25,
+        "keys_over_only": 16,
+        "keys_few_books": 8,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "no_player": 189,
+        "no_line": 2,
+        "over_only": 7
+      },
+      "ex": [
+        "joe milton iii 350+ no_player {}",
+        "josh johnson 200+ no_player {}",
+        "dak prescott 400+ no_line {'near': [349.5, 324.5, 299.5]}",
+        "dak prescott 350+ over_only {'over': 2, 'under': 0, 'pair': 0, 'books': 2}",
+        "dak prescott 325+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "dak prescott 175+ no_line {'near': [199.5, 224.5, 248.5]}"
+      ]
+    },
+    {
+      "t": "2026-11-27T00:01:11.198725Z",
+      "series": "KXNFLRECYDS",
+      "stat": "rec_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 12,
+        "keys": 160,
+        "keys_over_only": 130,
+        "keys_few_books": 29,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 1
+      },
+      "nocons": {
+        "no_line": 34,
+        "no_player": 1390,
+        "over_only": 80,
+        "few_books": 2
+      },
+      "ex": [
+        "javonte williams 20+ no_line {'near': [22.5, 24.5, 29.5]}",
+        "devonta smith 155+ no_line {'near': [149.5, 159.5, 141.5]}",
+        "harold fannin jr 110+ no_player {}",
+        "harold fannin jr 100+ no_player {}",
+        "ryan flournoy 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}",
+        "zach ertz 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
+      ]
+    },
+    {
+      "t": "2026-11-27T00:01:11.198725Z",
+      "series": "KXNFLRSHYDS",
+      "stat": "rush_yds",
+      "odds": {
+        "events": 1,
+        "http_fail": 0,
+        "main_mkts": 6,
+        "alt_mkts": 5,
+        "books": 6,
+        "players": 6,
+        "keys": 75,
+        "keys_over_only": 59,
+        "keys_few_books": 14,
+        "keys_wide": 0,
+        "keys_dup_book": 0,
+        "priced": 2
+      },
+      "nocons": {
+        "no_player": 612,
+        "no_line": 15,
+        "over_only": 31,
+        "few_books": 1
+      },
+      "ex": [
+        "joe milton iii 5+ no_player {}",
+        "will shipley 65+ no_line {'near': [69.5, 59.5, 74.5]}",
+        "saquon barkley 25+ no_player {}",
+        "will shipley 60+ over_only {'over': 3, 'under': 0, 'pair': 0, 'books': 3}",
+        "will shipley 55+ no_line {'near': [49.5, 59.5, 69.5]}",
         "dak prescott 5+ over_only {'over': 1, 'under': 0, 'pair': 0, 'books': 1}"
       ]
     }
