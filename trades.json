@@ -1100,8 +1100,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV27GSWPOR-GSW|no",
+      "ts": "2026-11-27T18:30:55.518831Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV27GSWPOR",
+      "title": "KXNBAGAME-26NOV27GSWPOR-GSW",
+      "ticker": "KXNBAGAME-26NOV27GSWPOR-GSW",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.73,
+      "cost": 2.92,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
-  "balance": 73.12,
-  "updated_at": "2026-11-27T18:20:55.252679Z"
+  "balance": 71.96,
+  "updated_at": "2026-11-27T18:31:11.615477Z"
 }
