@@ -1066,8 +1066,25 @@
       "payout": 8.9,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNFLGAME-26NOV26KCBUF-KC|yes",
+      "ts": "2026-11-27T02:22:47.373104Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV26KCBUF",
+      "title": "KXNFLGAME-26NOV26KCBUF-KC",
+      "ticker": "KXNFLGAME-26NOV26KCBUF-KC",
+      "side": "YES",
+      "contracts": 17,
+      "price": 0.28,
+      "cost": 4.76,
+      "payout": null,
+      "status": "open",
+      "note": ""
     }
   ],
-  "balance": 78.12,
-  "updated_at": "2026-11-27T01:40:23.741650Z"
+  "balance": 73.12,
+  "updated_at": "2026-11-27T02:30:29.561978Z"
 }
