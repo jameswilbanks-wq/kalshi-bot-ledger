@@ -1134,8 +1134,25 @@
       "payout": -0.14,
       "status": "lost",
       "note": ""
+    },
+    {
+      "id": "KXNFLGAME-26DEC06DETATL-DET|no",
+      "ts": "2026-11-28T04:20:31.665942Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26DEC06DETATL",
+      "title": "KXNFLGAME-26DEC06DETATL-DET",
+      "ticker": "KXNFLGAME-26DEC06DETATL-DET",
+      "side": "NO",
+      "contracts": 8,
+      "price": 0.31,
+      "cost": 2.48,
+      "payout": null,
+      "status": "open",
+      "note": "from open positions (no fill record)"
     }
   ],
   "balance": 66.87,
-  "updated_at": "2026-11-28T01:40:52.310247Z"
+  "updated_at": "2026-11-28T04:20:45.749457Z"
 }
