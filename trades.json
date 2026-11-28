@@ -1068,23 +1068,6 @@
       "note": "from open positions (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV27GSWPOR-GSW|no",
-      "ts": "2026-11-27T18:30:55.518831Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV27GSWPOR",
-      "title": "KXNBAGAME-26NOV27GSWPOR-GSW",
-      "ticker": "KXNBAGAME-26NOV27GSWPOR-GSW",
-      "side": "NO",
-      "contracts": 4,
-      "price": 0.73,
-      "cost": 2.92,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV27DENPIT-DEN|no",
       "ts": "2026-11-27T22:59:21.759761Z",
       "source": "bot",
@@ -1151,8 +1134,25 @@
       "payout": 0.11,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV27GSWPOR-GSW|no",
+      "ts": "2026-11-28T05:49:35.930415Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV27GSWPOR",
+      "title": "KXNBAGAME-26NOV27GSWPOR-GSW",
+      "ticker": "KXNBAGAME-26NOV27GSWPOR-GSW",
+      "side": "NO",
+      "contracts": 4,
+      "price": 0.73,
+      "cost": 2.92,
+      "payout": 3.94,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 64.38,
-  "updated_at": "2026-11-28T05:20:29.806210Z"
+  "balance": 68.38,
+  "updated_at": "2026-11-28T05:50:26.890128Z"
 }
