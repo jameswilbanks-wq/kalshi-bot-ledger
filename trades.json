@@ -1117,8 +1117,25 @@
       "payout": 0.86,
       "status": "won",
       "note": "from settlements (no fill record)"
+    },
+    {
+      "id": "KXDIMAYORGAME-26NOV27CALBUC-CAL|yes",
+      "ts": "2026-11-28T01:04:43.932266Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "other",
+      "event": "26NOV27CALBUC",
+      "title": "KXDIMAYORGAME-26NOV27CALBUC-CAL",
+      "ticker": "KXDIMAYORGAME-26NOV27CALBUC-CAL",
+      "side": "YES",
+      "contracts": 10,
+      "price": 0.29,
+      "cost": 2.86,
+      "payout": null,
+      "status": "open",
+      "note": ""
     }
   ],
-  "balance": 69.87,
-  "updated_at": "2026-11-27T23:01:09.394004Z"
+  "balance": 66.87,
+  "updated_at": "2026-11-28T01:10:52.417663Z"
 }
