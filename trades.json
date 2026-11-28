@@ -1017,23 +1017,6 @@
       "note": "from settlements (no fill record)"
     },
     {
-      "id": "KXNBAGAME-26NOV27LALSAS-LAL|no",
-      "ts": "2026-11-26T10:00:21.104151Z",
-      "source": "bot",
-      "live": true,
-      "strategy": "moneyline",
-      "event": "26NOV27LALSAS",
-      "title": "KXNBAGAME-26NOV27LALSAS-LAL",
-      "ticker": "KXNBAGAME-26NOV27LALSAS-LAL",
-      "side": "NO",
-      "contracts": 0,
-      "price": 0.63,
-      "cost": 0.07,
-      "payout": null,
-      "status": "open",
-      "note": "from open positions (no fill record)"
-    },
-    {
       "id": "KXNFLGAME-26NOV26PHIDAL-DAL|no",
       "ts": "2026-11-27T01:39:22.100337Z",
       "source": "bot",
@@ -1151,8 +1134,25 @@
       "payout": null,
       "status": "open",
       "note": "from open positions (no fill record)"
+    },
+    {
+      "id": "KXNBAGAME-26NOV27LALSAS-LAL|no",
+      "ts": "2026-11-28T05:19:46.529563Z",
+      "source": "bot",
+      "live": true,
+      "strategy": "moneyline",
+      "event": "26NOV27LALSAS",
+      "title": "KXNBAGAME-26NOV27LALSAS-LAL",
+      "ticker": "KXNBAGAME-26NOV27LALSAS-LAL",
+      "side": "NO",
+      "contracts": 0,
+      "price": 0.63,
+      "cost": 0.07,
+      "payout": 0.11,
+      "status": "won",
+      "note": "from settlements (no fill record)"
     }
   ],
-  "balance": 64.27,
-  "updated_at": "2026-11-28T04:30:34.508447Z"
+  "balance": 64.38,
+  "updated_at": "2026-11-28T05:20:29.806210Z"
 }
