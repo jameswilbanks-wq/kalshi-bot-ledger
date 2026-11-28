@@ -1,10 +1,6 @@
 {
   "bankroll_history": [
     {
-      "t": "2026-11-19T20:10:40.810329Z",
-      "dollars": 62.59
-    },
-    {
       "t": "2026-11-19T20:20:24.369702Z",
       "dollars": 62.59
     },
@@ -4799,24 +4795,13 @@
     {
       "t": "2026-11-28T04:10:40.343232Z",
       "dollars": 66.87
+    },
+    {
+      "t": "2026-11-28T04:20:42.484383Z",
+      "dollars": 66.87
     }
   ],
   "decisions": [
-    {
-      "t": "2026-10-16T23:10:15.423773Z",
-      "ticker": "KXHIGHCHI-26OCT17-T60",
-      "title": "Will the maximum temperature be >60\u00b0 on Oct 17, 2026?",
-      "side": "yes",
-      "fair_prob": 0.412,
-      "market_price": 0.03,
-      "edge": 0.382,
-      "dollars": 3.05,
-      "contracts": 101,
-      "intended_dollars": 3.05,
-      "intended_contracts": 101,
-      "status": "skipped_already_held",
-      "note": ""
-    },
     {
       "t": "2026-10-16T23:10:15.423773Z",
       "ticker": "KXHIGHAUS-26OCT17-T73",
@@ -9281,9 +9266,24 @@
       "intended_contracts": 4,
       "status": "skipped_already_held",
       "note": ""
+    },
+    {
+      "t": "2026-11-28T04:20:31.342892Z",
+      "ticker": "KXNFLGAME-26DEC06DETATL-DET",
+      "title": "Detroit wins",
+      "side": "no",
+      "fair_prob": 0.638,
+      "market_price": 0.7,
+      "edge": -0.062,
+      "dollars": 2.48,
+      "contracts": 8.0,
+      "intended_dollars": 2.5,
+      "intended_contracts": 8,
+      "status": "executed",
+      "note": "order_id=01a22062-1e98-77f3-a6cf-df46c32d304b fill_count=8.0"
     }
   ],
-  "updated_at": "2026-11-28T04:10:40.343605Z",
+  "updated_at": "2026-11-28T04:20:42.484468Z",
   "env": "prod",
   "prod_edge_observations": [
     {
